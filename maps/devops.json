@@ -1,0 +1,3763 @@
+{
+  "token": "4pT3AeEEywqSgdxTFBRgq3bmFpLs6s9YSaNMrxZY",
+  "title": "learn anything - programming - software development - devops",
+  "backgroundColor": "rgba(243, 246, 243, 1.0)",
+  "nodes": [
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/DevOps\" rel=\"nofollow\">DevOps </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/DevOps\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>if you think this can be improved in any way</p><p></p><p><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://github.com/nikitavoloboev/knowledge-map/issues/691\" rel=\"nofollow\">please say</a><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '> </span><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Apple Color Emoji\";  '>💙</span></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 93.11200245543978,
+        "y": -527.9056886602629
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Automation\" rel=\"nofollow\">automation </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Automation\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -284.5695991516113,
+        "y": -381.82447814941406
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "AAACC1A5-4E40-4E5C-AFE5-FEC0D0CC49D0",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Cloud_computing\" rel=\"nofollow\">cloud computing </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Cloud_computing\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 469.9091874845742,
+        "y": -361.3470323164386
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "524F330E-E356-4670-A4EE-33973CB8355B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.chef.io/chef/\" rel=\"nofollow\">chef</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -771.4493766092344,
+        "y": -245.46253332876506
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "1F094267-607C-4C30-8B81-D666CF120A81",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://cfengine.com/\" rel=\"nofollow\">CF engine</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -916.7417510546218,
+        "y": -244.4770107038903
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "8B4AE05E-2618-4B9C-8711-DCB7B8B742BA",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.terraform.io/\" rel=\"nofollow\">terraform</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -304.5574932477962,
+        "y": -244.35545057510478
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "0FA21FBF-4E2E-492E-9036-725CD95E8C42",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://aws.amazon.com/cloudformation/\" rel=\"nofollow\">aws cloud formation</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -163.997631708781,
+        "y": -244.08740116999707
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "0ADD3792-A612-4900-A747-F0AEBE837DB4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://puppet.com/\" rel=\"nofollow\">puppet</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -677.2951572577099,
+        "y": -243.42540759155133
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "F51B6F3A-81BA-44BB-A3A8-0A270181BD20",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://saltstack.com/\" rel=\"nofollow\">salt stack</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -445.7401207917263,
+        "y": -242.31925793385278
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "FBBD9AA4-A11D-43EB-8B1A-22A2058969F8",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.ansible.com/\" rel=\"nofollow\">ansible</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -560.7310616896443,
+        "y": -242.19105462852121
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "C9A8B86D-EC29-4E3B-BD96-B44B73B4E1AB",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.digitalocean.com/\" rel=\"nofollow\">digital ocean</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 562.0644989013672,
+        "y": -231.1175193786621
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "F706F6F5-50C4-4221-A2FB-CD6FB1A1A44C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://cloud.google.com/\" rel=\"nofollow\">google cloud</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 385.37664215324503,
+        "y": -229.9773476179256
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "30DE3CED-29CF-4022-B60F-BC83DC94238A",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://azure.microsoft.com/en-us/\" rel=\"nofollow\">azure</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 722.1252593994141,
+        "y": -229.81018447875977
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "8102EA49-63EF-4588-A756-E5186C123E6B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/T7nXWRnN5t8pWxi97hFqRjkNDas7VqpHp7DBRAye\" rel=\"nofollow\">aws </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/T7nXWRnN5t8pWxi97hFqRjkNDas7VqpHp7DBRAye\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 821.2495427867561,
+        "y": -230.10176419163804
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "E20AB9BD-CB0B-47E8-8519-622C68A7A6A7",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Heroku\" rel=\"nofollow\">heroku </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Heroku\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 236.1927264013957,
+        "y": -228.50512050658233
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "D84F4D92-B47F-4177-BE39-2437AFA448CE",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://graphiteapp.org/\" rel=\"nofollow\">graphite</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -223.73705673217773,
+        "y": -110.84214735031128
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "9046986B-9B8D-4CEB-A14A-52352126D541",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Continuous_integration\" rel=\"nofollow\">CI / CD </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Continuous_integration\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 365.3053550720215,
+        "y": -104.10460472106934
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "D0D23AD7-07BA-4343-BF9F-18D4DDBCBF3F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://jenkins.io/\" rel=\"nofollow\">jenkins</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 604.1891860961914,
+        "y": -99.62551444768906
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "C99B1E7F-93B3-440A-AA2E-793F01652681",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Zabbix\" rel=\"nofollow\">zabbix </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Zabbix\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -381.24463272094727,
+        "y": -89.71865463256836
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "15DC51F4-B672-4BE9-BDBF-55B05C1656CD",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://travis-ci.org/\" rel=\"nofollow\">travis</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 615.0028686523438,
+        "y": -28.102535247802734
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "C29BA5F8-175A-41D7-B656-25E08856AD88",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/prometheus/prometheus\" rel=\"nofollow\">prometheus </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/prometheus/prometheus\" rel=\"nofollow\">🐙</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -466.66304779052734,
+        "y": -13.450712203979492
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "B86B4C0F-D95A-4E30-B2B8-D3D2BF5C4011",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>monitoring and alterting</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -238.62429110544804,
+        "y": -5.9392977048895546
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "C3321856-BD10-4F0D-9BA5-078D56D429A0",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.jetbrains.com/teamcity/\" rel=\"nofollow\">TeamCity</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 597.0809173583984,
+        "y": 45.981544494628906
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "90B815C9-A714-4E0F-B5A9-3A58E90A1783",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.pagerduty.com/\" rel=\"nofollow\">PagerDuty</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -410.7095031738281,
+        "y": 69.44459152221691
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "310F6453-907A-47FA-84BF-E4CCEF589D51",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/drone/drone\" rel=\"nofollow\">drone </a><a style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/drone/drone\" rel=\"nofollow\">🐙</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 600.6433792114258,
+        "y": 110.17232704162598
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "577F8A87-A68E-4340-A8FB-972007D410FB",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.nagios.org/\" rel=\"nofollow\">nagios</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -174.3193359375,
+        "y": 119.85421562194824
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "33222EEF-0FEC-48A4-81D6-5FF566D54380",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.appdynamics.com/\" rel=\"nofollow\">AppDynamics</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -365.67039489746094,
+        "y": 153.90050888061523
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "BA9BB36C-4043-4DAA-9650-3DAC82B3A8F5",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 104, 133, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.atlassian.com/software/bamboo\" rel=\"nofollow\">bamboo</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 602.0615692138672,
+        "y": 194.8492317199707
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "ECBD4FD8-1708-4ED8-8D99-C53C9E4D3853",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/qD6Dva6VnUKLM1xg3tisnTznnXkBgpYd8nfyjGkn\" rel=\"nofollow\">kubernetes </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/qD6Dva6VnUKLM1xg3tisnTznnXkBgpYd8nfyjGkn\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -366.51152596376437,
+        "y": 239.56077855385547
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "4ACBCF31-10AE-4839-9B92-05DE5354E20E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Operating-system-level_virtualization\" rel=\"nofollow\">containers </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Operating-system-level_virtualization\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 320.5727751358536,
+        "y": 270.65557065215523
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "FDCC4952-3A27-4C25-80DF-06262881662B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>cluster managers</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -148.88062650347524,
+        "y": 280.8275152304316
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "4711DBD1-8D34-4963-A80F-D0B43363EC6F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/mckfV3fnWaJJirpCTcieUhRdyMT3TuLHq6RY54Gs\" rel=\"nofollow\">docker </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/mckfV3fnWaJJirpCTcieUhRdyMT3TuLHq6RY54Gs\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 551.9303894042969,
+        "y": 280.8835754394531
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "6DD1E245-382B-4A2C-9AA1-6B8E9E35B56F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://mesosphere.com/\" rel=\"nofollow\">mesosphere</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -395.22882564484144,
+        "y": 314.9780040922619
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "C229C46B-E8D8-4834-BC24-D61C70773739",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/LXC\" rel=\"nofollow\">LXC </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/LXC\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 551.6677076551655,
+        "y": 353.95680406358474
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "6BD8EB60-DACF-4046-9322-8023D4B36999",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/hashicorp/nomad\" rel=\"nofollow\">nomad </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/hashicorp/nomad\" rel=\"nofollow\">🐙</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -68.38454861111109,
+        "y": 391.40153769841277
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "124E83F6-F3BA-4E14-9685-995534BCF0B4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Apache_Mesos\" rel=\"nofollow\">mesos </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Apache_Mesos\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -388.25448190598263,
+        "y": 398.10233476426856
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "05155BFC-4E29-46B2-B121-2162AEE83CD6",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/rkt/rkt\" rel=\"nofollow\">rkt </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/rkt/rkt\" rel=\"nofollow\">🐙</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 537.5528259277344,
+        "y": 424.5010528564453
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "49CE8451-609A-4042-BFD8-4457F2E0BC69",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://docs.docker.com/engine/swarm/\" rel=\"nofollow\">docker swarm</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -246.58518340095634,
+        "y": 447.775452144562
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "B92280DC-C82F-4AAF-BB71-F8FCF19C4DE4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Nginx\" rel=\"nofollow\">nginx </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Nginx\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "2982C14D-0DD7-43B0-8A21-203239210E60",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/yandex/gixy\" rel=\"nofollow\">gixy </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/yandex/gixy\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>nginx configuration static analyser</p>"
+          },
+          "noteIndicatorColor": "rgba(91, 91, 91, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 739.9381171982809,
+            "y": 530.2678065848713
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 563.9381171982809,
+        "y": 516.2678065848713
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "4AABE80E-DD00-4098-AD0D-0FB203CF275E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Web_server\" rel=\"nofollow\">web servers </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Web_server\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 257.0581034533959,
+        "y": 531.2695504833248
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "8C0D752E-ADB8-477E-8275-45F3105EDF72",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Internet_Information_Services\" rel=\"nofollow\">IIS </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Internet_Information_Services\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 577.3260682962709,
+        "y": 582.3933912374205
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "4AF0F473-CCE2-43B4-B354-54072A9AAC64",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/JdxG6pPiqvhyyzW6oARy3dr4q5NTFx7oBZCMoodd\" rel=\"nofollow\">bash </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/JdxG6pPiqvhyyzW6oARy3dr4q5NTFx7oBZCMoodd\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -181.55763097731028,
+        "y": 597.9215131954311
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "434D7CD2-0453-4D0C-8E9D-444BDF1F2889",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>terminal</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -0.9114483622131502,
+        "y": 610.3327363874996
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "0C6FE07C-7AFC-4256-83B7-575411B41597",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Caddy_(web_server)\" rel=\"nofollow\">caddy </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Caddy_(web_server)\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 561.4171556375795,
+        "y": 648.4715772725767
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "B17785CA-68E6-4EE9-B039-37EDE545FFCA",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/6UAsbkJF1x2EQUMHqsydmxmUQPxnqQTfSqZBE1jD\" rel=\"nofollow\">vim </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/6UAsbkJF1x2EQUMHqsydmxmUQPxnqQTfSqZBE1jD\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -142.7802481326937,
+        "y": 697.3420106754729
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "9D9D2911-963E-4734-A3B7-AE0DB3D731D2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Apache_Tomcat\" rel=\"nofollow\">tomcat </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Apache_Tomcat\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 559.7606767557436,
+        "y": 714.5708967305845
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "86ABA895-385B-4011-8367-B25ED975BC48",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/LHXDgxoACw1ykgGsaFFvKsnaLaeRGviV74j2wtkU\" rel=\"nofollow\">cli </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/LHXDgxoACw1ykgGsaFFvKsnaLaeRGviV74j2wtkU\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -20.42137002031336,
+        "y": 730.91969528155
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "349E4B5B-ADDE-4CA7-AFEF-E6BC332A7CC1",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Apache_HTTP_Server\" rel=\"nofollow\">apache </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Apache_HTTP_Server\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 543.5330421250387,
+        "y": 795.640903251709
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    }
+  ],
+  "connections": [
+    {
+      "endNodeID": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "startNodeID": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -188.841,
+        "y": 71.7906
+      }
+    },
+    {
+      "endNodeID": "1F094267-607C-4C30-8B81-D666CF120A81",
+      "startNodeID": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -485.566,
+        "y": 59.0331
+      }
+    },
+    {
+      "endNodeID": "524F330E-E356-4670-A4EE-33973CB8355B",
+      "startNodeID": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -433.25,
+        "y": 79.1609
+      }
+    },
+    {
+      "endNodeID": "0ADD3792-A612-4900-A747-F0AEBE837DB4",
+      "startNodeID": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -340.41,
+        "y": 79.0712
+      }
+    },
+    {
+      "endNodeID": "FBBD9AA4-A11D-43EB-8B1A-22A2058969F8",
+      "startNodeID": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -245.362,
+        "y": 79.6448
+      }
+    },
+    {
+      "endNodeID": "F51B6F3A-81BA-44BB-A3A8-0A270181BD20",
+      "startNodeID": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -91.8353,
+        "y": 68.5026
+      }
+    },
+    {
+      "endNodeID": "8B4AE05E-2618-4B9C-8711-DCB7B8B742BA",
+      "startNodeID": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -21.9939,
+        "y": 67.4845
+      }
+    },
+    {
+      "endNodeID": "0FA21FBF-4E2E-492E-9036-725CD95E8C42",
+      "startNodeID": "A6760924-23CC-4BBF-B834-3D66663C3B3E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 73.536,
+        "y": 67.6185
+      }
+    },
+    {
+      "endNodeID": "AAACC1A5-4E40-4E5C-AFE5-FEC0D0CC49D0",
+      "startNodeID": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 168.899,
+        "y": 82.0293
+      }
+    },
+    {
+      "endNodeID": "E20AB9BD-CB0B-47E8-8519-622C68A7A6A7",
+      "startNodeID": "AAACC1A5-4E40-4E5C-AFE5-FEC0D0CC49D0",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -154.528,
+        "y": 61.6403
+      }
+    },
+    {
+      "endNodeID": "F706F6F5-50C4-4221-A2FB-CD6FB1A1A44C",
+      "startNodeID": "AAACC1A5-4E40-4E5C-AFE5-FEC0D0CC49D0",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -42.7814,
+        "y": 65.6848
+      }
+    },
+    {
+      "endNodeID": "C9A8B86D-EC29-4E3B-BD96-B44B73B4E1AB",
+      "startNodeID": "AAACC1A5-4E40-4E5C-AFE5-FEC0D0CC49D0",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 62.0777,
+        "y": 65.1148
+      }
+    },
+    {
+      "endNodeID": "30DE3CED-29CF-4022-B60F-BC83DC94238A",
+      "startNodeID": "AAACC1A5-4E40-4E5C-AFE5-FEC0D0CC49D0",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 126.108,
+        "y": 65.7684
+      }
+    },
+    {
+      "endNodeID": "8102EA49-63EF-4588-A756-E5186C123E6B",
+      "startNodeID": "AAACC1A5-4E40-4E5C-AFE5-FEC0D0CC49D0",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 201.114,
+        "y": 54.9661
+      }
+    },
+    {
+      "endNodeID": "9046986B-9B8D-4CEB-A14A-52352126D541",
+      "startNodeID": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 39.6072,
+        "y": 316.809
+      }
+    },
+    {
+      "endNodeID": "D0D23AD7-07BA-4343-BF9F-18D4DDBCBF3F",
+      "startNodeID": "9046986B-9B8D-4CEB-A14A-52352126D541",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 110.692,
+        "y": 0.989545
+      }
+    },
+    {
+      "endNodeID": "15DC51F4-B672-4BE9-BDBF-55B05C1656CD",
+      "startNodeID": "9046986B-9B8D-4CEB-A14A-52352126D541",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 112.599,
+        "y": 36.751
+      }
+    },
+    {
+      "endNodeID": "C3321856-BD10-4F0D-9BA5-078D56D429A0",
+      "startNodeID": "9046986B-9B8D-4CEB-A14A-52352126D541",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 112.638,
+        "y": 73.7931
+      }
+    },
+    {
+      "endNodeID": "310F6453-907A-47FA-84BF-E4CCEF589D51",
+      "startNodeID": "9046986B-9B8D-4CEB-A14A-52352126D541",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 96.4971,
+        "y": 118.185
+      }
+    },
+    {
+      "endNodeID": "BA9BB36C-4043-4DAA-9650-3DAC82B3A8F5",
+      "startNodeID": "9046986B-9B8D-4CEB-A14A-52352126D541",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 84.6633,
+        "y": 165.567
+      }
+    },
+    {
+      "endNodeID": "B86B4C0F-D95A-4E30-B2B8-D3D2BF5C4011",
+      "startNodeID": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -118.321,
+        "y": 355.886
+      }
+    },
+    {
+      "endNodeID": "D84F4D92-B47F-4177-BE39-2437AFA448CE",
+      "startNodeID": "B86B4C0F-D95A-4E30-B2B8-D3D2BF5C4011",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -27.5564,
+        "y": -52.4514
+      }
+    },
+    {
+      "endNodeID": "C99B1E7F-93B3-440A-AA2E-793F01652681",
+      "startNodeID": "B86B4C0F-D95A-4E30-B2B8-D3D2BF5C4011",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -110.06,
+        "y": -41.8897
+      }
+    },
+    {
+      "endNodeID": "C29BA5F8-175A-41D7-B656-25E08856AD88",
+      "startNodeID": "B86B4C0F-D95A-4E30-B2B8-D3D2BF5C4011",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -140.269,
+        "y": -3.75571
+      }
+    },
+    {
+      "endNodeID": "90B815C9-A714-4E0F-B5A9-3A58E90A1783",
+      "startNodeID": "B86B4C0F-D95A-4E30-B2B8-D3D2BF5C4011",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -115.793,
+        "y": 37.6919
+      }
+    },
+    {
+      "endNodeID": "33222EEF-0FEC-48A4-81D6-5FF566D54380",
+      "startNodeID": "B86B4C0F-D95A-4E30-B2B8-D3D2BF5C4011",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -85.5231,
+        "y": 79.9199
+      }
+    },
+    {
+      "endNodeID": "577F8A87-A68E-4340-A8FB-972007D410FB",
+      "startNodeID": "B86B4C0F-D95A-4E30-B2B8-D3D2BF5C4011",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -6.34752,
+        "y": 62.8968
+      }
+    },
+    {
+      "endNodeID": "4ACBCF31-10AE-4839-9B92-05DE5354E20E",
+      "startNodeID": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 41.0468,
+        "y": 495.437
+      }
+    },
+    {
+      "endNodeID": "4711DBD1-8D34-4963-A80F-D0B43363EC6F",
+      "startNodeID": "4ACBCF31-10AE-4839-9B92-05DE5354E20E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 107.929,
+        "y": 5.114
+      }
+    },
+    {
+      "endNodeID": "C229C46B-E8D8-4834-BC24-D61C70773739",
+      "startNodeID": "4ACBCF31-10AE-4839-9B92-05DE5354E20E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 108.797,
+        "y": 42.9006
+      }
+    },
+    {
+      "endNodeID": "05155BFC-4E29-46B2-B121-2162AEE83CD6",
+      "startNodeID": "4ACBCF31-10AE-4839-9B92-05DE5354E20E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 98.24,
+        "y": 78.1727
+      }
+    },
+    {
+      "endNodeID": "4AABE80E-DD00-4098-AD0D-0FB203CF275E",
+      "startNodeID": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 3.59024,
+        "y": 686.283
+      }
+    },
+    {
+      "endNodeID": "B92280DC-C82F-4AAF-BB71-F8FCF19C4DE4",
+      "startNodeID": "4AABE80E-DD00-4098-AD0D-0FB203CF275E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 130.94,
+        "y": -8.75087
+      }
+    },
+    {
+      "endNodeID": "8C0D752E-ADB8-477E-8275-45F3105EDF72",
+      "startNodeID": "4AABE80E-DD00-4098-AD0D-0FB203CF275E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 131.134,
+        "y": 24.3119
+      }
+    },
+    {
+      "endNodeID": "0C6FE07C-7AFC-4256-83B7-575411B41597",
+      "startNodeID": "4AABE80E-DD00-4098-AD0D-0FB203CF275E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 131.43,
+        "y": 57.351
+      }
+    },
+    {
+      "endNodeID": "9D9D2911-963E-4734-A3B7-AE0DB3D731D2",
+      "startNodeID": "4AABE80E-DD00-4098-AD0D-0FB203CF275E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 121.26,
+        "y": 124.173
+      }
+    },
+    {
+      "endNodeID": "349E4B5B-ADDE-4CA7-AFEF-E6BC332A7CC1",
+      "startNodeID": "4AABE80E-DD00-4098-AD0D-0FB203CF275E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 119.38,
+        "y": 176.781
+      }
+    },
+    {
+      "endNodeID": "FDCC4952-3A27-4C25-80DF-06262881662B",
+      "startNodeID": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -108.95,
+        "y": 571.848
+      }
+    },
+    {
+      "endNodeID": "ECBD4FD8-1708-4ED8-8D99-C53C9E4D3853",
+      "startNodeID": "FDCC4952-3A27-4C25-80DF-06262881662B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -122.315,
+        "y": -20.6334
+      }
+    },
+    {
+      "endNodeID": "6DD1E245-382B-4A2C-9AA1-6B8E9E35B56F",
+      "startNodeID": "FDCC4952-3A27-4C25-80DF-06262881662B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -134.174,
+        "y": 17.0752
+      }
+    },
+    {
+      "endNodeID": "124E83F6-F3BA-4E14-9685-995534BCF0B4",
+      "startNodeID": "FDCC4952-3A27-4C25-80DF-06262881662B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -136.187,
+        "y": 59.8874
+      }
+    },
+    {
+      "endNodeID": "49CE8451-609A-4042-BFD8-4457F2E0BC69",
+      "startNodeID": "FDCC4952-3A27-4C25-80DF-06262881662B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -55.3523,
+        "y": 83.474
+      }
+    },
+    {
+      "endNodeID": "6BD8EB60-DACF-4046-9322-8023D4B36999",
+      "startNodeID": "FDCC4952-3A27-4C25-80DF-06262881662B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 24.498,
+        "y": 56.537
+      }
+    },
+    {
+      "endNodeID": "434D7CD2-0453-4D0C-8E9D-444BDF1F2889",
+      "startNodeID": "79ED2113-DDAA-49FC-9E95-BC156F850CF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -24.0051,
+        "y": 843.753
+      }
+    },
+    {
+      "endNodeID": "4AF0F473-CCE2-43B4-B354-54072A9AAC64",
+      "startNodeID": "434D7CD2-0453-4D0C-8E9D-444BDF1F2889",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -89.8231,
+        "y": -4.95561
+      }
+    },
+    {
+      "endNodeID": "B17785CA-68E6-4EE9-B039-37EDE545FFCA",
+      "startNodeID": "434D7CD2-0453-4D0C-8E9D-444BDF1F2889",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -73.9344,
+        "y": 44.7546
+      }
+    },
+    {
+      "endNodeID": "86ABA895-385B-4011-8367-B25ED975BC48",
+      "startNodeID": "434D7CD2-0453-4D0C-8E9D-444BDF1F2889",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -22.755,
+        "y": 60.2935
+      }
+    }
+  ],
+  "ready": true
+}

@@ -1,0 +1,55 @@
+{
+  "name": "knowledge-map-renderer",
+  "version": "1.0.0",
+  "description": "Renderer for mindnode maps",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Angelo Gazzola",
+      "email": "angelo@nglgzz.com",
+      "url": "https://github.com/nglgzz"
+    }
+  ],
+  "repository": "learn-anything/knowledge-map-renderer",
+  "scripts": {
+    "lint": "eslint .; sass-lint client/sass/* -v",
+    "build": "webpack",
+    "start": "http-server -p 3000"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "replace-x": "^1.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3",
+    "node-sass": "^4.5.0",
+    "postcss-loader": "^2.0.5",
+    "sass-lint": "^1.10.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}

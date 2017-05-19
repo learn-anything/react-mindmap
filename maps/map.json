@@ -1,0 +1,3802 @@
+{
+  "token": "KdeMPbxs8KPixsa5YUq5cphqJnQg81vpHaXcDX2i",
+  "title": "learn anything",
+  "backgroundColor": "rgba(243, 246, 243, 1.0)",
+  "nodes": [
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "97C2074D-6B8D-492F-874E-F2C325935E6F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/nFFywmhppMRxw1Z6n7QNxikisQo9q9egH5jL8PfD\" rel=\"nofollow\">natural language processing</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>studies the interactions between computers and human (natural) languages</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -40.14176699722066,
+        "y": -941.8784608740917
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "94CFF05B-5CA3-4F3C-BD88-1F810525BB67",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/RzvJjKnkfVYcSZxfU8vozrx94yqAemYs6s5SRnoz#-63.0,-92.4,2\" rel=\"nofollow\">linguistics</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>study of language and its structure including study of grammar, syntax and phonetics</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 336.1958874220102,
+        "y": -941.8425752372132
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "A10F1309-44A8-4BF9-B710-BF089ADF4AF5",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/38DGvay2sqnzEMAZ4GnPNKzVxDic1gStaQq6dn46#-83.9,-142.4,3\" rel=\"nofollow\">security</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the degree of resistance to, or protection from harm</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -205.70761803465257,
+        "y": -937.2538354796045
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "2E3EC746-21D5-455C-80D7-B94CC55C6F25",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/mCmNsBxeiGdRqYefxaq2HXYMKxf8sFWq92qYtMyU#109.8,-150.5,2\" rel=\"nofollow\">computer vision</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>deals with how computers can be made for gaining high-level understanding from digital images or videos</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>it seeks to automate tasks that the human visual system can do</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 593.1320355842035,
+        "y": -878.1218133807761
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "F4EA74C1-D79B-4F0F-BF2E-EEAE7086D987",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/7TUvLNzE4aUwzNqXurPdcyenQR5sYx9XsJjYcQcZ\" rel=\"nofollow\">cryptocurrency</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is a digital asset designed to work as a medium of exchange using cryptography to secure the transactions and to control the creation of additional units of the currency</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -380.1207918456312,
+        "y": -875.0825388300277
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "5F41ADFB-1A5C-485B-96C8-27D143C57F03",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/cHUd9sSPJHjKf81sczwqxPgS7KyJJqzXz1kp3shm#267.1,237.2,3\" rel=\"nofollow\">cryptography</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>practice and study of hiding information, is used to try and keep information secret and safe</p><p></p><p><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>helpful to have understanding of </span><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/9GQnwWMBYXMe1XjUD8G21qpxiyz5B4MraPtL8xyy\" rel=\"nofollow\">linear algebra</a></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -140.4947853206843,
+        "y": -854.7251837977163
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "BAE1EB65-A2EF-4A9F-8BB3-054063B51F33",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/wzysPxEVDVNYXebyN8Sp9qAg4mQ56btHbicx99ac\" rel=\"nofollow\">artificial intelligence</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the study of ‘intelligent agents’ (any device that perceives its environment and takes actions that maximise its chance of success at some goal)</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 342.53342504834427,
+        "y": -852.8833744133722
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "39F1E9C9-15C0-4FE0-9F76-800E85B1ABB1",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/k954FWFNztnkphWmNqqHz2dqQW41LeP1SLqkqqjs#316.4,-944.7,0\" rel=\"nofollow\">machine learning</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>gives computer the ability to learn without being explicitly programmed</p><p></p><p><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>requires good understanding of </span><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/9GQnwWMBYXMe1XjUD8G21qpxiyz5B4MraPtL8xyy\" rel=\"nofollow\">linear algebra</a><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '> and </span><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/7cSLjj5rauAnjWT1zHqEmqGkixvoVWaMz8C7Q2aW#30.4,41.7,2\" rel=\"nofollow\">statistics</a></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 71.24900766427322,
+        "y": -848.8315384615662
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "E60704CD-897A-42F2-A426-DD7351E6FE77",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/7wRp4x4AGyQt7oxU2PzZpSEGudSns76n1f9WXD6Y\" rel=\"nofollow\">entrepreneurship</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the process of designing, launching and running a new business, which typically begins as a small business, such as a startup company, offering a product, process or service for sale or hire</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -570.2875941998843,
+        "y": -803.633491155771
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "AADB156A-7617-4591-B16D-25FB11F19B01",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/VbTJQGhPcBZ7kWwXri8sUd1kTSQuAeZH8xkCtTgp#15.6,67.6,3\" rel=\"nofollow\">biology</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is concerned with the study of life and living organisms, including their structure, function, growth, evolution, distribution, identification and taxonomy</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -712.2976531982422,
+        "y": -798.3598937988281
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "92C07AD4-A1DE-4C5C-B601-9CF556530F2F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/rMqH25BBnT8N9Frhv3L6YCk8NozigyGWgjrgPmjE#49.6,-27.7,2\" rel=\"nofollow\">game development</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the process of creating a video game</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>first video games were developed in the 1960s, but required mainframe computers and were not available to the general public</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 752.6643457643645,
+        "y": -798.0757859591732
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "23E0D53B-C01C-4726-8314-57CCB4F38519",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/nu6BzRKfbifbP1pF9SxusxeRK4SqMBD4fPAjbxNi#106.1,-59.5,6\" rel=\"nofollow\">anthropology</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the study of various aspects of humans within past and present societies</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -913.2974115879691,
+        "y": -794.2569465062127
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "5A94438C-F3EC-4EB6-88CC-C6F38851E28F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/FHh7spgcDGWdg72U6L4u34VRCrW9kLswUHQoXBMs#-46.4,-312.8,2\" rel=\"nofollow\">economics</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is concerned with description and analysis of the production, distribution, and consumption of goods and services</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -312.06442951667213,
+        "y": -784.5672539106968
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "9714E696-E7F8-4E67-97F0-4320C9E9CB3D",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/p7RzoL1gYA4Y4tzxrGVtRC5Tc1RLB6UtMnws5ugv\" rel=\"nofollow\">computer graphics</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>are pictures and films created using computers</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>it refers to computer-generated image data created with help from specialised graphical hardware and software</p><p></p><p><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>helpful to have understanding of </span><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/9GQnwWMBYXMe1XjUD8G21qpxiyz5B4MraPtL8xyy\" rel=\"nofollow\">linear algebra</a></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 481.55803023036833,
+        "y": -772.5492373846798
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "86D9085E-46E6-4874-BCD7-CC437E645C07",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/Wm2fSqKWEJyyZ3LYZsgy2x6Yb8te49t968qqypUs#79.7,-75.0,5\" rel=\"nofollow\">marketing</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the study and management of exchange relationships</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -1082.1035039356634,
+        "y": -768.3986786958874
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "BC6B6736-9B16-4EA1-A243-289B5FE6523B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/JD2DJUeZSAwQzyb5KceAZ6bfuYaLGqsDkpfZg1R2#674.2,-763.8,0\" rel=\"nofollow\">mathematics</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>study of numbers, shapes and patterns</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -84.97352504730225,
+        "y": -767.1323089599609
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "9E32F66E-E45E-459A-9318-DFC463608BDA",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU#574.4,-551.5,2\" rel=\"nofollow\">computer science</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the study of the theory, experimentation and engineering that form the basis for the design and use of computers</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>it is the study of automating algorithmic processes that scale</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 170.98072784450642,
+        "y": -763.44039847986
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "5FFADDDA-BC7F-4042-AAB7-159D852902C2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/VdpXxxyVpJm7NedoNqt6YnSAsN7RWyR7mzLh3xs6#-55.2,-100.5,2\" rel=\"nofollow\">chemistry</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is a branch of physical science that studies the composition, structure, properties and change of matter</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>it includes topics such as the properties of individual atoms, how atoms form chemical bonds to create chemical compounds, the interactions of substances through intermolecular forces that give matter its general properties, and the interactions between substances through chemical reactions to form different substances</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -495.12479080324556,
+        "y": -725.6519606764002
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "A4668C77-0335-4FAC-A541-97EB045A7991",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/cmk4fh551FmyBm5Eg3vAbj9zruxk3W41XNreG4vy\" rel=\"nofollow\">psychology</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the science of behavior and mind, embracing all aspects of conscious and unconscious experience as well as thought</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -851.3857365751176,
+        "y": -713.2184669284595
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "578D2DD3-E344-4274-AD8A-AD0D47702152",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/4LknBLWzBESbxERfpYQZsa2Fv1k3Lne1FjVsD4ys#-13.0,-67.9,5\" rel=\"nofollow\">health</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the level of functional and metabolic efficiency of a living organism</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -641.5254128281654,
+        "y": -707.6515454050484
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "0DBE4F3F-5025-4B5C-AD6A-F0191B0AB027",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/RfCpjqozA6Aq3j38RvzUnZrhFGMnpCsbRrpAsUWj#-201.2,-115.3,1\" rel=\"nofollow\">physics</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is involved with the study of matter and its motion and behaviour through space and time, lagoon with related concepts such as energy and force</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>its fundamental goal is to understand how the universe behaves</p><p></p><p><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>helpful to have understanding of </span><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/JD2DJUeZSAwQzyb5KceAZ6bfuYaLGqsDkpfZg1R2#615.2,-673.1,0\" rel=\"nofollow\">mathematics</a></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -291.524220932313,
+        "y": -703.1818515781845
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "FF7AC7EF-0689-48C5-8267-6AD1E66F886A",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/mKhEXHiMUXpGgfJxDkqbgyxN3MRp3bwug96a9zo2\" rel=\"nofollow\">virtual reality</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>typically refers to computer technologies that use virtual reality headsets to generate the realistic images, sounds and other sensations that replicate a real environment or create an imaginary setting</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 786.0184100228312,
+        "y": -702.0862919242569
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "C31EE39E-1F82-46FC-AFF4-A59309FC5B29",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/YstbvV9fn1zzpkXxCsSAnzheSysDKn5Q3B8koMuf#149.8,-170.2,5\" rel=\"nofollow\">management</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the administration of an organisation, whether it be a business, a not-for-profit organisation, or government body</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -1084.0034790039062,
+        "y": -699.0199127197266
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "28FFA68E-5C69-4D01-AAB4-9F1F0E4DF5C2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/NMjhSs88CAGYpxwsd4CP8mkzMRj5o42CMtDVJhtN#67.0,-21.6,2\" rel=\"nofollow\">computer networking</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>computer network is a telecommunications network which allows nodes to share resources</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>in computer networks, networked computing devices exchange data with each other using a data link</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 443.2700629005394,
+        "y": -698.4411351046867
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "A88C3360-A53C-431A-BCB1-A2A673DC605B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/VsuqhhyBK8PAfvzuHqE1DBmyB9xV8fSePsX92ssB#-127.0,-1.9,2\" rel=\"nofollow\">databases</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>are organised collections of data</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>they are a collection of schemas, tables, queries, reports, views, and other objects</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 71.69644202437667,
+        "y": -679.3586454158637
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "F4AE2641-A105-4AA3-80A2-06A9FC16D462",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/6SJjDrFxzofoZjxfpgH5qVryLSYjppJsg28NapzF\" rel=\"nofollow\">engineering</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the application of mathematics and scientific, economic, social, and practical knowledge in order to invent, innovate, design, build, maintain, research, and improve structures, machines, tools, systems, components, materials, processes, solutions, and organizations</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -122.24062646021571,
+        "y": -676.0779766645586
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "9FD484B9-0FFA-4B51-95A5-52C778D76AEF",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/xGXnpQKEqRv7eHeqTwgz8CsdknxhnWZj68baiyCd#77.9,-167.7,5\" rel=\"nofollow\">law</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is a system of rules that are created and enforced through social or governmental institutions to regulate behavior</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -918.7481806521704,
+        "y": -635.3117411283878
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "2664F830-5891-44BF-8B44-77F09370240C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/2ZYrG1D2SizuM5YzrnCNQdNqzZXC1N5nH2aTMbVd#-141.5,-63.6,2\" rel=\"nofollow\">distributed computing</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>a distributed system is a model in which components located on networked computers communicate and coordinate their actions by passing messages</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>the components interact with each other in order to achieve a common goal</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 738.2550947829391,
+        "y": -634.850855630076
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "EF04BC48-FB8A-457C-BB6B-F7BE2FE5BBCD",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/viRDhbpcrjLW2MSyzGJyhzgSqryics23wcLfJTxR#1636.7,-1336.5,2\" rel=\"nofollow\">history</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the study of the past as it is described in written documents</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>it is best we learn from the mistakes done already so to not repeat them again</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -1085.7433049227639,
+        "y": -632.0219254571932
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "7173FE98-95C3-4826-8BD0-46FB7AE2605C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/qn6XqfNxftWrVm4n2Xs5BsPJok4KEFTJGpNixELq#-72.7,50.1,3\" rel=\"nofollow\">neuroscience</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the scientific study of the nervous system</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>deals with the anatomy, biochemistry, molecular biology, and physiology of neurons and neural circuits</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -742.0017640290578,
+        "y": -628.4706024713164
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "5656B3CA-A994-4BE1-9E48-4F5AA49C3F37",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/CbZkPeEWbQxNRtoCAzdy3Wx1Bz3BLzC3PsK9yF5q#-83.4,-61.6,4\" rel=\"nofollow\">medicine</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the science and practice of the diagnosis, treatment, and prevention of disease</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -505.2917328910862,
+        "y": -622.8026551823261
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "C6DFF0E6-EEB7-44BB-A2CE-9F0107A83FF6",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/XK73eU8WNHy5qHEnsKTKqSdsVkXzs2iMtvTmgYpc#354.6,-28.1,-1\" rel=\"nofollow\">programming</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is a process that leads from an original formulation of a computing problem to executable computer programs</p><p></p><p><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>helpful to have understanding of </span><a style='color: rgba(22, 103, 132, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU#650.4,-557.5,2\" rel=\"nofollow\">computer science</a></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 436.69976245191424,
+        "y": -608.9178130557708
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "142F331B-878D-405E-93A4-DBCD130A554E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/KAxvkPhxHhf6v2xxJ58HXhduppxpTz8xznmcuvBZ#91.1,-30.2,1\" rel=\"nofollow\">operating systems</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>helpful to have understanding of </span><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/XK73eU8WNHy5qHEnsKTKqSdsVkXzs2iMtvTmgYpc#354.6,-28.1,-1\" rel=\"nofollow\">programming</a><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '> and </span><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/QKWtVCHyuwbZnuxdtzZhXxs4wp8St7GeiLbKMzQU#650.4,-557.5,2\" rel=\"nofollow\">computer science</a><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '> </span></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 161.66572919862483,
+        "y": -607.4393400342597
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "9F319618-8152-42FC-9B09-AD5AC2F7497B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/2qWdikpzGwN6GkfyyevpW85tXxACgjqWGfxyJ7Ph#688.4,-573.6,2\" rel=\"nofollow\">environmental science</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the study of the environment and the solutions of environmental problems</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -348.62145372835494,
+        "y": -599.104182103234
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "4B9A3BF6-BC51-46A8-BEC7-F240B678B2AC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/Q6r66iur4UDMMzdTtbCJgnsYaZbDnAygh8tbBMd3\" rel=\"nofollow\">architecture</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is both the process and the product of planning, designing, and constructing buildings and other physical structures</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -27.641268691606,
+        "y": -586.8354332862153
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "84EEE085-372A-4F50-A0A4-97E079F468D1",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/85uh2iN4GPhBJpuyyuWks5a6niyypQA5TPBCGnAN#335.5,-433.9,2\" rel=\"nofollow\">web development</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is a broad term for the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network)</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>it can range from developing the simplest static single page of plain text to the most complex web-based internet applications, electronic businesses, and social network services</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 669.321669116463,
+        "y": -570.1648964846246
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "B30085F1-BC3B-4AA7-B168-E58E080FE31C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/LqjxehvfzXszoTjqzLTdcrfwD6c4mSFck9PDgxD8#188.1,-250.5,1\" rel=\"nofollow\">art</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is a diverse range of human activities in creating visual, auditory or performing artifacts (artworks), expressing the author's imaginative or technical skill, intended to be appreciated for their beauty or emotional power</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -577.8509317749906,
+        "y": -541.1065015948747
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "E83AF83E-B53B-423B-9FF1-7661762E1647",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/DaLRfu3ipMHEkhxuzqKTgbZPLmVGTmN7khBS3xqZ#-23.5,-171.4,4\" rel=\"nofollow\">philosophy</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the study of general and fundamental problems concerning matters such as existence, knowledge, values, reason, mind, and language</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -797.2518759334789,
+        "y": -539.1219177246094
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "97D82CD6-D1F8-4DC6-B0E0-1240EB98F81C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/syqmsqY4ZxxGLHMJFc1s84WXdU4eC3MxdZPa9eSd\" rel=\"nofollow\">sociology</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>study of social behaviour or society, including its origins, development, organisation, networks and institutions</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -982.1462674957229,
+        "y": -536.500771081494
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "6A2A2937-5C79-49F2-863F-64D576C27C36",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/YyJtZap3S6BLzLq8FvBqcDM1fpzom5JfeXripa9w#149.7,-355.4,2\" rel=\"nofollow\">more</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>my personal research on all of the topics</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>contains interesting books, courses, images, quotes and more </p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -428.0317073547021,
+        "y": -526.1110080444752
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "032740F3-55B4-4FF8-A226-D846AB3C4741",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/VBPfyy3FxxfSpCB6xzjQUxbKbmvPf6w9W7snssVb\" rel=\"nofollow\">infrastructure</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>refers to the fundamental facilities and systems serving a country, city or area, including the services and facilities necessary for its economy to function</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -206.88393094936555,
+        "y": -509.0986387826217
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "787AF8EB-B9CE-4D93-A78C-968977C79972",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/Lf272jyyVyWWmRPpxs8z4GvsxQqGPLfpZrVhYnMn#-292.5,-354.9,2\" rel=\"nofollow\">computer hardware</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the collection of physical components that constitute a computer system</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 381.8225245632998,
+        "y": -508.2076814759114
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "8E91BE25-423E-48EA-962E-47C413EFF971",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/48Lde9zsysCqsBfqQAMmqrgApPsxhxebtxPqe173#486.6,217.4,2\" rel=\"nofollow\">tooling</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>are items that can be used to achieve a goal</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 645.2989769872997,
+        "y": -506.87441126383465
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "96C10861-6315-4EA7-8D64-7E2C14852F32",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://my.mindnode.com/UfyzJtYHJtarpQg5YVXVz7vwYjQvn5FQt4g3pq4C#212.6,53.9,2\" rel=\"nofollow\">design</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is the creation of a plan or convention for the construction of an object, system or measurable human interaction </p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>design is not just what it looks like and feels like</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>design is how it works</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 94.5258731842041,
+        "y": -500.02680644050986
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    }
+  ],
+  "connections": [
+    {
+      "endNodeID": "BC6B6736-9B16-4EA1-A243-289B5FE6523B",
+      "startNodeID": "39F1E9C9-15C0-4FE0-9F76-800E85B1ABB1",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -94.8617,
+        "y": 40.8502
+      }
+    },
+    {
+      "endNodeID": "BC6B6736-9B16-4EA1-A243-289B5FE6523B",
+      "startNodeID": "5F41ADFB-1A5C-485B-96C8-27D143C57F03",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 20.7606,
+        "y": 43.7962
+      }
+    },
+    {
+      "endNodeID": "BC6B6736-9B16-4EA1-A243-289B5FE6523B",
+      "startNodeID": "0DBE4F3F-5025-4B5C-AD6A-F0191B0AB027",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 109.526,
+        "y": -31.9756
+      }
+    },
+    {
+      "endNodeID": "BC6B6736-9B16-4EA1-A243-289B5FE6523B",
+      "startNodeID": "9E32F66E-E45E-459A-9318-DFC463608BDA",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -140.977,
+        "y": -1.84594
+      }
+    },
+    {
+      "endNodeID": "9E32F66E-E45E-459A-9318-DFC463608BDA",
+      "startNodeID": "39F1E9C9-15C0-4FE0-9F76-800E85B1ABB1",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 46.1157,
+        "y": 42.6955
+      }
+    },
+    {
+      "endNodeID": "9E32F66E-E45E-459A-9318-DFC463608BDA",
+      "startNodeID": "C6DFF0E6-EEB7-44BB-A2CE-9F0107A83FF6",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -120.86,
+        "y": -77.2605
+      }
+    },
+    {
+      "endNodeID": "C6DFF0E6-EEB7-44BB-A2CE-9F0107A83FF6",
+      "startNodeID": "142F331B-878D-405E-93A4-DBCD130A554E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 118.516,
+        "y": -0.739213
+      }
+    },
+    {
+      "endNodeID": "9E32F66E-E45E-459A-9318-DFC463608BDA",
+      "startNodeID": "142F331B-878D-405E-93A4-DBCD130A554E",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -2.34274,
+        "y": -78.0007
+      }
+    },
+    {
+      "endNodeID": "28FFA68E-5C69-4D01-AAB4-9F1F0E4DF5C2",
+      "startNodeID": "84EEE085-372A-4F50-A0A4-97E079F468D1",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -109.527,
+        "y": -64.1381
+      }
+    },
+    {
+      "endNodeID": "9E32F66E-E45E-459A-9318-DFC463608BDA",
+      "startNodeID": "28FFA68E-5C69-4D01-AAB4-9F1F0E4DF5C2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -143.645,
+        "y": -32.4998
+      }
+    },
+    {
+      "endNodeID": "0DBE4F3F-5025-4B5C-AD6A-F0191B0AB027",
+      "startNodeID": "5FFADDDA-BC7F-4042-AAB7-159D852902C2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 103.3,
+        "y": 11.2349
+      }
+    },
+    {
+      "endNodeID": "9714E696-E7F8-4E67-97F0-4320C9E9CB3D",
+      "startNodeID": "92C07AD4-A1DE-4C5C-B601-9CF556530F2F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -137.053,
+        "y": 12.7635
+      }
+    },
+    {
+      "endNodeID": "9714E696-E7F8-4E67-97F0-4320C9E9CB3D",
+      "startNodeID": "FF7AC7EF-0689-48C5-8267-6AD1E66F886A",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -135.482,
+        "y": -35.2315
+      }
+    },
+    {
+      "endNodeID": "AADB156A-7617-4591-B16D-25FB11F19B01",
+      "startNodeID": "7173FE98-95C3-4826-8BD0-46FB7AE2605C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -13.0293,
+        "y": -82.1758
+      }
+    },
+    {
+      "endNodeID": "9E32F66E-E45E-459A-9318-DFC463608BDA",
+      "startNodeID": "A88C3360-A53C-431A-BCB1-A2A673DC605B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 68.3907,
+        "y": -42.0409
+      }
+    },
+    {
+      "endNodeID": "787AF8EB-B9CE-4D93-A78C-968977C79972",
+      "startNodeID": "C6DFF0E6-EEB7-44BB-A2CE-9F0107A83FF6",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -11.9387,
+        "y": 50.3543
+      }
+    },
+    {
+      "endNodeID": "9714E696-E7F8-4E67-97F0-4320C9E9CB3D",
+      "startNodeID": "2E3EC746-21D5-455C-80D7-B94CC55C6F25",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -46.7871,
+        "y": 52.7858
+      }
+    },
+    {
+      "endNodeID": "A4668C77-0335-4FAC-A541-97EB045A7991",
+      "startNodeID": "86D9085E-46E6-4874-BCD7-CC437E645C07",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 119.608,
+        "y": 27.5897
+      }
+    },
+    {
+      "endNodeID": "BC6B6736-9B16-4EA1-A243-289B5FE6523B",
+      "startNodeID": "5A94438C-F3EC-4EB6-88CC-C6F38851E28F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 117.795,
+        "y": 8.71735
+      }
+    },
+    {
+      "endNodeID": "5A94438C-F3EC-4EB6-88CC-C6F38851E28F",
+      "startNodeID": "F4EA74C1-D79B-4F0F-BF2E-EEAE7086D987",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 20.2781,
+        "y": 45.2576
+      }
+    },
+    {
+      "endNodeID": "A4668C77-0335-4FAC-A541-97EB045A7991",
+      "startNodeID": "C31EE39E-1F82-46FC-AFF4-A59309FC5B29",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 111.81,
+        "y": -7.09922
+      }
+    },
+    {
+      "endNodeID": "5F41ADFB-1A5C-485B-96C8-27D143C57F03",
+      "startNodeID": "F4EA74C1-D79B-4F0F-BF2E-EEAE7086D987",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 117.313,
+        "y": 10.1787
+      }
+    },
+    {
+      "endNodeID": "0DBE4F3F-5025-4B5C-AD6A-F0191B0AB027",
+      "startNodeID": "F4AE2641-A105-4AA3-80A2-06A9FC16D462",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -87.8941,
+        "y": -13.5519
+      }
+    },
+    {
+      "endNodeID": "BC6B6736-9B16-4EA1-A243-289B5FE6523B",
+      "startNodeID": "F4AE2641-A105-4AA3-80A2-06A9FC16D462",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 21.6335,
+        "y": -45.5269
+      }
+    },
+    {
+      "endNodeID": "5F41ADFB-1A5C-485B-96C8-27D143C57F03",
+      "startNodeID": "A10F1309-44A8-4BF9-B710-BF089ADF4AF5",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 51.6064,
+        "y": 41.2644
+      }
+    },
+    {
+      "endNodeID": "C6DFF0E6-EEB7-44BB-A2CE-9F0107A83FF6",
+      "startNodeID": "84EEE085-372A-4F50-A0A4-97E079F468D1",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -126.561,
+        "y": -19.3764
+      }
+    },
+    {
+      "endNodeID": "C6DFF0E6-EEB7-44BB-A2CE-9F0107A83FF6",
+      "startNodeID": "8E91BE25-423E-48EA-962E-47C413EFF971",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -89.2993,
+        "y": -51.0217
+      }
+    },
+    {
+      "endNodeID": "BAE1EB65-A2EF-4A9F-8BB3-054063B51F33",
+      "startNodeID": "39F1E9C9-15C0-4FE0-9F76-800E85B1ABB1",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 133.644,
+        "y": -2.02598
+      }
+    },
+    {
+      "endNodeID": "39F1E9C9-15C0-4FE0-9F76-800E85B1ABB1",
+      "startNodeID": "97C2074D-6B8D-492F-874E-F2C325935E6F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 36.9454,
+        "y": 46.5234
+      }
+    },
+    {
+      "endNodeID": "5FFADDDA-BC7F-4042-AAB7-159D852902C2",
+      "startNodeID": "578D2DD3-E344-4274-AD8A-AD0D47702152",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 81.4503,
+        "y": -9.00021
+      }
+    },
+    {
+      "endNodeID": "7173FE98-95C3-4826-8BD0-46FB7AE2605C",
+      "startNodeID": "5656B3CA-A994-4BE1-9E48-4F5AA49C3F37",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -107.355,
+        "y": -2.83391
+      }
+    },
+    {
+      "endNodeID": "5FFADDDA-BC7F-4042-AAB7-159D852902C2",
+      "startNodeID": "5656B3CA-A994-4BE1-9E48-4F5AA49C3F37",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 6.58355,
+        "y": -51.4247
+      }
+    },
+    {
+      "endNodeID": "AADB156A-7617-4591-B16D-25FB11F19B01",
+      "startNodeID": "578D2DD3-E344-4274-AD8A-AD0D47702152",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -32.8861,
+        "y": -45.3542
+      }
+    },
+    {
+      "endNodeID": "A4668C77-0335-4FAC-A541-97EB045A7991",
+      "startNodeID": "23E0D53B-C01C-4726-8314-57CCB4F38519",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 26.9559,
+        "y": 40.5193
+      }
+    },
+    {
+      "endNodeID": "B30085F1-BC3B-4AA7-B168-E58E080FE31C",
+      "startNodeID": "E83AF83E-B53B-423B-9FF1-7661762E1647",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 91.2003,
+        "y": -0.992287
+      }
+    },
+    {
+      "endNodeID": "A4668C77-0335-4FAC-A541-97EB045A7991",
+      "startNodeID": "9FD484B9-0FFA-4B51-95A5-52C778D76AEF",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 51.6812,
+        "y": -38.9533
+      }
+    },
+    {
+      "endNodeID": "9FD484B9-0FFA-4B51-95A5-52C778D76AEF",
+      "startNodeID": "EF04BC48-FB8A-457C-BB6B-F7BE2FE5BBCD",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 76.2475,
+        "y": -1.64485
+      }
+    },
+    {
+      "endNodeID": "5A94438C-F3EC-4EB6-88CC-C6F38851E28F",
+      "startNodeID": "E60704CD-897A-42F2-A426-DD7351E6FE77",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 115.611,
+        "y": 9.53313
+      }
+    },
+    {
+      "endNodeID": "94CFF05B-5CA3-4F3C-BD88-1F810525BB67",
+      "startNodeID": "97C2074D-6B8D-492F-874E-F2C325935E6F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 146.419,
+        "y": 0.0179428
+      }
+    },
+    {
+      "endNodeID": "A4668C77-0335-4FAC-A541-97EB045A7991",
+      "startNodeID": "E83AF83E-B53B-423B-9FF1-7661762E1647",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -37.8077,
+        "y": -80.8148
+      }
+    },
+    {
+      "endNodeID": "7173FE98-95C3-4826-8BD0-46FB7AE2605C",
+      "startNodeID": "A4668C77-0335-4FAC-A541-97EB045A7991",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 59.192,
+        "y": 42.374
+      }
+    },
+    {
+      "endNodeID": "9E32F66E-E45E-459A-9318-DFC463608BDA",
+      "startNodeID": "9714E696-E7F8-4E67-97F0-4320C9E9CB3D",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -157.539,
+        "y": 4.55438
+      }
+    },
+    {
+      "endNodeID": "FF7AC7EF-0689-48C5-8267-6AD1E66F886A",
+      "startNodeID": "92C07AD4-A1DE-4C5C-B601-9CF556530F2F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 7.42703,
+        "y": 47.9948
+      }
+    },
+    {
+      "endNodeID": "28FFA68E-5C69-4D01-AAB4-9F1F0E4DF5C2",
+      "startNodeID": "2664F830-5891-44BF-8B44-77F09370240C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -143.242,
+        "y": -31.7952
+      }
+    },
+    {
+      "endNodeID": "96C10861-6315-4EA7-8D64-7E2C14852F32",
+      "startNodeID": "4B9A3BF6-BC51-46A8-BEC7-F240B678B2AC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 49.5836,
+        "y": 43.4044
+      }
+    },
+    {
+      "endNodeID": "F4AE2641-A105-4AA3-80A2-06A9FC16D462",
+      "startNodeID": "4B9A3BF6-BC51-46A8-BEC7-F240B678B2AC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -47.2996,
+        "y": -44.6212
+      }
+    },
+    {
+      "endNodeID": "A4668C77-0335-4FAC-A541-97EB045A7991",
+      "startNodeID": "97D82CD6-D1F8-4DC6-B0E0-1240EB98F81C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 91.3993,
+        "y": -55.1063
+      }
+    },
+    {
+      "endNodeID": "0DBE4F3F-5025-4B5C-AD6A-F0191B0AB027",
+      "startNodeID": "9F319618-8152-42FC-9B09-AD5AC2F7497B",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -4.45142,
+        "y": -52.0388
+      }
+    },
+    {
+      "endNodeID": "F4AE2641-A105-4AA3-80A2-06A9FC16D462",
+      "startNodeID": "032740F3-55B4-4FF8-A226-D846AB3C4741",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 45.5717,
+        "y": -83.4897
+      }
+    },
+    {
+      "endNodeID": "4B9A3BF6-BC51-46A8-BEC7-F240B678B2AC",
+      "startNodeID": "032740F3-55B4-4FF8-A226-D846AB3C4741",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 93.1209,
+        "y": -38.8684
+      }
+    }
+  ],
+  "ready": true
+}
