@@ -1,7 +1,7 @@
 {
   "name": "react-mindmap",
   "version": "1.0.1",
-  "description": "Component for mindnode maps",
+  "description": "React component for mindnode maps",
   "license": "MIT",
   "contributors": [
     {
