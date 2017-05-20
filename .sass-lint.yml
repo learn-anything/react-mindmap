@@ -1,5 +1,0 @@
-rules:
-  class-name-format:
-    - 0
-  force-pseudo-nesting:
-    -0

@@ -3,7 +3,11 @@ module.exports = {
   plugins: ['react'],
 
   env: { browser: true },
-  globals: { ga: true },
+  globals: {
+    ga: true,
+    React: true,
+    ReactDOM: true,
+  },
 
   rules: { 'react/jsx-uses-vars': 'error' },
 

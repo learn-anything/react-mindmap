@@ -1,0 +1,1662 @@
+{
+  "token": "cmzq9sEGAyyNyeZrNA7UyQa8JpsqHf9QzStwFqGT",
+  "title": "learn anything - programming - programming languages - python",
+  "backgroundColor": "rgba(243, 246, 243, 1.0)",
+  "nodes": [
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Python_(programming_language)\" rel=\"nofollow\">python </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Python_(programming_language)\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -80.41493055555566,
+        "y": -293.4588155864198
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "2FD35288-FA36-416B-972D-8CBF0C8825D9",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>help</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "14D60355-51AA-4F06-8B5A-74BB19E13E1A",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/vinta/awesome-python\" rel=\"nofollow\">awesome python </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/vinta/awesome-python\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 173.97396968046633,
+            "y": -237.79820828795073
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "4EFA62AF-FD18-4806-81E0-42F162B2875C",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/timofurrer/awesome-asyncio\" rel=\"nofollow\">awesome asyncio </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/timofurrer/awesome-asyncio\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 173.97396968046633,
+            "y": -197.79820828795073
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "A5FBF979-6E4E-44CE-B52E-D823EAB9D1BC",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://docs.python.org/3/reference/datamodel.html\" rel=\"nofollow\">python data model</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 173.97396968046633,
+            "y": -157.79820828795073
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "05E4846B-5AE1-4336-BE1E-F638F43D647B",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(34, 205, 224, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(34, 205, 224, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"http://pythontesting.net/framework/pytest/pytest-introduction/\" rel=\"nofollow\">python testing</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 173.97396968046633,
+            "y": -123.79820828795073
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "EE13D042-E123-4BAA-99E8-755037A4397D",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(209, 21, 88, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(209, 21, 88, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 71, 71, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://ipgp.github.io/scientific_python_cheat_sheet/\" rel=\"nofollow\">scientific python cheat sheet</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 173.97396968046633,
+            "y": -89.79820828795073
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 36.973969680466325,
+        "y": -178.29820828795073
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "68FCE9B6-A2C4-4F51-96BC-93C678A799EC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>basics</p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>if you think this can be improved in any way</p><p></p><p><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://github.com/nikitavoloboev/knowledge-map/issues/500\" rel=\"nofollow\">please say</a><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '> </span><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Apple Color Emoji\";  '>💙</span></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "8F81A623-6364-48BA-BE60-229261936279",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://www.diveintopython3.net\" rel=\"nofollow\">1. dive into python 3  </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://www.diveintopython3.net\" rel=\"nofollow\">📖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 98.99716853186294,
+            "y": -26.650800540123328
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": -83.00283146813706,
+        "y": -38.15080054012333
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "878FDF0F-7541-4EB3-BCB1-8C50F31A92D4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\">package manager </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -358.5508443068537,
+        "y": 52.344627627980685
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://pypi.python.org/pypi\" rel=\"nofollow\">python libraries</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -64.66699923959197,
+        "y": 100.14771605920942
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "29657F67-281D-4932-B129-72982866CB15",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>science</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 179.9623498181993,
+        "y": 104.00136439441087
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "7E81A06F-63D6-4D85-85FC-BD87EA67CAF2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://www.scipy.org/\" rel=\"nofollow\">scipy</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "BAA266C0-8E20-4C45-9F61-91010D72B2A0",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"http://www.scipy-lectures.org/\" rel=\"nofollow\">scipy lecture notes</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 473.92199491258657,
+            "y": 118.7677543962883
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 328.92199491258657,
+        "y": 104.2677543962883
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "F9849BFE-7FA5-4A69-8B37-9B98F9FB2E09",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://pypi.python.org/pypi/pip\" rel=\"nofollow\">pip</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -372.56107954545473,
+        "y": 147.30344460227263
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "685D9A2A-DED3-47EA-A8AC-AE630F179107",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://docs.pytest.org/en/latest/\" rel=\"nofollow\">py.test</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 448.5825729370117,
+        "y": 206.12960052490234
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "52A2D50B-92DD-4039-B054-0B37BD1AE2D2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>testing</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 269.3020008579965,
+        "y": 218.81934351213806
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "CDCFCE4D-50FD-463C-AEB3-2C6FE5A81143",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>web frameworks</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -155.50630960621413,
+        "y": 232.04591649062934
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "8084C1C9-57B3-4F5B-80C4-A08341086204",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://hackernoon.com/asynchronous-python-45df84b82434\" rel=\"nofollow\">async</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 106.93879087057917,
+        "y": 266.96240782185953
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "30470B31-5384-47CD-9FB1-38E210643B69",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://trypyramid.com/\" rel=\"nofollow\">pyramid</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -326.7520031460956,
+        "y": 283.4440378762464
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "449E2DA0-8C08-482B-B028-AE4C3407CE15",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.wikiwand.com/en/Doctest\" rel=\"nofollow\">doctest</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 431.2660331726074,
+        "y": 295.7915496826172
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "D0E346A2-08E5-40F1-AB69-AA1760CF5387",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://flask.pocoo.org/\" rel=\"nofollow\">flask</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -244.70441055297852,
+        "y": 348.2120666503906
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "005E0809-9F51-4FF5-9AEF-68F6F9D98827",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.tornadoweb.org/en/stable/\" rel=\"nofollow\">tornado</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 44.32029954766563,
+        "y": 377.51366993033605
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "5137FCB9-9839-4870-91CC-96839BAE498A",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.gevent.org/\" rel=\"nofollow\">gevent</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 188.79459635416652,
+        "y": 385.85611979166674
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "68C89DED-5918-47D6-8182-649732AE1520",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/django/django\" rel=\"nofollow\">django </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/django/django\" rel=\"nofollow\">🐙</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -157.63731539030005,
+        "y": 396.3379033094535
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    }
+  ],
+  "connections": [
+    {
+      "endNodeID": "68FCE9B6-A2C4-4F51-96BC-93C678A799EC",
+      "startNodeID": "58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -2.54396,
+        "y": 127.654
+      }
+    },
+    {
+      "endNodeID": "58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5",
+      "startNodeID": "2FD35288-FA36-416B-972D-8CBF0C8825D9",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -52.6945,
+        "y": -57.5803
+      }
+    },
+    {
+      "endNodeID": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "startNodeID": "68FCE9B6-A2C4-4F51-96BC-93C678A799EC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 28.9179,
+        "y": 69.1492
+      }
+    },
+    {
+      "endNodeID": "878FDF0F-7541-4EB3-BCB1-8C50F31A92D4",
+      "startNodeID": "68FCE9B6-A2C4-4F51-96BC-93C678A799EC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": -117.774,
+        "y": 45.2477
+      }
+    },
+    {
+      "endNodeID": "F9849BFE-7FA5-4A69-8B37-9B98F9FB2E09",
+      "startNodeID": "878FDF0F-7541-4EB3-BCB1-8C50F31A92D4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": -41.0051,
+        "y": 47.4794
+      }
+    },
+    {
+      "endNodeID": "29657F67-281D-4932-B129-72982866CB15",
+      "startNodeID": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": 105.315,
+        "y": 1.92682
+      }
+    },
+    {
+      "endNodeID": "7E81A06F-63D6-4D85-85FC-BD87EA67CAF2",
+      "startNodeID": "29657F67-281D-4932-B129-72982866CB15",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": 68.9798,
+        "y": 0.133195
+      }
+    },
+    {
+      "endNodeID": "52A2D50B-92DD-4039-B054-0B37BD1AE2D2",
+      "startNodeID": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": 147.985,
+        "y": 59.3358
+      }
+    },
+    {
+      "endNodeID": "449E2DA0-8C08-482B-B028-AE4C3407CE15",
+      "startNodeID": "52A2D50B-92DD-4039-B054-0B37BD1AE2D2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": 82.982,
+        "y": 38.4861
+      }
+    },
+    {
+      "endNodeID": "685D9A2A-DED3-47EA-A8AC-AE630F179107",
+      "startNodeID": "52A2D50B-92DD-4039-B054-0B37BD1AE2D2",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": 89.3903,
+        "y": -6.34487
+      }
+    },
+    {
+      "endNodeID": "CDCFCE4D-50FD-463C-AEB3-2C6FE5A81143",
+      "startNodeID": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": -41.9197,
+        "y": 65.9491
+      }
+    },
+    {
+      "endNodeID": "30470B31-5384-47CD-9FB1-38E210643B69",
+      "startNodeID": "CDCFCE4D-50FD-463C-AEB3-2C6FE5A81143",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": -105.123,
+        "y": 25.6991
+      }
+    },
+    {
+      "endNodeID": "D0E346A2-08E5-40F1-AB69-AA1760CF5387",
+      "startNodeID": "CDCFCE4D-50FD-463C-AEB3-2C6FE5A81143",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": -72.0991,
+        "y": 58.0831
+      }
+    },
+    {
+      "endNodeID": "68C89DED-5918-47D6-8182-649732AE1520",
+      "startNodeID": "CDCFCE4D-50FD-463C-AEB3-2C6FE5A81143",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": -23.3155,
+        "y": 82.146
+      }
+    },
+    {
+      "endNodeID": "8084C1C9-57B3-4F5B-80C4-A08341086204",
+      "startNodeID": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": 64.8029,
+        "y": 83.4073
+      }
+    },
+    {
+      "endNodeID": "005E0809-9F51-4FF5-9AEF-68F6F9D98827",
+      "startNodeID": "8084C1C9-57B3-4F5B-80C4-A08341086204",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": -26.8092,
+        "y": 55.2756
+      }
+    },
+    {
+      "endNodeID": "5137FCB9-9839-4870-91CC-96839BAE498A",
+      "startNodeID": "8084C1C9-57B3-4F5B-80C4-A08341086204",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "left"
+        }
+      },
+      "wayPointOffset": {
+        "x": 42.9279,
+        "y": 59.4469
+      }
+    }
+  ],
+  "ready": true
+}
