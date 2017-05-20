@@ -1,6 +1,6 @@
 {
   "name": "react-mindmap",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React component for mindnode maps",
   "license": "MIT",
   "contributors": [
@@ -10,7 +10,9 @@
       "url": "https://github.com/nglgzz"
     }
   ],
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "repository": "learn-anything/react-mindmap",
   "scripts": {
