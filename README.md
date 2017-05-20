@@ -1,5 +1,5 @@
 # React Mindmap
-A React component for MindNode maps.
+A React component for [MindNode](https://mindnode.com/) maps.
 
 ## Installation
 
