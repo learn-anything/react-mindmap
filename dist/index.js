@@ -215,7 +215,7 @@ var MindMap = function (_Component) {
 
       // Set nodes and connections to state if url is not specified
       // and this hasn't been done yet.
-      if (!this.props.url && !this.state.fetched) {
+      if (!this.props.url && !this.state.fetched && this.props.connections.length > 0 && this.props.nodes.length > 0) {
         this.setState({
           connections: this.props.connections,
           nodes: this.props.nodes,
