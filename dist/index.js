@@ -113,8 +113,8 @@ var MindMap = function (_Component) {
 
     _this.state = {
       connections: [],
-      nodes: [],
-      fetched: false
+      fetched: false,
+      nodes: []
     };
     return _this;
   }
@@ -128,20 +128,22 @@ var MindMap = function (_Component) {
       var _this2 = this;
 
       (0, _utils.getJSON)(this.props.url, function (res) {
+        var nodes = [];
+        var connections = [];
+
         res.nodes.forEach(function (node) {
-          return _this2.state.nodes.push(node);
+          return nodes.push(node);
         });
         res.connections.forEach(function (conn) {
-          return _this2.state.connections.push(conn);
+          return connections.push(conn);
         });
 
-        /* Here the state is not actually changing, cause I pushed the nodes and
-         connections before, but calling setState I'm triggering a component
-         reload, so that they get rendered. */
+        // Save the new nodes and connections on the state, triggering a
+        // component reload.
         _this2.setState({
-          connections: _this2.state.connections,
-          nodes: _this2.state.nodes,
-          fetched: true
+          connections: connections,
+          fetched: true,
+          nodes: nodes
         });
       });
     }
@@ -237,6 +239,14 @@ var MindMap = function (_Component) {
           this.renderNodes()
         )
       );
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      // If url has been changed fetch the new map.
+      if (prevProps.url !== this.props.url) {
+        this.setState({ fetched: false });
+      }
     }
   }]);
 

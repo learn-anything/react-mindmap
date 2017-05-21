@@ -20,7 +20,7 @@
     "build": "webpack",
     "test": "webpack; http-server -p 3000"
   },
-  "browserDependencies": {
+  "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
