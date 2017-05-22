@@ -94,3 +94,15 @@ The rendered map uses four css classes for styling:
 - **.mindmap-node**: `foreignObject` element containing the HTML code from `node.title.text`;
 - **.mindmap-connection**: `path` element for each connection;
 - **.mindmap-emoji**: `img` tag for emoji
+
+## TODO
+This component is still work in progress, so there's some features missing. The most
+critical features that we're working on are:
+
+- showing sub nodes
+- showing notes
+- adding the possibility to move around the map with pan and zoom
+
+## Contributing
+If you want a new feature added, you find bugs or you want to help making some changes,
+feel free to open an issue or submit a pull request. Any help would be greatly appreciated :heart:
