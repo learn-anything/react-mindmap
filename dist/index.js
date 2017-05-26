@@ -119,7 +119,7 @@ var MindMap = function (_Component) {
     return _this;
   }
 
-  // Request map and then load nodes and connections to state.
+  // Request map and load nodes and connections to state.
 
 
   _createClass(MindMap, [{
@@ -128,22 +128,10 @@ var MindMap = function (_Component) {
       var _this2 = this;
 
       (0, _utils.getJSON)(this.props.url, function (res) {
-        var nodes = [];
-        var connections = [];
-
-        res.nodes.forEach(function (node) {
-          return nodes.push(node);
-        });
-        res.connections.forEach(function (conn) {
-          return connections.push(conn);
-        });
-
-        // Save the new nodes and connections on the state, triggering a
-        // component reload.
-        _this2.setState({
-          connections: connections,
-          fetched: true,
-          nodes: nodes
+        return _this2.setState({
+          connections: res.connections,
+          nodes: res.nodes,
+          fetched: true
         });
       });
     }
@@ -243,8 +231,8 @@ var MindMap = function (_Component) {
   }, {
     key: 'componentDidUpdate',
     value: function componentDidUpdate(prevProps) {
-      // If url has been changed fetch the new map.
-      if (prevProps.url !== this.props.url) {
+      // If URL, nodes, or connections have changed, reload the map.
+      if (prevProps.url !== this.props.url || prevProps.nodes !== this.props.nodes || prevProps.connections !== this.props.connections) {
         this.setState({ fetched: false });
       }
     }
@@ -255,11 +243,6 @@ var MindMap = function (_Component) {
 
 exports.default = MindMap;
 
-
-MindMap.defaultProps = {
-  nodes: [],
-  connections: []
-};
 
 MindMap.propTypes = {
   url: _react.PropTypes.string,

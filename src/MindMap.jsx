@@ -3,7 +3,6 @@ import { Component, PropTypes } from 'react';
 import { getJSON, matchStyle, parseEmojis } from './utils';
 import '../sass/MindMap.sass';
 
-
 export default class MindMap extends Component {
   constructor(props) {
     super(props);
@@ -15,23 +14,13 @@ export default class MindMap extends Component {
     };
   }
 
-  // Request map and then load nodes and connections to state.
+  // Request map and load nodes and connections to state.
   fetchMap() {
-    getJSON(this.props.url, (res) => {
-      const nodes = [];
-      const connections = [];
-
-      res.nodes.forEach(node => nodes.push(node));
-      res.connections.forEach(conn => connections.push(conn));
-
-      // Save the new nodes and connections on the state, triggering a
-      // component reload.
-      this.setState({
-        connections,
-        fetched: true,
-        nodes,
-      });
-    });
+    getJSON(this.props.url, res => this.setState({
+      connections: res.connections,
+      nodes: res.nodes,
+      fetched: true,
+    }));
   }
 
   // Calculate SVG viewport dimensions from the nodes.
@@ -121,17 +110,14 @@ export default class MindMap extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    // If url has been changed fetch the new map.
-    if (prevProps.url !== this.props.url) {
+    // If URL, nodes, or connections have changed, reload the map.
+    if (prevProps.url !== this.props.url
+      || prevProps.nodes !== this.props.nodes
+      || prevProps.connections !== this.props.connections) {
       this.setState({ fetched: false });
     }
   }
 }
-
-MindMap.defaultProps = {
-  nodes: [],
-  connections: [],
-};
 
 MindMap.propTypes = {
   url: PropTypes.string,

@@ -26,11 +26,11 @@ render(<Example />, document.getElementById('target'));
 ![img](https://raw.githubusercontent.com/learn-anything/img/master/react-mindmap-example.png)
 
 ## Props
-| Prop                          | Type   | Default | Description                                                                                      |
-|-------------------------------|:------:|:-------:|--------------------------------------------------------------------------------------------------|
-| [`url`](#url)                 | String |         | URL to fetch the map's JSON. If specified the other two props won't be taken into consideration. |
-| [`nodes`](#nodes)             | Array  | [ ]     | Array of objects used to render nodes. Is used only when `url` is not specified.                 |
-| [`connections`](#connections) | Array  | [ ]     | Array of objects used to render connections. Is used only when `url` is not specified.           |
+| Prop                          | Type   | Description                                                                                      |
+|-------------------------------|:------:|--------------------------------------------------------------------------------------------------|
+| [`url`](#url)                 | String | URL to fetch the map's JSON. If specified the other two props won't be taken into consideration. |
+| [`nodes`](#nodes)             | Array  | Array of objects used to render nodes. Is used only when `url` is not specified.                 |
+| [`connections`](#connections) | Array  | Array of objects used to render connections. Is used only when `url` is not specified.           |
 
 ### url
 URL indicating the location of the map's JSON. The URL has to return a valid JSON
