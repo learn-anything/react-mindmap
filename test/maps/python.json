@@ -37,8 +37,8 @@
       "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
       "nodes": [],
       "location": {
-        "x": -80.41493055555566,
-        "y": -293.4588155864198
+        "x": -78.9538141433419,
+        "y": -359.551969212374
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -110,8 +110,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 173.97396968046633,
-            "y": -237.79820828795073
+            "x": 181.23482368809937,
+            "y": -326.8226596238284
           },
           "layoutStyle": "manual",
           "task": null
@@ -150,8 +150,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 173.97396968046633,
-            "y": -197.79820828795073
+            "x": 181.23482368809937,
+            "y": -286.8226596238284
           },
           "layoutStyle": "manual",
           "task": null
@@ -190,8 +190,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 173.97396968046633,
-            "y": -157.79820828795073
+            "x": 181.23482368809937,
+            "y": -246.82265962382837
           },
           "layoutStyle": "manual",
           "task": null
@@ -230,8 +230,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 173.97396968046633,
-            "y": -123.79820828795073
+            "x": 181.23482368809937,
+            "y": -212.82265962382837
           },
           "layoutStyle": "manual",
           "task": null
@@ -270,16 +270,96 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 173.97396968046633,
-            "y": -89.79820828795073
+            "x": 181.23482368809937,
+            "y": -178.82265962382837
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "8202C521-BB56-46D3-AF5E-67B20D477432",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(49, 187, 71, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(49, 187, 71, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/\" rel=\"nofollow\">structuring your project</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 181.23482368809937,
+            "y": -144.82265962382837
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "0F6F9B90-FC83-451F-9246-E167754091CF",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(150, 29, 217, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://www.python.org/dev/peps/pep-0008/\" rel=\"nofollow\">style guide for python code</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 181.23482368809937,
+            "y": -110.82265962382837
           },
           "layoutStyle": "manual",
           "task": null
         }
       ],
       "location": {
-        "x": 36.973969680466325,
-        "y": -178.29820828795073
+        "x": 44.23482368809937,
+        "y": -233.32265962382837
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -355,7 +435,47 @@
           "nodes": [],
           "location": {
             "x": 98.99716853186294,
-            "y": -26.650800540123328
+            "y": -57.65080054012333
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "F4106EB5-16A9-48EF-8AA0-FFF104AACBB8",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://automatetheboringstuff.com/\" rel=\"nofollow\">1. automate the boring stuff with python </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://automatetheboringstuff.com/\" rel=\"nofollow\">📖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 98.99716853186294,
+            "y": -17.650800540123328
           },
           "layoutStyle": "manual",
           "task": null
@@ -643,8 +763,8 @@
       "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
       "nodes": [],
       "location": {
-        "x": 448.5825729370117,
-        "y": 206.12960052490234
+        "x": 432.5716732394312,
+        "y": 173.28402340796674
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -734,6 +854,46 @@
       "decreasingStrokeWidth": true,
       "foldedSubnodes": false,
       "isLeftAligned": false,
+      "id": "449E2DA0-8C08-482B-B028-AE4C3407CE15",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.wikiwand.com/en/Doctest\" rel=\"nofollow\">doctest</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 435.6101611968011,
+        "y": 249.49618677939145
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
       "id": "8084C1C9-57B3-4F5B-80C4-A08341086204",
       "pathStyle": {
         "lineType": "curved",
@@ -805,46 +965,6 @@
       "location": {
         "x": -326.7520031460956,
         "y": 283.4440378762464
-      },
-      "layoutStyle": "defaultright",
-      "task": null
-    },
-    {
-      "allowNodeStrokeColorVariants": false,
-      "decreasingStrokeWidth": true,
-      "foldedSubnodes": false,
-      "isLeftAligned": false,
-      "id": "449E2DA0-8C08-482B-B028-AE4C3407CE15",
-      "pathStyle": {
-        "lineType": "curved",
-        "strokeStyle": {
-          "color": "rgba(21, 122, 150, 1.0)",
-          "dash": null,
-          "width": 4.0
-        }
-      },
-      "shapeStyle": {
-        "fillColor": "rgba(255, 255, 255, 1.0)",
-        "shapeType": "roundedrect",
-        "borderStrokeStyle": {
-          "color": "rgba(246, 246, 246, 1.0)",
-          "dash": null,
-          "width": 2.0
-        }
-      },
-      "image": null,
-      "title": {
-        "allowToShrinkWidth": true,
-        "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.wikiwand.com/en/Doctest\" rel=\"nofollow\">doctest</a></p>",
-        "fontStyle": null
-      },
-      "note": null,
-      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
-      "location": {
-        "x": 431.2660331726074,
-        "y": 295.7915496826172
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -1045,8 +1165,8 @@
         }
       },
       "wayPointOffset": {
-        "x": -2.54396,
-        "y": 127.654
+        "x": -3.27452,
+        "y": 160.701
       }
     },
     {
@@ -1083,8 +1203,8 @@
         }
       },
       "wayPointOffset": {
-        "x": -52.6945,
-        "y": -57.5803
+        "x": -55.5944,
+        "y": -63.1146
       }
     },
     {
@@ -1155,7 +1275,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1193,7 +1313,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1231,7 +1351,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1269,7 +1389,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1307,7 +1427,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1345,12 +1465,12 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
-        "x": 82.982,
-        "y": 38.4861
+        "x": 85.1541,
+        "y": 15.3384
       }
     },
     {
@@ -1383,12 +1503,12 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
-        "x": 89.3903,
-        "y": -6.34487
+        "x": 81.3849,
+        "y": -22.7677
       }
     },
     {
@@ -1421,7 +1541,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1459,7 +1579,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1497,7 +1617,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1535,7 +1655,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1573,7 +1693,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1611,7 +1731,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {
@@ -1649,7 +1769,7 @@
           "color": "rgba(255, 255, 255, 1.0)",
           "fontName": "HelveticaNeue",
           "fontSize": 14,
-          "alignment": "left"
+          "alignment": "center"
         }
       },
       "wayPointOffset": {

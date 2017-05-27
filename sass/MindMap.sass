@@ -3,8 +3,7 @@ $grey500: #9e9e9e
 $shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12)
 
 .mindmap-svg
-  height: auto
-  max-height: 100vh
+  height: 100%
   width: 100%
 
   &:focus
@@ -22,6 +21,20 @@ $shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px
     font-size: 22px
     margin: 0 auto
     padding: 15px
+
+.mindmap-subnode-text
+  p,
+  a
+    color: $grey100
+    font-family: 'Raleway'
+    font-size: 20px
+    padding: 0 5px
+
+.mindmap-subnode-connection
+  fill: transparent
+  stroke-dasharray: 10px 4px
+  stroke-linecap: round
+  stroke-width: 3px
 
 .mindmap-connection
   fill: transparent

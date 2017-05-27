@@ -39,3 +39,27 @@ export const parseEmojis = html =>
 
     return emojiTemplate(`1${unicode}`);
   });
+
+/* Returns the dimensions that some html with a given style would take
+ * in the DOM.
+ */
+export const htmlDimensions = (html, style, classname) => {
+  const el = document.createElement('span');
+  const dimensions = {};
+
+  el.style.display = 'inline-block';
+  el.style.visibility = 'hidden';
+  el.className = classname;
+  el.innerHTML = html;
+
+  Object.keys(style).forEach((rule) => {
+    el.style[rule] = style[rule];
+  });
+  document.body.append(el);
+
+  dimensions.width = el.offsetWidth;
+  dimensions.height = el.offsetHeight;
+
+  el.remove();
+  return dimensions;
+};
