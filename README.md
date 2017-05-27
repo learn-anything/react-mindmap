@@ -99,7 +99,7 @@ The rendered map uses four css classes for styling:
 This component is still work in progress, so there's some features missing. The most
 critical features that we're working on are:
 
-- [ ] showing sub nodes
+- [x] showing sub nodes
 - [ ] showing notes
 - [x] adding the possibility to move around the map with pan and zoom
 
