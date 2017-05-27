@@ -17,10 +17,11 @@
   "repository": "learn-anything/react-mindmap",
   "scripts": {
     "lint": "eslint .; sass-lint sass/* -v",
-    "build": "webpack",
-    "test": "webpack; http-server -p 3000"
+    "build": "webpack -p",
+    "test": "webpack; http-server -p 3000 --cors -c-1"
   },
   "dependencies": {
+    "panzoom": "^2.5.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },

@@ -101,7 +101,7 @@ critical features that we're working on are:
 
 - [ ] showing sub nodes
 - [ ] showing notes
-- [ ] adding the possibility to move around the map with pan and zoom
+- [x] adding the possibility to move around the map with pan and zoom
 
 ## Contributing
 If you want a new feature added, you find bugs or you want to help making some changes,

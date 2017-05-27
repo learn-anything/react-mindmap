@@ -1,7 +1,11 @@
+/* eslint-disable class-methods-use-this */
 import { Component, PropTypes } from 'react';
+import panzoom from 'panzoom';
 
 import { getJSON, matchStyle, parseEmojis } from './utils';
 import '../sass/MindMap.sass';
+
+let panzoomInstance;
 
 export default class MindMap extends Component {
   constructor(props) {
@@ -63,6 +67,20 @@ export default class MindMap extends Component {
     });
   }
 
+  renderSubNodes() {
+    /* // Parameters for drawing subnode curve.
+   const d = [
+      'M',
+
+    ];
+
+    return (
+      <g>
+        <path className="mindmap-subnode" d={d.join(' ')} />
+      </g>
+    ); */
+  }
+
   renderNodes() {
     return this.state.nodes.map((node) => {
       // Find offset for centering nodes.
@@ -102,11 +120,19 @@ export default class MindMap extends Component {
     }
 
     return (
-      <svg viewBox={this.viewBox()} className="mindmap-svg">
-        <g>{this.renderConnections()}</g>
-        <g>{this.renderNodes()}</g>
+      <svg viewBox={this.viewBox()} className="mindmap-svg" draggable>
+        <g className="mindmap-svg-inner">
+          <g>{this.renderConnections()}</g>
+          <g>{this.renderSubNodes()}</g>
+          <g>{this.renderNodes()}</g>
+        </g>
       </svg>
     );
+  }
+
+  // Create panzoom instance for pan and zoom.
+  componentDidMount() {
+    panzoomInstance = panzoom(document.querySelector('.mindmap-svg-inner'));
   }
 
   componentDidUpdate(prevProps) {
@@ -116,6 +142,11 @@ export default class MindMap extends Component {
       || prevProps.connections !== this.props.connections) {
       this.setState({ fetched: false });
     }
+  }
+
+  // Destroy panzoom instance with all its listeners, to prevent memory leaking.
+  componentWillUnmount() {
+    panzoomInstance.dispose();
   }
 }
 
