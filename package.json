@@ -18,14 +18,18 @@
   "scripts": {
     "lint": "eslint .; sass-lint sass/* -v",
     "build": "webpack -p",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "webpack; http-server -p 3000 --cors -c-1"
   },
   "dependencies": {
-    "panzoom": "^2.5.0",
+    "panzoom": "^2.5.0"
+  },
+  "peerDependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",

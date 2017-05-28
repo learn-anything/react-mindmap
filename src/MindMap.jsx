@@ -1,5 +1,5 @@
 /* eslint-disable class-methods-use-this */
-import { Component, PropTypes } from 'react';
+import React, { Component, PropTypes } from 'react';
 import panzoom from 'panzoom';
 
 import { getJSON, matchStyle, parseEmojis, htmlDimensions } from './utils';
@@ -12,9 +12,9 @@ export default class MindMap extends Component {
     super(props);
 
     this.state = {
-      connections: [],
-      fetched: false,
-      nodes: [],
+      fetched: props.connections && props.nodes,
+      connections: props.connections || [],
+      nodes: props.nodes || [],
     };
   }
 
