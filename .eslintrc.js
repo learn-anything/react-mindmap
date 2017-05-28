@@ -9,7 +9,7 @@ module.exports = {
     ReactDOM: true,
   },
 
-  rules: { 'react/jsx-uses-vars': 'error' },
+  rules: { 'react/jsx-uses-vars': 'error', 'react/jsx-uses-react': 'error' },
 
   parserOptions: {
     ecmaFeatures: { jsx: true },
