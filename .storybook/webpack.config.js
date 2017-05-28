@@ -13,6 +13,6 @@ module.exports = {
         }
 
         return total.concat(item);
-      }, [])
-  }
+      }, []),
+  },
 };
