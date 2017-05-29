@@ -24,12 +24,19 @@ export const matchStyle = /style="([^"]*)"|style='([^']*)'/g;
 export const emojiTemplate = unicode =>
   `<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/unicode/${unicode}.png">`;
 
+export const customEmojiTemplate = emoji =>
+  `<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/${emoji}.png">`;
+
 /* Convert all emojis in an HTML string to GitHub images.
  * The bitwise magic is explained at:
  *    http://crocodillon.com/blog/parsing-emoji-unicode-in-javascript
  */
 export const parseEmojis = html =>
   html.replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, (match) => {
+    if (match === '🐙') {
+      return customEmojiTemplate('octocat');
+    }
+
     // Keep the first 10 bits.
     const lead = match.charCodeAt(0) & 0x3FF;
     const trail = match.charCodeAt(1) & 0x3FF;
