@@ -29,7 +29,7 @@ export default class MindMap extends Component {
 
   // Calculate SVG viewport dimensions from the nodes.
   viewBox() {
-    if (!this.state.fetched) {
+    if (!this.state.fetched || this.state.nodes.length === 0) {
       return '0 0 0 0';
     }
 
@@ -182,11 +182,19 @@ export default class MindMap extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    // If URL, nodes, or connections have changed, reload the map.
-    if (prevProps.url !== this.props.url
-      || prevProps.nodes !== this.props.nodes
-      || prevProps.connections !== this.props.connections) {
+    // If URL has changed, reload the map.
+    if (prevProps.url !== this.props.url) {
       this.setState({ fetched: false });
+    }
+
+    // If nodes or connections have changes update state and update map.
+    if (prevProps.nodes !== this.props.nodes
+      || prevProps.connections !== this.props.connections) {
+      this.setState({
+        fetched: true,
+        nodes: this.props.nodes,
+        connections: this.props.connections,
+      });
     }
   }
 
