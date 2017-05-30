@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/react-mindmap.png)](https://npmjs.org/package/react-mindmap)
+
 # React Mindmap
 A React component for [MindNode](https://mindnode.com/) maps.
 
