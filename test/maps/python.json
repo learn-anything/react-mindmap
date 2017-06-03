@@ -35,10 +35,94 @@
       },
       "note": null,
       "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "76E551D7-4FD7-470A-9436-3576512E6935",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\"; text-align: left;  '><a href=\"https://www.reddit.com/r/Python/\" rel=\"nofollow\">🤖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 176.083777747024,
+            "y": -665.1641376795345
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "6A7B5917-C131-4DF6-9AA6-26DCE2D57752",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/python/cpython\" rel=\"nofollow\">source </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/python/cpython\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop</p>"
+          },
+          "noteIndicatorColor": "rgba(90, 90, 90, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 176.083777747024,
+            "y": -625.1641376795345
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
       "location": {
-        "x": -78.9538141433419,
-        "y": -359.551969212374
+        "x": -13.916222252976013,
+        "y": -659.1641376795345
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -110,8 +194,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 181.23482368809937,
-            "y": -326.8226596238284
+            "x": 291.3247731601375,
+            "y": -546.2370078674815
           },
           "layoutStyle": "manual",
           "task": null
@@ -150,8 +234,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 181.23482368809937,
-            "y": -286.8226596238284
+            "x": 291.3247731601375,
+            "y": -506.23700786748157
           },
           "layoutStyle": "manual",
           "task": null
@@ -190,8 +274,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 181.23482368809937,
-            "y": -246.82265962382837
+            "x": 291.3247731601375,
+            "y": -466.23700786748157
           },
           "layoutStyle": "manual",
           "task": null
@@ -223,15 +307,15 @@
           "title": {
             "allowToShrinkWidth": true,
             "maxWidth": 300.0,
-            "text": "<p style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"http://pythontesting.net/framework/pytest/pytest-introduction/\" rel=\"nofollow\">python testing</a></p>",
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://pythontesting.net/framework/pytest/pytest-introduction/\" rel=\"nofollow\">python testing </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://pythontesting.net/framework/pytest/pytest-introduction/\" rel=\"nofollow\">📖</a></p>",
             "fontStyle": null
           },
           "note": null,
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 181.23482368809937,
-            "y": -212.82265962382837
+            "x": 291.3247731601375,
+            "y": -432.23700786748157
           },
           "layoutStyle": "manual",
           "task": null
@@ -270,8 +354,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 181.23482368809937,
-            "y": -178.82265962382837
+            "x": 291.3247731601375,
+            "y": -392.23700786748157
           },
           "layoutStyle": "manual",
           "task": null
@@ -310,8 +394,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 181.23482368809937,
-            "y": -144.82265962382837
+            "x": 291.3247731601375,
+            "y": -358.23700786748157
           },
           "layoutStyle": "manual",
           "task": null
@@ -350,16 +434,217 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 181.23482368809937,
-            "y": -110.82265962382837
+            "x": 291.3247731601375,
+            "y": -324.23700786748157
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "6BA894C3-9E01-4846-B654-2DCC2A055A6F",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(11, 145, 229, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://pgbovine.net/cpython-internals.htm\" rel=\"nofollow\">cpython internals </a><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://pgbovine.net/cpython-internals.htm\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -290.23700786748157
           },
           "layoutStyle": "manual",
           "task": null
         }
       ],
       "location": {
-        "x": 44.23482368809937,
-        "y": -233.32265962382837
+        "x": 154.3247731601375,
+        "y": -429.73700786748157
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "EE34088C-C054-452A-AC80-1C1EB6DCA901",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>articles</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "DA436116-1658-4BA2-82ED-2371A5206217",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/\" rel=\"nofollow\">16: the history behind the decision to move python to github </a><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 617.7839253819375,
+            "y": -245.0539283546699
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "2D1BC458-EFD6-43B6-BD41-BF09EC6E454A",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html\" rel=\"nofollow\">15: a modern python development toolchain </a><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 617.7839253819375,
+            "y": -183.0539283546699
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "A4B159F3-7E44-429E-999E-DC3B1519E997",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://realpython.com/blog/python/instance-class-and-static-methods-demystified/\" rel=\"nofollow\">17: python's instance, class, and static methods demystified </a><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://realpython.com/blog/python/instance-class-and-static-methods-demystified/\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 617.7839253819375,
+            "y": -121.05392835466989
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 455.7839253819375,
+        "y": -183.5539283546699
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -405,6 +690,46 @@
           "decreasingStrokeWidth": false,
           "foldedSubnodes": false,
           "isLeftAligned": false,
+          "id": "22BD929B-8339-4A00-B18D-ED4F6CD35ABF",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 71, 71, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://docs.python.org/3/tutorial/\" rel=\"nofollow\">1. the python tutorial</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 83.4768002282915,
+            "y": -96.57462866512333
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
           "id": "8F81A623-6364-48BA-BE60-229261936279",
           "pathStyle": {
             "lineType": "curved",
@@ -434,8 +759,8 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 98.99716853186294,
-            "y": -57.65080054012333
+            "x": 83.4768002282915,
+            "y": -62.57462866512333
           },
           "layoutStyle": "manual",
           "task": null
@@ -474,136 +799,16 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 98.99716853186294,
-            "y": -17.650800540123328
+            "x": 83.4768002282915,
+            "y": -22.574628665123328
           },
           "layoutStyle": "manual",
           "task": null
         }
       ],
       "location": {
-        "x": -83.00283146813706,
-        "y": -38.15080054012333
-      },
-      "layoutStyle": "defaultright",
-      "task": null
-    },
-    {
-      "allowNodeStrokeColorVariants": false,
-      "decreasingStrokeWidth": true,
-      "foldedSubnodes": false,
-      "isLeftAligned": false,
-      "id": "878FDF0F-7541-4EB3-BCB1-8C50F31A92D4",
-      "pathStyle": {
-        "lineType": "curved",
-        "strokeStyle": {
-          "color": "rgba(21, 122, 150, 1.0)",
-          "dash": null,
-          "width": 4.0
-        }
-      },
-      "shapeStyle": {
-        "fillColor": "rgba(255, 255, 255, 1.0)",
-        "shapeType": "roundedrect",
-        "borderStrokeStyle": {
-          "color": "rgba(246, 246, 246, 1.0)",
-          "dash": null,
-          "width": 2.0
-        }
-      },
-      "image": null,
-      "title": {
-        "allowToShrinkWidth": true,
-        "maxWidth": 300.0,
-        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\">package manager </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\">🌐</a></p>",
-        "fontStyle": null
-      },
-      "note": null,
-      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
-      "location": {
-        "x": -358.5508443068537,
-        "y": 52.344627627980685
-      },
-      "layoutStyle": "defaultright",
-      "task": null
-    },
-    {
-      "allowNodeStrokeColorVariants": false,
-      "decreasingStrokeWidth": true,
-      "foldedSubnodes": false,
-      "isLeftAligned": false,
-      "id": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
-      "pathStyle": {
-        "lineType": "curved",
-        "strokeStyle": {
-          "color": "rgba(21, 122, 150, 1.0)",
-          "dash": null,
-          "width": 4.0
-        }
-      },
-      "shapeStyle": {
-        "fillColor": "rgba(255, 255, 255, 1.0)",
-        "shapeType": "roundedrect",
-        "borderStrokeStyle": {
-          "color": "rgba(246, 246, 246, 1.0)",
-          "dash": null,
-          "width": 2.0
-        }
-      },
-      "image": null,
-      "title": {
-        "allowToShrinkWidth": true,
-        "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://pypi.python.org/pypi\" rel=\"nofollow\">python libraries</a></p>",
-        "fontStyle": null
-      },
-      "note": null,
-      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
-      "location": {
-        "x": -64.66699923959197,
-        "y": 100.14771605920942
-      },
-      "layoutStyle": "defaultright",
-      "task": null
-    },
-    {
-      "allowNodeStrokeColorVariants": false,
-      "decreasingStrokeWidth": true,
-      "foldedSubnodes": false,
-      "isLeftAligned": false,
-      "id": "29657F67-281D-4932-B129-72982866CB15",
-      "pathStyle": {
-        "lineType": "curved",
-        "strokeStyle": {
-          "color": "rgba(21, 122, 150, 1.0)",
-          "dash": null,
-          "width": 4.0
-        }
-      },
-      "shapeStyle": {
-        "fillColor": "rgba(255, 255, 255, 1.0)",
-        "shapeType": "roundedrect",
-        "borderStrokeStyle": {
-          "color": "rgba(246, 246, 246, 1.0)",
-          "dash": null,
-          "width": 2.0
-        }
-      },
-      "image": null,
-      "title": {
-        "allowToShrinkWidth": true,
-        "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>science</p>",
-        "fontStyle": null
-      },
-      "note": null,
-      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
-      "location": {
-        "x": 179.9623498181993,
-        "y": 104.00136439441087
+        "x": -98.5231997717085,
+        "y": -60.07462866512333
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -675,16 +880,179 @@
           "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
           "nodes": [],
           "location": {
-            "x": 473.92199491258657,
-            "y": 118.7677543962883
+            "x": 564.6801625262228,
+            "y": 60.93527925424269
           },
           "layoutStyle": "manual",
           "task": null
         }
       ],
       "location": {
-        "x": 328.92199491258657,
-        "y": 104.2677543962883
+        "x": 419.68016252622283,
+        "y": 46.43527925424269
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "878FDF0F-7541-4EB3-BCB1-8C50F31A92D4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\">package manager </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -337.9517168717888,
+        "y": 97.20308947863032
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://pypi.python.org/pypi\" rel=\"nofollow\">python libraries</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -65.19331502906573,
+        "y": 100.14771605920942
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "29657F67-281D-4932-B129-72982866CB15",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>science</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 178.43950717860548,
+        "y": 104.00136439441087
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "609A4EB4-4EFD-4C5E-B6EB-5E8AAC5BBDDC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"/id/XdTsAyz8g6prjTi38zZ3kGsM2zxK5BTmsFsqxpBX\" rel=\"nofollow\">numpy </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"/id/XdTsAyz8g6prjTi38zZ3kGsM2zxK5BTmsFsqxpBX\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>python package for scientific computing</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>contains</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>a powerful N-dimensional array object</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>sophisticated (broadcasting) functions</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>useful linear algebra, Fourier transform or random number capabilities</p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 396.16283312182736,
+        "y": 133.32875951776634
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -723,88 +1091,8 @@
       "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
       "nodes": [],
       "location": {
-        "x": -372.56107954545473,
-        "y": 147.30344460227263
-      },
-      "layoutStyle": "defaultright",
-      "task": null
-    },
-    {
-      "allowNodeStrokeColorVariants": false,
-      "decreasingStrokeWidth": true,
-      "foldedSubnodes": false,
-      "isLeftAligned": false,
-      "id": "685D9A2A-DED3-47EA-A8AC-AE630F179107",
-      "pathStyle": {
-        "lineType": "curved",
-        "strokeStyle": {
-          "color": "rgba(21, 122, 150, 1.0)",
-          "dash": null,
-          "width": 4.0
-        }
-      },
-      "shapeStyle": {
-        "fillColor": "rgba(255, 255, 255, 1.0)",
-        "shapeType": "roundedrect",
-        "borderStrokeStyle": {
-          "color": "rgba(246, 246, 246, 1.0)",
-          "dash": null,
-          "width": 2.0
-        }
-      },
-      "image": null,
-      "title": {
-        "allowToShrinkWidth": true,
-        "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://docs.pytest.org/en/latest/\" rel=\"nofollow\">py.test</a></p>",
-        "fontStyle": null
-      },
-      "note": null,
-      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
-      "location": {
-        "x": 432.5716732394312,
-        "y": 173.28402340796674
-      },
-      "layoutStyle": "defaultright",
-      "task": null
-    },
-    {
-      "allowNodeStrokeColorVariants": false,
-      "decreasingStrokeWidth": true,
-      "foldedSubnodes": false,
-      "isLeftAligned": false,
-      "id": "52A2D50B-92DD-4039-B054-0B37BD1AE2D2",
-      "pathStyle": {
-        "lineType": "curved",
-        "strokeStyle": {
-          "color": "rgba(21, 122, 150, 1.0)",
-          "dash": null,
-          "width": 4.0
-        }
-      },
-      "shapeStyle": {
-        "fillColor": "rgba(255, 255, 255, 1.0)",
-        "shapeType": "roundedrect",
-        "borderStrokeStyle": {
-          "color": "rgba(246, 246, 246, 1.0)",
-          "dash": null,
-          "width": 2.0
-        }
-      },
-      "image": null,
-      "title": {
-        "allowToShrinkWidth": true,
-        "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>testing</p>",
-        "fontStyle": null
-      },
-      "note": null,
-      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
-      "location": {
-        "x": 269.3020008579965,
-        "y": 218.81934351213806
+        "x": -351.96195349755226,
+        "y": 183.75684975958518
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -854,7 +1142,7 @@
       "decreasingStrokeWidth": true,
       "foldedSubnodes": false,
       "isLeftAligned": false,
-      "id": "449E2DA0-8C08-482B-B028-AE4C3407CE15",
+      "id": "685D9A2A-DED3-47EA-A8AC-AE630F179107",
       "pathStyle": {
         "lineType": "curved",
         "strokeStyle": {
@@ -876,15 +1164,15 @@
       "title": {
         "allowToShrinkWidth": true,
         "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.wikiwand.com/en/Doctest\" rel=\"nofollow\">doctest</a></p>",
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://docs.pytest.org/en/latest/\" rel=\"nofollow\">py.test</a></p>",
         "fontStyle": null
       },
       "note": null,
       "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
       "nodes": [],
       "location": {
-        "x": 435.6101611968011,
-        "y": 249.49618677939145
+        "x": 433.7790596030675,
+        "y": 235.28242539660323
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -894,7 +1182,7 @@
       "decreasingStrokeWidth": true,
       "foldedSubnodes": false,
       "isLeftAligned": false,
-      "id": "8084C1C9-57B3-4F5B-80C4-A08341086204",
+      "id": "52A2D50B-92DD-4039-B054-0B37BD1AE2D2",
       "pathStyle": {
         "lineType": "curved",
         "strokeStyle": {
@@ -916,15 +1204,15 @@
       "title": {
         "allowToShrinkWidth": true,
         "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://hackernoon.com/asynchronous-python-45df84b82434\" rel=\"nofollow\">async</a></p>",
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>testing</p>",
         "fontStyle": null
       },
       "note": null,
       "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
       "nodes": [],
       "location": {
-        "x": 106.93879087057917,
-        "y": 266.96240782185953
+        "x": 264.7853992954965,
+        "y": 240.51456723372905
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -974,6 +1262,126 @@
       "decreasingStrokeWidth": true,
       "foldedSubnodes": false,
       "isLeftAligned": false,
+      "id": "8084C1C9-57B3-4F5B-80C4-A08341086204",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://hackernoon.com/asynchronous-python-45df84b82434\" rel=\"nofollow\">async</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 54.607376396895006,
+        "y": 317.85262163764935
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "449E2DA0-8C08-482B-B028-AE4C3407CE15",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.wikiwand.com/en/Doctest\" rel=\"nofollow\">doctest</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 425.46583955295955,
+        "y": 320.5502596511585
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "C553C902-6123-49E7-B92C-F5372BEEC1A4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>database</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 221.65412554824547,
+        "y": 336.0783915082841
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
       "id": "D0E346A2-08E5-40F1-AB69-AA1760CF5387",
       "pathStyle": {
         "lineType": "curved",
@@ -1005,86 +1413,6 @@
       "location": {
         "x": -244.70441055297852,
         "y": 348.2120666503906
-      },
-      "layoutStyle": "defaultright",
-      "task": null
-    },
-    {
-      "allowNodeStrokeColorVariants": false,
-      "decreasingStrokeWidth": true,
-      "foldedSubnodes": false,
-      "isLeftAligned": false,
-      "id": "005E0809-9F51-4FF5-9AEF-68F6F9D98827",
-      "pathStyle": {
-        "lineType": "curved",
-        "strokeStyle": {
-          "color": "rgba(21, 122, 150, 1.0)",
-          "dash": null,
-          "width": 4.0
-        }
-      },
-      "shapeStyle": {
-        "fillColor": "rgba(255, 255, 255, 1.0)",
-        "shapeType": "roundedrect",
-        "borderStrokeStyle": {
-          "color": "rgba(246, 246, 246, 1.0)",
-          "dash": null,
-          "width": 2.0
-        }
-      },
-      "image": null,
-      "title": {
-        "allowToShrinkWidth": true,
-        "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.tornadoweb.org/en/stable/\" rel=\"nofollow\">tornado</a></p>",
-        "fontStyle": null
-      },
-      "note": null,
-      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
-      "location": {
-        "x": 44.32029954766563,
-        "y": 377.51366993033605
-      },
-      "layoutStyle": "defaultright",
-      "task": null
-    },
-    {
-      "allowNodeStrokeColorVariants": false,
-      "decreasingStrokeWidth": true,
-      "foldedSubnodes": false,
-      "isLeftAligned": false,
-      "id": "5137FCB9-9839-4870-91CC-96839BAE498A",
-      "pathStyle": {
-        "lineType": "curved",
-        "strokeStyle": {
-          "color": "rgba(21, 122, 150, 1.0)",
-          "dash": null,
-          "width": 4.0
-        }
-      },
-      "shapeStyle": {
-        "fillColor": "rgba(255, 255, 255, 1.0)",
-        "shapeType": "roundedrect",
-        "borderStrokeStyle": {
-          "color": "rgba(246, 246, 246, 1.0)",
-          "dash": null,
-          "width": 2.0
-        }
-      },
-      "image": null,
-      "title": {
-        "allowToShrinkWidth": true,
-        "maxWidth": 300.0,
-        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.gevent.org/\" rel=\"nofollow\">gevent</a></p>",
-        "fontStyle": null
-      },
-      "note": null,
-      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
-      "nodes": [],
-      "location": {
-        "x": 188.79459635416652,
-        "y": 385.85611979166674
       },
       "layoutStyle": "defaultright",
       "task": null
@@ -1128,6 +1456,167 @@
       },
       "layoutStyle": "defaultright",
       "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "005E0809-9F51-4FF5-9AEF-68F6F9D98827",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.tornadoweb.org/en/stable/\" rel=\"nofollow\">tornado</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -8.011114926018536,
+        "y": 428.40388374612587
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "5137FCB9-9839-4870-91CC-96839BAE498A",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"http://www.gevent.org/\" rel=\"nofollow\">gevent</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 136.46318188048235,
+        "y": 436.74633360745656
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "B1451A93-433E-4335-B3B0-FCEBEF63F038",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/dahlia/awesome-sqlalchemy\" rel=\"nofollow\">SQLAlchemy </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/dahlia/awesome-sqlalchemy\" rel=\"nofollow\">🐙</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "D7D772D3-06C5-40D5-BC48-5802099304B9",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/dahlia/awesome-sqlalchemy\" rel=\"nofollow\">awesome SQLAlachemy </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/dahlia/awesome-sqlalchemy\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 552.0389397905763,
+            "y": 450.0298592931938
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 307.03893979057625,
+        "y": 436.0298592931938
+      },
+      "layoutStyle": "defaultright",
+      "task": null
     }
   ],
   "connections": [
@@ -1165,8 +1654,8 @@
         }
       },
       "wayPointOffset": {
-        "x": -3.27452,
-        "y": 160.701
+        "x": -43.5535,
+        "y": 299.545
       }
     },
     {
@@ -1203,8 +1692,8 @@
         }
       },
       "wayPointOffset": {
-        "x": -55.5944,
-        "y": -63.1146
+        "x": -78.1206,
+        "y": -114.714
       }
     },
     {
@@ -1241,8 +1730,8 @@
         }
       },
       "wayPointOffset": {
-        "x": 28.9179,
-        "y": 69.1492
+        "x": 36.4149,
+        "y": 80.1111
       }
     },
     {
@@ -1279,8 +1768,8 @@
         }
       },
       "wayPointOffset": {
-        "x": -117.774,
-        "y": 45.2477
+        "x": -99.7138,
+        "y": 78.6388
       }
     },
     {
@@ -1318,7 +1807,7 @@
       },
       "wayPointOffset": {
         "x": -41.0051,
-        "y": 47.4794
+        "y": 43.2769
       }
     },
     {
@@ -1355,7 +1844,7 @@
         }
       },
       "wayPointOffset": {
-        "x": 105.315,
+        "x": 104.817,
         "y": 1.92682
       }
     },
@@ -1393,8 +1882,8 @@
         }
       },
       "wayPointOffset": {
-        "x": 68.9798,
-        "y": 0.133195
+        "x": 115.12,
+        "y": -28.783
       }
     },
     {
@@ -1431,8 +1920,8 @@
         }
       },
       "wayPointOffset": {
-        "x": 147.985,
-        "y": 59.3358
+        "x": 145.99,
+        "y": 70.1834
       }
     },
     {
@@ -1469,8 +1958,8 @@
         }
       },
       "wayPointOffset": {
-        "x": 85.1541,
-        "y": 15.3384
+        "x": 82.3403,
+        "y": 40.0178
       }
     },
     {
@@ -1507,8 +1996,8 @@
         }
       },
       "wayPointOffset": {
-        "x": 81.3849,
-        "y": -22.7677
+        "x": 84.2469,
+        "y": -2.61611
       }
     },
     {
@@ -1545,7 +2034,7 @@
         }
       },
       "wayPointOffset": {
-        "x": -41.9197,
+        "x": -41.6565,
         "y": 65.9491
       }
     },
@@ -1697,8 +2186,8 @@
         }
       },
       "wayPointOffset": {
-        "x": 64.8029,
-        "y": 83.4073
+        "x": 38.9004,
+        "y": 108.852
       }
     },
     {
@@ -1775,6 +2264,158 @@
       "wayPointOffset": {
         "x": 42.9279,
         "y": 59.4469
+      }
+    },
+    {
+      "endNodeID": "2FD35288-FA36-416B-972D-8CBF0C8825D9",
+      "startNodeID": "EE34088C-C054-452A-AC80-1C1EB6DCA901",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -238.287,
+        "y": -54.4818
+      }
+    },
+    {
+      "endNodeID": "C553C902-6123-49E7-B92C-F5372BEEC1A4",
+      "startNodeID": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 130.424,
+        "y": 117.965
+      }
+    },
+    {
+      "endNodeID": "B1451A93-433E-4335-B3B0-FCEBEF63F038",
+      "startNodeID": "C553C902-6123-49E7-B92C-F5372BEEC1A4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 58.1924,
+        "y": 51.2257
+      }
+    },
+    {
+      "endNodeID": "609A4EB4-4EFD-4C5E-B6EB-5E8AAC5BBDDC",
+      "startNodeID": "29657F67-281D-4932-B129-72982866CB15",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 107.112,
+        "y": 14.6637
       }
     }
   ],

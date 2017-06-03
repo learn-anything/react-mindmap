@@ -1,1 +1,2204 @@
-!function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t(require("react")):"function"==typeof define&&define.amd?define(["react"],t):"object"==typeof exports?exports.MindMap=t(require("react")):e.MindMap=t(e.React)}(this,function(e){return function(e){function t(o){if(n[o])return n[o].exports;var r=n[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,t),r.l=!0,r.exports}var n={};return t.m=e,t.c=n,t.i=function(e){return e},t.d=function(e,n,o){t.o(e,n)||Object.defineProperty(e,n,{configurable:!1,enumerable:!0,get:o})},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},t.p="",t(t.s=4)}([function(e,t,n){"use strict";function o(e){return e&&e.__esModule?e:{default:e}}function r(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function i(e,t){if(!e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!t||"object"!=typeof t&&"function"!=typeof t?e:t}function a(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function, not "+typeof t);e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,enumerable:!1,writable:!0,configurable:!0}}),t&&(Object.setPrototypeOf?Object.setPrototypeOf(e,t):e.__proto__=t)}Object.defineProperty(t,"__esModule",{value:!0});var c=function(){function e(e,t){for(var n=0;n<t.length;n++){var o=t[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(e,o.key,o)}}return function(t,n,o){return n&&e(t.prototype,n),o&&e(t,o),t}}(),u=n(17),s=o(u),l=n(6),f=o(l),d=n(5);n(16);var p=void 0,m=function(e){function t(e){r(this,t);var n=i(this,(t.__proto__||Object.getPrototypeOf(t)).call(this,e));return n.state={fetched:e.connections&&e.nodes,connections:e.connections||[],nodes:e.nodes||[]},n}return a(t,e),c(t,[{key:"fetchMap",value:function(){var e=this;(0,d.getJSON)(this.props.url,function(t){return e.setState({connections:t.connections,nodes:t.nodes,fetched:!0})})}},{key:"viewBox",value:function(){if(!this.state.fetched||0===this.state.nodes.length)return"0 0 0 0";var e=[],t=[];this.state.nodes.forEach(function(t){t.nodes.forEach(function(t){return e.push(t.location.x)}),e.push(t.location.x)}),this.state.nodes.forEach(function(e){e.nodes.forEach(function(e){return t.push(e.location.y)}),t.push(e.location.y)});var n=Math.round(Math.min.apply(Math,e)-150),o=Math.round(Math.min.apply(Math,t)-150);return n+" "+o+" "+(Math.round(Math.max.apply(Math,e)-n)+150)+" "+(Math.round(Math.max.apply(Math,t)-o)+150)}},{key:"renderConnections",value:function(){var e={};return this.state.nodes.forEach(function(t){e[t.id]=t}),this.state.connections.map(function(t){var n=["M",e[t.startNodeID].location.x,e[t.startNodeID].location.y,"Q",e[t.startNodeID].location.x+t.wayPointOffset.x,e[t.startNodeID].location.y+t.wayPointOffset.y,",",e[t.endNodeID].location.x,e[t.endNodeID].location.y];return s.default.createElement("path",{className:"mindmap-connection",d:n.join(" ")})})}},{key:"renderSubNodes",value:function(){var e=[];return this.state.nodes.forEach(function(t){t.nodes.forEach(function(n){var o=(0,d.parseEmojis)(n.title.text.replace(d.matchStyle,"")),r=(0,d.htmlDimensions)(o,{maxWidth:n.title.maxWidth},"mindmap-subnode-text"),i=n.location.x,a=n.location.y-r.height/2,c=["M",t.location.x,t.location.y,"C",t.location.x+(n.location.x-t.location.x)/2,t.location.y,",",t.location.x+(n.location.x-t.location.x)/2,n.location.y,",",n.location.x,n.location.y];e.push(s.default.createElement("g",{className:"mindmap-subnode"},s.default.createElement("path",{className:"mindmap-subnode-connection",stroke:n.shapeStyle.borderStrokeStyle.color,d:c.join(" ")}),s.default.createElement("foreignObject",{className:"mindmap-subnode-text",dangerouslySetInnerHTML:{__html:o},transform:"translate("+i+", "+a+")",width:n.title.maxWidth,height:r.height+4})))})}),e}},{key:"renderNodes",value:function(){return this.state.nodes.map(function(e){var t=(0,d.parseEmojis)(e.title.text.replace(d.matchStyle,"")),n=(0,d.htmlDimensions)(t,{maxWidth:e.title.maxWidth},"mindmap-node"),o=e.location.x-e.title.maxWidth/2,r=e.location.y-n.height/2;return s.default.createElement("foreignObject",{className:"mindmap-node",dangerouslySetInnerHTML:{__html:t},transform:"translate("+o+", "+r+")",width:e.title.maxWidth,height:n.height+4})})}},{key:"render",value:function(){return this.props.url&&!this.state.fetched&&this.fetchMap(),s.default.createElement("svg",{viewBox:this.viewBox(),className:"mindmap-svg",draggable:!0},s.default.createElement("g",{className:"mindmap-svg-inner"},s.default.createElement("g",null,this.renderConnections()),s.default.createElement("g",null,this.renderSubNodes()),s.default.createElement("g",null,this.renderNodes())))}},{key:"componentDidMount",value:function(){p=(0,f.default)(document.querySelector(".mindmap-svg-inner"))}},{key:"componentDidUpdate",value:function(e){e.url!==this.props.url&&this.setState({fetched:!1}),e.nodes===this.props.nodes&&e.connections===this.props.connections||this.setState({fetched:!0,nodes:this.props.nodes,connections:this.props.connections})}},{key:"componentWillUnmount",value:function(){p.dispose()}}]),t}(u.Component);t.default=m,m.propTypes={url:u.PropTypes.string,nodes:u.PropTypes.array,connections:u.PropTypes.array}},function(e,t,n){"use strict";function o(e,t,n){function o(){m.cancel(v),v=0}function a(){var t=f(g/b);g+=1,c(t),g<=b?(v=m.next(a),d(e)):(v=0,setTimeout(function(){p(e)},0))}function c(t){h.forEach(function(n){e[n]=l[n]*t+u[n]})}var u=Object.create(null),l=Object.create(null);n=n||{};var f="function"==typeof n.easing?n.easing:s[n.easing];f||(n.easing&&console.warn("Unknown easing function in amator: "+n.easing),f=s.ease);var d="function"==typeof n.step?n.step:r,p="function"==typeof n.done?n.done:r,m=i(n.scheduler),h=Object.keys(t);h.forEach(function(n){u[n]=e[n],l[n]=t[n]-e[n]});var v,y=n.duration||400,b=Math.max(1,.06*y),g=0;return v=m.next(a),{cancel:o}}function r(){}function i(e){if(!e){return"undefined"!=typeof window&&window.requestAnimationFrame?a():c()}if("function"!=typeof e.next)throw new Error("Scheduler is supposed to have next(cb) function");if("function"!=typeof e.cancel)throw new Error("Scheduler is supposed to have cancel(handle) function");return e}function a(){return{next:window.requestAnimationFrame.bind(window),cancel:window.cancelAnimationFrame.bind(window)}}function c(){return{next:function(e){return setTimeout(e,1e3/60)},cancel:function(e){return clearTimeout(e)}}}var u=n(2),s={ease:u(.25,.1,.25,1),easeIn:u(.42,0,1,1),easeOut:u(0,0,.58,1),easeInOut:u(.42,0,.58,1),linear:u(0,0,1,1)};e.exports=o},function(e,t,n){"use strict";function o(e,t){return 1-3*t+3*e}function r(e,t){return 3*t-6*e}function i(e){return 3*e}function a(e,t,n){return((o(t,n)*e+r(t,n))*e+i(t))*e}function c(e,t,n){return 3*o(t,n)*e*e+2*r(t,n)*e+i(t)}function u(e,t,n,o,r){var i,c,u=0;do{c=t+(n-t)/2,i=a(c,o,r)-e,i>0?n=c:t=c}while(Math.abs(i)>f&&++u<d);return c}function s(e,t,n,o){for(var r=0;r<l;++r){var i=c(t,n,o);if(0===i)return t;t-=(a(t,n,o)-e)/i}return t}var l=4,f=1e-7,d=10,p=11,m=1/(p-1),h="function"==typeof Float32Array;e.exports=function(e,t,n,o){function r(t){for(var o=0,r=1,a=p-1;r!==a&&i[r]<=t;++r)o+=m;--r;var l=(t-i[r])/(i[r+1]-i[r]),f=o+l*m,d=c(f,e,n);return d>=.001?s(t,f,e,n):0===d?f:u(t,o,o+m,e,n)}if(!(0<=e&&e<=1&&0<=n&&n<=1))throw new Error("bezier x values must be in [0, 1] range");var i=h?new Float32Array(p):new Array(p);if(e!==t||n!==o)for(var l=0;l<p;++l)i[l]=a(l*m,e,n);return function(i){return e===t&&n===o?i:0===i?0:1===i?1:a(r(i),t,o)}}},function(e,t,n){"use strict";function o(e,t){var n=e[1]||"",o=e[3];if(!o)return n;if(t&&"function"==typeof btoa){var i=r(o);return[n].concat(o.sources.map(function(e){return"/*# sourceURL="+o.sourceRoot+e+" */"})).concat([i]).join("\n")}return[n].join("\n")}function r(e){return"/*# sourceMappingURL=data:application/json;charset=utf-8;base64,"+btoa(unescape(encodeURIComponent(JSON.stringify(e))))+" */"}e.exports=function(e){var t=[];return t.toString=function(){return this.map(function(t){var n=o(t,e);return t[2]?"@media "+t[2]+"{"+n+"}":n}).join("")},t.i=function(e,n){"string"==typeof e&&(e=[[null,e,""]]);for(var o={},r=0;r<this.length;r++){var i=this[r][0];"number"==typeof i&&(o[i]=!0)}for(r=0;r<e.length;r++){var a=e[r];"number"==typeof a[0]&&o[a[0]]||(n&&!a[2]?a[2]=n:n&&(a[2]="("+a[2]+") and ("+n+")"),t.push(a))}},t}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var o=n(0),r=function(e){return e&&e.__esModule?e:{default:e}}(o);t.default=r.default},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var o=(t.getJSON=function(e,t){var n=new XMLHttpRequest;n.open("GET",e,!0),n.onreadystatechange=function(){n.readyState===XMLHttpRequest.DONE&&"function"==typeof t&&t(JSON.parse(n.responseText))},n.send()},t.matchStyle=/style="([^"]*)"|style='([^']*)'/g,t.emojiTemplate=function(e){return'<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/unicode/'+e+'.png">'}),r=t.customEmojiTemplate=function(e){return'<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/'+e+'.png">'};t.parseEmojis=function(e){return e.replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g,function(e){if("🐙"===e)return r("octocat");var t=1023&e.charCodeAt(0),n=1023&e.charCodeAt(1),i=((t<<10)+n).toString(16);return o("1"+i)})},t.htmlDimensions=function(e,t,n){var o=document.createElement("span"),r={};return o.style.display="inline-block",o.style.visibility="hidden",o.className=n,o.innerHTML=e,Object.keys(t).forEach(function(e){o.style[e]=t[e]}),document.body.append(o),r.width=o.offsetWidth,r.height=o.offsetHeight,o.remove(),r}},function(e,t,n){"use strict";function o(e,t){function n(){return te}function o(){return{x:te.x,y:te.y}}function a(e,t){te.x=e,te.y=t,g(),Q("pan"),M()}function u(e,t){a(te.x+e,te.y+t)}function g(){var e=w();if(e){var t=!1,n=x(),o=e.left-n.right;return o>0&&(te.x+=o,t=!0),o=e.right-n.left,o<0&&(te.x+=o,t=!0),o=e.top-n.bottom,o>0&&(te.y+=o,t=!0),o=e.bottom-n.top,o<0&&(te.y+=o,t=!0),t}}function w(){if(ae){if("boolean"==typeof ae){var e=oe.clientWidth,t=oe.clientHeight;return{left:e*he,top:t*he,right:e*(1-he),bottom:t*(1-he)}}return ae}}function x(){var t=e.getBBox(),n=E(t.x,t.y);return{left:n.x,top:n.y,right:t.width*te.scale+n.x,bottom:t.height*te.scale+n.y}}function E(e,t){return{x:e*te.scale+te.x,y:t*te.scale+te.y}}function M(){ee=!0,ne=window.requestAnimationFrame(N)}function S(e,t,n){if(c(e)||c(t)||c(n))throw new Error("zoom requires valid numbers");var o=te.scale*n;if(!(o>pe||o<me)){var r=oe.getScreenCTM(),i=e*r.a-r.e,a=t*r.a-r.f;te.x=i-n*(i-te.x),te.y=a-n*(a-te.y);g()||(te.scale*=n),Q("zoom"),M()}}function j(e,t,n){S(e,t,n/te.scale)}function O(e){var t=e.ownerSVGElement;if(!t)throw new Error("ui element is required to be within the scene");var n=e.getBoundingClientRect(),o=n.left+n.width/2,r=n.top+n.height/2,i=t.getBoundingClientRect();k(i.width/2-o,i.height/2-r,!0)}function k(e,t,n){if(!n)return u(e,t);le&&le.cancel();var o={x:0,y:0},r={x:e,y:t},i=0,a=0;le=l(o,r,{step:function(e){u(e.x-i,e.y-a),i=e.x,a=e.y}})}function L(e,t){H(),a(e,t)}function D(){s.removeWheelListener(e,q),oe.removeEventListener("mousedown",F),oe.removeEventListener("keydown",P),oe.removeEventListener("dblclick",X),ne&&(window.cancelAnimationFrame(ne),ne=0),we.cancel(),z(),W(),$()}function N(){ee&&C()}function C(){ee=!1,e.setAttribute("transform","matrix("+te.scale+" 0 0 "+te.scale+" "+te.x+" "+te.y+")"),ne=0}function P(e){var t=0,n=0,o=0;if(38===e.keyCode?n=1:40===e.keyCode?n=-1:37===e.keyCode?t=1:39===e.keyCode?t=-1:189===e.keyCode||109===e.keyCode?o=1:187!==e.keyCode&&107!==e.keyCode||(o=-1),t||n){e.preventDefault(),e.stopPropagation();var r=oe.getBoundingClientRect(),i=Math.min(r.width,r.height);k(.05*i*t,.05*i*n)}if(o){var a=J(o);G(oe.clientWidth/2,oe.clientHeight/2,a)}}function I(e){if(1===e.touches.length)return T(e,e.touches[0]);2===e.touches.length&&(e.stopPropagation(),e.preventDefault(),se=_(e.touches[0],e.touches[1]),de=!0,A())}function T(e){e.stopPropagation(),e.preventDefault();var t=e.touches[0];ce=t.clientX,ue=t.clientY,A()}function A(){be||(be=!0,document.addEventListener("touchmove",R),document.addEventListener("touchend",U),document.addEventListener("touchcancel",U))}function R(e){if(1===e.touches.length){e.stopPropagation();var t=e.touches[0],n=t.clientX-ce,o=t.clientY-ue;0!==n&&0!==o&&Z(),ce=t.clientX,ue=t.clientY,k(n,o)}else if(2===e.touches.length){de=!0;var r=e.touches[0],i=e.touches[1],a=_(r,i),c=0;a<se?c=1:a>se&&(c=-1);var u=J(c);ce=(r.clientX+i.clientX)/2,ue=(r.clientY+i.clientY)/2,G(ce,ue,u),se=a,e.stopPropagation(),e.preventDefault()}}function U(e){if(e.touches.length>0)ce=e.touches[0].clientX,ue=e.touches[0].clientY;else{var t=new Date;t-ye<b&&V(ce,ue,ve),ye=t,be=!1,$(),W()}}function _(e,t){return(e.clientX-t.clientX)*(e.clientX-t.clientX)+(e.clientY-t.clientY)*(e.clientY-t.clientY)}function X(e){V(e.clientX,e.clientY,ve),e.preventDefault(),e.stopPropagation()}function F(e){return be?(e.stopPropagation(),!1):1===e.button&&null!==window.event||0===e.button?(ce=e.clientX,ue=e.clientY,document.addEventListener("mousemove",Y),document.addEventListener("mouseup",B),p.capture(e.target||e.srcElement),!1):void 0}function Y(e){if(!be){Z();var t=e.clientX-ce,n=e.clientY-ue;ce=e.clientX,ue=e.clientY,k(t,n)}}function B(){p.release(),$(),z()}function z(){document.removeEventListener("mousemove",Y),document.removeEventListener("mouseup",B),ge=!1}function W(){document.removeEventListener("touchmove",R),document.removeEventListener("touchend",U),document.removeEventListener("touchcancel",U),ge=!1,de=!1}function q(e){if(!re(e)){we.cancel();var t=J(e.deltaY);1!==t&&(G(e.clientX,e.clientY,t),e.preventDefault())}}function V(t,n,o){var r=m(e),i=r.matrix.a,a={scale:i},c={scale:o*i};we.cancel(),H(),Q("zoom"),fe=l(a,c,{step:function(e){j(t,n,e.scale)}})}function G(e,t,n){return we.cancel(),H(),S(e,t,n)}function H(){fe&&(fe.cancel(),fe=null)}function J(e){var t=1;return e>0?t=1-ie:e<0&&(t=1+ie),t}function Z(){ge||(Q("panstart"),ge=!0,we.start())}function $(){ge&&(de||we.stop(),Q("panend"))}function Q(t){var n=d(t);e.dispatchEvent(n)}var K=e instanceof SVGElement,ee=!1,te=new h;if(!K)throw new Error("svg element is required for svg.panzoom to work");var ne,oe=e.ownerSVGElement;if(!oe)throw new Error("Do not apply panzoom to the root <svg> element. Use its child instead (e.g. <g></g>). As of March 2016 only FireFox supported transform on the root element");oe.setAttribute("tabindex",1),t=t||{};var re=t.beforeWheel||r,ie="number"==typeof t.zoomSpeed?t.zoomSpeed:v,ae=t.bounds;i(ae);var ce,ue,se,le,fe,de,pe="number"==typeof t.maxZoom?t.maxZoom:Number.POSITIVE_INFINITY,me="number"==typeof t.minZoom?t.minZoom:0,he="number"==typeof t.boundsPaddding?t.boundsPaddding:.05,ve="number"==typeof t.zoomDoubleClickSpeed?t.zoomDoubleClickSpeed:y,ye=0,be=!1,ge=!1,we=f(o,L);return function(){oe.addEventListener("mousedown",F),oe.addEventListener("dblclick",X),oe.addEventListener("touchstart",I),oe.addEventListener("keydown",P),s.addWheelListener(oe,q),M()}(),{dispose:D,moveBy:k,moveTo:a,centerOn:O,zoomTo:G,zoomAbs:j,getTransform:n}}function r(){}function i(e){var t=void 0===e?"undefined":u(e);if("undefined"!==t&&"boolean"!==t){if(!(a(e.left)&&a(e.top)&&a(e.bottom)&&a(e.right)))throw new Error("Bounds object is not valid. It can be: undefined, boolean (true|false) or an object {left, top, right, bottom}")}}function a(e){return Number.isFinite(e)}function c(e){return Number.isNaN?Number.isNaN(e):e!==e}var u="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},s=n(13),l=n(1),f=n(9),d=n(7),p=n(10)(),m=n(8),h=n(11),v=.065,y=1.75,b=300;e.exports=o},function(e,t,n){"use strict";function o(e){if(r){var t=document.createEvent("CustomEvent");return t.initCustomEvent(e,!0,!0,void 0),t}return new Event(e,{bubbles:!0})}e.exports=o;var r="function"!=typeof Event},function(e,t,n){"use strict";function o(e){var t=e.transform.baseVal;if(t.numberOfItems)return t.getItem(0);var n=e.ownerSVGElement||e,o=n.createSVGTransform();return e.transform.baseVal.appendItem(o),o}e.exports=o},function(e,t,n){"use strict";function o(e,t){function n(){window.clearInterval(f),window.cancelAnimationFrame(b)}function o(){s=e(),m=y=d=h=0,l=new Date,window.clearInterval(f),window.cancelAnimationFrame(b),f=window.setInterval(a,100)}function a(){var t=Date.now(),n=t-l;l=t;var o=e(),r=o.x-s.x,i=o.y-s.y;s=o;var a=1e3/(1+n);d=.8*r*a+.2*d,h=.8*i*a+.2*h}function c(){window.clearInterval(f),window.cancelAnimationFrame(b);var t=e();p=t.x,v=t.y,l=Date.now(),(d<-r||d>r)&&(m=i*d,p+=m),(h<-r||h>r)&&(y=i*h,v+=y),b=window.requestAnimationFrame(u)}function u(){var e=Date.now()-l,n=!1,o=0,r=0;m&&(o=-m*Math.exp(-e/g),o>.5||o<-.5?n=!0:o=m=0),y&&(r=-y*Math.exp(-e/g),r>.5||r<-.5?n=!0:r=y=0),n&&(t(p+o,v+r),b=window.requestAnimationFrame(u))}var s,l,f,d,p,m,h,v,y,b,g=342;return{start:o,stop:c,cancel:n}}e.exports=o;var r=10,i=.42},function(e,t,n){"use strict";function o(){function e(e){o=window.document.onselectstart,i=window.document.ondragstart,window.document.onselectstart=r,n=e,n.ondragstart=r}function t(){window.document.onselectstart=o,n&&(n.ondragstart=i)}var n,o,i;return{capture:e,release:t}}function r(e){return e.stopPropagation(),!1}e.exports=o},function(e,t,n){"use strict";function o(){this.x=0,this.y=0,this.scale=1}e.exports=o},function(e,t,n){"use strict";e.exports=function(e){var t="undefined"!=typeof window&&window.location;if(!t)throw new Error("fixUrls requires window.location");if(!e||"string"!=typeof e)return e;var n=t.protocol+"//"+t.host,o=n+t.pathname.replace(/\/[^\/]*$/,"/");return e.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi,function(e,t){var r=t.trim().replace(/^"(.*)"$/,function(e,t){return t}).replace(/^'(.*)'$/,function(e,t){return t});if(/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/)/i.test(r))return e;var i;return i=0===r.indexOf("//")?r:0===r.indexOf("/")?n+r:o+r.replace(/^\.\//,""),"url("+JSON.stringify(i)+")"})}},function(e,t,n){"use strict";function o(e,t,n){i(e,s,t,n),"DOMMouseScroll"==s&&i(e,"MozMousePixelScroll",t,n)}function r(e,t,n){a(e,s,t,n),"DOMMouseScroll"==s&&a(e,"MozMousePixelScroll",t,n)}function i(e,t,n,o){e[c](l+t,"wheel"==s?n:function(e){!e&&(e=window.event);var t={originalEvent:e,target:e.target||e.srcElement,type:"wheel",deltaMode:"MozMousePixelScroll"==e.type?0:1,deltaX:0,delatZ:0,clientX:e.clientX,clientY:e.clientY,preventDefault:function(){e.preventDefault?e.preventDefault():e.returnValue=!1},stopPropagation:function(){e.stopPropagation&&e.stopPropagation()},stopImmediatePropagation:function(){e.stopImmediatePropagation&&e.stopImmediatePropagation()}};return"mousewheel"==s?(t.deltaY=-.025*e.wheelDelta,e.wheelDeltaX&&(t.deltaX=-.025*e.wheelDeltaX)):t.deltaY=e.detail,n(t)},o||!1)}function a(e,t,n,o){e[u](l+t,n,o||!1)}e.exports=o,e.exports.addWheelListener=o,e.exports.removeWheelListener=r;var c,u,s,l="";!function(e,t){e&&e.addEventListener?(c="addEventListener",u="removeEventListener"):(c="attachEvent",u="detachEvent",l="on"),s=t?"onwheel"in t.createElement("div")?"wheel":void 0!==t.onmousewheel?"mousewheel":"DOMMouseScroll":"wheel"}("undefined"!=typeof window&&window,"undefined"!=typeof document&&document)},function(e,t,n){t=e.exports=n(3)(void 0),t.push([e.i,".mindmap-svg{height:100%;width:100%}.mindmap-svg:focus{outline:none}.mindmap-node{text-align:center}.mindmap-node>p{background:#f5f5f5;border-radius:10px;box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);display:inline-block;font-family:Raleway;font-size:22px;margin:0 auto;padding:15px}.mindmap-subnode-text a,.mindmap-subnode-text p{color:#f5f5f5;font-family:Raleway;font-size:16px;padding:0 5px}.mindmap-subnode-connection{fill:transparent;stroke-dasharray:10px 4px;stroke-linecap:round;stroke-width:3px}.mindmap-connection{fill:transparent;stroke:#9e9e9e;stroke-dasharray:10px 4px;stroke-width:3px}.mindmap-emoji{height:24px;vertical-align:bottom;width:24px}",""])},function(e,t,n){function o(e,t){for(var n=0;n<e.length;n++){var o=e[n],r=m[o.id];if(r){r.refs++;for(var i=0;i<r.parts.length;i++)r.parts[i](o.parts[i]);for(;i<o.parts.length;i++)r.parts.push(l(o.parts[i],t))}else{for(var a=[],i=0;i<o.parts.length;i++)a.push(l(o.parts[i],t));m[o.id]={id:o.id,refs:1,parts:a}}}}function r(e,t){for(var n=[],o={},r=0;r<e.length;r++){var i=e[r],a=t.base?i[0]+t.base:i[0],c=i[1],u=i[2],s=i[3],l={css:c,media:u,sourceMap:s};o[a]?o[a].parts.push(l):n.push(o[a]={id:a,parts:[l]})}return n}function i(e,t){var n=v(e.insertInto);if(!n)throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");var o=g[g.length-1];if("top"===e.insertAt)o?o.nextSibling?n.insertBefore(t,o.nextSibling):n.appendChild(t):n.insertBefore(t,n.firstChild),g.push(t);else{if("bottom"!==e.insertAt)throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");n.appendChild(t)}}function a(e){e.parentNode.removeChild(e);var t=g.indexOf(e);t>=0&&g.splice(t,1)}function c(e){var t=document.createElement("style");return e.attrs.type="text/css",s(t,e.attrs),i(e,t),t}function u(e){var t=document.createElement("link");return e.attrs.type="text/css",e.attrs.rel="stylesheet",s(t,e.attrs),i(e,t),t}function s(e,t){Object.keys(t).forEach(function(n){e.setAttribute(n,t[n])})}function l(e,t){var n,o,r,i;if(t.transform&&e.css){if(!(i=t.transform(e.css)))return function(){};e.css=i}if(t.singleton){var s=b++;n=y||(y=c(t)),o=f.bind(null,n,s,!1),r=f.bind(null,n,s,!0)}else e.sourceMap&&"function"==typeof URL&&"function"==typeof URL.createObjectURL&&"function"==typeof URL.revokeObjectURL&&"function"==typeof Blob&&"function"==typeof btoa?(n=u(t),o=p.bind(null,n,t),r=function(){a(n),n.href&&URL.revokeObjectURL(n.href)}):(n=c(t),o=d.bind(null,n),r=function(){a(n)});return o(e),function(t){if(t){if(t.css===e.css&&t.media===e.media&&t.sourceMap===e.sourceMap)return;o(e=t)}else r()}}function f(e,t,n,o){var r=n?"":o.css;if(e.styleSheet)e.styleSheet.cssText=x(t,r);else{var i=document.createTextNode(r),a=e.childNodes;a[t]&&e.removeChild(a[t]),a.length?e.insertBefore(i,a[t]):e.appendChild(i)}}function d(e,t){var n=t.css,o=t.media;if(o&&e.setAttribute("media",o),e.styleSheet)e.styleSheet.cssText=n;else{for(;e.firstChild;)e.removeChild(e.firstChild);e.appendChild(document.createTextNode(n))}}function p(e,t,n){var o=n.css,r=n.sourceMap,i=void 0===t.convertToAbsoluteUrls&&r;(t.convertToAbsoluteUrls||i)&&(o=w(o)),r&&(o+="\n/*# sourceMappingURL=data:application/json;base64,"+btoa(unescape(encodeURIComponent(JSON.stringify(r))))+" */");var a=new Blob([o],{type:"text/css"}),c=e.href;e.href=URL.createObjectURL(a),c&&URL.revokeObjectURL(c)}var m={},h=function(e){var t;return function(){return void 0===t&&(t=e.apply(this,arguments)),t}}(function(){return window&&document&&document.all&&!window.atob}),v=function(e){var t={};return function(n){return void 0===t[n]&&(t[n]=e.call(this,n)),t[n]}}(function(e){return document.querySelector(e)}),y=null,b=0,g=[],w=n(12);e.exports=function(e,t){if("undefined"!=typeof DEBUG&&DEBUG&&"object"!=typeof document)throw new Error("The style-loader cannot be used in a non-browser environment");t=t||{},t.attrs="object"==typeof t.attrs?t.attrs:{},void 0===t.singleton&&(t.singleton=h()),void 0===t.insertInto&&(t.insertInto="head"),void 0===t.insertAt&&(t.insertAt="bottom");var n=r(e,t);return o(n,t),function(e){for(var i=[],a=0;a<n.length;a++){var c=n[a],u=m[c.id];u.refs--,i.push(u)}if(e){o(r(e,t),t)}for(var a=0;a<i.length;a++){var u=i[a];if(0===u.refs){for(var s=0;s<u.parts.length;s++)u.parts[s]();delete m[u.id]}}}};var x=function(){var e=[];return function(t,n){return e[t]=n,e.filter(Boolean).join("\n")}}()},function(e,t,n){var o=n(14);"string"==typeof o&&(o=[[e.i,o,""]]);var r={};r.transform=void 0;n(15)(o,r);o.locals&&(e.exports=o.locals)},function(t,n){t.exports=e}])});
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("react"));
+	else if(typeof define === 'function' && define.amd)
+		define(["react"], factory);
+	else if(typeof exports === 'object')
+		exports["MindMap"] = factory(require("react"));
+	else
+		root["MindMap"] = factory(root["React"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_17__) {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// identity function for calling harmony imports with the correct context
+/******/ 	__webpack_require__.i = function(value) { return value; };
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(17);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _panzoom = __webpack_require__(6);
+
+var _panzoom2 = _interopRequireDefault(_panzoom);
+
+var _utils = __webpack_require__(5);
+
+__webpack_require__(16);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint-disable class-methods-use-this */
+
+
+var panzoomInstance = void 0;
+
+var MindMap = function (_Component) {
+  _inherits(MindMap, _Component);
+
+  function MindMap(props) {
+    _classCallCheck(this, MindMap);
+
+    var _this = _possibleConstructorReturn(this, (MindMap.__proto__ || Object.getPrototypeOf(MindMap)).call(this, props));
+
+    _this.state = {
+      fetched: props.connections && props.nodes,
+      connections: props.connections || [],
+      nodes: props.nodes || []
+    };
+    return _this;
+  }
+
+  // Request map and load nodes and connections to state.
+
+
+  _createClass(MindMap, [{
+    key: 'fetchMap',
+    value: function fetchMap() {
+      var _this2 = this;
+
+      (0, _utils.getJSON)(this.props.url, function (res) {
+        return _this2.setState({
+          connections: res.connections,
+          nodes: res.nodes,
+          fetched: true
+        });
+      });
+    }
+
+    // Calculate SVG viewport dimensions from the nodes.
+
+  }, {
+    key: 'viewBox',
+    value: function viewBox() {
+      if (!this.state.fetched || this.state.nodes.length === 0) {
+        return '0 0 0 0';
+      }
+
+      var Xs = [];
+      var Ys = [];
+
+      this.state.nodes.forEach(function (node) {
+        node.nodes.forEach(function (subnode) {
+          return Xs.push(subnode.location.x);
+        });
+        Xs.push(node.location.x);
+      });
+
+      this.state.nodes.forEach(function (node) {
+        node.nodes.forEach(function (subnode) {
+          return Ys.push(subnode.location.y);
+        });
+        Ys.push(node.location.y);
+      });
+
+      var minX = Math.round(Math.min.apply(Math, Xs) - 150);
+      var minY = Math.round(Math.min.apply(Math, Ys) - 150);
+      var maxX = Math.round(Math.max.apply(Math, Xs) - minX) + 150;
+      var maxY = Math.round(Math.max.apply(Math, Ys) - minY) + 150;
+
+      return minX + ' ' + minY + ' ' + maxX + ' ' + maxY;
+    }
+  }, {
+    key: 'renderConnections',
+    value: function renderConnections() {
+      // Hashmap for nodes lookup.
+      var nodes = {};
+      this.state.nodes.forEach(function (node) {
+        nodes[node.id] = node;
+      });
+
+      return this.state.connections.map(function (conn) {
+        // Parameters for drawing a quadratic bezier curve.
+        var d = ['M', nodes[conn.startNodeID].location.x, nodes[conn.startNodeID].location.y, 'Q', nodes[conn.startNodeID].location.x + conn.wayPointOffset.x, nodes[conn.startNodeID].location.y + conn.wayPointOffset.y, ',', nodes[conn.endNodeID].location.x, nodes[conn.endNodeID].location.y];
+
+        return _react2.default.createElement('path', { className: 'mindmap-connection', d: d.join(' ') });
+      });
+    }
+  }, {
+    key: 'renderSubNodes',
+    value: function renderSubNodes() {
+      var subnodes = [];
+
+      this.state.nodes.forEach(function (node) {
+        node.nodes.forEach(function (subnode) {
+          // Unstyled HTML with parsed emojis.
+          var innerHTML = (0, _utils.parseEmojis)(subnode.title.text.replace(_utils.matchStyle, ''));
+
+          // Get subnode dimensions.
+          var dimensions = (0, _utils.htmlDimensions)(innerHTML, {
+            maxWidth: subnode.title.maxWidth
+          }, 'mindmap-subnode-text');
+
+          // Find offset for centering subnodes.
+          var cx = subnode.location.x;
+          var cy = subnode.location.y - dimensions.height / 2;
+
+          // Parameters for drawing subnode connection.
+          var d = ['M', node.location.x, node.location.y, 'C', node.location.x + (subnode.location.x - node.location.x) / 2, node.location.y, ',', node.location.x + (subnode.location.x - node.location.x) / 2, subnode.location.y, ',', subnode.location.x, subnode.location.y];
+
+          subnodes.push(_react2.default.createElement(
+            'g',
+            { className: 'mindmap-subnode' },
+            _react2.default.createElement('path', {
+              className: 'mindmap-subnode-connection',
+              stroke: subnode.shapeStyle.borderStrokeStyle.color,
+              d: d.join(' ')
+            }),
+            _react2.default.createElement('foreignObject', {
+              className: 'mindmap-subnode-text',
+              dangerouslySetInnerHTML: { __html: innerHTML },
+              transform: 'translate(' + cx + ', ' + cy + ')',
+              width: subnode.title.maxWidth,
+              height: dimensions.height + 4
+            })
+          ));
+        });
+      });
+
+      return subnodes;
+    }
+  }, {
+    key: 'renderNodes',
+    value: function renderNodes() {
+      return this.state.nodes.map(function (node) {
+        // Unstyled HTML with parsed emojis.
+        var innerHTML = (0, _utils.parseEmojis)(node.title.text.replace(_utils.matchStyle, ''));
+
+        // Get node dimensions.
+        var dimensions = (0, _utils.htmlDimensions)(innerHTML, {
+          maxWidth: node.title.maxWidth
+        }, 'mindmap-node');
+
+        // Find offset for centering nodes.
+        var cx = node.location.x - node.title.maxWidth / 2;
+        var cy = node.location.y - dimensions.height / 2;
+
+        return _react2.default.createElement('foreignObject', {
+          className: 'mindmap-node',
+          dangerouslySetInnerHTML: { __html: innerHTML },
+          transform: 'translate(' + cx + ', ' + cy + ')',
+          width: node.title.maxWidth,
+          height: dimensions.height + 4
+        });
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      // Request map if url is specified and map hasn't been requested yet.
+      if (this.props.url && !this.state.fetched) {
+        this.fetchMap();
+      }
+
+      return _react2.default.createElement(
+        'svg',
+        { viewBox: this.viewBox(), className: 'mindmap-svg', draggable: true },
+        _react2.default.createElement(
+          'g',
+          { className: 'mindmap-svg-inner' },
+          _react2.default.createElement(
+            'g',
+            null,
+            this.renderConnections()
+          ),
+          _react2.default.createElement(
+            'g',
+            null,
+            this.renderSubNodes()
+          ),
+          _react2.default.createElement(
+            'g',
+            null,
+            this.renderNodes()
+          )
+        )
+      );
+    }
+
+    // Create panzoom instance for pan and zoom.
+
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      panzoomInstance = (0, _panzoom2.default)(document.querySelector('.mindmap-svg-inner'));
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps) {
+      // If URL has changed, reload the map.
+      if (prevProps.url !== this.props.url) {
+        this.setState({ fetched: false });
+      }
+
+      // If nodes or connections have changes update state and update map.
+      if (prevProps.nodes !== this.props.nodes || prevProps.connections !== this.props.connections) {
+        this.setState({
+          fetched: true,
+          nodes: this.props.nodes,
+          connections: this.props.connections
+        });
+      }
+    }
+
+    // Destroy panzoom instance with all its listeners, to prevent memory leaking.
+
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      panzoomInstance.dispose();
+    }
+  }]);
+
+  return MindMap;
+}(_react.Component);
+
+exports.default = MindMap;
+
+
+MindMap.propTypes = {
+  url: _react.PropTypes.string,
+  nodes: _react.PropTypes.array,
+  connections: _react.PropTypes.array
+};
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var BezierEasing = __webpack_require__(2);
+
+// Predefined set of animations. Similar to CSS easing functions
+var animations = {
+  ease: BezierEasing(0.25, 0.1, 0.25, 1),
+  easeIn: BezierEasing(0.42, 0, 1, 1),
+  easeOut: BezierEasing(0, 0, 0.58, 1),
+  easeInOut: BezierEasing(0.42, 0, 0.58, 1),
+  linear: BezierEasing(0, 0, 1, 1)
+};
+
+module.exports = animate;
+
+function animate(source, target, options) {
+  var start = Object.create(null);
+  var diff = Object.create(null);
+  options = options || {};
+  // We let clients specify their own easing function
+  var easing = typeof options.easing === 'function' ? options.easing : animations[options.easing];
+
+  // if nothing is specified, default to ease (similar to CSS animations)
+  if (!easing) {
+    if (options.easing) {
+      console.warn('Unknown easing function in amator: ' + options.easing);
+    }
+    easing = animations.ease;
+  }
+
+  var step = typeof options.step === 'function' ? options.step : noop;
+  var done = typeof options.done === 'function' ? options.done : noop;
+
+  var scheduler = getScheduler(options.scheduler);
+
+  var keys = Object.keys(target);
+  keys.forEach(function (key) {
+    start[key] = source[key];
+    diff[key] = target[key] - source[key];
+  });
+
+  var durationInMs = options.duration || 400;
+  var durationInFrames = Math.max(1, durationInMs * 0.06); // 0.06 because 60 frames pers 1,000 ms
+  var previousAnimationId;
+  var frame = 0;
+
+  previousAnimationId = scheduler.next(loop);
+
+  return {
+    cancel: cancel
+  };
+
+  function cancel() {
+    scheduler.cancel(previousAnimationId);
+    previousAnimationId = 0;
+  }
+
+  function loop() {
+    var t = easing(frame / durationInFrames);
+    frame += 1;
+    setValues(t);
+    if (frame <= durationInFrames) {
+      previousAnimationId = scheduler.next(loop);
+      step(source);
+    } else {
+      previousAnimationId = 0;
+      setTimeout(function () {
+        done(source);
+      }, 0);
+    }
+  }
+
+  function setValues(t) {
+    keys.forEach(function (key) {
+      source[key] = diff[key] * t + start[key];
+    });
+  }
+}
+
+function noop() {}
+
+function getScheduler(scheduler) {
+  if (!scheduler) {
+    var canRaf = typeof window !== 'undefined' && window.requestAnimationFrame;
+    return canRaf ? rafScheduler() : timeoutScheduler();
+  }
+  if (typeof scheduler.next !== 'function') throw new Error('Scheduler is supposed to have next(cb) function');
+  if (typeof scheduler.cancel !== 'function') throw new Error('Scheduler is supposed to have cancel(handle) function');
+
+  return scheduler;
+}
+
+function rafScheduler() {
+  return {
+    next: window.requestAnimationFrame.bind(window),
+    cancel: window.cancelAnimationFrame.bind(window)
+  };
+}
+
+function timeoutScheduler() {
+  return {
+    next: function next(cb) {
+      return setTimeout(cb, 1000 / 60);
+    },
+    cancel: function cancel(id) {
+      return clearTimeout(id);
+    }
+  };
+}
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * https://github.com/gre/bezier-easing
+ * BezierEasing - use bezier curve for transition easing function
+ * by Gaëtan Renaudeau 2014 - 2015 – MIT License
+ */
+
+// These values are established by empiricism with tests (tradeoff: performance VS precision)
+var NEWTON_ITERATIONS = 4;
+var NEWTON_MIN_SLOPE = 0.001;
+var SUBDIVISION_PRECISION = 0.0000001;
+var SUBDIVISION_MAX_ITERATIONS = 10;
+
+var kSplineTableSize = 11;
+var kSampleStepSize = 1.0 / (kSplineTableSize - 1.0);
+
+var float32ArraySupported = typeof Float32Array === 'function';
+
+function A(aA1, aA2) {
+  return 1.0 - 3.0 * aA2 + 3.0 * aA1;
+}
+function B(aA1, aA2) {
+  return 3.0 * aA2 - 6.0 * aA1;
+}
+function C(aA1) {
+  return 3.0 * aA1;
+}
+
+// Returns x(t) given t, x1, and x2, or y(t) given t, y1, and y2.
+function calcBezier(aT, aA1, aA2) {
+  return ((A(aA1, aA2) * aT + B(aA1, aA2)) * aT + C(aA1)) * aT;
+}
+
+// Returns dx/dt given t, x1, and x2, or dy/dt given t, y1, and y2.
+function getSlope(aT, aA1, aA2) {
+  return 3.0 * A(aA1, aA2) * aT * aT + 2.0 * B(aA1, aA2) * aT + C(aA1);
+}
+
+function binarySubdivide(aX, aA, aB, mX1, mX2) {
+  var currentX,
+      currentT,
+      i = 0;
+  do {
+    currentT = aA + (aB - aA) / 2.0;
+    currentX = calcBezier(currentT, mX1, mX2) - aX;
+    if (currentX > 0.0) {
+      aB = currentT;
+    } else {
+      aA = currentT;
+    }
+  } while (Math.abs(currentX) > SUBDIVISION_PRECISION && ++i < SUBDIVISION_MAX_ITERATIONS);
+  return currentT;
+}
+
+function newtonRaphsonIterate(aX, aGuessT, mX1, mX2) {
+  for (var i = 0; i < NEWTON_ITERATIONS; ++i) {
+    var currentSlope = getSlope(aGuessT, mX1, mX2);
+    if (currentSlope === 0.0) {
+      return aGuessT;
+    }
+    var currentX = calcBezier(aGuessT, mX1, mX2) - aX;
+    aGuessT -= currentX / currentSlope;
+  }
+  return aGuessT;
+}
+
+module.exports = function bezier(mX1, mY1, mX2, mY2) {
+  if (!(0 <= mX1 && mX1 <= 1 && 0 <= mX2 && mX2 <= 1)) {
+    throw new Error('bezier x values must be in [0, 1] range');
+  }
+
+  // Precompute samples table
+  var sampleValues = float32ArraySupported ? new Float32Array(kSplineTableSize) : new Array(kSplineTableSize);
+  if (mX1 !== mY1 || mX2 !== mY2) {
+    for (var i = 0; i < kSplineTableSize; ++i) {
+      sampleValues[i] = calcBezier(i * kSampleStepSize, mX1, mX2);
+    }
+  }
+
+  function getTForX(aX) {
+    var intervalStart = 0.0;
+    var currentSample = 1;
+    var lastSample = kSplineTableSize - 1;
+
+    for (; currentSample !== lastSample && sampleValues[currentSample] <= aX; ++currentSample) {
+      intervalStart += kSampleStepSize;
+    }
+    --currentSample;
+
+    // Interpolate to provide an initial guess for t
+    var dist = (aX - sampleValues[currentSample]) / (sampleValues[currentSample + 1] - sampleValues[currentSample]);
+    var guessForT = intervalStart + dist * kSampleStepSize;
+
+    var initialSlope = getSlope(guessForT, mX1, mX2);
+    if (initialSlope >= NEWTON_MIN_SLOPE) {
+      return newtonRaphsonIterate(aX, guessForT, mX1, mX2);
+    } else if (initialSlope === 0.0) {
+      return guessForT;
+    } else {
+      return binarySubdivide(aX, intervalStart, intervalStart + kSampleStepSize, mX1, mX2);
+    }
+  }
+
+  return function BezierEasing(x) {
+    if (mX1 === mY1 && mX2 === mY2) {
+      return x; // linear
+    }
+    // Because JavaScript number are imprecise, we should guarantee the extremes are right.
+    if (x === 0) {
+      return 0;
+    }
+    if (x === 1) {
+      return 1;
+    }
+    return calcBezier(getTForX(x), mY1, mY2);
+  };
+};
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function (useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if (item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function (modules, mediaQuery) {
+		if (typeof modules === "string") modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for (var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if (typeof id === "number") alreadyImportedModules[id] = true;
+		}
+		for (i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if (typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if (mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if (mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */';
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _MindMap = __webpack_require__(0);
+
+var _MindMap2 = _interopRequireDefault(_MindMap);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = _MindMap2.default;
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* eslint no-bitwise:off */
+
+/* Make a GET request to the specified url and call callback with JSON
+ * response when done.
+ */
+var getJSON = exports.getJSON = function getJSON(url, done) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', url, true);
+
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === XMLHttpRequest.DONE && typeof done === 'function') {
+      done(JSON.parse(xhr.responseText));
+    }
+  };
+
+  xhr.send();
+};
+
+// Match style attributes in an HTML string.
+var matchStyle = exports.matchStyle = /style="([^"]*)"|style='([^']*)'/g;
+
+// Return an emoji as a GitHub image.
+var emojiTemplate = exports.emojiTemplate = function emojiTemplate(unicode) {
+  return '<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/unicode/' + unicode + '.png">';
+};
+
+var customEmojiTemplate = exports.customEmojiTemplate = function customEmojiTemplate(emoji) {
+  return '<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/' + emoji + '.png">';
+};
+
+/* Convert all emojis in an HTML string to GitHub images.
+ * The bitwise magic is explained at:
+ *    http://crocodillon.com/blog/parsing-emoji-unicode-in-javascript
+ */
+var parseEmojis = exports.parseEmojis = function parseEmojis(html) {
+  return html.replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, function (match) {
+    if (match === '🐙') {
+      return customEmojiTemplate('octocat');
+    }
+    if (match === '🤖') {
+      return '<img class="mindmap-emoji reddit-emoji" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpOQVZdTCyVamjJPl92KjaDHigNWVM8mOLHPRU4DHoVNJWxCg">';
+    }
+
+    // Keep the first 10 bits.
+    var lead = match.charCodeAt(0) & 0x3FF;
+    var trail = match.charCodeAt(1) & 0x3FF;
+
+    // 0x[lead][trail]
+    var unicode = ((lead << 10) + trail).toString(16);
+
+    return emojiTemplate('1' + unicode);
+  });
+};
+
+/* Returns the dimensions that some html with a given style would take
+ * in the DOM.
+ */
+var htmlDimensions = exports.htmlDimensions = function htmlDimensions(html, style, classname) {
+  var el = document.createElement('span');
+  var dimensions = {};
+
+  el.style.display = 'inline-block';
+  el.style.visibility = 'hidden';
+  el.className = classname;
+  el.innerHTML = html;
+
+  Object.keys(style).forEach(function (rule) {
+    el.style[rule] = style[rule];
+  });
+  document.body.append(el);
+
+  dimensions.width = el.offsetWidth;
+  dimensions.height = el.offsetHeight;
+
+  el.remove();
+  return dimensions;
+};
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+/* globals SVGElement */
+/**
+ * Allows to drag and zoom svg elements
+ */
+var wheel = __webpack_require__(13);
+var animate = __webpack_require__(1);
+var kinetic = __webpack_require__(9);
+var createEvent = __webpack_require__(7);
+var preventTextSelection = __webpack_require__(10)();
+var getTransform = __webpack_require__(8);
+var Transform = __webpack_require__(11);
+
+var defaultZoomSpeed = 0.065;
+var defaultDoubleTapZoomSpeed = 1.75;
+var doubleTapSpeedInMS = 300;
+
+module.exports = createPanZoom;
+
+function createPanZoom(svgElement, options) {
+  var elementValid = svgElement instanceof SVGElement;
+
+  var isDirty = false;
+  var transform = new Transform();
+
+  if (!elementValid) {
+    throw new Error('svg element is required for svg.panzoom to work');
+  }
+
+  var frameAnimation;
+  var owner = svgElement.ownerSVGElement;
+  if (!owner) {
+    throw new Error('Do not apply panzoom to the root <svg> element. ' + 'Use its child instead (e.g. <g></g>). ' + 'As of March 2016 only FireFox supported transform on the root element');
+  }
+
+  owner.setAttribute('tabindex', 1); // TODO: not sure if this is really polite
+
+  options = options || {};
+
+  var beforeWheel = options.beforeWheel || noop;
+  var speed = typeof options.zoomSpeed === 'number' ? options.zoomSpeed : defaultZoomSpeed;
+  var bounds = options.bounds;
+  validateBounds(bounds);
+
+  var maxZoom = typeof options.maxZoom === 'number' ? options.maxZoom : Number.POSITIVE_INFINITY;
+  var minZoom = typeof options.minZoom === 'number' ? options.minZoom : 0;
+  var boundsPadding = typeof options.boundsPaddding === 'number' ? options.boundsPaddding : 0.05;
+  var zoomDoubleClickSpeed = typeof options.zoomDoubleClickSpeed === 'number' ? options.zoomDoubleClickSpeed : defaultDoubleTapZoomSpeed;
+
+  var lastTouchEndTime = 0;
+
+  var touchInProgress = false;
+
+  // We only need to fire panstart when actual move happens
+  var panstartFired = false;
+
+  // cache mouse coordinates here
+  var mouseX;
+  var mouseY;
+
+  var pinchZoomLength;
+
+  var smoothScroll = kinetic(getRect, scroll);
+  var moveByAnimation;
+  var zoomToAnimation;
+
+  var multitouch;
+
+  listenForEvents();
+
+  return {
+    dispose: dispose,
+    moveBy: internalMoveBy,
+    moveTo: moveTo,
+    centerOn: centerOn,
+    zoomTo: publicZoomTo,
+    zoomAbs: zoomAbs,
+    getTransform: getTransformModel
+  };
+
+  function getTransformModel() {
+    // TODO: should this be read only?
+    return transform;
+  }
+
+  function getRect() {
+    return {
+      x: transform.x,
+      y: transform.y
+    };
+  }
+
+  function moveTo(x, y) {
+    transform.x = x;
+    transform.y = y;
+
+    keepTransformInsideBounds();
+
+    triggerEvent('pan');
+    makeDirty();
+  }
+
+  function moveBy(dx, dy) {
+    moveTo(transform.x + dx, transform.y + dy);
+  }
+
+  function keepTransformInsideBounds() {
+    var boundingBox = getBoundingBox();
+    if (!boundingBox) return;
+
+    var adjusted = false;
+    var clientRect = getClientRect();
+
+    var diff = boundingBox.left - clientRect.right;
+    if (diff > 0) {
+      transform.x += diff;
+      adjusted = true;
+    }
+    // check the other side:
+    diff = boundingBox.right - clientRect.left;
+    if (diff < 0) {
+      transform.x += diff;
+      adjusted = true;
+    }
+
+    // y axis:
+    diff = boundingBox.top - clientRect.bottom;
+    if (diff > 0) {
+      // we adjust transform, so that it matches exactly our boinding box:
+      // transform.y = boundingBox.top - (boundingBox.height + boundingBox.y) * transform.scale =>
+      // transform.y = boundingBox.top - (clientRect.bottom - transform.y) =>
+      // transform.y = diff + transform.y =>
+      transform.y += diff;
+      adjusted = true;
+    }
+
+    diff = boundingBox.bottom - clientRect.top;
+    if (diff < 0) {
+      transform.y += diff;
+      adjusted = true;
+    }
+    return adjusted;
+  }
+
+  /**
+   * Returns bounding box that should be used to restrict svg scene movement.
+   */
+  function getBoundingBox() {
+    if (!bounds) return; // client does not want to restrict movement
+
+    if (typeof bounds === 'boolean') {
+      var sceneWidth = owner.clientWidth;
+      var sceneHeight = owner.clientHeight;
+
+      return {
+        left: sceneWidth * boundsPadding,
+        top: sceneHeight * boundsPadding,
+        right: sceneWidth * (1 - boundsPadding),
+        bottom: sceneHeight * (1 - boundsPadding)
+      };
+    }
+
+    return bounds;
+  }
+
+  function getClientRect() {
+    var bbox = svgElement.getBBox();
+    var leftTop = client(bbox.x, bbox.y);
+
+    return {
+      left: leftTop.x,
+      top: leftTop.y,
+      right: bbox.width * transform.scale + leftTop.x,
+      bottom: bbox.height * transform.scale + leftTop.y
+    };
+  }
+
+  function client(x, y) {
+    return {
+      x: x * transform.scale + transform.x,
+      y: y * transform.scale + transform.y
+    };
+  }
+
+  function makeDirty() {
+    isDirty = true;
+    frameAnimation = window.requestAnimationFrame(frame);
+  }
+
+  function zoomByRatio(clientX, clientY, ratio) {
+    if (isNaN(clientX) || isNaN(clientY) || isNaN(ratio)) {
+      throw new Error('zoom requires valid numbers');
+    }
+
+    var newScale = transform.scale * ratio;
+
+    if (newScale > maxZoom || newScale < minZoom) {
+      // outside of allowed bounds
+      return;
+    }
+
+    var parentCTM = owner.getScreenCTM();
+
+    var x = clientX * parentCTM.a - parentCTM.e;
+    var y = clientY * parentCTM.a - parentCTM.f;
+
+    transform.x = x - ratio * (x - transform.x);
+    transform.y = y - ratio * (y - transform.y);
+
+    var transformAdjusted = keepTransformInsideBounds();
+    if (!transformAdjusted) transform.scale *= ratio;
+
+    triggerEvent('zoom');
+
+    makeDirty();
+  }
+
+  function zoomAbs(clientX, clientY, zoomLevel) {
+    var ratio = zoomLevel / transform.scale;
+    zoomByRatio(clientX, clientY, ratio);
+  }
+
+  function centerOn(ui) {
+    var parent = ui.ownerSVGElement;
+    if (!parent) throw new Error('ui element is required to be within the scene');
+
+    var clientRect = ui.getBoundingClientRect();
+    var cx = clientRect.left + clientRect.width / 2;
+    var cy = clientRect.top + clientRect.height / 2;
+
+    var container = parent.getBoundingClientRect();
+    var dx = container.width / 2 - cx;
+    var dy = container.height / 2 - cy;
+
+    internalMoveBy(dx, dy, true);
+  }
+
+  function internalMoveBy(dx, dy, smooth) {
+    if (!smooth) {
+      return moveBy(dx, dy);
+    }
+
+    if (moveByAnimation) moveByAnimation.cancel();
+
+    var from = { x: 0, y: 0 };
+    var to = { x: dx, y: dy };
+    var lastX = 0;
+    var lastY = 0;
+
+    moveByAnimation = animate(from, to, {
+      step: function step(v) {
+        moveBy(v.x - lastX, v.y - lastY);
+
+        lastX = v.x;
+        lastY = v.y;
+      }
+    });
+  }
+
+  function scroll(x, y) {
+    cancelZoomAnimation();
+    moveTo(x, y);
+  }
+
+  function dispose() {
+    wheel.removeWheelListener(svgElement, onMouseWheel);
+    owner.removeEventListener('mousedown', onMouseDown);
+    owner.removeEventListener('keydown', onKeyDown);
+    owner.removeEventListener('dblclick', onDoubleClick);
+    if (frameAnimation) {
+      window.cancelAnimationFrame(frameAnimation);
+      frameAnimation = 0;
+    }
+
+    smoothScroll.cancel();
+
+    releaseDocumentMouse();
+    releaseTouches();
+
+    triggerPanEnd();
+  }
+
+  function listenForEvents() {
+    owner.addEventListener('mousedown', onMouseDown);
+    owner.addEventListener('dblclick', onDoubleClick);
+    owner.addEventListener('touchstart', onTouch);
+    owner.addEventListener('keydown', onKeyDown);
+    wheel.addWheelListener(owner, onMouseWheel);
+
+    makeDirty();
+  }
+
+  function frame() {
+    if (isDirty) applyTransform();
+  }
+
+  function applyTransform() {
+    isDirty = false;
+
+    svgElement.setAttribute('transform', 'matrix(' + transform.scale + ' 0 0 ' + transform.scale + ' ' + transform.x + ' ' + transform.y + ')');
+
+    frameAnimation = 0;
+  }
+
+  function onKeyDown(e) {
+    var x = 0,
+        y = 0,
+        z = 0;
+    if (e.keyCode === 38) {
+      y = 1; // up
+    } else if (e.keyCode === 40) {
+      y = -1; // down
+    } else if (e.keyCode === 37) {
+      x = 1; // left
+    } else if (e.keyCode === 39) {
+      x = -1; // right
+    } else if (e.keyCode === 189 || e.keyCode === 109) {
+      // DASH or SUBTRACT
+      z = 1; // `-` -  zoom out
+    } else if (e.keyCode === 187 || e.keyCode === 107) {
+      // EQUAL SIGN or ADD
+      z = -1; // `=` - zoom in (equal sign on US layout is under `+`)
+    }
+
+    if (x || y) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      var clientRect = owner.getBoundingClientRect();
+      // movement speed should be the same in both X and Y direction:
+      var offset = Math.min(clientRect.width, clientRect.height);
+      var moveSpeedRatio = 0.05;
+      var dx = offset * moveSpeedRatio * x;
+      var dy = offset * moveSpeedRatio * y;
+
+      // TODO: currently we do not animate this. It could be better to have animation
+      internalMoveBy(dx, dy);
+    }
+
+    if (z) {
+      var scaleMultiplier = getScaleMultiplier(z);
+      publicZoomTo(owner.clientWidth / 2, owner.clientHeight / 2, scaleMultiplier);
+    }
+  }
+
+  function onTouch(e) {
+    if (e.touches.length === 1) {
+      return handleSignleFingerTouch(e, e.touches[0]);
+    } else if (e.touches.length === 2) {
+      // handleTouchMove() will care about pinch zoom.
+      e.stopPropagation();
+      e.preventDefault();
+
+      pinchZoomLength = getPinchZoomLength(e.touches[0], e.touches[1]);
+      multitouch = true;
+      startTouchListenerIfNeeded();
+    }
+  }
+
+  function handleSignleFingerTouch(e) {
+    e.stopPropagation();
+    e.preventDefault();
+
+    var touch = e.touches[0];
+    mouseX = touch.clientX;
+    mouseY = touch.clientY;
+
+    startTouchListenerIfNeeded();
+  }
+
+  function startTouchListenerIfNeeded() {
+    if (!touchInProgress) {
+      touchInProgress = true;
+      document.addEventListener('touchmove', handleTouchMove);
+      document.addEventListener('touchend', handleTouchEnd);
+      document.addEventListener('touchcancel', handleTouchEnd);
+    }
+  }
+
+  function handleTouchMove(e) {
+
+    if (e.touches.length === 1) {
+      e.stopPropagation();
+      var touch = e.touches[0];
+
+      var dx = touch.clientX - mouseX;
+      var dy = touch.clientY - mouseY;
+
+      if (dx !== 0 && dy !== 0) {
+        triggerPanStart();
+      }
+      mouseX = touch.clientX;
+      mouseY = touch.clientY;
+      internalMoveBy(dx, dy);
+    } else if (e.touches.length === 2) {
+      // it's a zoom, let's find direction
+      multitouch = true;
+      var t1 = e.touches[0];
+      var t2 = e.touches[1];
+      var currentPinchLength = getPinchZoomLength(t1, t2);
+
+      var delta = 0;
+      if (currentPinchLength < pinchZoomLength) {
+        delta = 1;
+      } else if (currentPinchLength > pinchZoomLength) {
+        delta = -1;
+      }
+
+      var scaleMultiplier = getScaleMultiplier(delta);
+
+      mouseX = (t1.clientX + t2.clientX) / 2;
+      mouseY = (t1.clientY + t2.clientY) / 2;
+
+      publicZoomTo(mouseX, mouseY, scaleMultiplier);
+
+      pinchZoomLength = currentPinchLength;
+      e.stopPropagation();
+      e.preventDefault();
+    }
+  }
+
+  function handleTouchEnd(e) {
+    if (e.touches.length > 0) {
+      mouseX = e.touches[0].clientX;
+      mouseY = e.touches[0].clientY;
+    } else {
+      var now = new Date();
+      if (now - lastTouchEndTime < doubleTapSpeedInMS) {
+        smoothZoom(mouseX, mouseY, zoomDoubleClickSpeed);
+      }
+
+      lastTouchEndTime = now;
+
+      touchInProgress = false;
+      triggerPanEnd();
+      releaseTouches();
+    }
+  }
+
+  function getPinchZoomLength(finger1, finger2) {
+    return (finger1.clientX - finger2.clientX) * (finger1.clientX - finger2.clientX) + (finger1.clientY - finger2.clientY) * (finger1.clientY - finger2.clientY);
+  }
+
+  function onDoubleClick(e) {
+    smoothZoom(e.clientX, e.clientY, zoomDoubleClickSpeed);
+
+    e.preventDefault();
+    e.stopPropagation();
+  }
+
+  function onMouseDown(e) {
+    if (touchInProgress) {
+      // modern browsers will fire mousedown for touch events too
+      // we do not want this: touch is handled separately.
+      e.stopPropagation();
+      return false;
+    }
+    // for IE, left click == 1
+    // for Firefox, left click == 0
+    var isLeftButton = e.button === 1 && window.event !== null || e.button === 0;
+    if (!isLeftButton) return;
+
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+
+    // We need to listen on document itself, since mouse can go outside of the
+    // window, and we will loose it
+    document.addEventListener('mousemove', onMouseMove);
+    document.addEventListener('mouseup', onMouseUp);
+
+    preventTextSelection.capture(e.target || e.srcElement);
+
+    return false;
+  }
+
+  function onMouseMove(e) {
+    // no need to worry about mouse events when touch is happening
+    if (touchInProgress) return;
+
+    triggerPanStart();
+
+    var dx = e.clientX - mouseX;
+    var dy = e.clientY - mouseY;
+
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+
+    internalMoveBy(dx, dy);
+  }
+
+  function onMouseUp() {
+    preventTextSelection.release();
+    triggerPanEnd();
+    releaseDocumentMouse();
+  }
+
+  function releaseDocumentMouse() {
+    document.removeEventListener('mousemove', onMouseMove);
+    document.removeEventListener('mouseup', onMouseUp);
+    panstartFired = false;
+  }
+
+  function releaseTouches() {
+    document.removeEventListener('touchmove', handleTouchMove);
+    document.removeEventListener('touchend', handleTouchEnd);
+    document.removeEventListener('touchcancel', handleTouchEnd);
+    panstartFired = false;
+    multitouch = false;
+  }
+
+  function onMouseWheel(e) {
+    // if client does not want to handle this event - just ignore the call
+    if (beforeWheel(e)) return;
+
+    smoothScroll.cancel();
+
+    var scaleMultiplier = getScaleMultiplier(e.deltaY);
+
+    if (scaleMultiplier !== 1) {
+      publicZoomTo(e.clientX, e.clientY, scaleMultiplier);
+      e.preventDefault();
+    }
+  }
+
+  function smoothZoom(clientX, clientY, scaleMultiplier) {
+    var transform = getTransform(svgElement);
+    var fromValue = transform.matrix.a;
+    var from = { scale: fromValue };
+    var to = { scale: scaleMultiplier * fromValue };
+
+    smoothScroll.cancel();
+    cancelZoomAnimation();
+
+    // TODO: should consolidate this and publicZoomTo
+    triggerEvent('zoom');
+
+    zoomToAnimation = animate(from, to, {
+      step: function step(v) {
+        zoomAbs(clientX, clientY, v.scale);
+      }
+    });
+  }
+
+  function publicZoomTo(clientX, clientY, scaleMultiplier) {
+    smoothScroll.cancel();
+    cancelZoomAnimation();
+    return zoomByRatio(clientX, clientY, scaleMultiplier);
+  }
+
+  function cancelZoomAnimation() {
+    if (zoomToAnimation) {
+      zoomToAnimation.cancel();
+      zoomToAnimation = null;
+    }
+  }
+
+  function getScaleMultiplier(delta) {
+    var scaleMultiplier = 1;
+    if (delta > 0) {
+      // zoom out
+      scaleMultiplier = 1 - speed;
+    } else if (delta < 0) {
+      // zoom in
+      scaleMultiplier = 1 + speed;
+    }
+
+    return scaleMultiplier;
+  }
+
+  function triggerPanStart() {
+    if (!panstartFired) {
+      triggerEvent('panstart');
+      panstartFired = true;
+      smoothScroll.start();
+    }
+  }
+
+  function triggerPanEnd() {
+    if (panstartFired) {
+      // we should never run smooth scrolling if it was multitouch (pinch zoom animation):
+      if (!multitouch) smoothScroll.stop();
+      triggerEvent('panend');
+    }
+  }
+
+  function triggerEvent(name) {
+    var event = createEvent(name);
+    svgElement.dispatchEvent(event);
+  }
+}
+
+function noop() {}
+
+function validateBounds(bounds) {
+  var boundsType = typeof bounds === 'undefined' ? 'undefined' : _typeof(bounds);
+  if (boundsType === 'undefined' || boundsType === 'boolean') return; // this is okay
+  // otherwise need to be more thorough:
+  var validBounds = isNumber(bounds.left) && isNumber(bounds.top) && isNumber(bounds.bottom) && isNumber(bounds.right);
+
+  if (!validBounds) throw new Error('Bounds object is not valid. It can be: ' + 'undefined, boolean (true|false) or an object {left, top, right, bottom}');
+}
+
+function isNumber(x) {
+  return Number.isFinite(x);
+}
+
+// IE 11 does not support isNaN:
+function isNaN(value) {
+  if (Number.isNaN) {
+    return Number.isNaN(value);
+  }
+
+  return value !== value;
+}
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* global Event */
+module.exports = createEvent;
+
+var isIE = typeof Event !== 'function';
+
+/**
+ * Constructs custom event. Works in IE too
+ */
+function createEvent(name) {
+  if (isIE) {
+    var evt = document.createEvent('CustomEvent');
+    evt.initCustomEvent(name, true, true, undefined);
+    return evt;
+  } else {
+    return new Event(name, {
+      bubbles: true
+    });
+  }
+}
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Returns transformation matrix for an element. If no such transformation matrix
+ * exist - a new one is created.
+ */
+module.exports = getSvgTransformMatrix;
+
+function getSvgTransformMatrix(svgElement) {
+  var baseVal = svgElement.transform.baseVal;
+  if (baseVal.numberOfItems) return baseVal.getItem(0);
+
+  var owner = svgElement.ownerSVGElement || svgElement;
+  var transform = owner.createSVGTransform();
+  svgElement.transform.baseVal.appendItem(transform);
+
+  return transform;
+}
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Allows smooth kinetic scrolling of the surface
+ */
+module.exports = kinetic;
+
+var minVelocity = 10;
+var amplitude = 0.42;
+
+function kinetic(getRect, scroll) {
+  var lastRect;
+  var timestamp;
+  var timeConstant = 342;
+
+  var ticker;
+  var vx, targetX, ax;
+  var vy, targetY, ay;
+
+  var raf;
+
+  return {
+    start: start,
+    stop: stop,
+    cancel: dispose
+  };
+
+  function dispose() {
+    window.clearInterval(ticker);
+    window.cancelAnimationFrame(raf);
+  }
+
+  function start() {
+    lastRect = getRect();
+
+    ax = ay = vx = vy = 0;
+    timestamp = new Date();
+
+    window.clearInterval(ticker);
+    window.cancelAnimationFrame(raf);
+
+    ticker = window.setInterval(track, 100);
+  }
+
+  function track() {
+    var now = Date.now();
+    var elapsed = now - timestamp;
+    timestamp = now;
+
+    var rect = getRect();
+
+    var dx = rect.x - lastRect.x;
+    var dy = rect.y - lastRect.y;
+
+    lastRect = rect;
+
+    var dt = 1000 / (1 + elapsed);
+
+    // moving average
+    vx = 0.8 * dx * dt + 0.2 * vx;
+    vy = 0.8 * dy * dt + 0.2 * vy;
+  }
+
+  function stop() {
+    window.clearInterval(ticker);
+    window.cancelAnimationFrame(raf);
+
+    var rect = getRect();
+
+    targetX = rect.x;
+    targetY = rect.y;
+    timestamp = Date.now();
+
+    if (vx < -minVelocity || vx > minVelocity) {
+      ax = amplitude * vx;
+      targetX += ax;
+    }
+
+    if (vy < -minVelocity || vy > minVelocity) {
+      ay = amplitude * vy;
+      targetY += ay;
+    }
+
+    raf = window.requestAnimationFrame(autoScroll);
+  }
+
+  function autoScroll() {
+    var elapsed = Date.now() - timestamp;
+
+    var moving = false;
+    var dx = 0;
+    var dy = 0;
+
+    if (ax) {
+      dx = -ax * Math.exp(-elapsed / timeConstant);
+
+      if (dx > 0.5 || dx < -0.5) moving = true;else dx = ax = 0;
+    }
+
+    if (ay) {
+      dy = -ay * Math.exp(-elapsed / timeConstant);
+
+      if (dy > 0.5 || dy < -0.5) moving = true;else dy = ay = 0;
+    }
+
+    if (moving) {
+      scroll(targetX + dx, targetY + dy);
+      raf = window.requestAnimationFrame(autoScroll);
+    }
+  }
+}
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Disallows selecting text.
+ */
+module.exports = createTextSelectionInterceptor;
+
+function createTextSelectionInterceptor() {
+  var dragObject;
+  var prevSelectStart;
+  var prevDragStart;
+
+  return {
+    capture: capture,
+    release: release
+  };
+
+  function capture(domObject) {
+    prevSelectStart = window.document.onselectstart;
+    prevDragStart = window.document.ondragstart;
+
+    window.document.onselectstart = disabled;
+
+    dragObject = domObject;
+    dragObject.ondragstart = disabled;
+  }
+
+  function release() {
+    window.document.onselectstart = prevSelectStart;
+    if (dragObject) dragObject.ondragstart = prevDragStart;
+  }
+}
+
+function disabled(e) {
+  e.stopPropagation();
+  return false;
+}
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = Transform;
+
+function Transform() {
+  this.x = 0;
+  this.y = 0;
+  this.scale = 1;
+}
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+	// get current location
+	var location = typeof window !== "undefined" && window.location;
+
+	if (!location) {
+		throw new Error("fixUrls requires window.location");
+	}
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+		return css;
+	}
+
+	var baseUrl = location.protocol + "//" + location.host;
+	var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+ This regular expression is just a way to recursively match brackets within
+ a string.
+ 	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+    (  = Start a capturing group
+      (?:  = Start a non-capturing group
+          [^)(]  = Match anything that isn't a parentheses
+          |  = OR
+          \(  = Match a start parentheses
+              (?:  = Start another non-capturing groups
+                  [^)(]+  = Match anything that isn't a parentheses
+                  |  = OR
+                  \(  = Match a start parentheses
+                      [^)(]*  = Match anything that isn't a parentheses
+                  \)  = Match a end parentheses
+              )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+  \)  = Match a close parens
+ 	 /gi  = Get all matches, not the first.  Be case insensitive.
+  */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function (fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl.trim().replace(/^"(.*)"$/, function (o, $1) {
+			return $1;
+		}).replace(/^'(.*)'$/, function (o, $1) {
+			return $1;
+		});
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/)/i.test(unquotedOrigUrl)) {
+			return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+			//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * This module unifies handling of mouse whee event across different browsers
+ *
+ * See https://developer.mozilla.org/en-US/docs/Web/Reference/Events/wheel?redirectlocale=en-US&redirectslug=DOM%2FMozilla_event_reference%2Fwheel
+ * for more details
+ *
+ * Usage:
+ *  var addWheelListener = require('wheel').addWheelListener;
+ *  var removeWheelListener = require('wheel').removeWheelListener;
+ *  addWheelListener(domElement, function (e) {
+ *    // mouse wheel event
+ *  });
+ *  removeWheelListener(domElement, function);
+ */
+// by default we shortcut to 'addEventListener':
+
+module.exports = addWheelListener;
+
+// But also expose "advanced" api with unsubscribe:
+module.exports.addWheelListener = addWheelListener;
+module.exports.removeWheelListener = removeWheelListener;
+
+var prefix = "",
+    _addEventListener,
+    _removeEventListener,
+    onwheel,
+    support;
+
+detectEventModel(typeof window !== 'undefined' && window, typeof document !== 'undefined' && document);
+
+function addWheelListener(elem, callback, useCapture) {
+  _addWheelListener(elem, support, callback, useCapture);
+
+  // handle MozMousePixelScroll in older Firefox
+  if (support == "DOMMouseScroll") {
+    _addWheelListener(elem, "MozMousePixelScroll", callback, useCapture);
+  }
+};
+
+function removeWheelListener(elem, callback, useCapture) {
+  _removeWheelListener(elem, support, callback, useCapture);
+
+  // handle MozMousePixelScroll in older Firefox
+  if (support == "DOMMouseScroll") {
+    _removeWheelListener(elem, "MozMousePixelScroll", callback, useCapture);
+  }
+};
+
+function _addWheelListener(elem, eventName, callback, useCapture) {
+  // TODO: in theory this anonymous function may result in incorrect
+  // unsubscription in some browsers. But in practice, I don't think we should
+  // worry too much about it (those browsers are on the way out)
+  elem[_addEventListener](prefix + eventName, support == "wheel" ? callback : function (originalEvent) {
+    !originalEvent && (originalEvent = window.event);
+
+    // create a normalized event object
+    var event = {
+      // keep a ref to the original event object
+      originalEvent: originalEvent,
+      target: originalEvent.target || originalEvent.srcElement,
+      type: "wheel",
+      deltaMode: originalEvent.type == "MozMousePixelScroll" ? 0 : 1,
+      deltaX: 0,
+      delatZ: 0,
+      clientX: originalEvent.clientX,
+      clientY: originalEvent.clientY,
+      preventDefault: function preventDefault() {
+        originalEvent.preventDefault ? originalEvent.preventDefault() : originalEvent.returnValue = false;
+      },
+      stopPropagation: function stopPropagation() {
+        if (originalEvent.stopPropagation) originalEvent.stopPropagation();
+      },
+      stopImmediatePropagation: function stopImmediatePropagation() {
+        if (originalEvent.stopImmediatePropagation) originalEvent.stopImmediatePropagation();
+      }
+    };
+
+    // calculate deltaY (and deltaX) according to the event
+    if (support == "mousewheel") {
+      event.deltaY = -1 / 40 * originalEvent.wheelDelta;
+      // Webkit also support wheelDeltaX
+      originalEvent.wheelDeltaX && (event.deltaX = -1 / 40 * originalEvent.wheelDeltaX);
+    } else {
+      event.deltaY = originalEvent.detail;
+    }
+
+    // it's time to fire the callback
+    return callback(event);
+  }, useCapture || false);
+}
+
+function _removeWheelListener(elem, eventName, callback, useCapture) {
+  elem[_removeEventListener](prefix + eventName, callback, useCapture || false);
+}
+
+function detectEventModel(window, document) {
+  if (window && window.addEventListener) {
+    _addEventListener = "addEventListener";
+    _removeEventListener = "removeEventListener";
+  } else {
+    _addEventListener = "attachEvent";
+    _removeEventListener = "detachEvent";
+    prefix = "on";
+  }
+
+  if (document) {
+    // detect available wheel event
+    support = "onwheel" in document.createElement("div") ? "wheel" : // Modern browsers support "wheel"
+    document.onmousewheel !== undefined ? "mousewheel" : // Webkit and IE support at least "mousewheel"
+    "DOMMouseScroll"; // let's assume that remaining browsers are older Firefox
+  } else {
+    support = "wheel";
+  }
+}
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".mindmap-svg {\n  height: 100%;\n  width: 100%; }\n  .mindmap-svg:focus {\n    outline: none; }\n\n.mindmap-node {\n  text-align: center; }\n  .mindmap-node > p {\n    background: #f5f5f5;\n    border-radius: 10px;\n    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);\n    display: inline-block;\n    font-family: 'Raleway';\n    font-size: 22px;\n    margin: 0 auto;\n    padding: 15px; }\n\n.mindmap-subnode-text p,\n.mindmap-subnode-text a {\n  color: #f5f5f5;\n  font-family: 'Raleway';\n  font-size: 16px;\n  padding: 0 5px; }\n\n.mindmap-subnode-connection {\n  fill: transparent;\n  stroke-dasharray: 10px 4px;\n  stroke-linecap: round;\n  stroke-width: 3px; }\n\n.mindmap-connection {\n  fill: transparent;\n  stroke: #9e9e9e;\n  stroke-dasharray: 10px 4px;\n  stroke-width: 3px; }\n\n.mindmap-emoji {\n  height: 24px;\n  vertical-align: bottom;\n  width: 24px; }\n\n.reddit-emoji {\n  border-radius: 50%; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+var stylesInDom = {},
+	memoize = function(fn) {
+		var memo;
+		return function () {
+			if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+			return memo;
+		};
+	},
+	isOldIE = memoize(function() {
+		// Test for IE <= 9 as proposed by Browserhacks
+		// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+		// Tests for existence of standard globals is to allow style-loader 
+		// to operate correctly into non-standard environments
+		// @see https://github.com/webpack-contrib/style-loader/issues/177
+		return window && document && document.all && !window.atob;
+	}),
+	getElement = (function(fn) {
+		var memo = {};
+		return function(selector) {
+			if (typeof memo[selector] === "undefined") {
+				memo[selector] = fn.call(this, selector);
+			}
+			return memo[selector]
+		};
+	})(function (styleTarget) {
+		return document.querySelector(styleTarget)
+	}),
+	singletonElement = null,
+	singletonCounter = 0,
+	styleElementsInsertedAtTop = [],
+	fixUrls = __webpack_require__(12);
+
+module.exports = function(list, options) {
+	if(typeof DEBUG !== "undefined" && DEBUG) {
+		if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (typeof options.singleton === "undefined") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+	if (typeof options.insertInto === "undefined") options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+	addStylesToDom(styles, options);
+
+	return function update(newList) {
+		var mayRemove = [];
+		for(var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+		for(var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+			if(domStyle.refs === 0) {
+				for(var j = 0; j < domStyle.parts.length; j++)
+					domStyle.parts[j]();
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom(styles, options) {
+	for(var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+		if(domStyle) {
+			domStyle.refs++;
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles(list, options) {
+	var styles = [];
+	var newStyles = {};
+	for(var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+		if(!newStyles[id])
+			styles.push(newStyles[id] = {id: id, parts: [part]});
+		else
+			newStyles[id].parts.push(part);
+	}
+	return styles;
+}
+
+function insertStyleElement(options, styleElement) {
+	var styleTarget = getElement(options.insertInto)
+	if (!styleTarget) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+	var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
+	if (options.insertAt === "top") {
+		if(!lastStyleElementInsertedAtTop) {
+			styleTarget.insertBefore(styleElement, styleTarget.firstChild);
+		} else if(lastStyleElementInsertedAtTop.nextSibling) {
+			styleTarget.insertBefore(styleElement, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			styleTarget.appendChild(styleElement);
+		}
+		styleElementsInsertedAtTop.push(styleElement);
+	} else if (options.insertAt === "bottom") {
+		styleTarget.appendChild(styleElement);
+	} else {
+		throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
+	}
+}
+
+function removeStyleElement(styleElement) {
+	styleElement.parentNode.removeChild(styleElement);
+	var idx = styleElementsInsertedAtTop.indexOf(styleElement);
+	if(idx >= 0) {
+		styleElementsInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement(options) {
+	var styleElement = document.createElement("style");
+	options.attrs.type = "text/css";
+
+	attachTagAttrs(styleElement, options.attrs);
+	insertStyleElement(options, styleElement);
+	return styleElement;
+}
+
+function createLinkElement(options) {
+	var linkElement = document.createElement("link");
+	options.attrs.type = "text/css";
+	options.attrs.rel = "stylesheet";
+
+	attachTagAttrs(linkElement, options.attrs);
+	insertStyleElement(options, linkElement);
+	return linkElement;
+}
+
+function attachTagAttrs(element, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		element.setAttribute(key, attrs[key]);
+	});
+}
+
+function addStyle(obj, options) {
+	var styleElement, update, remove, transformResult;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    transformResult = options.transform(obj.css);
+	    
+	    if (transformResult) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = transformResult;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css. 
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+		styleElement = singletonElement || (singletonElement = createStyleElement(options));
+		update = applyToSingletonTag.bind(null, styleElement, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true);
+	} else if(obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function") {
+		styleElement = createLinkElement(options);
+		update = updateLink.bind(null, styleElement, options);
+		remove = function() {
+			removeStyleElement(styleElement);
+			if(styleElement.href)
+				URL.revokeObjectURL(styleElement.href);
+		};
+	} else {
+		styleElement = createStyleElement(options);
+		update = applyToTag.bind(null, styleElement);
+		remove = function() {
+			removeStyleElement(styleElement);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle(newObj) {
+		if(newObj) {
+			if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
+				return;
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag(styleElement, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (styleElement.styleSheet) {
+		styleElement.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = styleElement.childNodes;
+		if (childNodes[index]) styleElement.removeChild(childNodes[index]);
+		if (childNodes.length) {
+			styleElement.insertBefore(cssNode, childNodes[index]);
+		} else {
+			styleElement.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag(styleElement, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		styleElement.setAttribute("media", media)
+	}
+
+	if(styleElement.styleSheet) {
+		styleElement.styleSheet.cssText = css;
+	} else {
+		while(styleElement.firstChild) {
+			styleElement.removeChild(styleElement.firstChild);
+		}
+		styleElement.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink(linkElement, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/* If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+	and there is no publicPath defined then lets turn convertToAbsoluteUrls
+	on by default.  Otherwise default to the convertToAbsoluteUrls option
+	directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls){
+		css = fixUrls(css);
+	}
+
+	if(sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = linkElement.href;
+
+	linkElement.href = URL.createObjectURL(blob);
+
+	if(oldSrc)
+		URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(14);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(15)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js!../node_modules/sass-loader/lib/loader.js!./MindMap.sass", function() {
+			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/postcss-loader/lib/index.js!../node_modules/sass-loader/lib/loader.js!./MindMap.sass");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_17__;
+
+/***/ })
+/******/ ]);
+});
