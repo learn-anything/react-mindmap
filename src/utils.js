@@ -40,6 +40,10 @@ export const parseEmojis = html =>
       return '<img class="mindmap-emoji reddit-emoji" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpOQVZdTCyVamjJPl92KjaDHigNWVM8mOLHPRU4DHoVNJWxCg">';
     }
 
+    if (match === ' 🗂️') {
+      return '<img class="mindmap-emoji reddit-emoji" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4">';
+    }
+
     // Keep the first 10 bits.
     const lead = match.charCodeAt(0) & 0x3FF;
     const trail = match.charCodeAt(1) & 0x3FF;
