@@ -36,6 +36,9 @@ export const parseEmojis = html =>
     if (match === '🐙') {
       return customEmojiTemplate('octocat');
     }
+    if (match === '🤖') {
+      return '<img class="mindmap-emoji" src="http://themodernape.com/wp-content/uploads/2014/09/20131209094736.png">';
+    }
 
     // Keep the first 10 bits.
     const lead = match.charCodeAt(0) & 0x3FF;
