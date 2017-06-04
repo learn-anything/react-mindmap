@@ -22,7 +22,7 @@
     "test": "webpack; http-server -p 3000 --cors -c-1"
   },
   "dependencies": {
-    "panzoom": "^2.5.0"
+    "panzoom": "learn-anything/panzoom"
   },
   "peerDependencies": {
     "react": "^15.5.4",

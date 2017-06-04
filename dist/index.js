@@ -7,7 +7,7 @@
 		exports["MindMap"] = factory(require("react"));
 	else
 		root["MindMap"] = factory(root["React"]);
-})(this, function(__WEBPACK_EXTERNAL_MODULE_17__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_9__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -89,17 +89,17 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _react = __webpack_require__(17);
+var _react = __webpack_require__(9);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _panzoom = __webpack_require__(6);
+var _panzoom = __webpack_require__(4);
 
 var _panzoom2 = _interopRequireDefault(_panzoom);
 
-var _utils = __webpack_require__(5);
+var _utils = __webpack_require__(3);
 
-__webpack_require__(16);
+__webpack_require__(8);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -348,245 +348,6 @@ MindMap.propTypes = {
 "use strict";
 
 
-var BezierEasing = __webpack_require__(2);
-
-// Predefined set of animations. Similar to CSS easing functions
-var animations = {
-  ease: BezierEasing(0.25, 0.1, 0.25, 1),
-  easeIn: BezierEasing(0.42, 0, 1, 1),
-  easeOut: BezierEasing(0, 0, 0.58, 1),
-  easeInOut: BezierEasing(0.42, 0, 0.58, 1),
-  linear: BezierEasing(0, 0, 1, 1)
-};
-
-module.exports = animate;
-
-function animate(source, target, options) {
-  var start = Object.create(null);
-  var diff = Object.create(null);
-  options = options || {};
-  // We let clients specify their own easing function
-  var easing = typeof options.easing === 'function' ? options.easing : animations[options.easing];
-
-  // if nothing is specified, default to ease (similar to CSS animations)
-  if (!easing) {
-    if (options.easing) {
-      console.warn('Unknown easing function in amator: ' + options.easing);
-    }
-    easing = animations.ease;
-  }
-
-  var step = typeof options.step === 'function' ? options.step : noop;
-  var done = typeof options.done === 'function' ? options.done : noop;
-
-  var scheduler = getScheduler(options.scheduler);
-
-  var keys = Object.keys(target);
-  keys.forEach(function (key) {
-    start[key] = source[key];
-    diff[key] = target[key] - source[key];
-  });
-
-  var durationInMs = options.duration || 400;
-  var durationInFrames = Math.max(1, durationInMs * 0.06); // 0.06 because 60 frames pers 1,000 ms
-  var previousAnimationId;
-  var frame = 0;
-
-  previousAnimationId = scheduler.next(loop);
-
-  return {
-    cancel: cancel
-  };
-
-  function cancel() {
-    scheduler.cancel(previousAnimationId);
-    previousAnimationId = 0;
-  }
-
-  function loop() {
-    var t = easing(frame / durationInFrames);
-    frame += 1;
-    setValues(t);
-    if (frame <= durationInFrames) {
-      previousAnimationId = scheduler.next(loop);
-      step(source);
-    } else {
-      previousAnimationId = 0;
-      setTimeout(function () {
-        done(source);
-      }, 0);
-    }
-  }
-
-  function setValues(t) {
-    keys.forEach(function (key) {
-      source[key] = diff[key] * t + start[key];
-    });
-  }
-}
-
-function noop() {}
-
-function getScheduler(scheduler) {
-  if (!scheduler) {
-    var canRaf = typeof window !== 'undefined' && window.requestAnimationFrame;
-    return canRaf ? rafScheduler() : timeoutScheduler();
-  }
-  if (typeof scheduler.next !== 'function') throw new Error('Scheduler is supposed to have next(cb) function');
-  if (typeof scheduler.cancel !== 'function') throw new Error('Scheduler is supposed to have cancel(handle) function');
-
-  return scheduler;
-}
-
-function rafScheduler() {
-  return {
-    next: window.requestAnimationFrame.bind(window),
-    cancel: window.cancelAnimationFrame.bind(window)
-  };
-}
-
-function timeoutScheduler() {
-  return {
-    next: function next(cb) {
-      return setTimeout(cb, 1000 / 60);
-    },
-    cancel: function cancel(id) {
-      return clearTimeout(id);
-    }
-  };
-}
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * https://github.com/gre/bezier-easing
- * BezierEasing - use bezier curve for transition easing function
- * by Gaëtan Renaudeau 2014 - 2015 – MIT License
- */
-
-// These values are established by empiricism with tests (tradeoff: performance VS precision)
-var NEWTON_ITERATIONS = 4;
-var NEWTON_MIN_SLOPE = 0.001;
-var SUBDIVISION_PRECISION = 0.0000001;
-var SUBDIVISION_MAX_ITERATIONS = 10;
-
-var kSplineTableSize = 11;
-var kSampleStepSize = 1.0 / (kSplineTableSize - 1.0);
-
-var float32ArraySupported = typeof Float32Array === 'function';
-
-function A(aA1, aA2) {
-  return 1.0 - 3.0 * aA2 + 3.0 * aA1;
-}
-function B(aA1, aA2) {
-  return 3.0 * aA2 - 6.0 * aA1;
-}
-function C(aA1) {
-  return 3.0 * aA1;
-}
-
-// Returns x(t) given t, x1, and x2, or y(t) given t, y1, and y2.
-function calcBezier(aT, aA1, aA2) {
-  return ((A(aA1, aA2) * aT + B(aA1, aA2)) * aT + C(aA1)) * aT;
-}
-
-// Returns dx/dt given t, x1, and x2, or dy/dt given t, y1, and y2.
-function getSlope(aT, aA1, aA2) {
-  return 3.0 * A(aA1, aA2) * aT * aT + 2.0 * B(aA1, aA2) * aT + C(aA1);
-}
-
-function binarySubdivide(aX, aA, aB, mX1, mX2) {
-  var currentX,
-      currentT,
-      i = 0;
-  do {
-    currentT = aA + (aB - aA) / 2.0;
-    currentX = calcBezier(currentT, mX1, mX2) - aX;
-    if (currentX > 0.0) {
-      aB = currentT;
-    } else {
-      aA = currentT;
-    }
-  } while (Math.abs(currentX) > SUBDIVISION_PRECISION && ++i < SUBDIVISION_MAX_ITERATIONS);
-  return currentT;
-}
-
-function newtonRaphsonIterate(aX, aGuessT, mX1, mX2) {
-  for (var i = 0; i < NEWTON_ITERATIONS; ++i) {
-    var currentSlope = getSlope(aGuessT, mX1, mX2);
-    if (currentSlope === 0.0) {
-      return aGuessT;
-    }
-    var currentX = calcBezier(aGuessT, mX1, mX2) - aX;
-    aGuessT -= currentX / currentSlope;
-  }
-  return aGuessT;
-}
-
-module.exports = function bezier(mX1, mY1, mX2, mY2) {
-  if (!(0 <= mX1 && mX1 <= 1 && 0 <= mX2 && mX2 <= 1)) {
-    throw new Error('bezier x values must be in [0, 1] range');
-  }
-
-  // Precompute samples table
-  var sampleValues = float32ArraySupported ? new Float32Array(kSplineTableSize) : new Array(kSplineTableSize);
-  if (mX1 !== mY1 || mX2 !== mY2) {
-    for (var i = 0; i < kSplineTableSize; ++i) {
-      sampleValues[i] = calcBezier(i * kSampleStepSize, mX1, mX2);
-    }
-  }
-
-  function getTForX(aX) {
-    var intervalStart = 0.0;
-    var currentSample = 1;
-    var lastSample = kSplineTableSize - 1;
-
-    for (; currentSample !== lastSample && sampleValues[currentSample] <= aX; ++currentSample) {
-      intervalStart += kSampleStepSize;
-    }
-    --currentSample;
-
-    // Interpolate to provide an initial guess for t
-    var dist = (aX - sampleValues[currentSample]) / (sampleValues[currentSample + 1] - sampleValues[currentSample]);
-    var guessForT = intervalStart + dist * kSampleStepSize;
-
-    var initialSlope = getSlope(guessForT, mX1, mX2);
-    if (initialSlope >= NEWTON_MIN_SLOPE) {
-      return newtonRaphsonIterate(aX, guessForT, mX1, mX2);
-    } else if (initialSlope === 0.0) {
-      return guessForT;
-    } else {
-      return binarySubdivide(aX, intervalStart, intervalStart + kSampleStepSize, mX1, mX2);
-    }
-  }
-
-  return function BezierEasing(x) {
-    if (mX1 === mY1 && mX2 === mY2) {
-      return x; // linear
-    }
-    // Because JavaScript number are imprecise, we should guarantee the extremes are right.
-    if (x === 0) {
-      return 0;
-    }
-    if (x === 1) {
-      return 1;
-    }
-    return calcBezier(getTForX(x), mY1, mY2);
-  };
-};
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
@@ -663,7 +424,7 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 4 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -682,7 +443,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = _MindMap2.default;
 
 /***/ }),
-/* 5 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -773,856 +534,401 @@ var htmlDimensions = exports.htmlDimensions = function htmlDimensions(html, styl
 };
 
 /***/ }),
-/* 6 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var require;var require;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-/* globals SVGElement */
-/**
- * Allows to drag and zoom svg elements
- */
-var wheel = __webpack_require__(13);
-var animate = __webpack_require__(1);
-var kinetic = __webpack_require__(9);
-var createEvent = __webpack_require__(7);
-var preventTextSelection = __webpack_require__(10)();
-var getTransform = __webpack_require__(8);
-var Transform = __webpack_require__(11);
-
-var defaultZoomSpeed = 0.065;
-var defaultDoubleTapZoomSpeed = 1.75;
-var doubleTapSpeedInMS = 300;
-
-module.exports = createPanZoom;
-
-function createPanZoom(svgElement, options) {
-  var elementValid = svgElement instanceof SVGElement;
-
-  var isDirty = false;
-  var transform = new Transform();
-
-  if (!elementValid) {
-    throw new Error('svg element is required for svg.panzoom to work');
-  }
-
-  var frameAnimation;
-  var owner = svgElement.ownerSVGElement;
-  if (!owner) {
-    throw new Error('Do not apply panzoom to the root <svg> element. ' + 'Use its child instead (e.g. <g></g>). ' + 'As of March 2016 only FireFox supported transform on the root element');
-  }
-
-  owner.setAttribute('tabindex', 1); // TODO: not sure if this is really polite
-
-  options = options || {};
-
-  var beforeWheel = options.beforeWheel || noop;
-  var speed = typeof options.zoomSpeed === 'number' ? options.zoomSpeed : defaultZoomSpeed;
-  var bounds = options.bounds;
-  validateBounds(bounds);
-
-  var maxZoom = typeof options.maxZoom === 'number' ? options.maxZoom : Number.POSITIVE_INFINITY;
-  var minZoom = typeof options.minZoom === 'number' ? options.minZoom : 0;
-  var boundsPadding = typeof options.boundsPaddding === 'number' ? options.boundsPaddding : 0.05;
-  var zoomDoubleClickSpeed = typeof options.zoomDoubleClickSpeed === 'number' ? options.zoomDoubleClickSpeed : defaultDoubleTapZoomSpeed;
-
-  var lastTouchEndTime = 0;
-
-  var touchInProgress = false;
-
-  // We only need to fire panstart when actual move happens
-  var panstartFired = false;
-
-  // cache mouse coordinates here
-  var mouseX;
-  var mouseY;
-
-  var pinchZoomLength;
-
-  var smoothScroll = kinetic(getRect, scroll);
-  var moveByAnimation;
-  var zoomToAnimation;
-
-  var multitouch;
-
-  listenForEvents();
-
-  return {
-    dispose: dispose,
-    moveBy: internalMoveBy,
-    moveTo: moveTo,
-    centerOn: centerOn,
-    zoomTo: publicZoomTo,
-    zoomAbs: zoomAbs,
-    getTransform: getTransformModel
-  };
-
-  function getTransformModel() {
-    // TODO: should this be read only?
-    return transform;
-  }
-
-  function getRect() {
-    return {
-      x: transform.x,
-      y: transform.y
-    };
-  }
-
-  function moveTo(x, y) {
-    transform.x = x;
-    transform.y = y;
-
-    keepTransformInsideBounds();
-
-    triggerEvent('pan');
-    makeDirty();
-  }
-
-  function moveBy(dx, dy) {
-    moveTo(transform.x + dx, transform.y + dy);
-  }
-
-  function keepTransformInsideBounds() {
-    var boundingBox = getBoundingBox();
-    if (!boundingBox) return;
-
-    var adjusted = false;
-    var clientRect = getClientRect();
-
-    var diff = boundingBox.left - clientRect.right;
-    if (diff > 0) {
-      transform.x += diff;
-      adjusted = true;
-    }
-    // check the other side:
-    diff = boundingBox.right - clientRect.left;
-    if (diff < 0) {
-      transform.x += diff;
-      adjusted = true;
-    }
-
-    // y axis:
-    diff = boundingBox.top - clientRect.bottom;
-    if (diff > 0) {
-      // we adjust transform, so that it matches exactly our boinding box:
-      // transform.y = boundingBox.top - (boundingBox.height + boundingBox.y) * transform.scale =>
-      // transform.y = boundingBox.top - (clientRect.bottom - transform.y) =>
-      // transform.y = diff + transform.y =>
-      transform.y += diff;
-      adjusted = true;
-    }
-
-    diff = boundingBox.bottom - clientRect.top;
-    if (diff < 0) {
-      transform.y += diff;
-      adjusted = true;
-    }
-    return adjusted;
-  }
-
-  /**
-   * Returns bounding box that should be used to restrict svg scene movement.
-   */
-  function getBoundingBox() {
-    if (!bounds) return; // client does not want to restrict movement
-
-    if (typeof bounds === 'boolean') {
-      var sceneWidth = owner.clientWidth;
-      var sceneHeight = owner.clientHeight;
-
-      return {
-        left: sceneWidth * boundsPadding,
-        top: sceneHeight * boundsPadding,
-        right: sceneWidth * (1 - boundsPadding),
-        bottom: sceneHeight * (1 - boundsPadding)
-      };
-    }
-
-    return bounds;
-  }
-
-  function getClientRect() {
-    var bbox = svgElement.getBBox();
-    var leftTop = client(bbox.x, bbox.y);
-
-    return {
-      left: leftTop.x,
-      top: leftTop.y,
-      right: bbox.width * transform.scale + leftTop.x,
-      bottom: bbox.height * transform.scale + leftTop.y
-    };
-  }
-
-  function client(x, y) {
-    return {
-      x: x * transform.scale + transform.x,
-      y: y * transform.scale + transform.y
-    };
-  }
-
-  function makeDirty() {
-    isDirty = true;
-    frameAnimation = window.requestAnimationFrame(frame);
-  }
-
-  function zoomByRatio(clientX, clientY, ratio) {
-    if (isNaN(clientX) || isNaN(clientY) || isNaN(ratio)) {
-      throw new Error('zoom requires valid numbers');
-    }
-
-    var newScale = transform.scale * ratio;
-
-    if (newScale > maxZoom || newScale < minZoom) {
-      // outside of allowed bounds
-      return;
-    }
-
-    var parentCTM = owner.getScreenCTM();
-
-    var x = clientX * parentCTM.a - parentCTM.e;
-    var y = clientY * parentCTM.a - parentCTM.f;
-
-    transform.x = x - ratio * (x - transform.x);
-    transform.y = y - ratio * (y - transform.y);
-
-    var transformAdjusted = keepTransformInsideBounds();
-    if (!transformAdjusted) transform.scale *= ratio;
-
-    triggerEvent('zoom');
-
-    makeDirty();
-  }
-
-  function zoomAbs(clientX, clientY, zoomLevel) {
-    var ratio = zoomLevel / transform.scale;
-    zoomByRatio(clientX, clientY, ratio);
-  }
-
-  function centerOn(ui) {
-    var parent = ui.ownerSVGElement;
-    if (!parent) throw new Error('ui element is required to be within the scene');
-
-    var clientRect = ui.getBoundingClientRect();
-    var cx = clientRect.left + clientRect.width / 2;
-    var cy = clientRect.top + clientRect.height / 2;
-
-    var container = parent.getBoundingClientRect();
-    var dx = container.width / 2 - cx;
-    var dy = container.height / 2 - cy;
-
-    internalMoveBy(dx, dy, true);
-  }
-
-  function internalMoveBy(dx, dy, smooth) {
-    if (!smooth) {
-      return moveBy(dx, dy);
-    }
-
-    if (moveByAnimation) moveByAnimation.cancel();
-
-    var from = { x: 0, y: 0 };
-    var to = { x: dx, y: dy };
-    var lastX = 0;
-    var lastY = 0;
-
-    moveByAnimation = animate(from, to, {
-      step: function step(v) {
-        moveBy(v.x - lastX, v.y - lastY);
-
-        lastX = v.x;
-        lastY = v.y;
-      }
-    });
-  }
-
-  function scroll(x, y) {
-    cancelZoomAnimation();
-    moveTo(x, y);
-  }
-
-  function dispose() {
-    wheel.removeWheelListener(svgElement, onMouseWheel);
-    owner.removeEventListener('mousedown', onMouseDown);
-    owner.removeEventListener('keydown', onKeyDown);
-    owner.removeEventListener('dblclick', onDoubleClick);
-    if (frameAnimation) {
-      window.cancelAnimationFrame(frameAnimation);
-      frameAnimation = 0;
-    }
-
-    smoothScroll.cancel();
-
-    releaseDocumentMouse();
-    releaseTouches();
-
-    triggerPanEnd();
-  }
-
-  function listenForEvents() {
-    owner.addEventListener('mousedown', onMouseDown);
-    owner.addEventListener('dblclick', onDoubleClick);
-    owner.addEventListener('touchstart', onTouch);
-    owner.addEventListener('keydown', onKeyDown);
-    wheel.addWheelListener(owner, onMouseWheel);
-
-    makeDirty();
-  }
-
-  function frame() {
-    if (isDirty) applyTransform();
-  }
-
-  function applyTransform() {
-    isDirty = false;
-
-    svgElement.setAttribute('transform', 'matrix(' + transform.scale + ' 0 0 ' + transform.scale + ' ' + transform.x + ' ' + transform.y + ')');
-
-    frameAnimation = 0;
-  }
-
-  function onKeyDown(e) {
-    var x = 0,
-        y = 0,
-        z = 0;
-    if (e.keyCode === 38) {
-      y = 1; // up
-    } else if (e.keyCode === 40) {
-      y = -1; // down
-    } else if (e.keyCode === 37) {
-      x = 1; // left
-    } else if (e.keyCode === 39) {
-      x = -1; // right
-    } else if (e.keyCode === 189 || e.keyCode === 109) {
-      // DASH or SUBTRACT
-      z = 1; // `-` -  zoom out
-    } else if (e.keyCode === 187 || e.keyCode === 107) {
-      // EQUAL SIGN or ADD
-      z = -1; // `=` - zoom in (equal sign on US layout is under `+`)
-    }
-
-    if (x || y) {
-      e.preventDefault();
-      e.stopPropagation();
-
-      var clientRect = owner.getBoundingClientRect();
-      // movement speed should be the same in both X and Y direction:
-      var offset = Math.min(clientRect.width, clientRect.height);
-      var moveSpeedRatio = 0.05;
-      var dx = offset * moveSpeedRatio * x;
-      var dy = offset * moveSpeedRatio * y;
-
-      // TODO: currently we do not animate this. It could be better to have animation
-      internalMoveBy(dx, dy);
-    }
-
-    if (z) {
-      var scaleMultiplier = getScaleMultiplier(z);
-      publicZoomTo(owner.clientWidth / 2, owner.clientHeight / 2, scaleMultiplier);
-    }
-  }
-
-  function onTouch(e) {
-    if (e.touches.length === 1) {
-      return handleSignleFingerTouch(e, e.touches[0]);
-    } else if (e.touches.length === 2) {
-      // handleTouchMove() will care about pinch zoom.
-      e.stopPropagation();
-      e.preventDefault();
-
-      pinchZoomLength = getPinchZoomLength(e.touches[0], e.touches[1]);
-      multitouch = true;
-      startTouchListenerIfNeeded();
-    }
-  }
-
-  function handleSignleFingerTouch(e) {
-    e.stopPropagation();
-    e.preventDefault();
-
-    var touch = e.touches[0];
-    mouseX = touch.clientX;
-    mouseY = touch.clientY;
-
-    startTouchListenerIfNeeded();
-  }
-
-  function startTouchListenerIfNeeded() {
-    if (!touchInProgress) {
-      touchInProgress = true;
-      document.addEventListener('touchmove', handleTouchMove);
-      document.addEventListener('touchend', handleTouchEnd);
-      document.addEventListener('touchcancel', handleTouchEnd);
-    }
-  }
-
-  function handleTouchMove(e) {
-
-    if (e.touches.length === 1) {
-      e.stopPropagation();
-      var touch = e.touches[0];
-
-      var dx = touch.clientX - mouseX;
-      var dy = touch.clientY - mouseY;
-
-      if (dx !== 0 && dy !== 0) {
-        triggerPanStart();
-      }
-      mouseX = touch.clientX;
-      mouseY = touch.clientY;
-      internalMoveBy(dx, dy);
-    } else if (e.touches.length === 2) {
-      // it's a zoom, let's find direction
-      multitouch = true;
-      var t1 = e.touches[0];
-      var t2 = e.touches[1];
-      var currentPinchLength = getPinchZoomLength(t1, t2);
-
-      var delta = 0;
-      if (currentPinchLength < pinchZoomLength) {
-        delta = 1;
-      } else if (currentPinchLength > pinchZoomLength) {
-        delta = -1;
-      }
-
-      var scaleMultiplier = getScaleMultiplier(delta);
-
-      mouseX = (t1.clientX + t2.clientX) / 2;
-      mouseY = (t1.clientY + t2.clientY) / 2;
-
-      publicZoomTo(mouseX, mouseY, scaleMultiplier);
-
-      pinchZoomLength = currentPinchLength;
-      e.stopPropagation();
-      e.preventDefault();
-    }
-  }
-
-  function handleTouchEnd(e) {
-    if (e.touches.length > 0) {
-      mouseX = e.touches[0].clientX;
-      mouseY = e.touches[0].clientY;
-    } else {
-      var now = new Date();
-      if (now - lastTouchEndTime < doubleTapSpeedInMS) {
-        smoothZoom(mouseX, mouseY, zoomDoubleClickSpeed);
-      }
-
-      lastTouchEndTime = now;
-
-      touchInProgress = false;
-      triggerPanEnd();
-      releaseTouches();
-    }
-  }
-
-  function getPinchZoomLength(finger1, finger2) {
-    return (finger1.clientX - finger2.clientX) * (finger1.clientX - finger2.clientX) + (finger1.clientY - finger2.clientY) * (finger1.clientY - finger2.clientY);
-  }
-
-  function onDoubleClick(e) {
-    smoothZoom(e.clientX, e.clientY, zoomDoubleClickSpeed);
-
-    e.preventDefault();
-    e.stopPropagation();
-  }
-
-  function onMouseDown(e) {
-    if (touchInProgress) {
-      // modern browsers will fire mousedown for touch events too
-      // we do not want this: touch is handled separately.
-      e.stopPropagation();
-      return false;
-    }
-    // for IE, left click == 1
-    // for Firefox, left click == 0
-    var isLeftButton = e.button === 1 && window.event !== null || e.button === 0;
-    if (!isLeftButton) return;
-
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-
-    // We need to listen on document itself, since mouse can go outside of the
-    // window, and we will loose it
-    document.addEventListener('mousemove', onMouseMove);
-    document.addEventListener('mouseup', onMouseUp);
-
-    preventTextSelection.capture(e.target || e.srcElement);
-
-    return false;
-  }
-
-  function onMouseMove(e) {
-    // no need to worry about mouse events when touch is happening
-    if (touchInProgress) return;
-
-    triggerPanStart();
-
-    var dx = e.clientX - mouseX;
-    var dy = e.clientY - mouseY;
-
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-
-    internalMoveBy(dx, dy);
-  }
-
-  function onMouseUp() {
-    preventTextSelection.release();
-    triggerPanEnd();
-    releaseDocumentMouse();
-  }
-
-  function releaseDocumentMouse() {
-    document.removeEventListener('mousemove', onMouseMove);
-    document.removeEventListener('mouseup', onMouseUp);
-    panstartFired = false;
-  }
-
-  function releaseTouches() {
-    document.removeEventListener('touchmove', handleTouchMove);
-    document.removeEventListener('touchend', handleTouchEnd);
-    document.removeEventListener('touchcancel', handleTouchEnd);
-    panstartFired = false;
-    multitouch = false;
-  }
-
-  function onMouseWheel(e) {
-    // if client does not want to handle this event - just ignore the call
-    if (beforeWheel(e)) return;
-
-    smoothScroll.cancel();
-
-    var scaleMultiplier = getScaleMultiplier(e.deltaY);
-
-    if (scaleMultiplier !== 1) {
-      publicZoomTo(e.clientX, e.clientY, scaleMultiplier);
-      e.preventDefault();
-    }
-  }
-
-  function smoothZoom(clientX, clientY, scaleMultiplier) {
-    var transform = getTransform(svgElement);
-    var fromValue = transform.matrix.a;
-    var from = { scale: fromValue };
-    var to = { scale: scaleMultiplier * fromValue };
-
-    smoothScroll.cancel();
-    cancelZoomAnimation();
-
-    // TODO: should consolidate this and publicZoomTo
-    triggerEvent('zoom');
-
-    zoomToAnimation = animate(from, to, {
-      step: function step(v) {
-        zoomAbs(clientX, clientY, v.scale);
-      }
-    });
-  }
-
-  function publicZoomTo(clientX, clientY, scaleMultiplier) {
-    smoothScroll.cancel();
-    cancelZoomAnimation();
-    return zoomByRatio(clientX, clientY, scaleMultiplier);
-  }
-
-  function cancelZoomAnimation() {
-    if (zoomToAnimation) {
-      zoomToAnimation.cancel();
-      zoomToAnimation = null;
-    }
-  }
-
-  function getScaleMultiplier(delta) {
-    var scaleMultiplier = 1;
-    if (delta > 0) {
-      // zoom out
-      scaleMultiplier = 1 - speed;
-    } else if (delta < 0) {
-      // zoom in
-      scaleMultiplier = 1 + speed;
-    }
-
-    return scaleMultiplier;
-  }
-
-  function triggerPanStart() {
-    if (!panstartFired) {
-      triggerEvent('panstart');
-      panstartFired = true;
-      smoothScroll.start();
-    }
-  }
-
-  function triggerPanEnd() {
-    if (panstartFired) {
-      // we should never run smooth scrolling if it was multitouch (pinch zoom animation):
-      if (!multitouch) smoothScroll.stop();
-      triggerEvent('panend');
-    }
-  }
-
-  function triggerEvent(name) {
-    var event = createEvent(name);
-    svgElement.dispatchEvent(event);
-  }
-}
-
-function noop() {}
-
-function validateBounds(bounds) {
-  var boundsType = typeof bounds === 'undefined' ? 'undefined' : _typeof(bounds);
-  if (boundsType === 'undefined' || boundsType === 'boolean') return; // this is okay
-  // otherwise need to be more thorough:
-  var validBounds = isNumber(bounds.left) && isNumber(bounds.top) && isNumber(bounds.bottom) && isNumber(bounds.right);
-
-  if (!validBounds) throw new Error('Bounds object is not valid. It can be: ' + 'undefined, boolean (true|false) or an object {left, top, right, bottom}');
-}
-
-function isNumber(x) {
-  return Number.isFinite(x);
-}
-
-// IE 11 does not support isNaN:
-function isNaN(value) {
-  if (Number.isNaN) {
-    return Number.isNaN(value);
-  }
-
-  return value !== value;
-}
-
-/***/ }),
-/* 7 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/* global Event */
-module.exports = createEvent;
-
-var isIE = typeof Event !== 'function';
-
-/**
- * Constructs custom event. Works in IE too
- */
-function createEvent(name) {
-  if (isIE) {
-    var evt = document.createEvent('CustomEvent');
-    evt.initCustomEvent(name, true, true, undefined);
-    return evt;
+(function (f) {
+  if (( false ? "undefined" : _typeof(exports)) === "object" && typeof module !== "undefined") {
+    module.exports = f();
+  } else if (true) {
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_FACTORY__ = (f),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   } else {
-    return new Event(name, {
-      bubbles: true
-    });
+    var g;if (typeof window !== "undefined") {
+      g = window;
+    } else if (typeof global !== "undefined") {
+      g = global;
+    } else if (typeof self !== "undefined") {
+      g = self;
+    } else {
+      g = this;
+    }g.panzoom = f();
   }
-}
+})(function () {
+  var define, module, exports;return function e(t, n, r) {
+    function s(o, u) {
+      if (!n[o]) {
+        if (!t[o]) {
+          var a = typeof require == "function" && require;if (!u && a) return require(o, !0);if (i) return i(o, !0);var f = new Error("Cannot find module '" + o + "'");throw f.code = "MODULE_NOT_FOUND", f;
+        }var l = n[o] = { exports: {} };t[o][0].call(l.exports, function (e) {
+          var n = t[o][1][e];return s(n ? n : e);
+        }, l, l.exports, e, t, n, r);
+      }return n[o].exports;
+    }var i = typeof require == "function" && require;for (var o = 0; o < r.length; o++) {
+      s(r[o]);
+    }return s;
+  }({ 1: [function (require, module, exports) {
+      var wheel = require("wheel");var animate = require("amator");var kinetic = require("./lib/kinetic.js");var createEvent = require("./lib/createEvent.js");var preventTextSelection = require("./lib/textSlectionInterceptor.js")();var getTransform = require("./lib/getSvgTransformMatrix.js");var Transform = require("./lib/transform.js");var defaultZoomSpeed = .065;var defaultDoubleTapZoomSpeed = 1.75;var doubleTapSpeedInMS = 300;module.exports = createPanZoom;function createPanZoom(svgElement, options) {
+        var elementValid = svgElement instanceof SVGElement;var isDirty = false;var transform = new Transform();if (!elementValid) {
+          throw new Error("svg element is required for svg.panzoom to work");
+        }var frameAnimation;var owner = svgElement.ownerSVGElement;if (!owner) {
+          throw new Error("Do not apply panzoom to the root <svg> element. " + "Use its child instead (e.g. <g></g>). " + "As of March 2016 only FireFox supported transform on the root element");
+        }owner.setAttribute("tabindex", 1);options = options || {};var beforeWheel = options.beforeWheel || noop;var speed = typeof options.zoomSpeed === "number" ? options.zoomSpeed : defaultZoomSpeed;var bounds = options.bounds;validateBounds(bounds);var maxZoom = typeof options.maxZoom === "number" ? options.maxZoom : Number.POSITIVE_INFINITY;var minZoom = typeof options.minZoom === "number" ? options.minZoom : 0;var boundsPadding = typeof options.boundsPaddding === "number" ? options.boundsPaddding : .05;var zoomDoubleClickSpeed = typeof options.zoomDoubleClickSpeed === "number" ? options.zoomDoubleClickSpeed : defaultDoubleTapZoomSpeed;var lastTouchEndTime = 0;var touchInProgress = false;var panstartFired = false;var mouseX;var mouseY;var pinchZoomLength;var smoothScroll = kinetic(getRect, scroll);var moveByAnimation;var zoomToAnimation;var multitouch;listenForEvents();return { dispose: dispose, moveBy: internalMoveBy, moveTo: moveTo, centerOn: centerOn, zoomTo: publicZoomTo, zoomAbs: zoomAbs, getTransform: getTransformModel };function getTransformModel() {
+          return transform;
+        }function getRect() {
+          return { x: transform.x, y: transform.y };
+        }function moveTo(x, y) {
+          transform.x = x;transform.y = y;keepTransformInsideBounds();triggerEvent("pan");makeDirty();
+        }function moveBy(dx, dy) {
+          moveTo(transform.x + dx, transform.y + dy);
+        }function keepTransformInsideBounds() {
+          var boundingBox = getBoundingBox();if (!boundingBox) return;var adjusted = false;var clientRect = getClientRect();var diff = boundingBox.left - clientRect.right;if (diff > 0) {
+            transform.x += diff;adjusted = true;
+          }diff = boundingBox.right - clientRect.left;if (diff < 0) {
+            transform.x += diff;adjusted = true;
+          }diff = boundingBox.top - clientRect.bottom;if (diff > 0) {
+            transform.y += diff;adjusted = true;
+          }diff = boundingBox.bottom - clientRect.top;if (diff < 0) {
+            transform.y += diff;adjusted = true;
+          }return adjusted;
+        }function getBoundingBox() {
+          if (!bounds) return;if (typeof bounds === "boolean") {
+            var sceneWidth = owner.clientWidth;var sceneHeight = owner.clientHeight;return { left: sceneWidth * boundsPadding, top: sceneHeight * boundsPadding, right: sceneWidth * (1 - boundsPadding), bottom: sceneHeight * (1 - boundsPadding) };
+          }return bounds;
+        }function getClientRect() {
+          var bbox = svgElement.getBBox();var leftTop = client(bbox.x, bbox.y);return { left: leftTop.x, top: leftTop.y, right: bbox.width * transform.scale + leftTop.x, bottom: bbox.height * transform.scale + leftTop.y };
+        }function client(x, y) {
+          return { x: x * transform.scale + transform.x, y: y * transform.scale + transform.y };
+        }function makeDirty() {
+          isDirty = true;frameAnimation = window.requestAnimationFrame(frame);
+        }function zoomByRatio(clientX, clientY, ratio) {
+          if (isNaN(clientX) || isNaN(clientY) || isNaN(ratio)) {
+            throw new Error("zoom requires valid numbers");
+          }var newScale = transform.scale * ratio;if (newScale > maxZoom || newScale < minZoom) {
+            return;
+          }var parentCTM = owner.getScreenCTM();var x = clientX * parentCTM.a - parentCTM.e;var y = clientY * parentCTM.a - parentCTM.f;transform.x = x - ratio * (x - transform.x);transform.y = y - ratio * (y - transform.y);var transformAdjusted = keepTransformInsideBounds();if (!transformAdjusted) transform.scale *= ratio;triggerEvent("zoom");makeDirty();
+        }function zoomAbs(clientX, clientY, zoomLevel) {
+          var ratio = zoomLevel / transform.scale;zoomByRatio(clientX, clientY, ratio);
+        }function centerOn(ui) {
+          var parent = ui.ownerSVGElement;if (!parent) throw new Error("ui element is required to be within the scene");var clientRect = ui.getBoundingClientRect();var cx = clientRect.left + clientRect.width / 2;var cy = clientRect.top + clientRect.height / 2;var container = parent.getBoundingClientRect();var dx = container.width / 2 - cx;var dy = container.height / 2 - cy;internalMoveBy(dx, dy, true);
+        }function internalMoveBy(dx, dy, smooth) {
+          if (!smooth) {
+            return moveBy(dx, dy);
+          }if (moveByAnimation) moveByAnimation.cancel();var from = { x: 0, y: 0 };var to = { x: dx, y: dy };var lastX = 0;var lastY = 0;moveByAnimation = animate(from, to, { step: function step(v) {
+              moveBy(v.x - lastX, v.y - lastY);lastX = v.x;lastY = v.y;
+            } });
+        }function scroll(x, y) {
+          cancelZoomAnimation();moveTo(x, y);
+        }function dispose() {
+          wheel.removeWheelListener(svgElement, onMouseWheel);owner.removeEventListener("mousedown", onMouseDown);owner.removeEventListener("keydown", onKeyDown);owner.removeEventListener("dblclick", onDoubleClick);if (frameAnimation) {
+            window.cancelAnimationFrame(frameAnimation);frameAnimation = 0;
+          }smoothScroll.cancel();releaseDocumentMouse();releaseTouches();triggerPanEnd();
+        }function listenForEvents() {
+          owner.addEventListener("mousedown", onMouseDown);owner.addEventListener("dblclick", onDoubleClick);owner.addEventListener("touchstart", onTouch);owner.addEventListener("keydown", onKeyDown);wheel.addWheelListener(owner, onMouseWheel);makeDirty();
+        }function frame() {
+          if (isDirty) applyTransform();
+        }function applyTransform() {
+          isDirty = false;svgElement.setAttribute("transform", "matrix(" + transform.scale + " 0 0 " + transform.scale + " " + transform.x + " " + transform.y + ")");frameAnimation = 0;
+        }function onKeyDown(e) {
+          var x = 0,
+              y = 0,
+              z = 0;if (e.keyCode === 38) {
+            y = 1;
+          } else if (e.keyCode === 40) {
+            y = -1;
+          } else if (e.keyCode === 37) {
+            x = 1;
+          } else if (e.keyCode === 39) {
+            x = -1;
+          } else if (e.keyCode === 189 || e.keyCode === 109) {
+            z = 1;
+          } else if (e.keyCode === 187 || e.keyCode === 107) {
+            z = -1;
+          }if (x || y) {
+            e.preventDefault();e.stopPropagation();var clientRect = owner.getBoundingClientRect();var offset = Math.min(clientRect.width, clientRect.height);var moveSpeedRatio = .05;var dx = offset * moveSpeedRatio * x;var dy = offset * moveSpeedRatio * y;internalMoveBy(dx, dy);
+          }if (z) {
+            var scaleMultiplier = getScaleMultiplier(z);publicZoomTo(owner.clientWidth / 2, owner.clientHeight / 2, scaleMultiplier);
+          }
+        }function onTouch(e) {
+          if (e.touches.length === 1) {
+            return handleSingleFingerTouch(e, e.touches[0]);
+          } else if (e.touches.length === 2) {
+            e.stopPropagation();e.preventDefault();pinchZoomLength = getPinchZoomLength(e.touches[0], e.touches[1]);multitouch = true;startTouchListenerIfNeeded();
+          }
+        }function handleSingleFingerTouch(e) {
+          var touch = e.touches[0];mouseX = touch.clientX;mouseY = touch.clientY;startTouchListenerIfNeeded();
+        }function startTouchListenerIfNeeded() {
+          if (!touchInProgress) {
+            touchInProgress = true;document.addEventListener("touchmove", handleTouchMove);document.addEventListener("touchend", handleTouchEnd);document.addEventListener("touchcancel", handleTouchEnd);
+          }
+        }function handleTouchMove(e) {
+          if (e.touches.length === 1) {
+            e.stopPropagation();var touch = e.touches[0];var dx = touch.clientX - mouseX;var dy = touch.clientY - mouseY;if (dx !== 0 && dy !== 0) {
+              triggerPanStart();
+            }mouseX = touch.clientX;mouseY = touch.clientY;internalMoveBy(dx, dy);
+          } else if (e.touches.length === 2) {
+            multitouch = true;var t1 = e.touches[0];var t2 = e.touches[1];var currentPinchLength = getPinchZoomLength(t1, t2);var delta = 0;if (currentPinchLength < pinchZoomLength) {
+              delta = 1;
+            } else if (currentPinchLength > pinchZoomLength) {
+              delta = -1;
+            }var scaleMultiplier = getScaleMultiplier(delta);mouseX = (t1.clientX + t2.clientX) / 2;mouseY = (t1.clientY + t2.clientY) / 2;publicZoomTo(mouseX, mouseY, scaleMultiplier);pinchZoomLength = currentPinchLength;e.stopPropagation();e.preventDefault();
+          }
+        }function handleTouchEnd(e) {
+          if (e.touches.length > 0) {
+            mouseX = e.touches[0].clientX;mouseY = e.touches[0].clientY;
+          } else {
+            var now = new Date();if (now - lastTouchEndTime < doubleTapSpeedInMS) {
+              smoothZoom(mouseX, mouseY, zoomDoubleClickSpeed);
+            }lastTouchEndTime = now;touchInProgress = false;triggerPanEnd();releaseTouches();
+          }
+        }function getPinchZoomLength(finger1, finger2) {
+          return (finger1.clientX - finger2.clientX) * (finger1.clientX - finger2.clientX) + (finger1.clientY - finger2.clientY) * (finger1.clientY - finger2.clientY);
+        }function onDoubleClick(e) {
+          smoothZoom(e.clientX, e.clientY, zoomDoubleClickSpeed);e.preventDefault();e.stopPropagation();
+        }function onMouseDown(e) {
+          if (touchInProgress) {
+            e.stopPropagation();return false;
+          }var isLeftButton = e.button === 1 && window.event !== null || e.button === 0;if (!isLeftButton) return;mouseX = e.clientX;mouseY = e.clientY;document.addEventListener("mousemove", onMouseMove);document.addEventListener("mouseup", onMouseUp);preventTextSelection.capture(e.target || e.srcElement);return false;
+        }function onMouseMove(e) {
+          if (touchInProgress) return;triggerPanStart();var dx = e.clientX - mouseX;var dy = e.clientY - mouseY;mouseX = e.clientX;mouseY = e.clientY;internalMoveBy(dx, dy);
+        }function onMouseUp() {
+          preventTextSelection.release();triggerPanEnd();releaseDocumentMouse();
+        }function releaseDocumentMouse() {
+          document.removeEventListener("mousemove", onMouseMove);document.removeEventListener("mouseup", onMouseUp);panstartFired = false;
+        }function releaseTouches() {
+          document.removeEventListener("touchmove", handleTouchMove);document.removeEventListener("touchend", handleTouchEnd);document.removeEventListener("touchcancel", handleTouchEnd);panstartFired = false;multitouch = false;
+        }function onMouseWheel(e) {
+          if (beforeWheel(e)) return;smoothScroll.cancel();var scaleMultiplier = getScaleMultiplier(e.deltaY);if (scaleMultiplier !== 1) {
+            publicZoomTo(e.clientX, e.clientY, scaleMultiplier);e.preventDefault();
+          }
+        }function smoothZoom(clientX, clientY, scaleMultiplier) {
+          var transform = getTransform(svgElement);var fromValue = transform.matrix.a;var from = { scale: fromValue };var to = { scale: scaleMultiplier * fromValue };smoothScroll.cancel();cancelZoomAnimation();triggerEvent("zoom");zoomToAnimation = animate(from, to, { step: function step(v) {
+              zoomAbs(clientX, clientY, v.scale);
+            } });
+        }function publicZoomTo(clientX, clientY, scaleMultiplier) {
+          smoothScroll.cancel();cancelZoomAnimation();return zoomByRatio(clientX, clientY, scaleMultiplier);
+        }function cancelZoomAnimation() {
+          if (zoomToAnimation) {
+            zoomToAnimation.cancel();zoomToAnimation = null;
+          }
+        }function getScaleMultiplier(delta) {
+          var scaleMultiplier = 1;if (delta > 0) {
+            scaleMultiplier = 1 - speed;
+          } else if (delta < 0) {
+            scaleMultiplier = 1 + speed;
+          }return scaleMultiplier;
+        }function triggerPanStart() {
+          if (!panstartFired) {
+            triggerEvent("panstart");panstartFired = true;smoothScroll.start();
+          }
+        }function triggerPanEnd() {
+          if (panstartFired) {
+            if (!multitouch) smoothScroll.stop();triggerEvent("panend");
+          }
+        }function triggerEvent(name) {
+          var event = createEvent(name);svgElement.dispatchEvent(event);
+        }
+      }function noop() {}function validateBounds(bounds) {
+        var boundsType = typeof bounds === "undefined" ? "undefined" : _typeof(bounds);if (boundsType === "undefined" || boundsType === "boolean") return;var validBounds = isNumber(bounds.left) && isNumber(bounds.top) && isNumber(bounds.bottom) && isNumber(bounds.right);if (!validBounds) throw new Error("Bounds object is not valid. It can be: " + "undefined, boolean (true|false) or an object {left, top, right, bottom}");
+      }function isNumber(x) {
+        return Number.isFinite(x);
+      }function isNaN(value) {
+        if (Number.isNaN) {
+          return Number.isNaN(value);
+        }return value !== value;
+      }
+    }, { "./lib/createEvent.js": 2, "./lib/getSvgTransformMatrix.js": 3, "./lib/kinetic.js": 4, "./lib/textSlectionInterceptor.js": 5, "./lib/transform.js": 6, amator: 7, wheel: 9 }], 2: [function (require, module, exports) {
+      module.exports = createEvent;var isIE = typeof Event !== "function";function createEvent(name) {
+        if (isIE) {
+          var evt = document.createEvent("CustomEvent");evt.initCustomEvent(name, true, true, undefined);return evt;
+        } else {
+          return new Event(name, { bubbles: true });
+        }
+      }
+    }, {}], 3: [function (require, module, exports) {
+      module.exports = getSvgTransformMatrix;function getSvgTransformMatrix(svgElement) {
+        var baseVal = svgElement.transform.baseVal;if (baseVal.numberOfItems) return baseVal.getItem(0);var owner = svgElement.ownerSVGElement || svgElement;var transform = owner.createSVGTransform();svgElement.transform.baseVal.appendItem(transform);return transform;
+      }
+    }, {}], 4: [function (require, module, exports) {
+      module.exports = kinetic;var minVelocity = 10;var amplitude = .42;function kinetic(getRect, scroll) {
+        var lastRect;var timestamp;var timeConstant = 342;var ticker;var vx, targetX, ax;var vy, targetY, ay;var raf;return { start: start, stop: stop, cancel: dispose };function dispose() {
+          window.clearInterval(ticker);window.cancelAnimationFrame(raf);
+        }function start() {
+          lastRect = getRect();ax = ay = vx = vy = 0;timestamp = new Date();window.clearInterval(ticker);window.cancelAnimationFrame(raf);ticker = window.setInterval(track, 100);
+        }function track() {
+          var now = Date.now();var elapsed = now - timestamp;timestamp = now;var rect = getRect();var dx = rect.x - lastRect.x;var dy = rect.y - lastRect.y;lastRect = rect;var dt = 1e3 / (1 + elapsed);vx = .8 * dx * dt + .2 * vx;vy = .8 * dy * dt + .2 * vy;
+        }function stop() {
+          window.clearInterval(ticker);window.cancelAnimationFrame(raf);var rect = getRect();targetX = rect.x;targetY = rect.y;timestamp = Date.now();if (vx < -minVelocity || vx > minVelocity) {
+            ax = amplitude * vx;targetX += ax;
+          }if (vy < -minVelocity || vy > minVelocity) {
+            ay = amplitude * vy;targetY += ay;
+          }raf = window.requestAnimationFrame(autoScroll);
+        }function autoScroll() {
+          var elapsed = Date.now() - timestamp;var moving = false;var dx = 0;var dy = 0;if (ax) {
+            dx = -ax * Math.exp(-elapsed / timeConstant);if (dx > .5 || dx < -.5) moving = true;else dx = ax = 0;
+          }if (ay) {
+            dy = -ay * Math.exp(-elapsed / timeConstant);if (dy > .5 || dy < -.5) moving = true;else dy = ay = 0;
+          }if (moving) {
+            scroll(targetX + dx, targetY + dy);raf = window.requestAnimationFrame(autoScroll);
+          }
+        }
+      }
+    }, {}], 5: [function (require, module, exports) {
+      module.exports = createTextSelectionInterceptor;function createTextSelectionInterceptor() {
+        var dragObject;var prevSelectStart;var prevDragStart;return { capture: capture, release: release };function capture(domObject) {
+          prevSelectStart = window.document.onselectstart;prevDragStart = window.document.ondragstart;window.document.onselectstart = disabled;dragObject = domObject;dragObject.ondragstart = disabled;
+        }function release() {
+          window.document.onselectstart = prevSelectStart;if (dragObject) dragObject.ondragstart = prevDragStart;
+        }
+      }function disabled(e) {
+        e.stopPropagation();return false;
+      }
+    }, {}], 6: [function (require, module, exports) {
+      module.exports = Transform;function Transform() {
+        this.x = 0;this.y = 0;this.scale = 1;
+      }
+    }, {}], 7: [function (require, module, exports) {
+      var BezierEasing = require("bezier-easing");var animations = { ease: BezierEasing(.25, .1, .25, 1), easeIn: BezierEasing(.42, 0, 1, 1), easeOut: BezierEasing(0, 0, .58, 1), easeInOut: BezierEasing(.42, 0, .58, 1), linear: BezierEasing(0, 0, 1, 1) };module.exports = animate;function animate(source, target, options) {
+        var start = Object.create(null);var diff = Object.create(null);options = options || {};var easing = typeof options.easing === "function" ? options.easing : animations[options.easing];if (!easing) {
+          if (options.easing) {
+            console.warn("Unknown easing function in amator: " + options.easing);
+          }easing = animations.ease;
+        }var step = typeof options.step === "function" ? options.step : noop;var done = typeof options.done === "function" ? options.done : noop;var scheduler = getScheduler(options.scheduler);var keys = Object.keys(target);keys.forEach(function (key) {
+          start[key] = source[key];diff[key] = target[key] - source[key];
+        });var durationInMs = options.duration || 400;var durationInFrames = Math.max(1, durationInMs * .06);var previousAnimationId;var frame = 0;previousAnimationId = scheduler.next(loop);return { cancel: cancel };function cancel() {
+          scheduler.cancel(previousAnimationId);previousAnimationId = 0;
+        }function loop() {
+          var t = easing(frame / durationInFrames);frame += 1;setValues(t);if (frame <= durationInFrames) {
+            previousAnimationId = scheduler.next(loop);step(source);
+          } else {
+            previousAnimationId = 0;setTimeout(function () {
+              done(source);
+            }, 0);
+          }
+        }function setValues(t) {
+          keys.forEach(function (key) {
+            source[key] = diff[key] * t + start[key];
+          });
+        }
+      }function noop() {}function getScheduler(scheduler) {
+        if (!scheduler) {
+          var canRaf = typeof window !== "undefined" && window.requestAnimationFrame;return canRaf ? rafScheduler() : timeoutScheduler();
+        }if (typeof scheduler.next !== "function") throw new Error("Scheduler is supposed to have next(cb) function");if (typeof scheduler.cancel !== "function") throw new Error("Scheduler is supposed to have cancel(handle) function");return scheduler;
+      }function rafScheduler() {
+        return { next: window.requestAnimationFrame.bind(window), cancel: window.cancelAnimationFrame.bind(window) };
+      }function timeoutScheduler() {
+        return { next: function next(cb) {
+            return setTimeout(cb, 1e3 / 60);
+          }, cancel: function cancel(id) {
+            return clearTimeout(id);
+          } };
+      }
+    }, { "bezier-easing": 8 }], 8: [function (require, module, exports) {
+      var NEWTON_ITERATIONS = 4;var NEWTON_MIN_SLOPE = .001;var SUBDIVISION_PRECISION = 1e-7;var SUBDIVISION_MAX_ITERATIONS = 10;var kSplineTableSize = 11;var kSampleStepSize = 1 / (kSplineTableSize - 1);var float32ArraySupported = typeof Float32Array === "function";function A(aA1, aA2) {
+        return 1 - 3 * aA2 + 3 * aA1;
+      }function B(aA1, aA2) {
+        return 3 * aA2 - 6 * aA1;
+      }function C(aA1) {
+        return 3 * aA1;
+      }function calcBezier(aT, aA1, aA2) {
+        return ((A(aA1, aA2) * aT + B(aA1, aA2)) * aT + C(aA1)) * aT;
+      }function getSlope(aT, aA1, aA2) {
+        return 3 * A(aA1, aA2) * aT * aT + 2 * B(aA1, aA2) * aT + C(aA1);
+      }function binarySubdivide(aX, aA, aB, mX1, mX2) {
+        var currentX,
+            currentT,
+            i = 0;do {
+          currentT = aA + (aB - aA) / 2;currentX = calcBezier(currentT, mX1, mX2) - aX;if (currentX > 0) {
+            aB = currentT;
+          } else {
+            aA = currentT;
+          }
+        } while (Math.abs(currentX) > SUBDIVISION_PRECISION && ++i < SUBDIVISION_MAX_ITERATIONS);return currentT;
+      }function newtonRaphsonIterate(aX, aGuessT, mX1, mX2) {
+        for (var i = 0; i < NEWTON_ITERATIONS; ++i) {
+          var currentSlope = getSlope(aGuessT, mX1, mX2);if (currentSlope === 0) {
+            return aGuessT;
+          }var currentX = calcBezier(aGuessT, mX1, mX2) - aX;aGuessT -= currentX / currentSlope;
+        }return aGuessT;
+      }module.exports = function bezier(mX1, mY1, mX2, mY2) {
+        if (!(0 <= mX1 && mX1 <= 1 && 0 <= mX2 && mX2 <= 1)) {
+          throw new Error("bezier x values must be in [0, 1] range");
+        }var sampleValues = float32ArraySupported ? new Float32Array(kSplineTableSize) : new Array(kSplineTableSize);if (mX1 !== mY1 || mX2 !== mY2) {
+          for (var i = 0; i < kSplineTableSize; ++i) {
+            sampleValues[i] = calcBezier(i * kSampleStepSize, mX1, mX2);
+          }
+        }function getTForX(aX) {
+          var intervalStart = 0;var currentSample = 1;var lastSample = kSplineTableSize - 1;for (; currentSample !== lastSample && sampleValues[currentSample] <= aX; ++currentSample) {
+            intervalStart += kSampleStepSize;
+          }--currentSample;var dist = (aX - sampleValues[currentSample]) / (sampleValues[currentSample + 1] - sampleValues[currentSample]);var guessForT = intervalStart + dist * kSampleStepSize;var initialSlope = getSlope(guessForT, mX1, mX2);if (initialSlope >= NEWTON_MIN_SLOPE) {
+            return newtonRaphsonIterate(aX, guessForT, mX1, mX2);
+          } else if (initialSlope === 0) {
+            return guessForT;
+          } else {
+            return binarySubdivide(aX, intervalStart, intervalStart + kSampleStepSize, mX1, mX2);
+          }
+        }return function BezierEasing(x) {
+          if (mX1 === mY1 && mX2 === mY2) {
+            return x;
+          }if (x === 0) {
+            return 0;
+          }if (x === 1) {
+            return 1;
+          }return calcBezier(getTForX(x), mY1, mY2);
+        };
+      };
+    }, {}], 9: [function (require, module, exports) {
+      module.exports = addWheelListener;module.exports.addWheelListener = addWheelListener;module.exports.removeWheelListener = removeWheelListener;var prefix = "",
+          _addEventListener,
+          _removeEventListener,
+          onwheel,
+          support;detectEventModel(typeof window !== "undefined" && window, typeof document !== "undefined" && document);function addWheelListener(elem, callback, useCapture) {
+        _addWheelListener(elem, support, callback, useCapture);if (support == "DOMMouseScroll") {
+          _addWheelListener(elem, "MozMousePixelScroll", callback, useCapture);
+        }
+      }function removeWheelListener(elem, callback, useCapture) {
+        _removeWheelListener(elem, support, callback, useCapture);if (support == "DOMMouseScroll") {
+          _removeWheelListener(elem, "MozMousePixelScroll", callback, useCapture);
+        }
+      }function _addWheelListener(elem, eventName, callback, useCapture) {
+        elem[_addEventListener](prefix + eventName, support == "wheel" ? callback : function (originalEvent) {
+          !originalEvent && (originalEvent = window.event);var event = { originalEvent: originalEvent, target: originalEvent.target || originalEvent.srcElement, type: "wheel", deltaMode: originalEvent.type == "MozMousePixelScroll" ? 0 : 1, deltaX: 0, delatZ: 0, clientX: originalEvent.clientX, clientY: originalEvent.clientY, preventDefault: function preventDefault() {
+              originalEvent.preventDefault ? originalEvent.preventDefault() : originalEvent.returnValue = false;
+            }, stopPropagation: function stopPropagation() {
+              if (originalEvent.stopPropagation) originalEvent.stopPropagation();
+            }, stopImmediatePropagation: function stopImmediatePropagation() {
+              if (originalEvent.stopImmediatePropagation) originalEvent.stopImmediatePropagation();
+            } };if (support == "mousewheel") {
+            event.deltaY = -1 / 40 * originalEvent.wheelDelta;originalEvent.wheelDeltaX && (event.deltaX = -1 / 40 * originalEvent.wheelDeltaX);
+          } else {
+            event.deltaY = originalEvent.detail;
+          }return callback(event);
+        }, useCapture || false);
+      }function _removeWheelListener(elem, eventName, callback, useCapture) {
+        elem[_removeEventListener](prefix + eventName, callback, useCapture || false);
+      }function detectEventModel(window, document) {
+        if (window && window.addEventListener) {
+          _addEventListener = "addEventListener";_removeEventListener = "removeEventListener";
+        } else {
+          _addEventListener = "attachEvent";_removeEventListener = "detachEvent";prefix = "on";
+        }if (document) {
+          support = "onwheel" in document.createElement("div") ? "wheel" : document.onmousewheel !== undefined ? "mousewheel" : "DOMMouseScroll";
+        } else {
+          support = "wheel";
+        }
+      }
+    }, {}] }, {}, [1])(1);
+});
 
 /***/ }),
-/* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Returns transformation matrix for an element. If no such transformation matrix
- * exist - a new one is created.
- */
-module.exports = getSvgTransformMatrix;
-
-function getSvgTransformMatrix(svgElement) {
-  var baseVal = svgElement.transform.baseVal;
-  if (baseVal.numberOfItems) return baseVal.getItem(0);
-
-  var owner = svgElement.ownerSVGElement || svgElement;
-  var transform = owner.createSVGTransform();
-  svgElement.transform.baseVal.appendItem(transform);
-
-  return transform;
-}
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Allows smooth kinetic scrolling of the surface
- */
-module.exports = kinetic;
-
-var minVelocity = 10;
-var amplitude = 0.42;
-
-function kinetic(getRect, scroll) {
-  var lastRect;
-  var timestamp;
-  var timeConstant = 342;
-
-  var ticker;
-  var vx, targetX, ax;
-  var vy, targetY, ay;
-
-  var raf;
-
-  return {
-    start: start,
-    stop: stop,
-    cancel: dispose
-  };
-
-  function dispose() {
-    window.clearInterval(ticker);
-    window.cancelAnimationFrame(raf);
-  }
-
-  function start() {
-    lastRect = getRect();
-
-    ax = ay = vx = vy = 0;
-    timestamp = new Date();
-
-    window.clearInterval(ticker);
-    window.cancelAnimationFrame(raf);
-
-    ticker = window.setInterval(track, 100);
-  }
-
-  function track() {
-    var now = Date.now();
-    var elapsed = now - timestamp;
-    timestamp = now;
-
-    var rect = getRect();
-
-    var dx = rect.x - lastRect.x;
-    var dy = rect.y - lastRect.y;
-
-    lastRect = rect;
-
-    var dt = 1000 / (1 + elapsed);
-
-    // moving average
-    vx = 0.8 * dx * dt + 0.2 * vx;
-    vy = 0.8 * dy * dt + 0.2 * vy;
-  }
-
-  function stop() {
-    window.clearInterval(ticker);
-    window.cancelAnimationFrame(raf);
-
-    var rect = getRect();
-
-    targetX = rect.x;
-    targetY = rect.y;
-    timestamp = Date.now();
-
-    if (vx < -minVelocity || vx > minVelocity) {
-      ax = amplitude * vx;
-      targetX += ax;
-    }
-
-    if (vy < -minVelocity || vy > minVelocity) {
-      ay = amplitude * vy;
-      targetY += ay;
-    }
-
-    raf = window.requestAnimationFrame(autoScroll);
-  }
-
-  function autoScroll() {
-    var elapsed = Date.now() - timestamp;
-
-    var moving = false;
-    var dx = 0;
-    var dy = 0;
-
-    if (ax) {
-      dx = -ax * Math.exp(-elapsed / timeConstant);
-
-      if (dx > 0.5 || dx < -0.5) moving = true;else dx = ax = 0;
-    }
-
-    if (ay) {
-      dy = -ay * Math.exp(-elapsed / timeConstant);
-
-      if (dy > 0.5 || dy < -0.5) moving = true;else dy = ay = 0;
-    }
-
-    if (moving) {
-      scroll(targetX + dx, targetY + dy);
-      raf = window.requestAnimationFrame(autoScroll);
-    }
-  }
-}
-
-/***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/**
- * Disallows selecting text.
- */
-module.exports = createTextSelectionInterceptor;
-
-function createTextSelectionInterceptor() {
-  var dragObject;
-  var prevSelectStart;
-  var prevDragStart;
-
-  return {
-    capture: capture,
-    release: release
-  };
-
-  function capture(domObject) {
-    prevSelectStart = window.document.onselectstart;
-    prevDragStart = window.document.ondragstart;
-
-    window.document.onselectstart = disabled;
-
-    dragObject = domObject;
-    dragObject.ondragstart = disabled;
-  }
-
-  function release() {
-    window.document.onselectstart = prevSelectStart;
-    if (dragObject) dragObject.ondragstart = prevDragStart;
-  }
-}
-
-function disabled(e) {
-  e.stopPropagation();
-  return false;
-}
-
-/***/ }),
-/* 11 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports = Transform;
-
-function Transform() {
-  this.x = 0;
-  this.y = 0;
-  this.scale = 1;
-}
-
-/***/ }),
-/* 12 */
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1717,132 +1023,10 @@ module.exports = function (css) {
 };
 
 /***/ }),
-/* 13 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-
-
-/**
- * This module unifies handling of mouse whee event across different browsers
- *
- * See https://developer.mozilla.org/en-US/docs/Web/Reference/Events/wheel?redirectlocale=en-US&redirectslug=DOM%2FMozilla_event_reference%2Fwheel
- * for more details
- *
- * Usage:
- *  var addWheelListener = require('wheel').addWheelListener;
- *  var removeWheelListener = require('wheel').removeWheelListener;
- *  addWheelListener(domElement, function (e) {
- *    // mouse wheel event
- *  });
- *  removeWheelListener(domElement, function);
- */
-// by default we shortcut to 'addEventListener':
-
-module.exports = addWheelListener;
-
-// But also expose "advanced" api with unsubscribe:
-module.exports.addWheelListener = addWheelListener;
-module.exports.removeWheelListener = removeWheelListener;
-
-var prefix = "",
-    _addEventListener,
-    _removeEventListener,
-    onwheel,
-    support;
-
-detectEventModel(typeof window !== 'undefined' && window, typeof document !== 'undefined' && document);
-
-function addWheelListener(elem, callback, useCapture) {
-  _addWheelListener(elem, support, callback, useCapture);
-
-  // handle MozMousePixelScroll in older Firefox
-  if (support == "DOMMouseScroll") {
-    _addWheelListener(elem, "MozMousePixelScroll", callback, useCapture);
-  }
-};
-
-function removeWheelListener(elem, callback, useCapture) {
-  _removeWheelListener(elem, support, callback, useCapture);
-
-  // handle MozMousePixelScroll in older Firefox
-  if (support == "DOMMouseScroll") {
-    _removeWheelListener(elem, "MozMousePixelScroll", callback, useCapture);
-  }
-};
-
-function _addWheelListener(elem, eventName, callback, useCapture) {
-  // TODO: in theory this anonymous function may result in incorrect
-  // unsubscription in some browsers. But in practice, I don't think we should
-  // worry too much about it (those browsers are on the way out)
-  elem[_addEventListener](prefix + eventName, support == "wheel" ? callback : function (originalEvent) {
-    !originalEvent && (originalEvent = window.event);
-
-    // create a normalized event object
-    var event = {
-      // keep a ref to the original event object
-      originalEvent: originalEvent,
-      target: originalEvent.target || originalEvent.srcElement,
-      type: "wheel",
-      deltaMode: originalEvent.type == "MozMousePixelScroll" ? 0 : 1,
-      deltaX: 0,
-      delatZ: 0,
-      clientX: originalEvent.clientX,
-      clientY: originalEvent.clientY,
-      preventDefault: function preventDefault() {
-        originalEvent.preventDefault ? originalEvent.preventDefault() : originalEvent.returnValue = false;
-      },
-      stopPropagation: function stopPropagation() {
-        if (originalEvent.stopPropagation) originalEvent.stopPropagation();
-      },
-      stopImmediatePropagation: function stopImmediatePropagation() {
-        if (originalEvent.stopImmediatePropagation) originalEvent.stopImmediatePropagation();
-      }
-    };
-
-    // calculate deltaY (and deltaX) according to the event
-    if (support == "mousewheel") {
-      event.deltaY = -1 / 40 * originalEvent.wheelDelta;
-      // Webkit also support wheelDeltaX
-      originalEvent.wheelDeltaX && (event.deltaX = -1 / 40 * originalEvent.wheelDeltaX);
-    } else {
-      event.deltaY = originalEvent.detail;
-    }
-
-    // it's time to fire the callback
-    return callback(event);
-  }, useCapture || false);
-}
-
-function _removeWheelListener(elem, eventName, callback, useCapture) {
-  elem[_removeEventListener](prefix + eventName, callback, useCapture || false);
-}
-
-function detectEventModel(window, document) {
-  if (window && window.addEventListener) {
-    _addEventListener = "addEventListener";
-    _removeEventListener = "removeEventListener";
-  } else {
-    _addEventListener = "attachEvent";
-    _removeEventListener = "detachEvent";
-    prefix = "on";
-  }
-
-  if (document) {
-    // detect available wheel event
-    support = "onwheel" in document.createElement("div") ? "wheel" : // Modern browsers support "wheel"
-    document.onmousewheel !== undefined ? "mousewheel" : // Webkit and IE support at least "mousewheel"
-    "DOMMouseScroll"; // let's assume that remaining browsers are older Firefox
-  } else {
-    support = "wheel";
-  }
-}
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
+exports = module.exports = __webpack_require__(1)(undefined);
 // imports
 
 
@@ -1853,7 +1037,7 @@ exports.push([module.i, ".mindmap-svg {\n  height: 100%;\n  width: 100%; }\n  .m
 
 
 /***/ }),
-/* 15 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -1890,7 +1074,7 @@ var stylesInDom = {},
 	singletonElement = null,
 	singletonCounter = 0,
 	styleElementsInsertedAtTop = [],
-	fixUrls = __webpack_require__(12);
+	fixUrls = __webpack_require__(5);
 
 module.exports = function(list, options) {
 	if(typeof DEBUG !== "undefined" && DEBUG) {
@@ -2166,13 +1350,13 @@ function updateLink(linkElement, options, obj) {
 
 
 /***/ }),
-/* 16 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(14);
+var content = __webpack_require__(6);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -2180,7 +1364,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(15)(content, options);
+var update = __webpack_require__(7)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -2197,10 +1381,10 @@ if(false) {
 }
 
 /***/ }),
-/* 17 */
+/* 9 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_17__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_9__;
 
 /***/ })
 /******/ ]);
