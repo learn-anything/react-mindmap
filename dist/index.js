@@ -733,9 +733,8 @@ var parseEmojis = exports.parseEmojis = function parseEmojis(html) {
     if (match === '🤖') {
       return '<img class="mindmap-emoji reddit-emoji" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpOQVZdTCyVamjJPl92KjaDHigNWVM8mOLHPRU4DHoVNJWxCg">';
     }
-
-    if (match === ' 🗂️') {
-      return '<img class="mindmap-emoji reddit-emoji" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4">';
+    if (match === '🗂️') {
+      return '<img src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4">';
     }
 
     // Keep the first 10 bits.
