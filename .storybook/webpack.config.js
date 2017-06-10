@@ -4,7 +4,7 @@ module.exports = {
   module: {
     loaders: appConfig.module.loaders
       // js loader works without errors
-      .filter(item => item.test.toString() === '/\\.s(a|c)ss$/')
+      .filter(item => item.test.toString() === '/\\.sass$/')
       // storybook uses webpack@1 which expects `loader` to be only of the string type
       .reduce((total, item) => {
         if (Array.isArray(item.loader)) {

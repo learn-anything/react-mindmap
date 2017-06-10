@@ -1,21 +1,5 @@
 /* eslint no-bitwise:off */
-
-/* Make a GET request to the specified url and call callback with JSON
- * response when done.
- */
-export const getJSON = (url, done) => {
-  const xhr = new XMLHttpRequest();
-  xhr.open('GET', url, true);
-
-  xhr.onreadystatechange = () => {
-    if (xhr.readyState === XMLHttpRequest.DONE
-        && typeof done === 'function') {
-      done(JSON.parse(xhr.responseText));
-    }
-  };
-
-  xhr.send();
-};
+import { getDimensions } from './dimensions';
 
 // Match style attributes in an HTML string.
 export const matchStyle = /style="([^"]*)"|style='([^']*)'/g;
@@ -53,26 +37,43 @@ export const parseEmojis = html =>
     return emojiTemplate(`1${unicode}`);
   });
 
-/* Returns the dimensions that some html with a given style would take
- * in the DOM.
- */
-export const htmlDimensions = (html, style, classname) => {
-  const el = document.createElement('span');
-  const dimensions = {};
+// TODO - convert subnodes
+// Convert a list of nodes from Mindnode format to D3 format.
+export const convertNodes = (nodes) =>
+  nodes.map((node) => {
+    // Remove style tags and parse emojis to image tags.
+    const innerHTML = parseEmojis(node.title.text.replace(matchStyle, ''));
 
-  el.style.display = 'inline-block';
-  el.style.visibility = 'hidden';
-  el.className = classname;
-  el.innerHTML = html;
+    // Calculate width and height of this node.
+    const dimensions = getDimensions(innerHTML, {
+      maxWidth: node.title.maxWidth,
+    }, 'mindmap-node');
 
-  Object.keys(style).forEach((rule) => {
-    el.style[rule] = style[rule];
+    // Change 15% of nodes as floating.
+    const fixed = Math.random() > .15;
+
+    return {
+      id: node.id,
+      html: innerHTML,
+      fx: fixed ? node.location.x : null,
+      fy: fixed ? node.location.y : null,
+      width: node.title.maxWidth,
+      height: dimensions.height + 4,
+    };
   });
-  document.body.append(el);
 
-  dimensions.width = el.offsetWidth;
-  dimensions.height = el.offsetHeight;
+// Convert a list of connections from Mindnode format to D3 format.
+export const convertLinks = (links) =>
+  links.map(link => {
+    // Change 15% of links as floating.
+    const fixed = Math.random() > .25;
 
-  el.remove();
-  return dimensions;
-};
+    return {
+      source: link.startNodeID,
+      target: link.endNodeID,
+      curve: {
+        x: fixed ? link.wayPointOffset.x : null,
+        y: fixed ? link.wayPointOffset.y : null,
+      }
+    };
+  });

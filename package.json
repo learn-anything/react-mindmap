@@ -1,7 +1,7 @@
 {
   "name": "react-mindmap",
   "version": "1.3.0",
-  "description": "React component for mindnode maps",
+  "description": "React component for rendering mind maps",
   "license": "MIT",
   "contributors": [
     {
@@ -18,13 +18,10 @@
   "scripts": {
     "lint": "eslint .; sass-lint sass/* -v",
     "build": "webpack -p",
-    "storybook": "start-storybook -p 9001 -c .storybook",
-    "test": "webpack; http-server -p 3000 --cors -c-1"
+    "test": "start-storybook -p 3000 -c .storybook"
   },
   "dependencies": {
-    "panzoom": "learn-anything/panzoom"
-  },
-  "peerDependencies": {
+    "d3": "^4.9.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
@@ -53,11 +50,5 @@
     "plugins": {
       "autoprefixer": {}
     }
-  },
-  "babel": {
-    "presets": [
-      "es2015",
-      "react"
-    ]
   }
 }
