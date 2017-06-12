@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import * as d3 from 'd3';
 
 import { getViewBox } from './utils/dimensions';
-import { d3Nodes, d3Links, d3Zoom, tick, dragStart, dragged, dragEnd } from './utils/d3';
+import { d3Nodes, d3Links, d3Subnodes, d3PanZoom, d3Drag, tick } from './utils/d3';
 import '../sass/main.sass';
 
 
@@ -21,8 +21,17 @@ export default class MindMap extends Component {
   componentDidMount() {
     const svg = d3.select(this.refs.svg);
 
+    svg.append('g').attr('id', 'mindmap-subnodes');
+
     const links = d3Links(svg, this.props.links, 'path');
     const nodes = d3Nodes(svg, this.props.nodes, 'foreignObject');
+
+    console.log(nodes);
+    this.props.subnodes.forEach((subnode) => {
+      subnode.parent = nodes._groups[0].find(node => node.__data__.id === subnode.parent);
+    });
+
+    const subnodes = d3Subnodes(svg.select('#mindmap-subnodes'), this.props.subnodes, 'g');
 
     this.state.simulation
       .nodes(this.props.nodes)
@@ -41,15 +50,7 @@ export default class MindMap extends Component {
         });
 
 
-      nodes.call(
-        d3.drag()
-          .on('start', (node) => dragStart(node, this.state.simulation))
-          .on('drag', dragged)
-          .on('end', () => {
-            dragEnd(this.state.simulation);
-            svg.attr('viewBox', getViewBox(nodes.data()));
-          })
-      );
+      nodes.call(d3Drag(this.state.simulation, svg, nodes));
 
       this.state.simulation
         .alphaTarget(0.5).on('tick', () => tick(links, nodes));
@@ -63,7 +64,8 @@ export default class MindMap extends Component {
     tick(links, nodes);
     svg
       .attr('viewBox', getViewBox(nodes.data()))
-      .call(d3Zoom(svg));
+      .call(d3PanZoom(svg))
+      .on('dblclick.zoom', null);
   }
 
   render() {
@@ -79,6 +81,7 @@ export default class MindMap extends Component {
 
 MindMap.defaultProps = {
   nodes: [],
+  subnodes: [],
   links: [],
   onIncompleteMap: () => {},
   editable: false,
@@ -86,6 +89,7 @@ MindMap.defaultProps = {
 
 MindMap.propTypes = {
   nodes: PropTypes.array,
+  subnodes: PropTypes.array,
   links: PropTypes.array,
   onIncompleteMap: PropTypes.func,
   editable: PropTypes.bool,

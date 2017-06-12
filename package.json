@@ -21,7 +21,9 @@
     "test": "start-storybook -p 3000 -c .storybook"
   },
   "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "d3": "^4.9.1",
+    "fs-walk": "0.0.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
