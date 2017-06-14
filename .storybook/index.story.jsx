@@ -6,7 +6,7 @@ import MindMap from '../src';
 
 storiesOf('maps', module)
   .add('devops', () => {
-    const map = convertMap(parseIDs(require('./maps/devops.json')));
+    const map = convertMap(parseIDs(require('./maps/programming/devops.json')));
 
     return (<MindMap
       links={map.links}

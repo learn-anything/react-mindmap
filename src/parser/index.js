@@ -2,13 +2,21 @@ const path = require('path');
 const fs = require('fs');
 const walk = require('fs-walk').walk;
 
+const { emojiToCategory, matchEmojis } = require('./emojis');
+const { getText, getURL } = require('./html');
+
+
+// These two arguments must be directories.
 const input = process.argv[2];
 const output = process.argv[3];
+
+// Used to find the relative path to a file from input path.
+const re = new RegExp(`.*${input.replace(/\//g, '\\/').replace(/\./g, '\\.')}`);
 
 /*
  * Recursively walk a directory and call a function on all its files.
  */
-const walkDir = (dirname, fn) =>
+const walkDir = (dirname, fn) => {
   walk(dirname, (basedir, filename, stat) => {
     const absPath = path.resolve(path.join(__dirname, '/../..'), basedir, filename);
 
@@ -17,59 +25,152 @@ const walkDir = (dirname, fn) =>
     }
 
     if (typeof fn === 'function') {
+      // eslint-disable-next-line import/no-dynamic-require, global-require
       fn(require(absPath), absPath);
     }
+
+    return null;
   });
+};
 
-// Return an emoji as a GitHub image.
-const emojiTemplate = unicode =>
-  `<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/unicode/${unicode}.png">`;
-
-const customEmojiTemplate = emoji =>
-  `<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/${emoji}.png">`;
-
-/* Convert all emojis in an HTML string to GitHub images.
- * The bitwise magic is explained at:
- *    http://crocodillon.com/blog/parsing-emoji-unicode-in-javascript
+/*
+ * Take a node from MindNode format and return it in the following format:
+ *
+ *  {
+ *    text: string,
+ *    url: string,
+ *    note: string || undefined,
+ *    position: {
+ *      x: number,
+ *      y: number,
+ *    },
+ *  }
  */
-const parseEmojis = html =>
-  html.replace(/[\uD800-\uDBFF][\uDC00-\uDFFF]/g, (match) => {
-    if (match === '🐙') {
-      return customEmojiTemplate('octocat');
-    }
-    if (match === '🤖') {
-      return '<img class="mindmap-emoji reddit-emoji" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpOQVZdTCyVamjJPl92KjaDHigNWVM8mOLHPRU4DHoVNJWxCg">';
-    }
-    if (match === '🗂') {
-      return '<img class="mindmap-emoji" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4">';
-    }
-
-    // Keep the first 10 bits.
-    const lead = match.charCodeAt(0) & 0x3FF;
-    const trail = match.charCodeAt(1) & 0x3FF;
-
-    // 0x[lead][trail]
-    const unicode = ((lead << 10) + trail).toString(16);
-
-    return emojiTemplate(`1${unicode}`);
-  });
-
 const parseNode = (node) => {
   // Match style attributed in an HTML string.
-  const matchStyle = /style="([^"]*)"|style='([^']*)'/g;
-  const parsedNode = {};
+  const parsedNode = {
+    text: getText(node.title.text),
+    url: getURL(node.title.text),
+    note: node.note ? getText(node.note.text) : undefined,
+    position: {
+      x: node.location.x,
+      y: node.location.y,
+    },
+  };
 
-  parsedNode.innerHTML = parseEmojis(node.title.text.replace(matchStyle, ''));
+  if (parsedNode.note) {
+    parsedNode.note = parsedNode.note.replace('if you think this can be improved in any way  please say', '');
+  }
+
+  const match = parsedNode.text.match(matchEmojis);
+
+  if (match) {
+    parsedNode.category = emojiToCategory(match[0]);
+    parsedNode.text = parsedNode.text.replace(matchEmojis, '').trim();
+  }
 
   return parsedNode;
 };
 
-walkDir(input, (map, filename) => {
-  const parsedMap = {
-    title: map.title,
-    nodes: map.nodes.map(node => parseNode(node)),
+/*
+ * Get all subnodes and flatten them, by putting them all at the same level,
+ * and adding the parent attribute.
+ */
+const getSubnodesR = (subnodes, parent) => {
+  const res = [];
+
+  subnodes.forEach((subnode) => {
+    res.push(Object.assign({ parent }, subnode));
+
+    getSubnodesR(subnode.nodes, parseNode(subnode).text).forEach(sn => res.push(sn));
+  });
+
+  return res;
+};
+
+const getSubnodes = (nodes) => {
+  const subnodes = [];
+
+  nodes.forEach(node => (
+    getSubnodesR(node.nodes, parseNode(node).text).forEach(subnode => subnodes.push(subnode))
+  ));
+
+  return subnodes;
+};
+
+/*
+ * Similar structure as parseNode, with an additional attribute `parent`, which
+ * is the text of the parent node.
+ */
+const parseSubnode = (subnode) => {
+  const parsedSubnode = parseNode(subnode);
+  parsedSubnode.parent = subnode.parent;
+  return parsedSubnode;
+};
+
+/*
+ * Take a connection from MindNode format and return it in the following format:
+ *
+ *  {
+ *    text: string,
+ *    source: string,
+ *    target: string,
+ *    curve: {
+ *      x: number,
+ *      y: number,
+ *    },
+ *  }
+ *
+ * source and target are the text attributes of the nodes the connection links.
+ * curve is the location of the focal point for a bezier curve.
+ */
+const parseConn = (conn, lookup) => {
+  const parsedConn = {
+    source: lookup[conn.startNodeID],
+    target: lookup[conn.endNodeID],
+    curve: {
+      x: conn.wayPointOffset.x,
+      y: conn.wayPointOffset.y,
+    },
   };
 
-  console.log(JSON.stringify(parsedMap, null, 2));
-  console.log('\n\n\n');
+  if (conn.title && conn.title.text) {
+    parsedConn.text = getText(conn.title.text);
+  }
+
+  return parsedConn;
+};
+
+
+walkDir(input, (map, filename) => {
+  const nodesLookup = {};
+
+  const parsedMap = { title: map.title };
+
+
+  // Parse all nodes and populate the lookup table, which will be used for
+  // converting IDs to a more human readable format on connections.
+  parsedMap.nodes = map.nodes.map((node) => {
+    const parsedNode = parseNode(node);
+    nodesLookup[node.id] = parsedNode.text;
+    return parsedNode;
+  });
+
+  parsedMap.subnodes = getSubnodes(map.nodes).map(subnode => parseSubnode(subnode));
+  parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
+
+  const outputFile = path.join(output, filename.replace(re, ''));
+  const outputPath = path.dirname(outputFile);
+
+  // Create folder if it doesn't exist.
+  if (!fs.existsSync(outputPath)) {
+    fs.mkdirSync(outputPath);
+  }
+
+  // Write parsed map to new location.
+  fs.writeFile(outputFile, JSON.stringify(parsedMap, null, 2), (err) => {
+    if (err) {
+      throw err;
+    }
+  });
 });

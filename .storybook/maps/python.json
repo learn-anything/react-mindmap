@@ -1,1 +1,1168 @@
-{"token":"cmzq9sEGAyyNyeZrNA7UyQa8JpsqHf9QzStwFqGT","title":"learn anything - programming - programming languages - python","backgroundColor":"rgba(243, 246, 243, 1.0)","nodes":[{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":true,"foldedSubnodes":false,"isLeftAligned":false,"id":"58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(21, 122, 150, 1.0)","dash":null,"width":4.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":"roundedrect","borderStrokeStyle":{"color":"rgba(246, 246, 246, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: center; \"\u003e\u003ca style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Python_(programming_language)\" rel=\"nofollow\"\u003epython \u003c/a\u003e\u003ca style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Python_(programming_language)\" rel=\"nofollow\"\u003e🌐\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"76E551D7-4FD7-470A-9436-3576512E6935","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(255, 189, 10, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(255, 189, 10, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\"; text-align: left;  '\u003e\u003ca href=\"https://www.reddit.com/r/Python/\" rel=\"nofollow\"\u003e🤖\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":176.083777747024,"y":-665.1641376795345},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"6A7B5917-C131-4DF6-9AA6-26DCE2D57752","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/python/cpython\" rel=\"nofollow\"\u003esource \u003c/a\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/python/cpython\" rel=\"nofollow\"\u003e🐙\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":{"visibleOnCanvas":false,"text":"\u003cp style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '\u003eoriginal python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop\u003c/p\u003e"},"noteIndicatorColor":"rgba(90, 90, 90, 1.0)","nodes":[],"location":{"x":176.083777747024,"y":-625.1641376795345},"layoutStyle":"manual","task":null}],"location":{"x":-13.916222252976013,"y":-659.1641376795345},"layoutStyle":"defaultright","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":true,"foldedSubnodes":false,"isLeftAligned":false,"id":"2FD35288-FA36-416B-972D-8CBF0C8825D9","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(21, 122, 150, 1.0)","dash":null,"width":4.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":"roundedrect","borderStrokeStyle":{"color":"rgba(246, 246, 246, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '\u003ehelp\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"14D60355-51AA-4F06-8B5A-74BB19E13E1A","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(175, 54, 242, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(175, 54, 242, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/vinta/awesome-python\" rel=\"nofollow\"\u003eawesome python \u003c/a\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/vinta/awesome-python\" rel=\"nofollow\"\u003e🐙\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":291.3247731601375,"y":-546.2370078674815},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"4EFA62AF-FD18-4806-81E0-42F162B2875C","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/timofurrer/awesome-asyncio\" rel=\"nofollow\"\u003eawesome asyncio \u003c/a\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/timofurrer/awesome-asyncio\" rel=\"nofollow\"\u003e🐙\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":291.3247731601375,"y":-506.23700786748157},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"A5FBF979-6E4E-44CE-B52E-D823EAB9D1BC","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(255, 189, 10, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(255, 189, 10, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '\u003e\u003ca href=\"https://docs.python.org/3/reference/datamodel.html\" rel=\"nofollow\"\u003epython data model\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":291.3247731601375,"y":-466.23700786748157},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"05E4846B-5AE1-4336-BE1E-F638F43D647B","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(34, 205, 224, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(34, 205, 224, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://pythontesting.net/framework/pytest/pytest-introduction/\" rel=\"nofollow\"\u003epython testing \u003c/a\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://pythontesting.net/framework/pytest/pytest-introduction/\" rel=\"nofollow\"\u003e📖\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":291.3247731601375,"y":-432.23700786748157},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"EE13D042-E123-4BAA-99E8-755037A4397D","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(209, 21, 88, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(209, 21, 88, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(72, 71, 71, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '\u003e\u003ca href=\"https://ipgp.github.io/scientific_python_cheat_sheet/\" rel=\"nofollow\"\u003escientific python cheat sheet\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":291.3247731601375,"y":-392.23700786748157},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"8202C521-BB56-46D3-AF5E-67B20D477432","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(49, 187, 71, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(49, 187, 71, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '\u003e\u003ca href=\"http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/\" rel=\"nofollow\"\u003estructuring your project\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":291.3247731601375,"y":-358.23700786748157},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"0F6F9B90-FC83-451F-9246-E167754091CF","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(150, 29, 217, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(175, 54, 242, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '\u003e\u003ca href=\"https://www.python.org/dev/peps/pep-0008/\" rel=\"nofollow\"\u003estyle guide for python code\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":291.3247731601375,"y":-324.23700786748157},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"6BA894C3-9E01-4846-B654-2DCC2A055A6F","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(11, 145, 229, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://pgbovine.net/cpython-internals.htm\" rel=\"nofollow\"\u003ecpython internals \u003c/a\u003e\u003ca style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://pgbovine.net/cpython-internals.htm\" rel=\"nofollow\"\u003e🖋️\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":291.3247731601375,"y":-290.23700786748157},"layoutStyle":"manual","task":null}],"location":{"x":154.3247731601375,"y":-429.73700786748157},"layoutStyle":"defaultright","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":true,"foldedSubnodes":false,"isLeftAligned":false,"id":"EE34088C-C054-452A-AC80-1C1EB6DCA901","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(21, 122, 150, 1.0)","dash":null,"width":4.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":"roundedrect","borderStrokeStyle":{"color":"rgba(246, 246, 246, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '\u003earticles\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"DA436116-1658-4BA2-82ED-2371A5206217","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(175, 54, 242, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(175, 54, 242, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/\" rel=\"nofollow\"\u003e16: the history behind the decision to move python to github \u003c/a\u003e\u003ca style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/\" rel=\"nofollow\"\u003e🖋️\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":617.7839253819375,"y":-245.0539283546699},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"2D1BC458-EFD6-43B6-BD41-BF09EC6E454A","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html\" rel=\"nofollow\"\u003e15: a modern python development toolchain \u003c/a\u003e\u003ca style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html\" rel=\"nofollow\"\u003e🖋️\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":617.7839253819375,"y":-183.0539283546699},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"A4B159F3-7E44-429E-999E-DC3B1519E997","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(255, 189, 10, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(255, 189, 10, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://realpython.com/blog/python/instance-class-and-static-methods-demystified/\" rel=\"nofollow\"\u003e17: python's instance, class, and static methods demystified \u003c/a\u003e\u003ca style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://realpython.com/blog/python/instance-class-and-static-methods-demystified/\" rel=\"nofollow\"\u003e🖋️\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":617.7839253819375,"y":-121.05392835466989},"layoutStyle":"manual","task":null}],"location":{"x":455.7839253819375,"y":-183.5539283546699},"layoutStyle":"defaultright","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":true,"foldedSubnodes":false,"isLeftAligned":false,"id":"68FCE9B6-A2C4-4F51-96BC-93C678A799EC","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(21, 122, 150, 1.0)","dash":null,"width":4.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":"roundedrect","borderStrokeStyle":{"color":"rgba(246, 246, 246, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '\u003ebasics\u003c/p\u003e","fontStyle":null},"note":{"visibleOnCanvas":false,"text":"\u003cp style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '\u003eif you think this can be improved in any way\u003c/p\u003e\u003cp\u003e\u003c/p\u003e\u003cp\u003e\u003ca style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://github.com/nikitavoloboev/knowledge-map/issues/500\" rel=\"nofollow\"\u003eplease say\u003c/a\u003e\u003cspan style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '\u003e \u003c/span\u003e\u003cspan style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Apple Color Emoji\";  '\u003e💙\u003c/span\u003e\u003c/p\u003e"},"noteIndicatorColor":"rgba(21, 122, 150, 1.0)","nodes":[{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"22BD929B-8339-4A00-B18D-ED4F6CD35ABF","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(255, 189, 10, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(255, 189, 10, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(72, 71, 71, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '\u003e\u003ca href=\"https://docs.python.org/3/tutorial/\" rel=\"nofollow\"\u003e1. the python tutorial\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":83.4768002282915,"y":-96.57462866512333},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"8F81A623-6364-48BA-BE60-229261936279","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(175, 54, 242, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(175, 54, 242, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://www.diveintopython3.net\" rel=\"nofollow\"\u003e1. dive into python 3  \u003c/a\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://www.diveintopython3.net\" rel=\"nofollow\"\u003e📖\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":83.4768002282915,"y":-62.57462866512333},"layoutStyle":"manual","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":false,"foldedSubnodes":false,"isLeftAligned":false,"id":"F4106EB5-16A9-48EF-8AA0-FFF104AACBB8","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":6.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":null,"borderStrokeStyle":{"color":"rgba(36, 170, 255, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: left; \"\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://automatetheboringstuff.com/\" rel=\"nofollow\"\u003e1. automate the boring stuff with python \u003c/a\u003e\u003ca style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://automatetheboringstuff.com/\" rel=\"nofollow\"\u003e📖\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":83.4768002282915,"y":-22.574628665123328},"layoutStyle":"manual","task":null}],"location":{"x":-98.5231997717085,"y":-60.07462866512333},"layoutStyle":"defaultright","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":true,"foldedSubnodes":false,"isLeftAligned":false,"id":"878FDF0F-7541-4EB3-BCB1-8C50F31A92D4","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(21, 122, 150, 1.0)","dash":null,"width":4.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":"roundedrect","borderStrokeStyle":{"color":"rgba(246, 246, 246, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: center; \"\u003e\u003ca style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\"\u003epackage manager \u003c/a\u003e\u003ca style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\"\u003e🌐\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":-346.2056231217888,"y":39.035120728630204},"layoutStyle":"defaultright","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":true,"foldedSubnodes":false,"isLeftAligned":false,"id":"460F26C9-BAAD-424D-BBCE-28A7D6D7C452","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(21, 122, 150, 1.0)","dash":null,"width":4.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":"roundedrect","borderStrokeStyle":{"color":"rgba(246, 246, 246, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style=\"text-align: center; \"\u003e\u003ca style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"/id/kDFfqVBWhK4htp3sQLpLmxgGLxhTCk8Qx4mqGRaR\" rel=\"nofollow\"\u003epython libraries \u003c/a\u003e\u003ca style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"/id/kDFfqVBWhK4htp3sQLpLmxgGLxhTCk8Qx4mqGRaR\" rel=\"nofollow\"\u003e🗺️\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":-78.69331502906573,"y":100.14771605920942},"layoutStyle":"defaultright","task":null},{"allowNodeStrokeColorVariants":false,"decreasingStrokeWidth":true,"foldedSubnodes":false,"isLeftAligned":false,"id":"F9849BFE-7FA5-4A69-8B37-9B98F9FB2E09","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(21, 122, 150, 1.0)","dash":null,"width":4.0}},"shapeStyle":{"fillColor":"rgba(255, 255, 255, 1.0)","shapeType":"roundedrect","borderStrokeStyle":{"color":"rgba(246, 246, 246, 1.0)","dash":null,"width":2.0}},"image":null,"title":{"allowToShrinkWidth":true,"maxWidth":300.0,"text":"\u003cp style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '\u003e\u003ca href=\"https://pypi.python.org/pypi/pip\" rel=\"nofollow\"\u003epip\u003c/a\u003e\u003c/p\u003e","fontStyle":null},"note":null,"noteIndicatorColor":"rgba(0, 0, 0, 1.0)","nodes":[],"location":{"x":-317.77054724755226,"y":153.56934975958518},"layoutStyle":"defaultright","task":null}],"connections":[{"endNodeID":"68FCE9B6-A2C4-4F51-96BC-93C678A799EC","startNodeID":"58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(254, 90, 46, 1.0)","dash":[5,2],"width":2.0}},"arrowStyle":{"startArrow":null,"endArrow":"trianglefilled"},"title":{"allowToShrinkWidth":true,"maxWidth":250.0,"text":"","fontStyle":{"bold":false,"italic":false,"underline":false,"strikethrough":false,"color":"rgba(255, 255, 255, 1.0)","fontName":"HelveticaNeue","fontSize":14,"alignment":"center"}},"wayPointOffset":{"x":-43.5535,"y":299.545}},{"endNodeID":"58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5","startNodeID":"2FD35288-FA36-416B-972D-8CBF0C8825D9","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(254, 90, 46, 1.0)","dash":[5,2],"width":2.0}},"arrowStyle":{"startArrow":null,"endArrow":"trianglefilled"},"title":{"allowToShrinkWidth":true,"maxWidth":250.0,"text":"","fontStyle":{"bold":false,"italic":false,"underline":false,"strikethrough":false,"color":"rgba(255, 255, 255, 1.0)","fontName":"HelveticaNeue","fontSize":14,"alignment":"center"}},"wayPointOffset":{"x":-78.1206,"y":-114.714}},{"endNodeID":"460F26C9-BAAD-424D-BBCE-28A7D6D7C452","startNodeID":"68FCE9B6-A2C4-4F51-96BC-93C678A799EC","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(254, 90, 46, 1.0)","dash":[5,2],"width":2.0}},"arrowStyle":{"startArrow":null,"endArrow":"trianglefilled"},"title":{"allowToShrinkWidth":true,"maxWidth":250.0,"text":"","fontStyle":{"bold":false,"italic":false,"underline":false,"strikethrough":false,"color":"rgba(255, 255, 255, 1.0)","fontName":"HelveticaNeue","fontSize":14,"alignment":"center"}},"wayPointOffset":{"x":29.6649,"y":80.1111}},{"endNodeID":"878FDF0F-7541-4EB3-BCB1-8C50F31A92D4","startNodeID":"68FCE9B6-A2C4-4F51-96BC-93C678A799EC","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(254, 90, 46, 1.0)","dash":[5,2],"width":2.0}},"arrowStyle":{"startArrow":null,"endArrow":"trianglefilled"},"title":{"allowToShrinkWidth":true,"maxWidth":250.0,"text":"","fontStyle":{"bold":false,"italic":false,"underline":false,"strikethrough":false,"color":"rgba(255, 255, 255, 1.0)","fontName":"HelveticaNeue","fontSize":14,"alignment":"center"}},"wayPointOffset":{"x":-103.841,"y":49.5548}},{"endNodeID":"F9849BFE-7FA5-4A69-8B37-9B98F9FB2E09","startNodeID":"878FDF0F-7541-4EB3-BCB1-8C50F31A92D4","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(254, 90, 46, 1.0)","dash":[5,2],"width":2.0}},"arrowStyle":{"startArrow":null,"endArrow":"trianglefilled"},"title":{"allowToShrinkWidth":true,"maxWidth":250.0,"text":"","fontStyle":{"bold":false,"italic":false,"underline":false,"strikethrough":false,"color":"rgba(255, 255, 255, 1.0)","fontName":"HelveticaNeue","fontSize":14,"alignment":"center"}},"wayPointOffset":{"x":-19.7824,"y":57.2671}},{"endNodeID":"2FD35288-FA36-416B-972D-8CBF0C8825D9","startNodeID":"EE34088C-C054-452A-AC80-1C1EB6DCA901","pathStyle":{"lineType":"curved","strokeStyle":{"color":"rgba(254, 90, 46, 1.0)","dash":[5,2],"width":2.0}},"arrowStyle":{"startArrow":null,"endArrow":"trianglefilled"},"title":{"allowToShrinkWidth":true,"maxWidth":250.0,"text":"","fontStyle":{"bold":false,"italic":false,"underline":false,"strikethrough":false,"color":"rgba(255, 255, 255, 1.0)","fontName":"HelveticaNeue","fontSize":14,"alignment":"center"}},"wayPointOffset":{"x":-238.287,"y":-54.4818}}],"ready":true}
+{
+  "token": "cmzq9sEGAyyNyeZrNA7UyQa8JpsqHf9QzStwFqGT",
+  "title": "learn anything - programming - programming languages - python",
+  "backgroundColor": "rgba(243, 246, 243, 1.0)",
+  "nodes": [
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Python_(programming_language)\" rel=\"nofollow\">python </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Python_(programming_language)\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "76E551D7-4FD7-470A-9436-3576512E6935",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\"; text-align: left;  '><a href=\"https://www.reddit.com/r/Python/\" rel=\"nofollow\">🤖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 176.083777747024,
+            "y": -665.1641376795345
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "6A7B5917-C131-4DF6-9AA6-26DCE2D57752",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/python/cpython\" rel=\"nofollow\">source </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/python/cpython\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop</p>"
+          },
+          "noteIndicatorColor": "rgba(90, 90, 90, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 176.083777747024,
+            "y": -625.1641376795345
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": -13.916222252976013,
+        "y": -659.1641376795345
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "2FD35288-FA36-416B-972D-8CBF0C8825D9",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>help</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "14D60355-51AA-4F06-8B5A-74BB19E13E1A",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/vinta/awesome-python\" rel=\"nofollow\">awesome python </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/vinta/awesome-python\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -546.2370078674815
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "4EFA62AF-FD18-4806-81E0-42F162B2875C",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://github.com/timofurrer/awesome-asyncio\" rel=\"nofollow\">awesome asyncio </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://github.com/timofurrer/awesome-asyncio\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -506.23700786748157
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "A5FBF979-6E4E-44CE-B52E-D823EAB9D1BC",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://docs.python.org/3/reference/datamodel.html\" rel=\"nofollow\">python data model</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -466.23700786748157
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "05E4846B-5AE1-4336-BE1E-F638F43D647B",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(34, 205, 224, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(34, 205, 224, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://pythontesting.net/framework/pytest/pytest-introduction/\" rel=\"nofollow\">python testing </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://pythontesting.net/framework/pytest/pytest-introduction/\" rel=\"nofollow\">📖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -432.23700786748157
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "EE13D042-E123-4BAA-99E8-755037A4397D",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(209, 21, 88, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(209, 21, 88, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 71, 71, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://ipgp.github.io/scientific_python_cheat_sheet/\" rel=\"nofollow\">scientific python cheat sheet</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -392.23700786748157
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "8202C521-BB56-46D3-AF5E-67B20D477432",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(49, 187, 71, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(49, 187, 71, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/\" rel=\"nofollow\">structuring your project</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -358.23700786748157
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "0F6F9B90-FC83-451F-9246-E167754091CF",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(150, 29, 217, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://www.python.org/dev/peps/pep-0008/\" rel=\"nofollow\">style guide for python code</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -324.23700786748157
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "6BA894C3-9E01-4846-B654-2DCC2A055A6F",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(11, 145, 229, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://pgbovine.net/cpython-internals.htm\" rel=\"nofollow\">cpython internals </a><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://pgbovine.net/cpython-internals.htm\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 291.3247731601375,
+            "y": -290.23700786748157
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 154.3247731601375,
+        "y": -429.73700786748157
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "EE34088C-C054-452A-AC80-1C1EB6DCA901",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>articles</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "DA436116-1658-4BA2-82ED-2371A5206217",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/\" rel=\"nofollow\">16: the history behind the decision to move python to github </a><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 617.7839253819375,
+            "y": -245.0539283546699
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "2D1BC458-EFD6-43B6-BD41-BF09EC6E454A",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html\" rel=\"nofollow\">15: a modern python development toolchain </a><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 617.7839253819375,
+            "y": -183.0539283546699
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "A4B159F3-7E44-429E-999E-DC3B1519E997",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://realpython.com/blog/python/instance-class-and-static-methods-demystified/\" rel=\"nofollow\">17: python's instance, class, and static methods demystified </a><a style='color: rgba(73, 73, 73, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://realpython.com/blog/python/instance-class-and-static-methods-demystified/\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 617.7839253819375,
+            "y": -121.05392835466989
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 455.7839253819375,
+        "y": -183.5539283546699
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "68FCE9B6-A2C4-4F51-96BC-93C678A799EC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '>basics</p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>if you think this can be improved in any way</p><p></p><p><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://github.com/nikitavoloboev/knowledge-map/issues/500\" rel=\"nofollow\">please say</a><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '> </span><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Apple Color Emoji\";  '>💙</span></p>"
+      },
+      "noteIndicatorColor": "rgba(21, 122, 150, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "22BD929B-8339-4A00-B18D-ED4F6CD35ABF",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 189, 10, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(72, 71, 71, 1.000000); font: 18px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://docs.python.org/3/tutorial/\" rel=\"nofollow\">1. the python tutorial</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 83.4768002282915,
+            "y": -96.57462866512333
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "8F81A623-6364-48BA-BE60-229261936279",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(175, 54, 242, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"http://www.diveintopython3.net\" rel=\"nofollow\">1. dive into python 3  </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"http://www.diveintopython3.net\" rel=\"nofollow\">📖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 83.4768002282915,
+            "y": -62.57462866512333
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "F4106EB5-16A9-48EF-8AA0-FFF104AACBB8",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(255, 255, 255, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(36, 170, 255, 1.0)",
+              "dash": null,
+              "width": 2.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Helvetica Neue\";  ' href=\"https://automatetheboringstuff.com/\" rel=\"nofollow\">1. automate the boring stuff with python </a><a style='color: rgba(72, 72, 72, 1.000000); font: 18px \"Apple Color Emoji\";  ' href=\"https://automatetheboringstuff.com/\" rel=\"nofollow\">📖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 83.4768002282915,
+            "y": -22.574628665123328
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": -98.5231997717085,
+        "y": -60.07462866512333
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "878FDF0F-7541-4EB3-BCB1-8C50F31A92D4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\">package manager </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.wikiwand.com/en/Package_manager\" rel=\"nofollow\">🌐</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -346.2056231217888,
+        "y": 39.035120728630204
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"/id/kDFfqVBWhK4htp3sQLpLmxgGLxhTCk8Qx4mqGRaR\" rel=\"nofollow\">python libraries </a><a style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"/id/kDFfqVBWhK4htp3sQLpLmxgGLxhTCk8Qx4mqGRaR\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -78.69331502906573,
+        "y": 100.14771605920942
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "F9849BFE-7FA5-4A69-8B37-9B98F9FB2E09",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(21, 122, 150, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(255, 255, 255, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(246, 246, 246, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(22, 103, 132, 1.000000); font: 21px \"Helvetica Neue\"; text-align: center;  '><a href=\"https://pypi.python.org/pypi/pip\" rel=\"nofollow\">pip</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": -317.77054724755226,
+        "y": 153.56934975958518
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    }
+  ],
+  "connections": [
+    {
+      "endNodeID": "68FCE9B6-A2C4-4F51-96BC-93C678A799EC",
+      "startNodeID": "58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -43.5535,
+        "y": 299.545
+      }
+    },
+    {
+      "endNodeID": "58EDC9FD-6CBE-4062-BAF0-D6E2E8C178A5",
+      "startNodeID": "2FD35288-FA36-416B-972D-8CBF0C8825D9",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -78.1206,
+        "y": -114.714
+      }
+    },
+    {
+      "endNodeID": "460F26C9-BAAD-424D-BBCE-28A7D6D7C452",
+      "startNodeID": "68FCE9B6-A2C4-4F51-96BC-93C678A799EC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": 29.6649,
+        "y": 80.1111
+      }
+    },
+    {
+      "endNodeID": "878FDF0F-7541-4EB3-BCB1-8C50F31A92D4",
+      "startNodeID": "68FCE9B6-A2C4-4F51-96BC-93C678A799EC",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -103.841,
+        "y": 49.5548
+      }
+    },
+    {
+      "endNodeID": "F9849BFE-7FA5-4A69-8B37-9B98F9FB2E09",
+      "startNodeID": "878FDF0F-7541-4EB3-BCB1-8C50F31A92D4",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -19.7824,
+        "y": 57.2671
+      }
+    },
+    {
+      "endNodeID": "2FD35288-FA36-416B-972D-8CBF0C8825D9",
+      "startNodeID": "EE34088C-C054-452A-AC80-1C1EB6DCA901",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(254, 90, 46, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -238.287,
+        "y": -54.4818
+      }
+    }
+  ],
+  "ready": true
+}

@@ -16,6 +16,7 @@
   "main": "dist/index.js",
   "repository": "learn-anything/react-mindmap",
   "scripts": {
+    "parse": "node src/parser/index.js",
     "lint": "eslint .; sass-lint sass/* -v",
     "build": "webpack -p",
     "test": "start-storybook -p 3000 -c .storybook"
