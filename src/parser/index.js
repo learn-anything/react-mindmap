@@ -10,8 +10,10 @@ const { getText, getURL } = require('./html');
 const input = process.argv[2];
 const output = process.argv[3];
 
-// Used to find the relative path to a file from input path.
-const re = new RegExp(`.*${input.replace(/\//g, '\\/').replace(/\./g, '\\.')}`);
+if (input === undefined || output === undefined) {
+  console.log('No files were parsed due to insufficient arguments \nPlease run the parser with the following command: npm run parse "path/to/mindmap/json/folder" "path/to/output/folder"');
+  return;
+}
 
 /*
  * Recursively walk a directory and call a function on all its files.
@@ -159,7 +161,8 @@ walkDir(input, (map, filename) => {
   parsedMap.subnodes = getSubnodes(map.nodes).map(subnode => parseSubnode(subnode));
   parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
 
-  const outputFile = path.join(output, filename.replace(re, ''));
+  const inputBasePath = path.resolve(path.join(__dirname, '../../'), input) + '/';
+  const outputFile = path.join(output, filename.replace(inputBasePath, ''));
   const outputPath = path.dirname(outputFile);
 
   // Create folder if it doesn't exist.
