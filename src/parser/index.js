@@ -161,7 +161,8 @@ walkDir(input, (map, filename) => {
   parsedMap.subnodes = getSubnodes(map.nodes).map(subnode => parseSubnode(subnode));
   parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
 
-  const outputFile = path.join(output, filename.replace(input.replace('\\', '/'), '').replace(input.replace(/\//g, '\\'), ''));
+  const inputBasePath = path.resolve(path.join(__dirname, '../../'), input) + '/';
+  const outputFile = path.join(output, filename.replace(inputBasePath, ''));
   const outputPath = path.dirname(outputFile);
 
   // Create folder if it doesn't exist.
