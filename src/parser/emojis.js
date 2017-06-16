@@ -32,7 +32,7 @@ const emojiToHTML = html =>
     // 0x[lead][trail]
     const unicode = ((lead << 10) + trail).toString(16);
 
-    return emojiTemplate(`1${unicode}`, emojiToCategory(html));
+    return emojiTemplate(`1${unicode}`, emojiToCategory(match));
   });
 
 /*
