@@ -10,8 +10,10 @@ const { getText, getURL } = require('./html');
 const input = process.argv[2];
 const output = process.argv[3];
 
-// Used to find the relative path to a file from input path.
-const re = new RegExp(`.*${input.replace(/\//g, '\\/').replace(/\./g, '\\.')}`);
+if (input === undefined || output === undefined) {
+  console.log('No files were parsed due to insufficient arguments \nPlease run the parser with the following command: npm run parse "path/to/mindmap/json/folder" "path/to/output/folder"');
+  process.exit();
+}
 
 /*
  * Recursively walk a directory and call a function on all its files.
@@ -40,10 +42,8 @@ const walkDir = (dirname, fn) => {
  *    text: string,
  *    url: string,
  *    note: string || undefined,
- *    position: {
- *      x: number,
- *      y: number,
- *    },
+ *    fx: number,
+ *    fy: number,
  *  }
  */
 const parseNode = (node) => {
@@ -52,10 +52,8 @@ const parseNode = (node) => {
     text: getText(node.title.text),
     url: getURL(node.title.text),
     note: node.note ? getText(node.note.text) : undefined,
-    position: {
-      x: node.location.x,
-      y: node.location.y,
-    },
+    fx: node.location.x,
+    fy: node.location.y,
   };
 
   if (parsedNode.note) {
@@ -99,12 +97,21 @@ const getSubnodes = (nodes) => {
 };
 
 /*
- * Similar structure as parseNode, with an additional attribute `parent`, which
- * is the text of the parent node.
+ * Similar structure as parseNode, with two additional attributes `parent` and `color`,
+ * which respectively are the text of the parent node, and the color of the connection
+ * from parent to subnode.
  */
 const parseSubnode = (subnode) => {
   const parsedSubnode = parseNode(subnode);
+  let color;
+
+  if (subnode.shapeStyle && subnode.shapeStyle.borderStrokeStyle) {
+    color = subnode.shapeStyle.borderStrokeStyle.color;
+  }
+
+  parsedSubnode.color = color;
   parsedSubnode.parent = subnode.parent;
+
   return parsedSubnode;
 };
 
@@ -159,7 +166,8 @@ walkDir(input, (map, filename) => {
   parsedMap.subnodes = getSubnodes(map.nodes).map(subnode => parseSubnode(subnode));
   parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
 
-  const outputFile = path.join(output, filename.replace(re, ''));
+  const inputBasePath = `${path.resolve(path.join(__dirname, '../../'), input)}/`;
+  const outputFile = path.join(output, filename.replace(inputBasePath, ''));
   const outputPath = path.dirname(outputFile);
 
   // Create folder if it doesn't exist.

@@ -97,8 +97,71 @@ const emojiToCategory = (emoji) => {
   }
 };
 
+/*
+ * Inverse of the above function, but instead of returning an emoji
+ * returns an img tag corresponding to that emoji.
+ */
+const categoryToIMG = (category) => {
+  switch (category) {
+    case 'mindmap':
+      return emojiToHTML('🗺');
+
+    case 'wiki':
+      return emojiToHTML('🌐');
+
+    case 'stack exchange':
+      return emojiToHTML('🗂');
+
+    case 'free book':
+      return emojiToHTML('📖');
+
+    case 'non-free book':
+      return emojiToHTML('📕');
+
+    case 'paper':
+      return emojiToHTML('📄');
+
+    case 'video':
+      return emojiToHTML('👀');
+
+    case 'article':
+      return emojiToHTML('🖋');
+
+    case 'blog':
+      return emojiToHTML('🗃');
+
+    case 'github':
+      return emojiToHTML('🐙');
+
+    case 'interactive':
+      return emojiToHTML('👾');
+
+    case 'image':
+      return emojiToHTML('🖌');
+
+    case 'podcast':
+      return emojiToHTML('🎙');
+
+    case 'newsletter':
+      return emojiToHTML('📮');
+
+    case 'chat':
+      return emojiToHTML('🗣');
+
+    case 'youtube':
+      return emojiToHTML('🎥');
+
+    case 'reddit':
+      return emojiToHTML('🤖');
+
+    default:
+      return '';
+  }
+};
+
 module.exports = {
   matchEmojis,
   emojiToHTML,
   emojiToCategory,
+  categoryToIMG,
 };

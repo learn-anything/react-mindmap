@@ -45,5 +45,5 @@ export const getViewBox = (nodes) => {
     (Math.max(...Ys) - min[1]) + 150,
   ];
 
-  return min.join(' ') + ' ' + max.join(' ');
+  return `${min.join(' ')} ${max.join(' ')}`;
 };
