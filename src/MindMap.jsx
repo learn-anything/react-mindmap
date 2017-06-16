@@ -8,7 +8,14 @@ import {
   select,
 } from 'd3';
 
-import { d3Links, d3Nodes, d3PanZoom, d3Drag, onTick } from './utils/d3';
+import {
+  d3Links,
+  d3Nodes,
+  d3Subnodes,
+  d3PanZoom,
+  d3Drag,
+  onTick,
+} from './utils/d3';
 import { getDimensions, getViewBox } from './utils/dimensions';
 import { toHTML } from './utils/parsing';
 import '../sass/main.sass';
@@ -26,18 +33,39 @@ export default class MindMap extends Component {
     this.state = { simulation };
   }
 
+  generateContent() {
+    const generate = (el, className) => {
+      const dimensions = getDimensions(toHTML(el), {}, className);
+
+      el.width = dimensions.width;
+      el.height = dimensions.height;
+      el.html = toHTML(el);
+    };
+
+    this.props.nodes.forEach(node => generate(node, 'mindmap-node'));
+    this.props.subnodes.forEach(subnode => generate(subnode, 'mindmap-subnode-text'));
+  }
+
+  prepareEditor(svg, links, nodes, subnodes) {
+    nodes
+      .attr('class', 'mindmap-node mindmap-node--editable')
+      .on('dblclick', (node) => {
+        node.fx = null;
+        node.fy = null;
+      });
+
+    nodes.call(d3Drag(this.state.simulation, svg, nodes));
+
+    this.state.simulation
+      .alphaTarget(0.5).on('tick', () => onTick(links, nodes, subnodes));
+  }
+
   renderMap() {
     const svg = select(this.refs.mountPoint);
-    svg.append('g').attr('id', 'mindmap-subnodes');
 
-    this.props.nodes.forEach((node) => {
-      const dimensions = getDimensions(toHTML(node), {}, 'mindmap-node');
+    this.generateContent();
 
-      node.width = dimensions.width;
-      node.height = dimensions.height;
-      node.html = toHTML(node);
-    });
-
+    const subnodes = d3Subnodes(svg, this.props.subnodes);
     const links = d3Links(svg, this.props.links);
     const nodes = d3Nodes(svg, this.props.nodes);
     nodes.append('title').text(node => node.note);
@@ -47,27 +75,15 @@ export default class MindMap extends Component {
       .force('link').links(this.props.links);
 
     if (this.props.editable) {
-      nodes
-        .attr('class', 'mindmap-node mindmap-node--editable')
-        .on('dblclick', (node) => {
-          node.fx = null;
-          node.fy = null;
-        });
-
-      nodes.call(d3Drag(this.state.simulation, svg, nodes));
-
-      this.state.simulation
-        .alphaTarget(0.5).on('tick', () => onTick(links, nodes));
+      this.prepareEditor(svg, links, nodes, subnodes);
     }
 
     for (let i = 0; i < 100; i += 1) {
       this.state.simulation.tick();
     }
+    onTick(links, nodes, subnodes);
 
-    onTick(links, nodes);
-
-    svg
-      .attr('viewBox', getViewBox(nodes.data()))
+    svg.attr('viewBox', getViewBox(nodes.data()))
       .call(d3PanZoom(svg))
       .on('dblclick.zoom', null);
   }
