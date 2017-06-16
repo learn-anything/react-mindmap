@@ -1,0 +1,490 @@
+{
+  "title": "learn anything - mathematics",
+  "nodes": [
+    {
+      "text": "mathematics",
+      "url": "https://www.wikiwand.com/en/Mathematics",
+      "fx": 773.7968014669334,
+      "fy": -1216.0528969943011,
+      "category": "wiki"
+    },
+    {
+      "text": "basics",
+      "url": "",
+      "note": "",
+      "fx": 799.3525543212891,
+      "fy": -1120.158676147461
+    },
+    {
+      "text": "help",
+      "url": "",
+      "fx": 1153.1476287841797,
+      "fy": -922.2575836181641
+    },
+    {
+      "text": "algebra  ️",
+      "url": "https://my.mindnode.com/AVUfxKqZjL329qksB8jFMpx6zDA2tpQDKGC9v1RW",
+      "fx": 7.4333900529810535,
+      "fy": -701.3892412953594,
+      "category": "mindmap"
+    },
+    {
+      "text": "analysis  ️",
+      "url": "https://my.mindnode.com/mpCNfLpJ5cAtJbUG9twTjqQoaSozpJHzXSyDMr3U#-116.9,101.9,2",
+      "fx": 710.1894518520633,
+      "fy": -698.7951128687005,
+      "category": "mindmap"
+    },
+    {
+      "text": "statistics  ️",
+      "url": "https://my.mindnode.com/7cSLjj5rauAnjWT1zHqEmqGkixvoVWaMz8C7Q2aW#79.3,186.4,1",
+      "fx": 956.5112259074724,
+      "fy": -692.2306307026007,
+      "category": "mindmap"
+    },
+    {
+      "text": "logic  ️",
+      "url": "https://my.mindnode.com/1GGWUw7yg9oqPVsqx83FwnMa41ecAcYXYJp5GRRR",
+      "fx": 480.15478409979846,
+      "fy": -690.7349536344542,
+      "category": "mindmap"
+    },
+    {
+      "text": "geometry  ️",
+      "url": "https://my.mindnode.com/sCYVzti3VNqepg8uKQxpGQoHnDFy3pyuBiabecPn",
+      "fx": 1132.4214818200398,
+      "fy": -688.2347308018408,
+      "category": "mindmap"
+    },
+    {
+      "text": "discrete  ️",
+      "url": "https://my.mindnode.com/ha8hqZuHbb5Py7LzxWoCatscK9AZsR93vJbyfqiq",
+      "fx": -560.3938956696085,
+      "fy": -687.6649799820609,
+      "category": "mindmap"
+    },
+    {
+      "text": "type theory  ️",
+      "url": "https://my.mindnode.com/eytyqpDLBmrC4xVnHCDqRVBZi39xhXBWnBRSTVoM",
+      "fx": 264.4065558110435,
+      "fy": -598.5218620964596,
+      "category": "mindmap"
+    },
+    {
+      "text": "group theory  ️",
+      "url": "https://my.mindnode.com/CBJmkdWELRW4PYpUDj5ypLeydiAn1io41CrpHpF2",
+      "fx": -392.4280062754964,
+      "fy": -598.3925245470198,
+      "category": "mindmap"
+    },
+    {
+      "text": "category theory  ️",
+      "url": "https://my.mindnode.com/cgWrEEoW3HSA2iysGp2swqphQXSpqVvM5TaismpM",
+      "fx": -186.23751137899342,
+      "fy": -595.3087728135063,
+      "category": "mindmap"
+    },
+    {
+      "text": "graph theory  ️",
+      "url": "https://my.mindnode.com/dXTCUUkXaSp99j3nbD2Gzxn5NMBn8dyuU4atT51n",
+      "fx": -598.1214185442244,
+      "fy": -595.0871734619141,
+      "category": "mindmap"
+    },
+    {
+      "text": "linear algebra  ️",
+      "url": "https://my.mindnode.com/9GQnwWMBYXMe1XjUD8G21qpxiyz5B4MraPtL8xyy",
+      "fx": 53.08168126436715,
+      "fy": -594.7899836376396,
+      "category": "mindmap"
+    },
+    {
+      "text": "calculus  ️",
+      "url": "https://my.mindnode.com/rzNXGzaSkyjn634xxnSb2jwzC7wddoxxxrB91PwA",
+      "fx": 662.1223532229048,
+      "fy": -594.6944675481726,
+      "category": "mindmap"
+    },
+    {
+      "text": "combinatorics  ️",
+      "url": "https://my.mindnode.com/MxmPsgBTgB8vwS7wcHpZgvTx5fWrdozgZngVpbrp",
+      "note": "mathematics of counting without actually counting",
+      "fx": -833.033482142857,
+      "fy": -591.328125,
+      "category": "mindmap"
+    },
+    {
+      "text": "set theory  ️",
+      "url": "https://my.mindnode.com/nczskizQHzyMnnpAxxg5D2hWuMshy2AF13pkGNdk",
+      "fx": 459.51678922946826,
+      "fy": -589.5634747277791,
+      "category": "mindmap"
+    },
+    {
+      "text": "ergodic theory  ️",
+      "url": "https://my.mindnode.com/YpcjTrk8y4e46T7kqFBnTmsEexqtCasGsrbHYTFL",
+      "fx": 858.7121394186515,
+      "fy": -579.0741619794653,
+      "category": "mindmap"
+    },
+    {
+      "text": "topology  ️",
+      "url": "https://my.mindnode.com/9Vyqzw7KposgvsspFnRr96nFCyNcKKUVG4hpuNYw",
+      "fx": 1137.4257644535028,
+      "fy": -576.8222552159039,
+      "category": "mindmap"
+    },
+    {
+      "text": "computability theory  ️",
+      "url": "https://my.mindnode.com/SnqXfwJjzbc3Vs5F1tUayBG5RhDxxwTadc3Y6At5",
+      "fx": 492.9284133911133,
+      "fy": -514.8920021057129,
+      "category": "mindmap"
+    },
+    {
+      "text": "model theory  ️",
+      "url": "https://my.mindnode.com/M66CXTQkXDysSKDp3a3Mq3Dbwzy5x398Ayvzc1Ey",
+      "fx": 295.03612354877805,
+      "fy": -510.33278659917653,
+      "category": "mindmap"
+    },
+    {
+      "text": "number theory  ️",
+      "url": "https://my.mindnode.com/XtFzGZzt2WmZXRs6R2yecX5yqPXn2rGvdTXhbtJ9",
+      "fx": -44.12495875195839,
+      "fy": -508.93009583698336,
+      "category": "mindmap"
+    },
+    {
+      "text": "knot theory  ️",
+      "url": "https://my.mindnode.com/Gq7pA3rtpYhZP2K1MhMFwmy3YaEpvdG13M5wjRBi",
+      "fx": 1127.5950355616937,
+      "fy": -466.3836433569845,
+      "category": "mindmap"
+    },
+    {
+      "text": "chaos theory  ️",
+      "url": "https://my.mindnode.com/Ay3xy8VuNPMZyDMqzDwVQ9ijtJQBjpm82QWzinA2",
+      "fx": 751.0103149414062,
+      "fy": -456.7841110229492,
+      "category": "mindmap"
+    },
+    {
+      "text": "lambda calculus  ️",
+      "url": "https://my.mindnode.com/P1fXveGBaQQQF9u1ZjGzqJzT9vnUppxPgyrnYFzM",
+      "fx": 501.39410629314557,
+      "fy": -419.2627326937326,
+      "category": "mindmap"
+    }
+  ],
+  "subnodes": [
+    {
+      "text": "1. map of mathematics",
+      "url": "https://www.youtube.com/watch?v=OmJ-4B-mS-Y",
+      "note": "this will give you an overview of how vast the field is and will spark your interest",
+      "fx": 981.3525543212891,
+      "fy": -1148.658676147461,
+      "category": "video",
+      "color": "rgba(175, 54, 242, 1.0)",
+      "parent": "basics"
+    },
+    {
+      "text": "2. how to read mathematics  ️",
+      "url": "http://web.stonehill.edu/compsci/History_Math/math-read.htm",
+      "fx": 981.3525543212891,
+      "fy": -1108.658676147461,
+      "category": "article",
+      "color": "rgba(255, 189, 10, 1.0)",
+      "parent": "basics"
+    },
+    {
+      "text": "2. khan academy math",
+      "url": "https://www.khanacademy.org/math",
+      "note": "cover everything, fast forward videos as that may save time, just make sure to not lose on comprehension and rewatch or google phrases and parts that you don’t understand  do the exercises, they are very important",
+      "fx": 981.3525543212891,
+      "fy": -1068.658676147461,
+      "category": "video",
+      "color": "rgba(36, 170, 255, 1.0)",
+      "parent": "basics"
+    },
+    {
+      "text": "wolfram alpha",
+      "url": "https://www.wolframalpha.com/",
+      "fx": 1290.1476287841797,
+      "fy": -1060.757583618164,
+      "category": "interactive",
+      "color": "rgba(175, 54, 242, 1.0)",
+      "parent": "help"
+    },
+    {
+      "text": "napkin project",
+      "url": "http://web.evanchen.cc/napkin.html",
+      "fx": 1290.1476287841797,
+      "fy": -1020.7575836181641,
+      "color": "rgba(36, 170, 255, 1.0)",
+      "parent": "help"
+    },
+    {
+      "text": "undergraduate mathematics bibliography",
+      "url": "https://github.com/ystael/chicago-ug-math-bib",
+      "note": "annotated bibliography of books that may be useful to undergraduates in pure mathematics",
+      "fx": 1290.1476287841797,
+      "fy": -986.7575836181641,
+      "category": "github",
+      "color": "rgba(255, 189, 10, 1.0)",
+      "parent": "help"
+    },
+    {
+      "text": "how to become a pure mathematician",
+      "url": "http://hbpms.blogspot.nl/",
+      "fx": 1290.1476287841797,
+      "fy": -924.7575836181641,
+      "color": "rgba(34, 205, 224, 1.0)",
+      "parent": "help"
+    },
+    {
+      "text": "better explained",
+      "url": "https://betterexplained.com/",
+      "fx": 1290.1476287841797,
+      "fy": -868.7575836181641,
+      "color": "rgba(209, 21, 88, 1.0)",
+      "parent": "help"
+    },
+    {
+      "text": "world of mathematics",
+      "url": "http://world.mathigon.org/",
+      "fx": 1290.1476287841797,
+      "fy": -834.7575836181641,
+      "category": "interactive",
+      "color": "rgba(49, 187, 71, 1.0)",
+      "parent": "help"
+    },
+    {
+      "text": "math insight",
+      "url": "http://mathinsight.org/",
+      "fx": 1290.1476287841797,
+      "fy": -794.7575836181641,
+      "color": "rgba(175, 54, 242, 1.0)",
+      "parent": "help"
+    },
+    {
+      "text": "math album",
+      "url": "http://imgur.com/a/hmK2C",
+      "fx": 1290.1476287841797,
+      "fy": -760.7575836181641,
+      "category": "image",
+      "color": "rgba(36, 170, 255, 1.0)",
+      "parent": "help"
+    }
+  ],
+  "connections": [
+    {
+      "source": "basics",
+      "target": "help",
+      "curve": {
+        "x": 155.126,
+        "y": 117.219
+      }
+    },
+    {
+      "source": "basics",
+      "target": "statistics  ️",
+      "curve": {
+        "x": 84.5793,
+        "y": 215.213
+      }
+    },
+    {
+      "source": "basics",
+      "target": "geometry  ️",
+      "curve": {
+        "x": 167.035,
+        "y": 215.962
+      }
+    },
+    {
+      "source": "basics",
+      "target": "logic  ️",
+      "curve": {
+        "x": -162.848,
+        "y": 215.961
+      }
+    },
+    {
+      "source": "geometry  ️",
+      "target": "topology  ️",
+      "curve": {
+        "x": 0.752085,
+        "y": 55.7062
+      }
+    },
+    {
+      "source": "mathematics",
+      "target": "basics",
+      "curve": {
+        "x": -2.72213,
+        "y": 46.6971
+      }
+    },
+    {
+      "source": "basics",
+      "target": "algebra  ️",
+      "curve": {
+        "x": -392.96,
+        "y": 210.633
+      }
+    },
+    {
+      "source": "algebra  ️",
+      "target": "linear algebra  ️",
+      "curve": {
+        "x": 14.1243,
+        "y": 42.566
+      }
+    },
+    {
+      "source": "logic  ️",
+      "target": "computability theory  ️",
+      "curve": {
+        "x": 95.1881,
+        "y": 85.0691
+      }
+    },
+    {
+      "source": "computability theory  ️",
+      "target": "lambda calculus  ️",
+      "curve": {
+        "x": -4.76716,
+        "y": 47.8146
+      }
+    },
+    {
+      "source": "basics",
+      "target": "discrete  ️",
+      "curve": {
+        "x": -675.624,
+        "y": 217.497
+      }
+    },
+    {
+      "source": "discrete  ️",
+      "target": "graph theory  ️",
+      "curve": {
+        "x": -15.3638,
+        "y": 45.0389
+      }
+    },
+    {
+      "source": "logic  ️",
+      "target": "model theory  ️",
+      "curve": {
+        "x": -54.8583,
+        "y": 56.3162
+      }
+    },
+    {
+      "source": "basics",
+      "target": "analysis  ️",
+      "curve": {
+        "x": -40.5815,
+        "y": 211.931
+      }
+    },
+    {
+      "source": "analysis  ️",
+      "target": "calculus  ️",
+      "curve": {
+        "x": -23.5335,
+        "y": 52.0503
+      }
+    },
+    {
+      "source": "discrete  ️",
+      "target": "combinatorics  ️",
+      "curve": {
+        "x": -132.331,
+        "y": 35.9146
+      }
+    },
+    {
+      "source": "topology  ️",
+      "target": "knot theory  ️",
+      "curve": {
+        "x": 0.834587,
+        "y": 55.2193
+      }
+    },
+    {
+      "source": "analysis  ️",
+      "target": "chaos theory  ️",
+      "curve": {
+        "x": 46.909,
+        "y": 121.005
+      }
+    },
+    {
+      "source": "logic  ️",
+      "target": "set theory  ️",
+      "curve": {
+        "x": 1.681,
+        "y": 50.5857
+      }
+    },
+    {
+      "source": "logic  ️",
+      "target": "type theory  ️",
+      "curve": {
+        "x": -93.1241,
+        "y": 46.1065
+      }
+    },
+    {
+      "source": "algebra  ️",
+      "target": "group theory  ️",
+      "curve": {
+        "x": -206.044,
+        "y": 46.9939
+      }
+    },
+    {
+      "source": "discrete  ️",
+      "target": "group theory  ️",
+      "curve": {
+        "x": 94.9829,
+        "y": 44.6362
+      }
+    },
+    {
+      "source": "algebra  ️",
+      "target": "category theory  ️",
+      "curve": {
+        "x": -78.3355,
+        "y": 53.0402
+      }
+    },
+    {
+      "source": "category theory  ️",
+      "target": "group theory  ️",
+      "curve": {
+        "x": -110.191,
+        "y": 58.4522
+      }
+    },
+    {
+      "source": "analysis  ️",
+      "target": "ergodic theory  ️",
+      "curve": {
+        "x": 89.0111,
+        "y": 59.8605
+      }
+    },
+    {
+      "source": "algebra  ️",
+      "target": "number theory  ️",
+      "curve": {
+        "x": -37.1562,
+        "y": 96.2296
+      }
+    }
+  ]
+}
