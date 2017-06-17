@@ -1,10 +1,10 @@
 /* eslint no-bitwise:off */
 // Return an emoji as a GitHub image.
-const emojiTemplate = unicode =>
-  `<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/unicode/${unicode}.png">`;
+const emojiTemplate = (unicode, category) =>
+  `<img class="mindmap-emoji" title="${category}" src="https://assets-cdn.github.com/images/icons/emoji/unicode/${unicode}.png">`;
 
-const customEmojiTemplate = emoji =>
-  `<img class="mindmap-emoji" src="https://assets-cdn.github.com/images/icons/emoji/${emoji}.png">`;
+const customEmojiTemplate = (emoji, category) =>
+  `<img class="mindmap-emoji" title="${category}" src="https://assets-cdn.github.com/images/icons/emoji/${emoji}.png">`;
 
 // Regex that matches all emojis in a string.
 const matchEmojis = /([\uD800-\uDBFF][\uDC00-\uDFFF])/g;
@@ -16,13 +16,13 @@ const matchEmojis = /([\uD800-\uDBFF][\uDC00-\uDFFF])/g;
 const emojiToHTML = html =>
   html.replace(matchEmojis, (match) => {
     if (match === '🐙') {
-      return customEmojiTemplate('octocat');
+      return customEmojiTemplate('octocat', 'github');
     }
     if (match === '🤖') {
-      return '<img class="mindmap-emoji reddit-emoji" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpOQVZdTCyVamjJPl92KjaDHigNWVM8mOLHPRU4DHoVNJWxCg">';
+      return '<img class="mindmap-emoji reddit-emoji" title="reddit" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpOQVZdTCyVamjJPl92KjaDHigNWVM8mOLHPRU4DHoVNJWxCg">';
     }
     if (match === '🗂') {
-      return '<img class="mindmap-emoji" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4">';
+      return '<img class="mindmap-emoji" title="stackexchange" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/se/se-icon.png?v=93426798a1d4">';
     }
 
     // Keep the first 10 bits.
@@ -32,7 +32,7 @@ const emojiToHTML = html =>
     // 0x[lead][trail]
     const unicode = ((lead << 10) + trail).toString(16);
 
-    return emojiTemplate(`1${unicode}`);
+    return emojiTemplate(`1${unicode}`, emojiToCategory(match));
   });
 
 /*
