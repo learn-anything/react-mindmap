@@ -69,6 +69,45 @@
       "parent": "python"
     },
     {
+      "text": "lalalala another resource",
+      "url": "https://www.reddit.com/r/Python/",
+      "fx": 176.083777747024,
+      "fy": -665.1641376795345,
+      "category": "wiki",
+      "color": "rgba(255, 189, 10, 1.0)",
+      "parent": "python"
+    },
+    {
+      "text": "something something",
+      "url": "https://github.com/python/cpython",
+      "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
+      "fx": 176.083777747024,
+      "fy": -625.1641376795345,
+      "category": "github",
+      "color": "rgba(36, 170, 255, 1.0)",
+      "parent": "source"
+    },
+    {
+      "text": "another sub-subnode",
+      "url": "https://github.com/python/cpython",
+      "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
+      "fx": 176.083777747024,
+      "fy": -625.1641376795345,
+      "category": "podcast",
+      "color": "rgba(36, 170, 255, 1.0)",
+      "parent": "source"
+    },
+    {
+      "text": "let's see if it breaks",
+      "url": "https://github.com/python/cpython",
+      "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
+      "fx": 176.083777747024,
+      "fy": -625.1641376795345,
+      "category": "newsletter",
+      "color": "rgba(36, 170, 255, 1.0)",
+      "parent": "source"
+    },
+    {
       "text": "awesome python",
       "url": "https://github.com/vinta/awesome-python",
       "fx": 291.3247731601375,

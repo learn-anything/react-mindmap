@@ -1,23 +1,22 @@
-/* eslint-disable no-param-reassign */
 import React, { Component, PropTypes } from 'react';
 import {
-  forceSimulation,
+  forceCollide,
   forceLink,
   forceManyBody,
-  forceCollide,
+  forceSimulation,
   select,
 } from 'd3';
 
 import {
-  d3Links,
+  d3Connections,
   d3Nodes,
   d3Subnodes,
-  d3PanZoom,
   d3Drag,
+  d3PanZoom,
   onTick,
 } from './utils/d3';
 import { getDimensions, getViewBox } from './utils/dimensions';
-import { toHTML } from './utils/parsing';
+import nodeToHTML from './utils/nodeToHTML';
 import '../sass/main.sass';
 
 
@@ -25,6 +24,8 @@ export default class MindMap extends Component {
   constructor(props) {
     super(props);
 
+    // Create force simulation to position nodes that have no coordinates,
+    // and add it to the state.
     const simulation = forceSimulation()
       .force('link', forceLink().id(node => node.text))
       .force('charge', forceManyBody())
@@ -33,20 +34,27 @@ export default class MindMap extends Component {
     this.state = { simulation };
   }
 
-  generateContent() {
-    const generate = (el, className) => {
-      const dimensions = getDimensions(toHTML(el), {}, className);
+  /* eslint-disable no-param-reassign */
+  /*
+   * Generates HTML and dimensions for nodes and subnodes.
+   */
+  prepareNodes() {
+    const render = (el, className) => {
+      const dimensions = getDimensions(nodeToHTML(el), {}, className);
 
       el.width = dimensions.width;
       el.height = dimensions.height;
-      el.html = toHTML(el);
+      el.html = nodeToHTML(el);
     };
 
-    this.props.nodes.forEach(node => generate(node, 'mindmap-node'));
-    this.props.subnodes.forEach(subnode => generate(subnode, 'mindmap-subnode-text'));
+    this.props.nodes.forEach(node => render(node, 'mindmap-node'));
+    this.props.subnodes.forEach(subnode => render(subnode, 'mindmap-subnode-text'));
   }
 
-  prepareEditor(svg, links, nodes, subnodes) {
+  /*
+   * Add new class to nodes, attach drag behavior, and start simulation.
+   */
+  prepareEditor(svg, conns, nodes, subnodes) {
     nodes
       .attr('class', 'mindmap-node mindmap-node--editable')
       .on('dblclick', (node) => {
@@ -57,32 +65,40 @@ export default class MindMap extends Component {
     nodes.call(d3Drag(this.state.simulation, svg, nodes));
 
     this.state.simulation
-      .alphaTarget(0.5).on('tick', () => onTick(links, nodes, subnodes));
+      .alphaTarget(0.5).on('tick', () => onTick(conns, nodes, subnodes));
   }
+  /* eslint-enable no-param-reassign */
 
+  /*
+   * Render mind map using D3.
+   */
   renderMap() {
     const svg = select(this.refs.mountPoint);
 
-    this.generateContent();
+    this.prepareNodes();
 
+    // Bind data to SVG elements and set all the properties to render them.
     const subnodes = d3Subnodes(svg, this.props.subnodes);
-    const links = d3Links(svg, this.props.links);
+    const connections = d3Connections(svg, this.props.connections);
     const nodes = d3Nodes(svg, this.props.nodes);
     nodes.append('title').text(node => node.note);
 
+    // Bind nodes and connections to the simulation.
     this.state.simulation
       .nodes(this.props.nodes)
-      .force('link').links(this.props.links);
+      .force('link').links(this.props.connections);
 
     if (this.props.editable) {
-      this.prepareEditor(svg, links, nodes, subnodes);
+      this.prepareEditor(svg, connections, nodes, subnodes);
     }
 
+    // Tick the simulation 100 times.
     for (let i = 0; i < 100; i += 1) {
       this.state.simulation.tick();
     }
-    onTick(links, nodes, subnodes);
+    onTick(connections, nodes, subnodes);
 
+    // Add pan and zoom behavior and remove double click to zoom.
     svg.attr('viewBox', getViewBox(nodes.data()))
       .call(d3PanZoom(svg))
       .on('dblclick.zoom', null);
@@ -94,22 +110,21 @@ export default class MindMap extends Component {
 
   // eslint-disable-next-line class-methods-use-this
   render() {
-    return (
-      <svg className="mindmap-svg" ref="mountPoint" />
-    );
+    return (<svg className="mindmap-svg" ref="mountPoint" />);
   }
 }
+
 
 MindMap.defaultProps = {
   nodes: [],
   subnodes: [],
-  links: [],
+  connections: [],
   editable: false,
 };
 
 MindMap.propTypes = {
   nodes: PropTypes.array,
   subnodes: PropTypes.array,
-  links: PropTypes.array,
+  connections: PropTypes.array,
   editable: PropTypes.bool,
 };
