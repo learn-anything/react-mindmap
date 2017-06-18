@@ -28,9 +28,11 @@ body
   padding: 15px
   text-align: center
   text-decoration: none
+  transition: background-color 0.2s ease-out
 
   &:hover
     background-color: $grey500
+    cursor: pointer
 
 .mindmap-node--editable
   cursor: all-scroll
@@ -52,7 +54,7 @@ body
 
 .mindmap-connection
   fill: transparent
-  stroke: $grey500
+  //stroke: random-color()
   stroke-dasharray: 10px 4px
   stroke-width: 3px
 
@@ -63,3 +65,4 @@ body
 
 .reddit-emoji
   border-radius: 50%
+

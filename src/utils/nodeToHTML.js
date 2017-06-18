@@ -10,9 +10,12 @@ export default (node) => {
 
   // If url is not specified remove href attribute,
   // so that the node isn't clickable.
+  
   if (!node.url) {
     href = '';
   }
 
-  return `<a ${href}>${node.text} ${categoryToIMG(node.category)}</a>`;
+  const emoji = node.category == null  && href !== '' ?  '<img class="mindmap-emoji" title="external source" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f517.png">' : categoryToIMG(node.category);
+
+  return `<a id="node-${node.index}" ${href}>${node.text} ${emoji}</a>`;
 };
