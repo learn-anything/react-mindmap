@@ -38,7 +38,7 @@ render(
 
 
 ## Testing
-To test this repository run this command
+To test this repository run these commands
 
 ```
 git clone https://github.com/learn-anything/react-mindmap
