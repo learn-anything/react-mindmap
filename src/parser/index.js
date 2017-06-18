@@ -59,7 +59,7 @@ const parseNode = (node) => {
   };
 
   if (parsedNode.note) {
-    parsedNode.note = parsedNode.note.replace('if you think this can be improved in any way  please say', '');
+    parsedNode.note = parsedNode.note.replace('', 'if you think this can be improved in any way  please say');
   }
 
   const match = parsedNode.text.match(matchEmojis);
@@ -168,7 +168,7 @@ walkDir(input, (map, filename) => {
   parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
 
   // Find out the path for the output file.
-  const inputBasePath = `${path.resolve(path.join(__dirname, '../../'), input)}/`;
+  const inputBasePath = path.resolve(path.join(__dirname, '../../'), input);
   const outputFile = path.join(output, filename.replace(inputBasePath, ''));
   const outputPath = path.dirname(outputFile);
 
