@@ -14,6 +14,9 @@
     "dist"
   ],
   "main": "dist/index.js",
+  "bin": {
+    "react-mindmap-parse": "./src/parser/index.js"
+  },
   "repository": "learn-anything/react-mindmap",
   "scripts": {
     "parse": "node src/parser/index.js",

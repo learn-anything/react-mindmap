@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const path = require('path');
 const fs = require('fs');
 const walk = require('fs-walk').walk;
@@ -16,11 +17,24 @@ if (input === undefined || output === undefined) {
 }
 
 /*
+ * Equivalent to mkdir -p dirname.
+ */
+const mkdirs = (dirname) => {
+  const parentDir = path.dirname(dirname);
+
+  if (!fs.existsSync(parentDir)) {
+    mkdirs(parentDir);
+  }
+
+  fs.mkdirSync(dirname);
+};
+
+/*
  * Recursively walk a directory and call a function on all its files.
  */
 const walkDir = (dirname, fn) => {
   walk(dirname, (basedir, filename, stat) => {
-    const absPath = path.resolve(path.join(__dirname, '/../..'), basedir, filename);
+    const absPath = path.resolve('./', basedir, filename);
 
     if (stat.isDirectory()) {
       return walkDir(absPath, fn);
@@ -166,13 +180,13 @@ walkDir(input, (map, filename) => {
   parsedMap.subnodes = getSubnodes(map.nodes).map(subnode => parseSubnode(subnode));
   parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
 
-  const inputBasePath = `${path.resolve(path.join(__dirname, '../../'), input)}/`;
+  const inputBasePath = `${path.resolve('./', input)}/`;
   const outputFile = path.join(output, filename.replace(inputBasePath, ''));
   const outputPath = path.dirname(outputFile);
 
   // Create folder if it doesn't exist.
   if (!fs.existsSync(outputPath)) {
-    fs.mkdirSync(outputPath);
+    mkdirs(outputPath);
   }
 
   // Write parsed map to new location.

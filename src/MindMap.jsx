@@ -79,7 +79,9 @@ export default class MindMap extends Component {
   // eslint-disable-next-line class-methods-use-this
   render() {
     return (
-      <svg className="mindmap-svg" ref="mountPoint" />
+      <div>
+        <svg className="mindmap-svg" ref="mountPoint" />
+      </div>
     );
   }
 }
