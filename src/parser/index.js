@@ -4,7 +4,7 @@ const fs = require('fs');
 const walk = require('fs-walk').walk;
 
 const { emojiToCategory, matchEmojis } = require('./emojis');
-const { getText, getURL } = require('./html');
+const { getText, getURL } = require('./regex');
 
 
 // These two arguments must be directories.
@@ -12,6 +12,7 @@ const input = process.argv[2];
 const output = process.argv[3];
 
 if (input === undefined || output === undefined) {
+  // eslint-disable-next-line no-console
   console.log('No files were parsed due to insufficient arguments \nPlease run the parser with the following command: npm run parse "path/to/mindmap/json/folder" "path/to/output/folder"');
   process.exit();
 }
@@ -31,6 +32,7 @@ const mkdirs = (dirname) => {
 
 /*
  * Recursively walk a directory and call a function on all its files.
+ * Imported file and absolute path are the parameters passed to the callback function.
  */
 const walkDir = (dirname, fn) => {
   walk(dirname, (basedir, filename, stat) => {
@@ -58,10 +60,10 @@ const walkDir = (dirname, fn) => {
  *    note: string || undefined,
  *    fx: number,
  *    fy: number,
+ *    category: string,
  *  }
  */
 const parseNode = (node) => {
-  // Match style attributed in an HTML string.
   const parsedNode = {
     text: getText(node.title.text),
     url: getURL(node.title.text),
@@ -85,8 +87,8 @@ const parseNode = (node) => {
 };
 
 /*
- * Get all subnodes and flatten them, by putting them all at the same level,
- * and adding the parent attribute.
+ * Get all subnodes put them all at the same level,
+ * and add the parent attribute.
  */
 const getSubnodesR = (subnodes, parent) => {
   const res = [];
@@ -168,9 +170,8 @@ walkDir(input, (map, filename) => {
 
   const parsedMap = { title: map.title };
 
-
   // Parse all nodes and populate the lookup table, which will be used for
-  // converting IDs to a more human readable format on connections.
+  // converting IDs to node title on connections.
   parsedMap.nodes = map.nodes.map((node) => {
     const parsedNode = parseNode(node);
     nodesLookup[node.id] = parsedNode.text;
@@ -180,6 +181,7 @@ walkDir(input, (map, filename) => {
   parsedMap.subnodes = getSubnodes(map.nodes).map(subnode => parseSubnode(subnode));
   parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
 
+  // Find out the path for the output file.
   const inputBasePath = `${path.resolve('./', input)}/`;
   const outputFile = path.join(output, filename.replace(inputBasePath, ''));
   const outputPath = path.dirname(outputFile);

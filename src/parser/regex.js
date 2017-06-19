@@ -1,7 +1,11 @@
-// Return text from a node's inner HTML.
+/*
+ * Extract text from the inner HTML of a node.
+ */
 const getText = (html) => {
   const res = [];
-  // Match text inside a tags. If there's no a tags present match text inside p tags.
+
+  // Match all text inside A tags. If there's no A tags,
+  // match text inside P tags instead.
   const matchText = /<a[^>]*>([^<]*)<\/a>|<p[^>]*>([^>]*)<\/p>/g;
   let match = matchText.exec(html);
 
@@ -13,14 +17,21 @@ const getText = (html) => {
   return res.join(' ');
 };
 
-// Return the first URL present on a node's inner HTML.
+/*
+ * Extract HREF content from the first link on a node.
+ */
 const getURL = (html) => {
-  // Match href inside a tags.
+  // Match HREF content inside A tags.
   const matchURL = /<a[^>]*href="([^"]*)"[^>]*>[^<]*<\/a>/;
   const match = matchURL.exec(html);
 
-  return match ? match[1] : '';
+  if (match) {
+    return match[1];
+  }
+
+  return '';
 };
+
 
 module.exports = {
   getText,

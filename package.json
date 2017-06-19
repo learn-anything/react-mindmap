@@ -25,7 +25,6 @@
     "test": "start-storybook -p 3000 -c .storybook"
   },
   "dependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "d3": "^4.9.1",
     "fs-walk": "0.0.1",
     "react": "^15.5.4",
@@ -36,6 +35,7 @@
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.1",
