@@ -41,5 +41,11 @@ module.exports = {
       commonjs: 'react-dom',
       amd: 'react-dom',
     },
-  },
+    /*d3: {
+      root: 'd3',
+      commonjs2: 'd3',
+      commonjs: 'd3',
+      amd: 'd3',
+    },*/
+ },
 };

@@ -35,14 +35,14 @@ export const getViewBox = (nodes) => {
   const Xs = [];
   const Ys = [];
 
-  if (nodes.length === 0) {
-    return '0 0 0 0';
-  }
-
   nodes.forEach((node) => {
     Xs.push(node.fx);
     Ys.push(node.fy);
   });
+
+  if (Xs.length === 0 || Ys.length === 0) {
+    return '0 0 0 0';
+  }
 
   // Find the smallest coordinates...
   const min = [
