@@ -10,8 +10,8 @@
     },
     {
       "text": "basics",
-      "url": "",
       "note": "",
+      "url": "",
       "fx": 799.3525543212891,
       "fy": -1120.158676147461
     },
@@ -107,8 +107,8 @@
     },
     {
       "text": "combinatorics  ️",
-      "url": "https://my.mindnode.com/MxmPsgBTgB8vwS7wcHpZgvTx5fWrdozgZngVpbrp",
       "note": "mathematics of counting without actually counting",
+      "url": "https://my.mindnode.com/MxmPsgBTgB8vwS7wcHpZgvTx5fWrdozgZngVpbrp",
       "fx": -833.033482142857,
       "fy": -591.328125,
       "category": "mindmap"
@@ -180,8 +180,8 @@
   "subnodes": [
     {
       "text": "1. map of mathematics",
-      "url": "https://www.youtube.com/watch?v=OmJ-4B-mS-Y",
       "note": "this will give you an overview of how vast the field is and will spark your interest",
+      "url": "https://www.youtube.com/watch?v=OmJ-4B-mS-Y",
       "fx": 981.3525543212891,
       "fy": -1148.658676147461,
       "category": "video",
@@ -199,8 +199,8 @@
     },
     {
       "text": "2. khan academy math",
-      "url": "https://www.khanacademy.org/math",
       "note": "cover everything, fast forward videos as that may save time, just make sure to not lose on comprehension and rewatch or google phrases and parts that you don’t understand  do the exercises, they are very important",
+      "url": "https://www.khanacademy.org/math",
       "fx": 981.3525543212891,
       "fy": -1068.658676147461,
       "category": "video",
@@ -226,8 +226,8 @@
     },
     {
       "text": "undergraduate mathematics bibliography",
-      "url": "https://github.com/ystael/chicago-ug-math-bib",
       "note": "annotated bibliography of books that may be useful to undergraduates in pure mathematics",
+      "url": "https://github.com/ystael/chicago-ug-math-bib",
       "fx": 1290.1476287841797,
       "fy": -986.7575836181641,
       "category": "github",

@@ -22,8 +22,8 @@
     },
     {
       "text": "basics",
-      "url": "",
       "note": "",
+      "url": "",
       "fx": -98.5231997717085,
       "fy": -60.07462866512333
     },
@@ -36,7 +36,6 @@
     },
     {
       "text": "python libraries  ️",
-      "url": "/id/kDFfqVBWhK4htp3sQLpLmxgGLxhTCk8Qx4mqGRaR",
       "fx": -78.69331502906573,
       "fy": 100.14771605920942,
       "category": "mindmap"
@@ -60,52 +59,13 @@
     },
     {
       "text": "source",
-      "url": "https://github.com/python/cpython",
       "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
+      "url": "https://github.com/python/cpython",
       "fx": 176.083777747024,
       "fy": -625.1641376795345,
       "category": "github",
       "color": "rgba(36, 170, 255, 1.0)",
       "parent": "python"
-    },
-    {
-      "text": "lalalala another resource",
-      "url": "https://www.reddit.com/r/Python/",
-      "fx": 176.083777747024,
-      "fy": -665.1641376795345,
-      "category": "wiki",
-      "color": "rgba(255, 189, 10, 1.0)",
-      "parent": "python"
-    },
-    {
-      "text": "something something",
-      "url": "https://github.com/python/cpython",
-      "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
-      "fx": 176.083777747024,
-      "fy": -625.1641376795345,
-      "category": "github",
-      "color": "rgba(36, 170, 255, 1.0)",
-      "parent": "source"
-    },
-    {
-      "text": "another sub-subnode",
-      "url": "https://github.com/python/cpython",
-      "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
-      "fx": 176.083777747024,
-      "fy": -625.1641376795345,
-      "category": "podcast",
-      "color": "rgba(36, 170, 255, 1.0)",
-      "parent": "source"
-    },
-    {
-      "text": "let's see if it breaks",
-      "url": "https://github.com/python/cpython",
-      "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
-      "fx": 176.083777747024,
-      "fy": -625.1641376795345,
-      "category": "newsletter",
-      "color": "rgba(36, 170, 255, 1.0)",
-      "parent": "source"
     },
     {
       "text": "awesome python",

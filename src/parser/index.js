@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const path = require('path');
 const fs = require('fs');
-const walk = require('fs-walk').walk;
+const walkSync = require('fs-walk').walkSync;
 
 const { emojiToCategory, matchEmojis } = require('./emojis');
 const { getText, getURL } = require('./regex');
@@ -38,7 +38,7 @@ const mkdirs = (dirname) => {
  * Imported file and absolute path are the parameters passed to the callback function.
  */
 const walkDir = (dirname, fn) => {
-  walk(dirname, (basedir, filename, stat) => {
+  walkSync(dirname, (basedir, filename, stat) => {
     const absPath = path.resolve('./', basedir, filename);
 
     if (stat.isDirectory()) {
@@ -77,7 +77,7 @@ const parseNode = (node) => {
 
   // If URL is an internal URL that uses the map ID, switch it to
   // the full URL with the path.
-  const matchInternalURL = parsedNode.url.match(/\/id\/\S{40}/);
+  const matchInternalURL = parsedNode.url.match(/\/id\/(\S{40})/);
   if (matchInternalURL) {
     parsedNode.url = mapsLookup[matchInternalURL[1]];
   }
@@ -176,9 +176,13 @@ const parseConn = (conn, lookup) => {
 
 walkDir(input, (map, filename) => {
   const inputBasePath = `${path.resolve('./', input)}`;
-  const relativeFilePath = filename.replace(inputBasePath, '');
+  let relativeFilePath = filename.replace(inputBasePath, '').replace('.json', '');
 
-  mapsLookup[map.id] = relativeFilePath;
+  if (relativeFilePath !== '/learn-anything') {
+    relativeFilePath = relativeFilePath.replace('/learn-anything', '');
+  }
+
+  mapsLookup[map.token] = relativeFilePath;
 });
 
 walkDir(input, (map, filename) => {
@@ -214,3 +218,5 @@ walkDir(input, (map, filename) => {
     }
   });
 });
+
+

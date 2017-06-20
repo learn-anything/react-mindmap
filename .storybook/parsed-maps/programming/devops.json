@@ -3,8 +3,8 @@
   "nodes": [
     {
       "text": "DevOps",
-      "url": "http://www.wikiwand.com/en/DevOps",
       "note": "",
+      "url": "http://www.wikiwand.com/en/DevOps",
       "fx": 93.11200245543978,
       "fy": -527.9056886602629,
       "category": "wiki"
@@ -319,8 +319,8 @@
   "subnodes": [
     {
       "text": "gixy",
-      "url": "https://github.com/yandex/gixy",
       "note": "nginx configuration static analyser",
+      "url": "https://github.com/yandex/gixy",
       "fx": 739.9381171982809,
       "fy": 530.2678065848713,
       "category": "github",

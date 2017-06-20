@@ -3,8 +3,8 @@
   "nodes": [
     {
       "text": "privacy",
-      "url": "http://www.wikiwand.com/en/Privacy",
       "note": "",
+      "url": "http://www.wikiwand.com/en/Privacy",
       "fx": -72.94262170104241,
       "fy": -426.3615800280751,
       "category": "wiki"
@@ -23,8 +23,8 @@
     },
     {
       "text": "invading privacy",
-      "url": "",
       "note": "If you don’t pay for the product, you are the product  Don’t confuse privacy with secrecy. I know what you do in the bathroom, but you still close the door. That’s because you want privacy, not secrecy.   it’s really pretty scary just how much data there exists on you and how it can possibly be used against you",
+      "url": "",
       "fx": -186.61729491454162,
       "fy": -105.08010108396365
     },
@@ -42,8 +42,8 @@
     },
     {
       "text": "facebook",
-      "url": "",
       "note": "Facebook isn't just taking information that you choose to give them. They're taking anything they can get from any possible source, and you don't have a say in the matter.  Facebook tracks you whether you have an account or not, you're gonna have to do a lot more than just delete your account to gain an inch of your privacy back.  I think the most anyone can do is stop using Facebook... And when asked why you stopped using politely and simply state you do not like companies making profit by selling/ exchanging your privacy/ personal details.",
+      "url": "",
       "fx": -218.4082412027501,
       "fy": 316.1745574519422
     },
@@ -85,8 +85,8 @@
     },
     {
       "text": "telegram",
-      "url": "https://telegram.org/",
       "note": "uses its own encryption protocol, is not end to end encrypted by default  has a lot of amazing features that other messengers don’t have",
+      "url": "https://telegram.org/",
       "fx": -295.21968669152557,
       "fy": 1081.6054507488473
     },
@@ -122,15 +122,15 @@
     },
     {
       "text": "tutanota",
-      "url": "https://tutanota.com/",
       "note": "based in Germany",
+      "url": "https://tutanota.com/",
       "fx": -470.7334350555766,
       "fy": 1707.5711243297887
     },
     {
       "text": "protonmail",
-      "url": "https://protonmail.com/",
       "note": "based in Switzerland",
+      "url": "https://protonmail.com/",
       "fx": -536.3885934012276,
       "fy": 1809.2404000418528
     },
@@ -238,8 +238,8 @@
     },
     {
       "text": "17: get your loved ones off Facebook  ️",
-      "url": "http://www.salimvirani.com//facebook/",
       "note": "By staying on Facebook, you’re granting them permission to collect and use information about you, regardless of you even using the Internet.   And by staying on, the data they collect on you gets used to create models about your closest friends and family, even the ones who opted out.",
+      "url": "http://www.salimvirani.com//facebook/",
       "fx": -9.408241202750105,
       "fy": 175.67455745194218,
       "category": "article",
@@ -272,8 +272,8 @@
     },
     {
       "text": "facebook tracks all site vistors, violating eu law",
-      "url": "https://thenextweb.com/facebook/2015/03/31/facebook-tracks-logged-out-users-in-violation-of-eu-law-belgian-privacy-commission-says/#.tnw_OTKkI5gS",
       "note": "Facebook uses a lot of cookies, even if you don't visit the website or login, and it also uses cookies on any site that has a \"like\" button.  Facebook claims this is for security purposes, which is unlikely because they only do some of this tracking in Europe. This was discovered by two European research universities - there's no criminal or civil complaint filed against Facebook and they'll face no penalties.",
+      "url": "https://thenextweb.com/facebook/2015/03/31/facebook-tracks-logged-out-users-in-violation-of-eu-law-belgian-privacy-commission-says/#.tnw_OTKkI5gS",
       "fx": -9.408241202750105,
       "fy": 469.6745574519422,
       "color": "rgba(209, 21, 88, 1.0)",
