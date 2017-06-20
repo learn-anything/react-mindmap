@@ -11,6 +11,9 @@ const { getText, getURL } = require('./regex');
 const input = process.argv[2];
 const output = process.argv[3];
 
+// Using for converting URLs with IDs to full URLs.
+const mapsLookup = {};
+
 if (input === undefined || output === undefined) {
   // eslint-disable-next-line no-console
   console.log('No files were parsed due to insufficient arguments \nPlease run the parser with the following command: npm run parse "path/to/mindmap/json/folder" "path/to/output/folder"');
@@ -66,11 +69,18 @@ const walkDir = (dirname, fn) => {
 const parseNode = (node) => {
   const parsedNode = {
     text: getText(node.title.text),
-    url: getURL(node.title.text),
     note: node.note ? getText(node.note.text) : undefined,
+    url: getURL(node.title.text),
     fx: node.location.x,
     fy: node.location.y,
   };
+
+  // If URL is an internal URL that uses the map ID, switch it to
+  // the full URL with the path.
+  const matchInternalURL = parsedNode.url.match(/\/id\/\S{40}/);
+  if (matchInternalURL) {
+    parsedNode.url = mapsLookup[matchInternalURL[1]];
+  }
 
   if (parsedNode.note) {
     parsedNode.note = parsedNode.note.replace('if you think this can be improved in any way  please say', '');
@@ -164,6 +174,12 @@ const parseConn = (conn, lookup) => {
   return parsedConn;
 };
 
+walkDir(input, (map, filename) => {
+  const inputBasePath = `${path.resolve('./', input)}`;
+  const relativeFilePath = filename.replace(inputBasePath, '');
+
+  mapsLookup[map.id] = relativeFilePath;
+});
 
 walkDir(input, (map, filename) => {
   const nodesLookup = {};
