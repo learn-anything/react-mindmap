@@ -28,7 +28,7 @@ export const d3Connections = (svg, connections) => (
 export const d3Nodes = (svg, nodes) => (
   bindData(svg, nodes, 'foreignObject')
     .attr('class', 'mindmap-node')
-    .attr('id', node => node.text.replace(/[ ./-:]|^\d*/g, ''))
+    .attr('id', node => node.text.replace(/^[ ./~\-:]*\d*|[ ./~\-:]/g, ''))
     .attr('width', node => node.width + 4)
     .attr('height', node => node.height)
     .html(node => node.html)
@@ -42,7 +42,7 @@ export const d3Nodes = (svg, nodes) => (
 export const d3Subnodes = (svg, subnodes) => {
   // Nest subnodes by parent.
   const nestedSubs = nest()
-    .key(sub => sub.parent.replace(/[ ./-:]|^\d*/g, '')).entries(subnodes);
+    .key(sub => sub.parent.replace(/^[ ./~\-:]*\d*|[ ./~\-:]/g, '')).entries(subnodes);
 
   // Generate HTML and dimensions for each subnode group.
   nestedSubs.forEach((subGroup) => {
