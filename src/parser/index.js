@@ -59,7 +59,7 @@ const parseNode = (node) => {
   };
 
   if (parsedNode.note) {
-    parsedNode.note = parsedNode.note.replace('', 'if you think this can be improved in any way  please say');
+    parsedNode.note = parsedNode.note.replace('if you think this can be improved in any way  please say', '');
   }
 
   const match = parsedNode.text.match(matchEmojis);

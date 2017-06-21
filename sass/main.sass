@@ -30,7 +30,7 @@ body
   text-decoration: none
   transition: background-color 0.2s ease-out
 
-  &:hover
+  &[href]:hover
     background-color: $grey500
     cursor: pointer
 
@@ -54,7 +54,7 @@ body
 
 .mindmap-connection
   fill: transparent
-  //stroke: random-color()
+  stroke: $grey500
   stroke-dasharray: 10px 4px
   stroke-width: 3px
 
@@ -65,4 +65,3 @@ body
 
 .reddit-emoji
   border-radius: 50%
-

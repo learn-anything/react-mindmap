@@ -1,4 +1,4 @@
-import { categoryToIMG } from '../parser/emojis';
+import { categoryToIMG, emojiTemplate } from '../parser/emojis';
 
 /*
  * Return the HTML representation of a node.
@@ -7,15 +7,15 @@ import { categoryToIMG } from '../parser/emojis';
  */
 export default (node) => {
   let href = `href="${node.url}"`;
+  let emoji = categoryToIMG(node.category);
 
-  // If url is not specified remove href attribute,
-  // so that the node isn't clickable.
-  
+  // If url is not specified remove the emoji and the href attribute,
+  // so that the node isn't clickable, and the user can see that without
+  // having to hover the node.
   if (!node.url) {
     href = '';
+    emoji = '';
   }
-
-  const emoji = node.category == null  && href !== '' ?  '<img class="mindmap-emoji" title="external source" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f517.png">' : categoryToIMG(node.category);
 
   return `<a id="node-${node.index}" ${href}>${node.text} ${emoji}</a>`;
 };
