@@ -20,6 +20,8 @@ const conversionTable = {
   '🗣': 'chat',
   '🎥': 'youtube',
   '🤖': 'reddit',
+  '🔗': '',
+  '🔗': undefined,
 };
 
 // Category to emoji table, based on the table above.
@@ -89,6 +91,7 @@ const categoryToIMG = category => emojiToIMG(revConversionTable[category] || '')
 module.exports = {
   matchEmojis,
   emojiToIMG,
+  emojiTemplate,
   emojiToCategory,
   categoryToIMG,
 };

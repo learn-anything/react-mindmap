@@ -202,7 +202,7 @@ walkDir(input, (map, filename) => {
   parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
 
   // Find out the path for the output file.
-  const inputBasePath = `${path.resolve('./', input)}/`;
+  const inputBasePath = path.resolve('./', input);
   const outputFile = path.join(output, filename.replace(inputBasePath, ''));
   const outputPath = path.dirname(outputFile);
 

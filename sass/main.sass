@@ -28,9 +28,11 @@ body
   padding: 15px
   text-align: center
   text-decoration: none
+  transition: background-color 0.2s ease-out
 
-  &:hover
+  &[href]:hover
     background-color: $grey500
+    cursor: pointer
 
 .mindmap-node--editable
   cursor: all-scroll
