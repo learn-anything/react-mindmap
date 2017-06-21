@@ -21,7 +21,6 @@ const conversionTable = {
   '🎥': 'youtube',
   '🤖': 'reddit',
   '🔗': '',
-  '🔗': undefined,
 };
 
 // Category to emoji table, based on the table above.

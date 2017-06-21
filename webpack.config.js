@@ -47,5 +47,5 @@ module.exports = {
       commonjs: 'd3',
       amd: 'd3',
     },*/
- },
+  },
 };

@@ -218,5 +218,3 @@ walkDir(input, (map, filename) => {
     }
   });
 });
-
-

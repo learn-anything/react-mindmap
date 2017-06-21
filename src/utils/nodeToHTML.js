@@ -1,4 +1,4 @@
-import { categoryToIMG, emojiTemplate } from '../parser/emojis';
+import { categoryToIMG } from '../parser/emojis';
 
 /*
  * Return the HTML representation of a node.
