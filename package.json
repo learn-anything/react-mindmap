@@ -22,7 +22,7 @@
   "scripts": {
     "parse": "node src/parser/index.js",
     "lint": "eslint .; sass-lint sass/* -v",
-    "build": "webpack -p",
+    "prepublish": "rollup -c && uglifyjs dist/d3.js -c -m -o dist/d3.min.js && webpack -p && rm dist/d3.min.js dist/d3.js",
     "test": "start-storybook -p 3000 -c .storybook"
   },
   "dependencies": {
@@ -48,6 +48,8 @@
     "http-server": "^0.9.0",
     "node-sass": "^4.5.0",
     "postcss-loader": "^2.0.5",
+    "rollup": "^0.43.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
     "sass-lint": "^1.10.2",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.17.0",

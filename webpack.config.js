@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   entry: './src/index.jsx',
 
@@ -28,6 +30,10 @@ module.exports = {
     ],
   },
 
+  resolve: {
+    alias: { 'd3': path.resolve(__dirname, 'dist/d3.min.js') },
+  },
+
   externals: {
     react: {
       root: 'React',
@@ -41,11 +47,5 @@ module.exports = {
       commonjs: 'react-dom',
       amd: 'react-dom',
     },
-    /*d3: {
-      root: 'd3',
-      commonjs2: 'd3',
-      commonjs: 'd3',
-      amd: 'd3',
-    },*/
   },
 };
