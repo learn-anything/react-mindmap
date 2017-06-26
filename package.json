@@ -22,7 +22,7 @@
   "scripts": {
     "parse": "node src/parser/index.js",
     "lint": "eslint .; sass-lint sass/* -v",
-    "prepublish": "rollup -c && uglifyjs dist/d3.js -c -m -o dist/d3.min.js && webpack -p && rm dist/d3.min.js dist/d3.js",
+    "prepare": "rollup -c && uglifyjs dist/d3.js -c -m -o dist/d3.min.js && webpack -p && rm dist/d3.min.js dist/d3.js",
     "test": "start-storybook -p 3000 -c .storybook"
   },
   "dependencies": {
