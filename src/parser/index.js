@@ -187,8 +187,18 @@ walkDir(input, (map, filename) => {
 
 walkDir(input, (map, filename) => {
   const nodesLookup = {};
+  const splitTitle = map.title.split('-');
+  let trigger = map.trigger;
 
-  const parsedMap = { title: map.title };
+  if (splitTitle[splitTitle.length - 1].trim(' ') === trigger) {
+    trigger = ''
+  }
+
+  const parsedMap = {
+    title: map.title,
+    tag: trigger,
+    description: map.description,
+  };
 
   // Parse all nodes and populate the lookup table, which will be used for
   // converting IDs to node title on connections.
