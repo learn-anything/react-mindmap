@@ -1,6 +1,6 @@
 {
   "name": "react-mindmap",
-  "version": "2.0.8",
+  "version": "2.0.10",
   "description": "React component for rendering mind maps",
   "license": "MIT",
   "contributors": [
@@ -12,9 +12,9 @@
   ],
   "files": [
     "dist",
-    "src/parser"
+    "src"
   ],
-  "main": "dist/index.js",
+  "main": "src/index.jsx",
   "bin": {
     "react-mindmap-parse": "./src/parser/index.js"
   },
