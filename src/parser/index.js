@@ -222,9 +222,5 @@ walkDir(input, (map, filename) => {
   }
 
   // Write parsed map to new location.
-  fs.writeFile(outputFile, JSON.stringify(parsedMap, null, 2), (err) => {
-    if (err) {
-      throw err;
-    }
-  });
+  fs.writeFileSync(outputFile, JSON.stringify(parsedMap, null, 2));
 });
