@@ -33,7 +33,7 @@ export const d3Nodes = (svg, nodes) => (
         return 'undefined';
       }
 
-      return node.text.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, '')
+      return node.text.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, '');
     })
     .attr('width', node => node.width + 4)
     .attr('height', node => node.height)
