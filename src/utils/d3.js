@@ -28,7 +28,13 @@ export const d3Connections = (svg, connections) => (
 export const d3Nodes = (svg, nodes) => (
   bindData(svg, nodes, 'foreignObject')
     .attr('class', 'mindmap-node')
-    .attr('id', node => node.text.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, ''))
+    .attr('id', (node) => {
+      if (!node.text) {
+        return 'undefined';
+      }
+
+      return node.text.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, '')
+    })
     .attr('width', node => node.width + 4)
     .attr('height', node => node.height)
     .html(node => node.html)
@@ -44,7 +50,7 @@ export const d3Subnodes = (svg, subnodes) => {
   const nestedSubs = nest()
     .key((sub) => {
       if (!sub.parent) {
-        return undefined;
+        return 'undefined';
       }
 
       return sub.parent.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, '');
