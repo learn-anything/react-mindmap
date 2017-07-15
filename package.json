@@ -31,6 +31,9 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
     "autoprefixer": "^6.7.7",
@@ -59,5 +62,12 @@
     "plugins": {
       "autoprefixer": {}
     }
-  }
+  },
+  "keywords": [
+    "react-component",
+    "visualization",
+    "mindnode",
+    "mindmap",
+    "react"
+  ]
 }
