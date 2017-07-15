@@ -42,7 +42,13 @@ export const d3Nodes = (svg, nodes) => (
 export const d3Subnodes = (svg, subnodes) => {
   // Nest subnodes by parent.
   const nestedSubs = nest()
-    .key(sub => sub.parent.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, '')).entries(subnodes);
+    .key(sub => {
+      if (!sub.parent) {
+        return undefined;
+      }
+
+      return sub.parent.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, '');
+    }).entries(subnodes);
 
   // Generate HTML and dimensions for each subnode group.
   nestedSubs.forEach((subGroup) => {
