@@ -42,7 +42,7 @@ export const d3Nodes = (svg, nodes) => (
 export const d3Subnodes = (svg, subnodes) => {
   // Nest subnodes by parent.
   const nestedSubs = nest()
-    .key(sub => {
+    .key((sub) => {
       if (!sub.parent) {
         return undefined;
       }
