@@ -6,6 +6,7 @@ const conversionTable = {
   '🗺': 'mindmap',
   '🌐': 'wiki',
   '🗂': 'stack exchange',
+  '📝': 'course',
   '📖': 'free book',
   '📕': 'non-free book',
   '📄': 'paper',
@@ -20,8 +21,8 @@ const conversionTable = {
   '💬': 'chat',
   '🎥': 'youtube',
   '🤖': 'reddit',
-  '❓': 'quora',
-  '🔗': '',
+  '🔎': 'quora',
+  '🔗': undefined,
 };
 
 // Category to emoji table, based on the table above.
@@ -67,7 +68,7 @@ const emojiToIMG = html => (
         return customEmojiTemplate('octocat', 'github');
 
       case '❓':
-        return '<img class="mindmap-emoji-quora" title="quora" src="https://www.shareicon.net/data/2016/11/03/849470_social_512x512.png">';
+        return '<img class="mindmap-emoji" title="quora" src="https://www.shareicon.net/data/2016/11/03/849470_social_512x512.png">';
 
       // Regular unicode Emojis.
       default: {

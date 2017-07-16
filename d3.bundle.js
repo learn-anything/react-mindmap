@@ -8,4 +8,5 @@ export {
   event,
   nest,
   zoom,
+  zoomIdentity,
 } from 'd3';

@@ -5,6 +5,8 @@ import {
   forceManyBody,
   forceSimulation,
   select,
+  zoom,
+  zoomIdentity,
 } from 'd3';
 
 import {
@@ -114,6 +116,7 @@ export default class MindMap extends Component {
   }
 
   componentDidUpdate() {
+    zoom().transform(select(this.refs.mountPoint), zoomIdentity);
     this.renderMap();
   }
 
