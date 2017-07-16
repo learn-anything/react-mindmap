@@ -17,9 +17,10 @@ const conversionTable = {
   '🖌': 'image',
   '🎙': 'podcast',
   '📮': 'newsletter',
-  '🗣': 'chat',
+  '💬': 'chat',
   '🎥': 'youtube',
   '🤖': 'reddit',
+  '❓': 'quora',
   '🔗': '',
 };
 
@@ -64,6 +65,9 @@ const emojiToIMG = html => (
 
       case '🐙':
         return customEmojiTemplate('octocat', 'github');
+
+      case '❓':
+        return '<img class="mindmap-emoji-quora" title="quora" src="https://www.shareicon.net/data/2016/11/03/849470_social_512x512.png">';
 
       // Regular unicode Emojis.
       default: {
