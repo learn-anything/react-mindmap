@@ -67,7 +67,7 @@ const emojiToIMG = html => (
       case '🐙':
         return customEmojiTemplate('octocat', 'github');
 
-      case '❓':
+      case '🔎':
         return '<img class="mindmap-emoji" title="quora" src="https://www.shareicon.net/data/2016/11/03/849470_social_512x512.png">';
 
       // Regular unicode Emojis.
