@@ -7,6 +7,7 @@
       "url": "http://www.wikiwand.com/en/DevOps",
       "fx": 93.11200245543978,
       "fy": -527.9056886602629,
+      "nodes": [],
       "category": "wiki"
     },
     {
@@ -14,6 +15,7 @@
       "url": "http://www.wikiwand.com/en/Automation",
       "fx": -284.5695991516113,
       "fy": -381.82447814941406,
+      "nodes": [],
       "category": "wiki"
     },
     {
@@ -21,73 +23,85 @@
       "url": "http://www.wikiwand.com/en/Cloud_computing",
       "fx": 469.9091874845742,
       "fy": -361.3470323164386,
+      "nodes": [],
       "category": "wiki"
     },
     {
       "text": "chef",
       "url": "https://www.chef.io/chef/",
       "fx": -771.4493766092344,
-      "fy": -245.46253332876506
+      "fy": -245.46253332876506,
+      "nodes": []
     },
     {
       "text": "CF engine",
       "url": "https://cfengine.com/",
       "fx": -916.7417510546218,
-      "fy": -244.4770107038903
+      "fy": -244.4770107038903,
+      "nodes": []
     },
     {
       "text": "terraform",
       "url": "https://www.terraform.io/",
       "fx": -304.5574932477962,
-      "fy": -244.35545057510478
+      "fy": -244.35545057510478,
+      "nodes": []
     },
     {
       "text": "aws cloud formation",
       "url": "https://aws.amazon.com/cloudformation/",
       "fx": -163.997631708781,
-      "fy": -244.08740116999707
+      "fy": -244.08740116999707,
+      "nodes": []
     },
     {
       "text": "puppet",
       "url": "https://puppet.com/",
       "fx": -677.2951572577099,
-      "fy": -243.42540759155133
+      "fy": -243.42540759155133,
+      "nodes": []
     },
     {
       "text": "salt stack",
       "url": "https://saltstack.com/",
       "fx": -445.7401207917263,
-      "fy": -242.31925793385278
+      "fy": -242.31925793385278,
+      "nodes": []
     },
     {
       "text": "ansible",
       "url": "https://www.ansible.com/",
       "fx": -560.7310616896443,
-      "fy": -242.19105462852121
+      "fy": -242.19105462852121,
+      "nodes": []
     },
     {
       "text": "digital ocean",
       "url": "https://www.digitalocean.com/",
       "fx": 562.0644989013672,
-      "fy": -231.1175193786621
+      "fy": -231.1175193786621,
+      "nodes": []
     },
     {
       "text": "google cloud",
       "url": "https://cloud.google.com/",
       "fx": 385.37664215324503,
-      "fy": -229.9773476179256
+      "fy": -229.9773476179256,
+      "nodes": []
     },
     {
       "text": "azure",
       "url": "https://azure.microsoft.com/en-us/",
       "fx": 722.1252593994141,
-      "fy": -229.81018447875977
+      "fy": -229.81018447875977,
+      "nodes": []
     },
     {
       "text": "aws  ️",
       "url": "https://my.mindnode.com/T7nXWRnN5t8pWxi97hFqRjkNDas7VqpHp7DBRAye",
       "fx": 821.2495427867561,
       "fy": -230.10176419163804,
+      "nodes": [],
       "category": "mindmap"
     },
     {
@@ -95,95 +109,110 @@
       "url": "http://www.wikiwand.com/en/Heroku",
       "fx": 236.1927264013957,
       "fy": -228.50512050658233,
+      "nodes": [],
       "category": "wiki"
     },
     {
       "text": "graphite",
       "url": "https://graphiteapp.org/",
       "fx": -223.73705673217773,
-      "fy": -110.84214735031128
+      "fy": -110.84214735031128,
+      "nodes": []
     },
     {
       "text": "CI / CD",
       "url": "http://www.wikiwand.com/en/Continuous_integration",
       "fx": 365.3053550720215,
       "fy": -104.10460472106934,
+      "nodes": [],
       "category": "wiki"
     },
     {
       "text": "jenkins",
       "url": "https://jenkins.io/",
       "fx": 604.1891860961914,
-      "fy": -99.62551444768906
+      "fy": -99.62551444768906,
+      "nodes": []
     },
     {
       "text": "zabbix",
       "url": "http://www.wikiwand.com/en/Zabbix",
       "fx": -381.24463272094727,
       "fy": -89.71865463256836,
+      "nodes": [],
       "category": "wiki"
     },
     {
       "text": "travis",
       "url": "https://travis-ci.org/",
       "fx": 615.0028686523438,
-      "fy": -28.102535247802734
+      "fy": -28.102535247802734,
+      "nodes": []
     },
     {
       "text": "prometheus",
       "url": "https://github.com/prometheus/prometheus",
       "fx": -466.66304779052734,
       "fy": -13.450712203979492,
+      "nodes": [],
       "category": "github"
     },
     {
       "text": "monitoring and alterting",
       "url": "",
       "fx": -238.62429110544804,
-      "fy": -5.9392977048895546
+      "fy": -5.9392977048895546,
+      "nodes": []
     },
     {
       "text": "TeamCity",
       "url": "https://www.jetbrains.com/teamcity/",
       "fx": 597.0809173583984,
-      "fy": 45.981544494628906
+      "fy": 45.981544494628906,
+      "nodes": []
     },
     {
       "text": "PagerDuty",
       "url": "https://www.pagerduty.com/",
       "fx": -410.7095031738281,
-      "fy": 69.44459152221691
+      "fy": 69.44459152221691,
+      "nodes": []
     },
     {
       "text": "drone",
       "url": "https://github.com/drone/drone",
       "fx": 600.6433792114258,
       "fy": 110.17232704162598,
+      "nodes": [],
       "category": "github"
     },
     {
       "text": "nagios",
       "url": "https://www.nagios.org/",
       "fx": -174.3193359375,
-      "fy": 119.85421562194824
+      "fy": 119.85421562194824,
+      "nodes": []
     },
     {
       "text": "AppDynamics",
       "url": "https://www.appdynamics.com/",
       "fx": -365.67039489746094,
-      "fy": 153.90050888061523
+      "fy": 153.90050888061523,
+      "nodes": []
     },
     {
       "text": "bamboo",
       "url": "https://www.atlassian.com/software/bamboo",
       "fx": 602.0615692138672,
-      "fy": 194.8492317199707
+      "fy": 194.8492317199707,
+      "nodes": []
     },
     {
       "text": "kubernetes  ️",
       "url": "https://my.mindnode.com/qD6Dva6VnUKLM1xg3tisnTznnXkBgpYd8nfyjGkn",
       "fx": -366.51152596376437,
       "fy": 239.56077855385547,
+      "nodes": [],
       "category": "mindmap"
     },
     {
@@ -191,32 +220,37 @@
       "url": "http://www.wikiwand.com/en/Operating-system-level_virtualization",
       "fx": 320.5727751358536,
       "fy": 270.65557065215523,
+      "nodes": [],
       "category": "wiki"
     },
     {
       "text": "cluster managers",
       "url": "",
       "fx": -148.88062650347524,
-      "fy": 280.8275152304316
+      "fy": 280.8275152304316,
+      "nodes": []
     },
     {
       "text": "docker  ️",
       "url": "https://my.mindnode.com/mckfV3fnWaJJirpCTcieUhRdyMT3TuLHq6RY54Gs",
       "fx": 551.9303894042969,
       "fy": 280.8835754394531,
+      "nodes": [],
       "category": "mindmap"
     },
     {
       "text": "mesosphere",
       "url": "https://mesosphere.com/",
       "fx": -395.22882564484144,
-      "fy": 314.9780040922619
+      "fy": 314.9780040922619,
+      "nodes": []
     },
     {
       "text": "LXC",
       "url": "http://www.wikiwand.com/en/LXC",
       "fx": 551.6677076551655,
       "fy": 353.95680406358474,
+      "nodes": [],
       "category": "wiki"
     },
     {
@@ -224,6 +258,7 @@
       "url": "https://github.com/hashicorp/nomad",
       "fx": -68.38454861111109,
       "fy": 391.40153769841277,
+      "nodes": [],
       "category": "github"
     },
     {
@@ -231,6 +266,7 @@
       "url": "http://www.wikiwand.com/en/Apache_Mesos",
       "fx": -388.25448190598263,
       "fy": 398.10233476426856,
+      "nodes": [],
       "category": "wiki"
     },
     {
@@ -238,19 +274,33 @@
       "url": "https://github.com/rkt/rkt",
       "fx": 537.5528259277344,
       "fy": 424.5010528564453,
+      "nodes": [],
       "category": "github"
     },
     {
       "text": "docker swarm",
       "url": "https://docs.docker.com/engine/swarm/",
       "fx": -246.58518340095634,
-      "fy": 447.775452144562
+      "fy": 447.775452144562,
+      "nodes": []
     },
     {
       "text": "nginx",
       "url": "http://www.wikiwand.com/en/Nginx",
       "fx": 563.9381171982809,
       "fy": 516.2678065848713,
+      "nodes": [
+        {
+          "text": "gixy",
+          "note": "nginx configuration static analyser",
+          "url": "https://github.com/yandex/gixy",
+          "fx": 739.9381171982809,
+          "fy": 530.2678065848713,
+          "nodes": [],
+          "category": "github",
+          "color": "rgba(175, 54, 242, 1.0)"
+        }
+      ],
       "category": "wiki"
     },
     {
@@ -258,6 +308,7 @@
       "url": "http://www.wikiwand.com/en/Web_server",
       "fx": 257.0581034533959,
       "fy": 531.2695504833248,
+      "nodes": [],
       "category": "wiki"
     },
     {
@@ -265,6 +316,7 @@
       "url": "http://www.wikiwand.com/en/Internet_Information_Services",
       "fx": 577.3260682962709,
       "fy": 582.3933912374205,
+      "nodes": [],
       "category": "wiki"
     },
     {
@@ -272,19 +324,22 @@
       "url": "https://my.mindnode.com/JdxG6pPiqvhyyzW6oARy3dr4q5NTFx7oBZCMoodd",
       "fx": -181.55763097731028,
       "fy": 597.9215131954311,
+      "nodes": [],
       "category": "mindmap"
     },
     {
       "text": "terminal",
       "url": "",
       "fx": -0.9114483622131502,
-      "fy": 610.3327363874996
+      "fy": 610.3327363874996,
+      "nodes": []
     },
     {
       "text": "caddy",
       "url": "http://www.wikiwand.com/en/Caddy_(web_server)",
       "fx": 561.4171556375795,
       "fy": 648.4715772725767,
+      "nodes": [],
       "category": "wiki"
     },
     {
@@ -292,6 +347,7 @@
       "url": "https://my.mindnode.com/6UAsbkJF1x2EQUMHqsydmxmUQPxnqQTfSqZBE1jD",
       "fx": -142.7802481326937,
       "fy": 697.3420106754729,
+      "nodes": [],
       "category": "mindmap"
     },
     {
@@ -299,6 +355,7 @@
       "url": "http://www.wikiwand.com/en/Apache_Tomcat",
       "fx": 559.7606767557436,
       "fy": 714.5708967305845,
+      "nodes": [],
       "category": "wiki"
     },
     {
@@ -306,6 +363,7 @@
       "url": "https://my.mindnode.com/LHXDgxoACw1ykgGsaFFvKsnaLaeRGviV74j2wtkU",
       "fx": -20.42137002031336,
       "fy": 730.91969528155,
+      "nodes": [],
       "category": "mindmap"
     },
     {
@@ -313,19 +371,8 @@
       "url": "http://www.wikiwand.com/en/Apache_HTTP_Server",
       "fx": 543.5330421250387,
       "fy": 795.640903251709,
+      "nodes": [],
       "category": "wiki"
-    }
-  ],
-  "subnodes": [
-    {
-      "text": "gixy",
-      "note": "nginx configuration static analyser",
-      "url": "https://github.com/yandex/gixy",
-      "fx": 739.9381171982809,
-      "fy": 530.2678065848713,
-      "category": "github",
-      "color": "rgba(175, 54, 242, 1.0)",
-      "parent": "nginx"
     }
   ],
   "connections": [

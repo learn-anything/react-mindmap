@@ -12,12 +12,12 @@ import {
 import {
   d3Connections,
   d3Nodes,
-  d3Subnodes,
   d3Drag,
   d3PanZoom,
   onTick,
 } from './utils/d3';
 import { getDimensions, getViewBox } from './utils/dimensions';
+import subnodesToHTML from './utils/subnodesToHTML';
 import nodeToHTML from './utils/nodeToHTML';
 import '../sass/main.sass';
 
@@ -41,22 +41,26 @@ export default class MindMap extends Component {
    * Generates HTML and dimensions for nodes and subnodes.
    */
   prepareNodes() {
-    const render = (el, className) => {
-      const dimensions = getDimensions(nodeToHTML(el), {}, className);
+    const render = (node) => {
+      node.html = nodeToHTML(node);
+      node.nodesHTML = subnodesToHTML(node.nodes);
 
-      el.width = dimensions.width;
-      el.height = dimensions.height;
-      el.html = nodeToHTML(el);
+      const dimensions = getDimensions(node.html, {}, 'mindmap-node');
+      node.width = dimensions.width;
+      node.height = dimensions.height;
+
+      const nodesDimensions = getDimensions(node.nodesHTML, {}, 'mindmap-subnode-text');
+      node.nodesWidth = nodesDimensions.width;
+      node.nodesHeight = nodesDimensions.height;
     };
 
-    this.props.nodes.forEach(node => render(node, 'mindmap-node'));
-    this.props.subnodes.forEach(subnode => render(subnode, 'mindmap-subnode-text'));
+    this.props.nodes.forEach(node => render(node));
   }
 
   /*
    * Add new class to nodes, attach drag behavior, and start simulation.
    */
-  prepareEditor(svg, conns, nodes, subnodes) {
+  prepareEditor(svg, conns, nodes) {
     nodes
       .attr('class', 'mindmap-node mindmap-node--editable')
       .on('dblclick', (node) => {
@@ -67,7 +71,7 @@ export default class MindMap extends Component {
     nodes.call(d3Drag(this.state.simulation, svg, nodes));
 
     this.state.simulation
-      .alphaTarget(0.5).on('tick', () => onTick(conns, nodes, subnodes));
+      .alphaTarget(0.5).on('tick', () => onTick(conns, nodes));
   }
   /* eslint-enable no-param-reassign */
 
@@ -85,9 +89,8 @@ export default class MindMap extends Component {
     this.prepareNodes();
 
     // Bind data to SVG elements and set all the properties to render them.
-    const subnodes = d3Subnodes(svg, this.props.subnodes);
     const connections = d3Connections(svg, this.props.connections);
-    const nodes = d3Nodes(svg, this.props.nodes);
+    const { nodes, subnodes } = d3Nodes(svg, this.props.nodes);
     nodes.append('title').text(node => node.note);
 
     // Bind nodes and connections to the simulation.
@@ -96,7 +99,7 @@ export default class MindMap extends Component {
       .force('link').links(this.props.connections);
 
     if (this.props.editable) {
-      this.prepareEditor(svg, connections, nodes, subnodes);
+      this.prepareEditor(svg, connections, nodes);
     }
 
     // Tick the simulation 100 times.
@@ -133,14 +136,12 @@ export default class MindMap extends Component {
 
 MindMap.defaultProps = {
   nodes: [],
-  subnodes: [],
   connections: [],
   editable: false,
 };
 
 MindMap.propTypes = {
   nodes: PropTypes.array,
-  subnodes: PropTypes.array,
   connections: PropTypes.array,
   editable: PropTypes.bool,
 };

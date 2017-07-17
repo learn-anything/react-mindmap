@@ -73,6 +73,7 @@ const parseNode = (node) => {
     url: getURL(node.title.text),
     fx: node.location.x,
     fy: node.location.y,
+    nodes: parseSubnodes(node.nodes),
   };
 
   // If URL is an internal URL that uses the map ID, switch it to
@@ -97,49 +98,22 @@ const parseNode = (node) => {
 };
 
 /*
- * Get all subnodes put them all at the same level,
- * and add the parent attribute.
+ * Parse an array of subnodes recursively. Uses parseNode, so the structure of
+ * subnodes will be the same. The only difference is a color attribute on
+ * subnodes, which has a string with a valid CSS color format.
  */
-const getSubnodesR = (subnodes, parent) => {
-  const res = [];
+const parseSubnodes = (subnodes) => (
+  subnodes.map((subnode) => {
+    const parsedSub = parseNode(subnode);
 
-  subnodes.forEach((subnode) => {
-    res.push(Object.assign({ parent }, subnode));
+    if (subnode.shapeStyle && subnode.shapeStyle.borderStrokeStyle) {
+      parsedSub.color = subnode.shapeStyle.borderStrokeStyle.color;
+    }
 
-    getSubnodesR(subnode.nodes, parseNode(subnode).text).forEach(sn => res.push(sn));
-  });
-
-  return res;
-};
-
-const getSubnodes = (nodes) => {
-  const subnodes = [];
-
-  nodes.forEach(node => (
-    getSubnodesR(node.nodes, parseNode(node).text).forEach(subnode => subnodes.push(subnode))
-  ));
-
-  return subnodes;
-};
-
-/*
- * Similar structure as parseNode, with two additional attributes `parent` and `color`,
- * which respectively are the text of the parent node, and the color of the connection
- * from parent to subnode.
- */
-const parseSubnode = (subnode) => {
-  const parsedSubnode = parseNode(subnode);
-  let color;
-
-  if (subnode.shapeStyle && subnode.shapeStyle.borderStrokeStyle) {
-    color = subnode.shapeStyle.borderStrokeStyle.color;
-  }
-
-  parsedSubnode.color = color;
-  parsedSubnode.parent = subnode.parent;
-
-  return parsedSubnode;
-};
+    parsedSub.nodes = parseSubnodes(subnode.nodes);
+    return parsedSub;
+  })
+);
 
 /*
  * Take a connection from MindNode format and return it in the following format:
@@ -208,7 +182,6 @@ walkDir(input, (map, filename) => {
     return parsedNode;
   });
 
-  parsedMap.subnodes = getSubnodes(map.nodes).map(subnode => parseSubnode(subnode));
   parsedMap.connections = map.connections.map(conn => parseConn(conn, nodesLookup));
 
   // Find out the path for the output file.

@@ -1,0 +1,1590 @@
+{
+  "token": "XSoat9hfA9vpEu9LsEStbuAzNWhPHZqDyh24sRzv",
+  "title": "learn anything - programming - programming interview preparation",
+  "backgroundColor": "rgba(29, 26, 22, 1.0)",
+  "nodes": [
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "7E28A366-3D0D-4DB2-920C-4251775C110A",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(244, 255, 226, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(4, 4, 3, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(29, 26, 22, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(241, 255, 220, 1.000000); font: 24px \"Helvetica Neue\"; text-align: center;  '>prepare</p>",
+        "fontStyle": null
+      },
+      "note": {
+        "visibleOnCanvas": false,
+        "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>if you think this can be improved in any way</p><p></p><p><a style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  ' href=\"https://github.com/nikitavoloboev/knowledge-map/issues/525\" rel=\"nofollow\">please say</a><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '> </span><span style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Apple Color Emoji\";  '>💙</span></p>"
+      },
+      "noteIndicatorColor": "rgba(243, 253, 226, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "8B9231B4-3708-4410-AE2D-1AE58C9803F5",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(104, 255, 109, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(104, 255, 109, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '>1. choose a programming language</p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>java, python are the two great choices</p>"
+          },
+          "noteIndicatorColor": "rgba(254, 253, 223, 1.0)",
+          "nodes": [
+            {
+              "allowNodeStrokeColorVariants": false,
+              "decreasingStrokeWidth": false,
+              "foldedSubnodes": false,
+              "isLeftAligned": false,
+              "id": "EE3784A5-680D-4E8B-AE20-39566CB25013",
+              "pathStyle": {
+                "lineType": "curved",
+                "strokeStyle": {
+                  "color": "rgba(104, 255, 109, 1.0)",
+                  "dash": null,
+                  "width": 5.0
+                }
+              },
+              "shapeStyle": {
+                "fillColor": "rgba(29, 26, 22, 1.0)",
+                "shapeType": null,
+                "borderStrokeStyle": {
+                  "color": "rgba(104, 255, 109, 1.0)",
+                  "dash": null,
+                  "width": 4.0
+                }
+              },
+              "image": null,
+              "title": {
+                "allowToShrinkWidth": true,
+                "maxWidth": 300.0,
+                "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/XcFAZAvk82ipqdis1UW5wznzxBxuVbx5iHLwgLHP\" rel=\"nofollow\">java </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/XcFAZAvk82ipqdis1UW5wznzxBxuVbx5iHLwgLHP\" rel=\"nofollow\">🗺️</a></p>",
+                "fontStyle": null
+              },
+              "note": null,
+              "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+              "nodes": [],
+              "location": {
+                "x": 860.7686603687428,
+                "y": -881.0534662317348
+              },
+              "layoutStyle": "manual",
+              "task": null
+            },
+            {
+              "allowNodeStrokeColorVariants": false,
+              "decreasingStrokeWidth": false,
+              "foldedSubnodes": false,
+              "isLeftAligned": false,
+              "id": "80EC34D3-BB74-4930-946F-91030F53EF7C",
+              "pathStyle": {
+                "lineType": "curved",
+                "strokeStyle": {
+                  "color": "rgba(104, 255, 109, 1.0)",
+                  "dash": null,
+                  "width": 5.0
+                }
+              },
+              "shapeStyle": {
+                "fillColor": "rgba(29, 26, 22, 1.0)",
+                "shapeType": null,
+                "borderStrokeStyle": {
+                  "color": "rgba(104, 255, 109, 1.0)",
+                  "dash": null,
+                  "width": 4.0
+                }
+              },
+              "image": null,
+              "title": {
+                "allowToShrinkWidth": true,
+                "maxWidth": 300.0,
+                "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/cmzq9sEGAyyNyeZrNA7UyQa8JpsqHf9QzStwFqGT\" rel=\"nofollow\">python </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/cmzq9sEGAyyNyeZrNA7UyQa8JpsqHf9QzStwFqGT\" rel=\"nofollow\">🗺️</a></p>",
+                "fontStyle": null
+              },
+              "note": null,
+              "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+              "nodes": [],
+              "location": {
+                "x": 860.7686603687428,
+                "y": -839.0534662317348
+              },
+              "layoutStyle": "manual",
+              "task": null
+            }
+          ],
+          "location": {
+            "x": 522.7686603687428,
+            "y": -870.0534662317348
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "5416779A-3A36-4ECD-A5FF-A6F06E911E41",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(0, 224, 161, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(0, 224, 161, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/jwasham/coding-interview-university\" rel=\"nofollow\">2. coding interview university </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/jwasham/coding-interview-university\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is a complete study plan that covers algorithms, data structures and various cs topics</p>"
+          },
+          "noteIndicatorColor": "rgba(254, 253, 223, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 522.7686603687428,
+            "y": -797.0534662317348
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "47AA9132-3316-4FF3-B49A-E65585067CB3",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(83, 201, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(83, 201, 255, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://www.goodreads.com/book/show/12544648-cracking-the-coding-interview\" rel=\"nofollow\">2. cracking the coding interview </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://www.goodreads.com/book/show/12544648-cracking-the-coding-interview\" rel=\"nofollow\">📕</a></p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>covers a great range of questions you may get asked with solutions</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>is quite useful to attempt to do all the exercises yourself</p>"
+          },
+          "noteIndicatorColor": "rgba(254, 253, 223, 1.0)",
+          "nodes": [
+            {
+              "allowNodeStrokeColorVariants": false,
+              "decreasingStrokeWidth": false,
+              "foldedSubnodes": false,
+              "isLeftAligned": false,
+              "id": "C39DF08A-B50B-4C58-AA1E-E608D315CCFD",
+              "pathStyle": {
+                "lineType": "curved",
+                "strokeStyle": {
+                  "color": "rgba(83, 201, 255, 1.0)",
+                  "dash": null,
+                  "width": 5.0
+                }
+              },
+              "shapeStyle": {
+                "fillColor": "rgba(29, 26, 22, 1.0)",
+                "shapeType": null,
+                "borderStrokeStyle": {
+                  "color": "rgba(83, 201, 255, 1.0)",
+                  "dash": null,
+                  "width": 4.0
+                }
+              },
+              "image": null,
+              "title": {
+                "allowToShrinkWidth": true,
+                "maxWidth": 300.0,
+                "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://github.com/careercup/ctci\" rel=\"nofollow\">check your work with official answers for the book</a></p>",
+                "fontStyle": null
+              },
+              "note": null,
+              "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+              "nodes": [],
+              "location": {
+                "x": 910.7686603687428,
+                "y": -752.5534662317348
+              },
+              "layoutStyle": "manual",
+              "task": null
+            }
+          ],
+          "location": {
+            "x": 522.7686603687428,
+            "y": -755.0534662317348
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "CBE4CB6C-61FF-4F16-8912-FC846A8683E4",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(252, 177, 20, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(252, 177, 20, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.goodreads.com/book/show/16253895-elements-of-programming-interviews\" rel=\"nofollow\">2. elements of programming interviews </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.goodreads.com/book/show/16253895-elements-of-programming-interviews\" rel=\"nofollow\">📕</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 522.7686603687428,
+            "y": -688.0534662317348
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "1316F250-8A41-4129-ABDD-6E8028DE2875",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(79, 229, 84, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(104, 255, 109, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://www.reddit.com/r/cscareerquestions/comments/6luszf/a_leetcode_grinding_guide/\" rel=\"nofollow\">2. leetcode grinding guide </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://www.reddit.com/r/cscareerquestions/comments/6luszf/a_leetcode_grinding_guide/\" rel=\"nofollow\">🤖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 522.7686603687428,
+            "y": -621.0534662317348
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "46106252-8CBB-4EF4-BA50-2E22CE6AA05C",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 254, 60, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 254, 60, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://leetcode.com\" rel=\"nofollow\">2. leetcode</a></p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>start from easy problems and go from there</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>do not get demotivated if you don’t manage to come up with solutions of your own</p><p></p><p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>do not look at solutions straight away and try your best to first understand the problem and then give your best solution to the problem</p>"
+          },
+          "noteIndicatorColor": "rgba(254, 253, 223, 1.0)",
+          "nodes": [
+            {
+              "allowNodeStrokeColorVariants": false,
+              "decreasingStrokeWidth": false,
+              "foldedSubnodes": false,
+              "isLeftAligned": false,
+              "id": "2DCE5D11-B507-4C39-885B-64496CBAF9B0",
+              "pathStyle": {
+                "lineType": "curved",
+                "strokeStyle": {
+                  "color": "rgba(255, 254, 60, 1.0)",
+                  "dash": null,
+                  "width": 5.0
+                }
+              },
+              "shapeStyle": {
+                "fillColor": "rgba(29, 26, 22, 1.0)",
+                "shapeType": null,
+                "borderStrokeStyle": {
+                  "color": "rgba(255, 254, 60, 1.0)",
+                  "dash": null,
+                  "width": 4.0
+                }
+              },
+              "image": null,
+              "title": {
+                "allowToShrinkWidth": true,
+                "maxWidth": 300.0,
+                "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/csujedihy/lc-all-solutions\" rel=\"nofollow\">in python </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/csujedihy/lc-all-solutions\" rel=\"nofollow\">🐙</a></p>",
+                "fontStyle": null
+              },
+              "note": null,
+              "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+              "nodes": [],
+              "location": {
+                "x": 721.7686603687428,
+                "y": -579.0534662317348
+              },
+              "layoutStyle": "manual",
+              "task": null
+            },
+            {
+              "allowNodeStrokeColorVariants": false,
+              "decreasingStrokeWidth": false,
+              "foldedSubnodes": false,
+              "isLeftAligned": false,
+              "id": "1E6C4AD7-20F3-477D-BCEB-7E22F2123987",
+              "pathStyle": {
+                "lineType": "curved",
+                "strokeStyle": {
+                  "color": "rgba(255, 254, 60, 1.0)",
+                  "dash": null,
+                  "width": 5.0
+                }
+              },
+              "shapeStyle": {
+                "fillColor": "rgba(29, 26, 22, 1.0)",
+                "shapeType": null,
+                "borderStrokeStyle": {
+                  "color": "rgba(255, 254, 60, 1.0)",
+                  "dash": null,
+                  "width": 4.0
+                }
+              },
+              "image": null,
+              "title": {
+                "allowToShrinkWidth": true,
+                "maxWidth": 300.0,
+                "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/gouthampradhan/leetcode\" rel=\"nofollow\">in java </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/gouthampradhan/leetcode\" rel=\"nofollow\">🐙</a></p>",
+                "fontStyle": null
+              },
+              "note": null,
+              "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+              "nodes": [],
+              "location": {
+                "x": 721.7686603687428,
+                "y": -537.0534662317348
+              },
+              "layoutStyle": "manual",
+              "task": null
+            },
+            {
+              "allowNodeStrokeColorVariants": false,
+              "decreasingStrokeWidth": false,
+              "foldedSubnodes": false,
+              "isLeftAligned": false,
+              "id": "ADDCF983-7F9B-430D-A79F-2DF9F8DAA219",
+              "pathStyle": {
+                "lineType": "curved",
+                "strokeStyle": {
+                  "color": "rgba(255, 254, 60, 1.0)",
+                  "dash": null,
+                  "width": 5.0
+                }
+              },
+              "shapeStyle": {
+                "fillColor": "rgba(29, 26, 22, 1.0)",
+                "shapeType": null,
+                "borderStrokeStyle": {
+                  "color": "rgba(255, 254, 60, 1.0)",
+                  "dash": null,
+                  "width": 4.0
+                }
+              },
+              "image": null,
+              "title": {
+                "allowToShrinkWidth": true,
+                "maxWidth": 300.0,
+                "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/nikitavoloboev/go-leetcode\" rel=\"nofollow\">in go </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/nikitavoloboev/go-leetcode\" rel=\"nofollow\">🐙</a></p>",
+                "fontStyle": null
+              },
+              "note": null,
+              "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+              "nodes": [],
+              "location": {
+                "x": 721.7686603687428,
+                "y": -495.0534662317348
+              },
+              "layoutStyle": "manual",
+              "task": null
+            }
+          ],
+          "location": {
+            "x": 522.7686603687428,
+            "y": -534.5534662317348
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "CD02CA14-7819-4C5A-BC08-4D4C2DB43346",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(169, 255, 0, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(169, 255, 0, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://www.interviewbit.com/\" rel=\"nofollow\">2. interviewbit</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 522.7686603687428,
+            "y": -453.0534662317348
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 321.76866036874276,
+        "y": -682.0534662317348
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "74B7686F-D542-49A2-98FC-9614FBADC07C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(244, 255, 226, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(4, 4, 3, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(29, 26, 22, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(241, 255, 220, 1.000000); font: 24px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/v1TZoGvecWzqqPZRYNjT5xnLqvqvRJ6JyarpJthZ\" rel=\"nofollow\">interview questions </a><a style='color: rgba(241, 255, 220, 1.000000); font: 24px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/v1TZoGvecWzqqPZRYNjT5xnLqvqvRJ6JyarpJthZ\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 133.30859375,
+        "y": -508.1564797794118
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "14C45762-AE4B-4A33-9CB3-40E95B89D65F",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(244, 255, 226, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(4, 4, 3, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(29, 26, 22, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style=\"text-align: center; \"><a style='color: rgba(241, 255, 220, 1.000000); font: 24px \"Helvetica Neue\";  ' href=\"https://my.mindnode.com/7GqWMZcpv3pKTxzopsyfJsQmBtdi7sy2gkuRvrjx\" rel=\"nofollow\">find work </a><a style='color: rgba(241, 255, 220, 1.000000); font: 24px \"Apple Color Emoji\";  ' href=\"https://my.mindnode.com/7GqWMZcpv3pKTxzopsyfJsQmBtdi7sy2gkuRvrjx\" rel=\"nofollow\">🗺️</a></p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [],
+      "location": {
+        "x": 128.46126535991425,
+        "y": -382.241866538531
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "BB8696FE-B3F8-4E5F-A563-7F37C4407202",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(244, 255, 226, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(4, 4, 3, 1.0)",
+        "shapeType": "pill",
+        "borderStrokeStyle": {
+          "color": "rgba(29, 26, 22, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(241, 255, 220, 1.000000); font: 24px \"Helvetica Neue\"; text-align: center;  '>help</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "202491AC-7C2E-4152-8A1F-222BF336E9A7",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(104, 255, 109, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(104, 255, 109, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.programcreek.com/wp-content/uploads/2012/11/coding-interview-6.pdf\" rel=\"nofollow\">coding interview in java </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.programcreek.com/wp-content/uploads/2012/11/coding-interview-6.pdf\" rel=\"nofollow\">📖</a></p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='color: rgba(0, 0, 0, 1.000000); font: 15px \"Helvetica Neue\";  '>goes over various solutions for problems in Java</p>"
+          },
+          "noteIndicatorColor": "rgba(254, 253, 223, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -542.0419941672797
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "F3149B8B-2D33-4468-9581-8E8FDD865537",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(0, 224, 161, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(0, 224, 161, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/sherxon/AlgoDS\" rel=\"nofollow\">algoDS </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/sherxon/AlgoDS\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -500.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "7CFB2206-6368-4502-81DB-7779D7406E74",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(83, 201, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(83, 201, 255, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/donnemartin/interactive-coding-challenges\" rel=\"nofollow\">interactive coding challenges </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/donnemartin/interactive-coding-challenges\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -458.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "DC320B7E-11F7-400F-8E80-C0072A453C73",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(252, 177, 20, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(252, 177, 20, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://docs.google.com/document/d/1VNoEUzBtyCw0fDw0X_bvuhmCwz1qhNjETPJc5VRZqm8/edit\" rel=\"nofollow\">great overview of programming topics</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -416.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "B98C41EC-44AA-4755-9F36-AF99659241E0",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(255, 254, 60, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 254, 60, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://gist.github.com/TSiege/cbb0507082bb18ff7e4b\" rel=\"nofollow\">technical interview cheatsheet</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -354.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "04FA976A-58E3-4F1D-8FEE-FED0E4169C60",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(169, 255, 0, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(169, 255, 0, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"http://courses.csail.mit.edu/iap/interview/materials.php\" rel=\"nofollow\">hacking a google interview</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -317.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "703DE38E-905F-4F4F-B483-44A4F559B41C",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(79, 229, 84, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(104, 255, 109, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://www.reddit.com/r/cscareerquestions/\" rel=\"nofollow\">cs career questions </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://www.reddit.com/r/cscareerquestions/\" rel=\"nofollow\">🤖</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [
+            {
+              "allowNodeStrokeColorVariants": false,
+              "decreasingStrokeWidth": false,
+              "foldedSubnodes": false,
+              "isLeftAligned": false,
+              "id": "731F6453-A34C-45CA-B27F-D1D2728C6FB3",
+              "pathStyle": {
+                "lineType": "curved",
+                "strokeStyle": {
+                  "color": "rgba(79, 229, 84, 1.0)",
+                  "dash": null,
+                  "width": 5.0
+                }
+              },
+              "shapeStyle": {
+                "fillColor": "rgba(29, 26, 22, 1.0)",
+                "shapeType": null,
+                "borderStrokeStyle": {
+                  "color": "rgba(104, 255, 109, 1.0)",
+                  "dash": null,
+                  "width": 4.0
+                }
+              },
+              "image": null,
+              "title": {
+                "allowToShrinkWidth": true,
+                "maxWidth": 300.0,
+                "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://www.reddit.com/r/cscareerquestions/wiki/index\" rel=\"nofollow\">wiki </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://www.reddit.com/r/cscareerquestions/wiki/index\" rel=\"nofollow\">🤖</a></p>",
+                "fontStyle": null
+              },
+              "note": null,
+              "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+              "nodes": [],
+              "location": {
+                "x": 1315.8238432678995,
+                "y": -280.04199416727965
+              },
+              "layoutStyle": "manual",
+              "task": null
+            }
+          ],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -280.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "A2AAE735-A9F7-4DAF-9797-7799343E37C9",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(-25, 198, 136, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(0, 224, 161, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/cassidoo/getting-a-gig\" rel=\"nofollow\">getting a gig </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/cassidoo/getting-a-gig\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -238.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "1219B6FB-777A-4337-8E1B-3FD7D91CD8B8",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(58, 175, 229, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(83, 201, 255, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://www.interviewcake.com/\" rel=\"nofollow\">interview cake</a></p>",
+            "fontStyle": null
+          },
+          "note": {
+            "visibleOnCanvas": false,
+            "text": "<p style='font: 15px \"Helvetica Neue\";  '>list of very detailed solutions to 44 problems</p>"
+          },
+          "noteIndicatorColor": "rgba(254, 253, 223, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -196.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "777F5B38-1416-41F3-9C3E-2EB408752BD1",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(227, 151, -4, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(252, 177, 20, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"http://blog.gainlo.co/?utm_source=Gainlo&amp;utm_medium=header&amp;utm_campaign=Gainlo\" rel=\"nofollow\">gainlo blog</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -159.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "2091105A-E75C-4B30-B050-D5655E179960",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(229, 228, 35, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(255, 254, 60, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://github.com/kdn251/interviews\" rel=\"nofollow\">interviews </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://github.com/kdn251/interviews\" rel=\"nofollow\">🐙</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -122.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "A5ABFBC6-1F1C-486E-9F33-CA797C239D2B",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(143, 229, -25, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(169, 255, 0, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\"; text-align: left;  '><a href=\"https://evykassirer.github.io/playing-the-internship-game/\" rel=\"nofollow\">how to approach tech internships</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1037.8238432678995,
+            "y": -80.04199416727965
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 896.8238432678995,
+        "y": -313.54199416727965
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    },
+    {
+      "allowNodeStrokeColorVariants": false,
+      "decreasingStrokeWidth": true,
+      "foldedSubnodes": false,
+      "isLeftAligned": false,
+      "id": "F484F80E-631C-415A-8BAD-259F96735532",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(244, 255, 226, 1.0)",
+          "dash": null,
+          "width": 4.0
+        }
+      },
+      "shapeStyle": {
+        "fillColor": "rgba(4, 4, 3, 1.0)",
+        "shapeType": "roundedrect",
+        "borderStrokeStyle": {
+          "color": "rgba(29, 26, 22, 1.0)",
+          "dash": null,
+          "width": 2.0
+        }
+      },
+      "image": null,
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 300.0,
+        "text": "<p style='color: rgba(241, 255, 220, 1.000000); font: 24px \"Helvetica Neue\"; text-align: center;  '>articles</p>",
+        "fontStyle": null
+      },
+      "note": null,
+      "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+      "nodes": [
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "3067B5E6-DD13-40C3-B94A-73C08B28D97F",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(104, 255, 109, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(104, 255, 109, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://www.primaryobjects.com/2017/03/28/preparing-for-a-technical-interview-algorithms-data-structures-and-computer-science/\" rel=\"nofollow\">preparing for a technical interview: algorithms, data structures and computer science </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://www.primaryobjects.com/2017/03/28/preparing-for-a-technical-interview-algorithms-data-structures-and-computer-science/\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1130.822000520133,
+            "y": -2.9529808418524226
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "929195CC-D14E-404E-8861-BDAC95452747",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(0, 224, 161, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(0, 224, 161, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://billmei.net/blog/silicon-valley-job-search\" rel=\"nofollow\">how I got my dream job in the tech industry without a CS degree </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://billmei.net/blog/silicon-valley-job-search\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1130.822000520133,
+            "y": 113.04701915814758
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "7040E08C-63C2-402B-9C1D-6A86CAE8DF10",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(83, 201, 255, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(83, 201, 255, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e\" rel=\"nofollow\">13: four steps to Google, without a degree </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"https://medium.com/always-be-coding/four-steps-to-google-without-a-degree-8f381aa6bd5e\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1130.822000520133,
+            "y": 205.04701915814758
+          },
+          "layoutStyle": "manual",
+          "task": null
+        },
+        {
+          "allowNodeStrokeColorVariants": false,
+          "decreasingStrokeWidth": false,
+          "foldedSubnodes": false,
+          "isLeftAligned": false,
+          "id": "9E9DA80B-5195-415E-B8D9-8EB6A5D7B321",
+          "pathStyle": {
+            "lineType": "curved",
+            "strokeStyle": {
+              "color": "rgba(252, 177, 20, 1.0)",
+              "dash": null,
+              "width": 6.0
+            }
+          },
+          "shapeStyle": {
+            "fillColor": "rgba(29, 26, 22, 1.0)",
+            "shapeType": null,
+            "borderStrokeStyle": {
+              "color": "rgba(252, 177, 20, 1.0)",
+              "dash": null,
+              "width": 4.0
+            }
+          },
+          "image": null,
+          "title": {
+            "allowToShrinkWidth": true,
+            "maxWidth": 300.0,
+            "text": "<p style=\"text-align: left; \"><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Helvetica Neue\";  ' href=\"http://blog.triplebyte.com/how-to-interview-engineers\" rel=\"nofollow\">17: how to interview engineers </a><a style='color: rgba(255, 254, 216, 1.000000); font: 21px \"Apple Color Emoji\";  ' href=\"http://blog.triplebyte.com/how-to-interview-engineers\" rel=\"nofollow\">🖋️</a></p>",
+            "fontStyle": null
+          },
+          "note": null,
+          "noteIndicatorColor": "rgba(0, 0, 0, 1.0)",
+          "nodes": [],
+          "location": {
+            "x": 1130.822000520133,
+            "y": 272.0470191581476
+          },
+          "layoutStyle": "manual",
+          "task": null
+        }
+      ],
+      "location": {
+        "x": 961.8220005201331,
+        "y": 134.54701915814758
+      },
+      "layoutStyle": "defaultright",
+      "task": null
+    }
+  ],
+  "connections": [
+    {
+      "endNodeID": "7E28A366-3D0D-4DB2-920C-4251775C110A",
+      "startNodeID": "BB8696FE-B3F8-4E5F-A563-7F37C4407202",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(144, 124, 104, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -368.008,
+        "y": -93.3918
+      }
+    },
+    {
+      "endNodeID": "BB8696FE-B3F8-4E5F-A563-7F37C4407202",
+      "startNodeID": "F484F80E-631C-415A-8BAD-259F96735532",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(144, 124, 104, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -62.3115,
+        "y": -179.982
+      }
+    },
+    {
+      "endNodeID": "74B7686F-D542-49A2-98FC-9614FBADC07C",
+      "startNodeID": "7E28A366-3D0D-4DB2-920C-4251775C110A",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(144, 124, 104, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -74.98,
+        "y": 86.9485
+      }
+    },
+    {
+      "endNodeID": "14C45762-AE4B-4A33-9CB3-40E95B89D65F",
+      "startNodeID": "74B7686F-D542-49A2-98FC-9614FBADC07C",
+      "pathStyle": {
+        "lineType": "curved",
+        "strokeStyle": {
+          "color": "rgba(144, 124, 104, 1.0)",
+          "dash": [
+            5,
+            2
+          ],
+          "width": 2.0
+        }
+      },
+      "arrowStyle": {
+        "startArrow": null,
+        "endArrow": "trianglefilled"
+      },
+      "title": {
+        "allowToShrinkWidth": true,
+        "maxWidth": 250.0,
+        "text": "",
+        "fontStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "color": "rgba(255, 255, 255, 1.0)",
+          "fontName": "HelveticaNeue",
+          "fontSize": 14,
+          "alignment": "center"
+        }
+      },
+      "wayPointOffset": {
+        "x": -17.6737,
+        "y": 64.2073
+      }
+    }
+  ],
+  "ready": true
+}

@@ -25,61 +25,30 @@ export const d3Connections = (svg, connections) => (
  * Bind nodes to FOREIGNOBJECT tags on the given SVG,
  * and set dimensions and html.
  */
-export const d3Nodes = (svg, nodes) => (
-  bindData(svg, nodes, 'foreignObject')
-    .attr('class', 'mindmap-node')
-    .attr('id', (node) => {
-      if (!node.text) {
-        return 'undefined';
-      }
+export const d3Nodes = (svg, nodes) => {
+  const selection = svg.append('g')
+    .selectAll('foreignObject')
+    .data(nodes)
+    .enter();
 
-      return node.text.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, '');
-    })
+  const d3nodes = selection
+    .append('foreignObject')
+    .attr('class', 'mindmap-node')
     .attr('width', node => node.width + 4)
     .attr('height', node => node.height)
-    .html(node => node.html)
-);
+    .html(node => node.html);
 
-/* eslint-disable no-param-reassign */
-/*
- * Nest subnodes, bind groups to FOREIGNOBJECT tags on the given SVG,
- * and set dimensions and html.
- */
-export const d3Subnodes = (svg, subnodes) => {
-  // Nest subnodes by parent.
-  const nestedSubs = nest()
-    .key((sub) => {
-      if (!sub.parent) {
-        return 'undefined';
-      }
+  const d3subnodes = selection.append('foreignObject')
+    .attr('class', 'mindmap-subnodes')
+    .attr('width', node => node.nodesWidth + 4)
+    .attr('height', node => node.nodesHeight)
+    .html(subnode => subnode.nodesHTML);
 
-      return sub.parent.replace(/^[ ./~\-:+#]*\d*|[ ./~\-:+#]/g, '');
-    }).entries(subnodes);
-
-  // Generate HTML and dimensions for each subnode group.
-  nestedSubs.forEach((subGroup) => {
-    subGroup.html = subGroup.values.map(sub => (
-      `<div class="mindmap-subnode-text">${sub.html}</div>`
-    )).join('');
-    subGroup.html = `<span>${subGroup.html}</span>`;
-
-    const dimensions = getDimensions(subGroup.html, {}, 'mindmap-subnode-group');
-    subGroup.width = dimensions.width + 4;
-    subGroup.height = dimensions.height;
-  });
-
-  const subs = bindData(svg, nestedSubs, 'g')
-    .attr('class', 'mindmap-subnode-group');
-
-  subs.append('foreignObject')
-    .attr('class', 'mindmap-subnode-group-text')
-    .attr('width', subGroup => subGroup.width)
-    .attr('height', subGroup => subGroup.height)
-    .html(subGroup => subGroup.html);
-
-  return subs;
+  return {
+    nodes: d3nodes,
+    subnodes: d3subnodes,
+  };
 };
-
 
 /*
  * Callback for forceSimulation tick event.
@@ -106,25 +75,9 @@ export const onTick = (conns, nodes, subnodes) => {
     .attr('y', node => node.y - (node.height / 2));
 
   // Set subnodes groups color and position.
-  subnodes.select('foreignObject')
-    .attr('style', (subGroup) => {
-      const color = subGroup.values[0] ? subGroup.values[0].color : '';
-      return `border-left-color: ${color}`;
-    })
-    .attr('transform', (subGroup) => {
-      if (subGroup.key) {
-        const parent = select(`#${subGroup.key}`).data()[0];
-
-        if (parent) {
-          const x = parent.x + (parent.width / 2) + 15;
-          const y = parent.y - (subGroup.height / 2);
-
-          return `translate(${x}, ${y})`;
-        }
-      }
-
-      return null;
-    });
+  subnodes
+    .attr('x', node => node.x + (node.width / 2) + 30)
+    .attr('y', node => node.y - (node.nodesHeight / 2));
 };
 
 

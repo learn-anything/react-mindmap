@@ -3,7 +3,7 @@ import { storiesOf } from '@kadira/storybook';
 import MindMap from '../src';
 
 const render = (path, editable) => {
-  const map = require(path);
+  const map = require(`./maps-parsed/${path}`);
 
   return <MindMap
     connections={map.connections}
@@ -14,10 +14,11 @@ const render = (path, editable) => {
 };
 
 storiesOf('maps', module)
-  .add('devops', () => render('./parsed-maps/programming/devops.json'))
-  .add('map', () => render('./parsed-maps/map.json'))
-  .add('python', () => render('./parsed-maps/python.json'));
+  .add('devops', () => render('programming/devops.json'))
+  .add('interviews', () => render('programming/programming-interviews.json'))
+  .add('map', () => render('map.json'))
+  .add('python', () => render('python.json'));
 
 storiesOf('editable', module)
-  .add('true', () => render('./parsed-maps/python.json', true))
-  .add('false', () => render('./parsed-maps/python.json', false));
+  .add('true', () => render('python.json', true))
+  .add('false', () => render('python.json', false));
