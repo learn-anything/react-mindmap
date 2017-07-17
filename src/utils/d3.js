@@ -77,7 +77,7 @@ export const onTick = (conns, nodes, subnodes) => {
 
   // Set subnodes groups color and position.
   subnodes
-    .attr('x', node => node.x + (node.width / 2) + 30)
+    .attr('x', node => node.x + (node.width / 2))
     .attr('y', node => node.y - (node.nodesHeight / 2));
 };
 
