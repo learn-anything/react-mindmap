@@ -5,7 +5,7 @@ import { categoryToIMG } from '../parser/emojis';
  * The node is an object that has text, url, and category attributes;
  * all of them optional.
  */
-const subnodesToHTML = (subnodes, fcolor) => {
+const subnodesToHTML = (subnodes = [], fcolor) => {
   let color = fcolor || '';
 
   if (!fcolor && subnodes.length > 0 && subnodes[0].color) {
