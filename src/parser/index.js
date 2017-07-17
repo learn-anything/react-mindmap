@@ -73,6 +73,7 @@ const parseNode = (node) => {
     url: getURL(node.title.text),
     fx: node.location.x,
     fy: node.location.y,
+    // eslint-disable-next-line no-use-before-define
     nodes: parseSubnodes(node.nodes),
   };
 
@@ -102,7 +103,7 @@ const parseNode = (node) => {
  * subnodes will be the same. The only difference is a color attribute on
  * subnodes, which has a string with a valid CSS color format.
  */
-const parseSubnodes = (subnodes) => (
+const parseSubnodes = subnodes => (
   subnodes.map((subnode) => {
     const parsedSub = parseNode(subnode);
 
@@ -165,7 +166,7 @@ walkDir(input, (map, filename) => {
   let trigger = map.trigger;
 
   if (splitTitle[splitTitle.length - 1].trim(' ') === trigger) {
-    trigger = ''
+    trigger = '';
   }
 
   const parsedMap = {

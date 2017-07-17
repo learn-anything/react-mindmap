@@ -31,7 +31,7 @@ module.exports = {
   },
 
   resolve: {
-    alias: { 'd3': path.resolve(__dirname, 'dist/d3.min.js') },
+    alias: { d3: path.resolve(__dirname, 'dist/d3.min.js') },
   },
 
   externals: {

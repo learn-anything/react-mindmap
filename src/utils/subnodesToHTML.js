@@ -12,7 +12,7 @@ const subnodesToHTML = (subnodes, fcolor) => {
     color = `style="border-left-color: ${subnodes[0].color}"`;
   }
 
-  return subnodes.map(subnode => {
+  return subnodes.map((subnode) => {
     let href = `href="${subnode.url}"`;
     let emoji = categoryToIMG(subnode.category);
 
@@ -24,7 +24,7 @@ const subnodesToHTML = (subnodes, fcolor) => {
     return `<div class="mindmap-subnode-group" ${color}>
       <a ${href}>${subnode.text || ''} ${emoji}</a>
       <div>${subnodesToHTML(subnode.nodes, color)}</div>
-    </div>`
+    </div>`;
   }).join('');
 };
 

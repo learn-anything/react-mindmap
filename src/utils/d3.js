@@ -1,5 +1,5 @@
-import { drag, event, nest, select, zoom } from 'd3';
-import { getDimensions, getViewBox } from './dimensions';
+import { drag, event, zoom } from 'd3';
+import { getViewBox } from './dimensions';
 
 /*
  * Bind data to a <TAG> tag, inside a G element, inside the given root element.
@@ -21,6 +21,7 @@ export const d3Connections = (svg, connections) => (
     .attr('class', 'mindmap-connection')
 );
 
+/* eslint-disable no-param-reassign */
 /*
  * Bind nodes to FOREIGNOBJECT tags on the given SVG,
  * and set dimensions and html.
