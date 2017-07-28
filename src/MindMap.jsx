@@ -60,7 +60,7 @@ export default class MindMap extends Component {
   /*
    * Add new class to nodes, attach drag behavior, and start simulation.
    */
-  prepareEditor(svg, conns, nodes) {
+  prepareEditor(svg, conns, nodes, subnodes) {
     nodes
       .attr('class', 'mindmap-node mindmap-node--editable')
       .on('dblclick', (node) => {
@@ -71,7 +71,7 @@ export default class MindMap extends Component {
     nodes.call(d3Drag(this.state.simulation, svg, nodes));
 
     this.state.simulation
-      .alphaTarget(0.5).on('tick', () => onTick(conns, nodes));
+      .alphaTarget(0.5).on('tick', () => onTick(conns, nodes, subnodes));
   }
   /* eslint-enable no-param-reassign */
 
@@ -99,7 +99,7 @@ export default class MindMap extends Component {
       .force('link').links(this.props.connections);
 
     if (this.props.editable) {
-      this.prepareEditor(svg, connections, nodes);
+      this.prepareEditor(svg, connections, nodes, subnodes);
     }
 
     // Tick the simulation 100 times.
