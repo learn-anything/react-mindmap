@@ -17,7 +17,7 @@ storiesOf('maps', module)
   .add('devops', () => render('programming/devops.json'))
   .add('interviews', () => render('programming/programming-interviews.json'))
   .add('map', () => render('map.json'))
-  .add('python', () => render('python.json'));
+  .add('python-no-coords', () => render('python-no-coords.json'));
 
 storiesOf('editable', module)
   .add('true', () => render('python.json', true))

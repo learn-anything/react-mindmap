@@ -36,8 +36,16 @@ export const getViewBox = (nodes) => {
   const Ys = [];
 
   nodes.forEach((node) => {
-    Xs.push(node.fx);
-    Ys.push(node.fy);
+    const x = node.x || node.fx;
+    const y = node.y || node.fy;
+
+    if (x) {
+      Xs.push(x);
+    }
+
+    if (y) {
+      Ys.push(y);
+    }
   });
 
   if (Xs.length === 0 || Ys.length === 0) {
