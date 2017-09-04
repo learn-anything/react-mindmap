@@ -4,136 +4,24 @@
     {
       "text": "python",
       "url": "http://www.wikiwand.com/en/Python_(programming_language)",
-      "nodes": [
-        {
-          "text": "",
-          "url": "https://www.reddit.com/r/Python/",
-          "nodes": [],
-          "category": "reddit",
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "source",
-          "note": "original python implementation in c, compiles python code into byte code and interprets the byte code in a evaluation loop",
-          "url": "https://github.com/python/cpython",
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ],
+      "nodes": [],
       "category": "wiki"
     },
     {
       "text": "help",
       "url": "",
-      "nodes": [
-        {
-          "text": "awesome python",
-          "url": "https://github.com/vinta/awesome-python",
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "awesome asyncio",
-          "url": "https://github.com/timofurrer/awesome-asyncio",
-          "nodes": [],
-          "category": "github",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "python data model",
-          "url": "https://docs.python.org/3/reference/datamodel.html",
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "python testing",
-          "url": "http://pythontesting.net/framework/pytest/pytest-introduction/",
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(34, 205, 224, 1.0)"
-        },
-        {
-          "text": "scientific python cheat sheet",
-          "url": "https://ipgp.github.io/scientific_python_cheat_sheet/",
-          "nodes": [],
-          "color": "rgba(209, 21, 88, 1.0)"
-        },
-        {
-          "text": "structuring your project",
-          "url": "http://python-guide-pt-br.readthedocs.io/en/latest/writing/structure/",
-          "nodes": [],
-          "color": "rgba(49, 187, 71, 1.0)"
-        },
-        {
-          "text": "style guide for python code",
-          "url": "https://www.python.org/dev/peps/pep-0008/",
-          "nodes": [],
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "cpython internals  ️",
-          "url": "http://pgbovine.net/cpython-internals.htm",
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
+      "nodes": []
     },
     {
       "text": "articles",
       "url": "",
-      "nodes": [
-        {
-          "text": "16: the history behind the decision to move python to github  ️",
-          "url": "https://snarky.ca/the-history-behind-the-decision-to-move-python-to-github/",
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "15: a modern python development toolchain  ️",
-          "url": "http://www.chriskrycho.com/2015/a-modern-python-development-toolchain.html",
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(36, 170, 255, 1.0)"
-        },
-        {
-          "text": "17: python's instance, class, and static methods demystified  ️",
-          "url": "https://realpython.com/blog/python/instance-class-and-static-methods-demystified/",
-          "nodes": [],
-          "category": "article",
-          "color": "rgba(255, 189, 10, 1.0)"
-        }
-      ]
+      "nodes": []
     },
     {
       "text": "basics",
       "note": "",
       "url": "",
-      "nodes": [
-        {
-          "text": "1. the python tutorial",
-          "url": "https://docs.python.org/3/tutorial/",
-          "nodes": [],
-          "color": "rgba(255, 189, 10, 1.0)"
-        },
-        {
-          "text": "1. dive into python 3",
-          "url": "http://www.diveintopython3.net",
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(175, 54, 242, 1.0)"
-        },
-        {
-          "text": "1. automate the boring stuff with python",
-          "url": "https://automatetheboringstuff.com/",
-          "nodes": [],
-          "category": "free book",
-          "color": "rgba(36, 170, 255, 1.0)"
-        }
-      ]
+      "nodes": []
     },
     {
       "text": "package manager",
