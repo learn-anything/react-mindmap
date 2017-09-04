@@ -70,8 +70,16 @@ export default class MindMap extends Component {
 
     nodes.call(d3Drag(this.state.simulation, svg, nodes));
 
-    this.state.simulation
-      .alphaTarget(0.5).on('tick', () => onTick(conns, nodes, subnodes));
+    // Tick the simulation 100 times.
+    for (let i = 0; i < 100; i += 1) {
+      this.state.simulation.tick();
+    }
+    onTick(conns, nodes, subnodes);
+
+    setTimeout(() => {
+      this.state.simulation
+        .alphaTarget(0.5).on('tick', () => onTick(conns, nodes, subnodes));
+    }, 200);
   }
   /* eslint-enable no-param-reassign */
 
