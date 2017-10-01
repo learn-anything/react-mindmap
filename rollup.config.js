@@ -1,9 +1,13 @@
 import npm from 'rollup-plugin-node-resolve';
 
 export default {
-  entry: './d3.bundle.js',
-  format: 'umd',
-  moduleName: 'd3',
+  input: './d3.bundle.js',
+
+  output: {
+    file: './dist/d3.js',
+    format: 'umd',
+    name: 'd3',
+  },
+
   plugins: [npm({ jsnext: true })],
-  dest: './dist/d3.js',
 };

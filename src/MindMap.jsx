@@ -1,4 +1,6 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import {
   forceCollide,
   forceLink,
@@ -87,7 +89,7 @@ export default class MindMap extends Component {
    * Render mind map using D3.
    */
   renderMap() {
-    const svg = select(this.refs.mountPoint);
+    const svg = select(this.mountPoint);
 
     // Clear the SVG in case there's stuff already there.
     svg.selectAll('*').remove();
@@ -135,7 +137,7 @@ export default class MindMap extends Component {
   render() {
     return (
       <div>
-        <svg className="mindmap-svg" ref="mountPoint" />
+        <svg className="mindmap-svg" ref={(input) => { this.mountPoint = input; }} />
       </div>
     );
   }

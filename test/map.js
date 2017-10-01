@@ -1,4 +1,4 @@
-{
+const map = {
   "title": "learn anything - programming - programming languages - python",
   "nodes": [
     {
