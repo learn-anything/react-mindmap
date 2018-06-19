@@ -52,7 +52,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^7.4.0",
     "http-server": "^0.10.0",
-    "node-sass": "^4.5.0",
+    "node-sass": "^4.9.0",
     "postcss-loader": "^2.0.5",
     "rollup": "^0.50.0",
     "rollup-plugin-node-resolve": "^3.0.0",
