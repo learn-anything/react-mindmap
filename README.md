@@ -1,6 +1,6 @@
 [![NPM](https://nodei.co/npm/react-mindmap.png)](https://npmjs.org/package/react-mindmap)
 
-# React Mindmap [UNMANTAINED]
+# React Mindmap [UNMAINTAINED]
 **This project is no longer maintained. The component is still usable, but if you find any problem or if you want to improve it, you're welcome to submit a PR.**
 
 A React component for [MindNode](https://mindnode.com/) maps (or other mindmaps).
