@@ -1,6 +1,8 @@
 [![NPM](https://nodei.co/npm/react-mindmap.png)](https://npmjs.org/package/react-mindmap)
 
-# React Mindmap
+# React Mindmap [UNMANTAINED]
+**This project is no longer maintained. The component is still usable, but if you find any problem or if you want to improve it, you're welcome to submit a PR.**
+
 A React component for [MindNode](https://mindnode.com/) maps (or other mindmaps).
 
 
@@ -34,7 +36,7 @@ render(
 );
 ```
 
-![img](https://raw.githubusercontent.com/learn-anything/img/master/react-mindmap-example.png)
+![img](https://raw.githubusercontent.com/learn-anything/react-mindmap/master/screenshot.png)
 
 
 ## Testing
